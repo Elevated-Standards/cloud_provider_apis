@@ -47,7 +47,7 @@ def extract_api_info_from_specs(specs_root, output_file):
 
 def main():
     specs_root = "azure-rest-api-specs"
-    output_file = "azure_services.txt"
+    output_file = "azure/azure_services.txt"
 
     if not os.path.exists(specs_root):
         print("❌ Missing Azure REST API Specs repo. Please clone it:")
