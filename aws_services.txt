@@ -1,0 +1,1900 @@
+❌ Failed to load service 'accessanalyzer': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : account
+Service ID        : Account
+API Version       : 2021-02-01
+Endpoint Prefix   : account
+Operations:
+- AcceptPrimaryEmailUpdate
+- DeleteAlternateContact
+- DisableRegion
+- EnableRegion
+- GetAlternateContact
+- GetContactInformation
+- GetPrimaryEmail
+- GetRegionOptStatus
+- ListRegions
+- PutAlternateContact
+- PutContactInformation
+- StartPrimaryEmailUpdate
+--------------------------------------------------------------------------------
+❌ Failed to load service 'acm': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'acm-pca': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'amp': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'amplify': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'amplifybackend': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'amplifyuibuilder': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'apigateway': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'apigatewaymanagementapi': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'apigatewayv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appconfig': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appconfigdata': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appfabric': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appflow': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appintegrations': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'application-autoscaling': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'application-insights': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'application-signals': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'applicationcostprofiler': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appmesh': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'apprunner': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appstream': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'appsync': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'apptest': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'arc-zonal-shift': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'artifact': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'athena': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'auditmanager': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'autoscaling': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'autoscaling-plans': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'b2bi': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'backup': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'backup-gateway': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'backupsearch': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'batch': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bcm-data-exports': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bcm-pricing-calculator': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bedrock': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bedrock-agent': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bedrock-agent-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bedrock-data-automation': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bedrock-data-automation-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'bedrock-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'billing': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : billingconductor
+Service ID        : billingconductor
+API Version       : 2021-07-30
+Endpoint Prefix   : billingconductor
+Operations:
+- AssociateAccounts
+- AssociatePricingRules
+- BatchAssociateResourcesToCustomLineItem
+- BatchDisassociateResourcesFromCustomLineItem
+- CreateBillingGroup
+- CreateCustomLineItem
+- CreatePricingPlan
+- CreatePricingRule
+- DeleteBillingGroup
+- DeleteCustomLineItem
+- DeletePricingPlan
+- DeletePricingRule
+- DisassociateAccounts
+- DisassociatePricingRules
+- GetBillingGroupCostReport
+- ListAccountAssociations
+- ListBillingGroupCostReports
+- ListBillingGroups
+- ListCustomLineItemVersions
+- ListCustomLineItems
+- ListPricingPlans
+- ListPricingPlansAssociatedWithPricingRule
+- ListPricingRules
+- ListPricingRulesAssociatedToPricingPlan
+- ListResourcesAssociatedToCustomLineItem
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateBillingGroup
+- UpdateCustomLineItem
+- UpdatePricingPlan
+- UpdatePricingRule
+--------------------------------------------------------------------------------
+❌ Failed to load service 'braket': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : budgets
+Service ID        : Budgets
+API Version       : 2016-10-20
+Endpoint Prefix   : budgets
+Operations:
+- CreateBudget
+- CreateBudgetAction
+- CreateNotification
+- CreateSubscriber
+- DeleteBudget
+- DeleteBudgetAction
+- DeleteNotification
+- DeleteSubscriber
+- DescribeBudget
+- DescribeBudgetAction
+- DescribeBudgetActionHistories
+- DescribeBudgetActionsForAccount
+- DescribeBudgetActionsForBudget
+- DescribeBudgetNotificationsForAccount
+- DescribeBudgetPerformanceHistory
+- DescribeBudgets
+- DescribeNotificationsForBudget
+- DescribeSubscribersForNotification
+- ExecuteBudgetAction
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateBudget
+- UpdateBudgetAction
+- UpdateNotification
+- UpdateSubscriber
+--------------------------------------------------------------------------------
+Service Name      : ce
+Service ID        : Cost Explorer
+API Version       : 2017-10-25
+Endpoint Prefix   : ce
+Operations:
+- CreateAnomalyMonitor
+- CreateAnomalySubscription
+- CreateCostCategoryDefinition
+- DeleteAnomalyMonitor
+- DeleteAnomalySubscription
+- DeleteCostCategoryDefinition
+- DescribeCostCategoryDefinition
+- GetAnomalies
+- GetAnomalyMonitors
+- GetAnomalySubscriptions
+- GetApproximateUsageRecords
+- GetCommitmentPurchaseAnalysis
+- GetCostAndUsage
+- GetCostAndUsageWithResources
+- GetCostCategories
+- GetCostForecast
+- GetDimensionValues
+- GetReservationCoverage
+- GetReservationPurchaseRecommendation
+- GetReservationUtilization
+- GetRightsizingRecommendation
+- GetSavingsPlanPurchaseRecommendationDetails
+- GetSavingsPlansCoverage
+- GetSavingsPlansPurchaseRecommendation
+- GetSavingsPlansUtilization
+- GetSavingsPlansUtilizationDetails
+- GetTags
+- GetUsageForecast
+- ListCommitmentPurchaseAnalyses
+- ListCostAllocationTagBackfillHistory
+- ListCostAllocationTags
+- ListCostCategoryDefinitions
+- ListSavingsPlansPurchaseRecommendationGeneration
+- ListTagsForResource
+- ProvideAnomalyFeedback
+- StartCommitmentPurchaseAnalysis
+- StartCostAllocationTagBackfill
+- StartSavingsPlansPurchaseRecommendationGeneration
+- TagResource
+- UntagResource
+- UpdateAnomalyMonitor
+- UpdateAnomalySubscription
+- UpdateCostAllocationTagsStatus
+- UpdateCostCategoryDefinition
+--------------------------------------------------------------------------------
+❌ Failed to load service 'chatbot': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : chime
+Service ID        : Chime
+API Version       : 2018-05-01
+Endpoint Prefix   : chime
+Operations:
+- AssociatePhoneNumberWithUser
+- AssociateSigninDelegateGroupsWithAccount
+- BatchCreateRoomMembership
+- BatchDeletePhoneNumber
+- BatchSuspendUser
+- BatchUnsuspendUser
+- BatchUpdatePhoneNumber
+- BatchUpdateUser
+- CreateAccount
+- CreateBot
+- CreateMeetingDialOut
+- CreatePhoneNumberOrder
+- CreateRoom
+- CreateRoomMembership
+- CreateUser
+- DeleteAccount
+- DeleteEventsConfiguration
+- DeletePhoneNumber
+- DeleteRoom
+- DeleteRoomMembership
+- DisassociatePhoneNumberFromUser
+- DisassociateSigninDelegateGroupsFromAccount
+- GetAccount
+- GetAccountSettings
+- GetBot
+- GetEventsConfiguration
+- GetGlobalSettings
+- GetPhoneNumber
+- GetPhoneNumberOrder
+- GetPhoneNumberSettings
+- GetRetentionSettings
+- GetRoom
+- GetUser
+- GetUserSettings
+- InviteUsers
+- ListAccounts
+- ListBots
+- ListPhoneNumberOrders
+- ListPhoneNumbers
+- ListRoomMemberships
+- ListRooms
+- ListSupportedPhoneNumberCountries
+- ListUsers
+- LogoutUser
+- PutEventsConfiguration
+- PutRetentionSettings
+- RedactConversationMessage
+- RedactRoomMessage
+- RegenerateSecurityToken
+- ResetPersonalPIN
+- RestorePhoneNumber
+- SearchAvailablePhoneNumbers
+- UpdateAccount
+- UpdateAccountSettings
+- UpdateBot
+- UpdateGlobalSettings
+- UpdatePhoneNumber
+- UpdatePhoneNumberSettings
+- UpdateRoom
+- UpdateRoomMembership
+- UpdateUser
+- UpdateUserSettings
+--------------------------------------------------------------------------------
+❌ Failed to load service 'chime-sdk-identity': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'chime-sdk-media-pipelines': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'chime-sdk-meetings': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'chime-sdk-messaging': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'chime-sdk-voice': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cleanrooms': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cleanroomsml': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloud9': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudcontrol': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'clouddirectory': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudformation': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : cloudfront
+Service ID        : CloudFront
+API Version       : 2020-05-31
+Endpoint Prefix   : cloudfront
+Operations:
+- AssociateAlias
+- CopyDistribution
+- CreateAnycastIpList
+- CreateCachePolicy
+- CreateCloudFrontOriginAccessIdentity
+- CreateContinuousDeploymentPolicy
+- CreateDistribution
+- CreateDistributionWithTags
+- CreateFieldLevelEncryptionConfig
+- CreateFieldLevelEncryptionProfile
+- CreateFunction
+- CreateInvalidation
+- CreateKeyGroup
+- CreateKeyValueStore
+- CreateMonitoringSubscription
+- CreateOriginAccessControl
+- CreateOriginRequestPolicy
+- CreatePublicKey
+- CreateRealtimeLogConfig
+- CreateResponseHeadersPolicy
+- CreateStreamingDistribution
+- CreateStreamingDistributionWithTags
+- CreateVpcOrigin
+- DeleteAnycastIpList
+- DeleteCachePolicy
+- DeleteCloudFrontOriginAccessIdentity
+- DeleteContinuousDeploymentPolicy
+- DeleteDistribution
+- DeleteFieldLevelEncryptionConfig
+- DeleteFieldLevelEncryptionProfile
+- DeleteFunction
+- DeleteKeyGroup
+- DeleteKeyValueStore
+- DeleteMonitoringSubscription
+- DeleteOriginAccessControl
+- DeleteOriginRequestPolicy
+- DeletePublicKey
+- DeleteRealtimeLogConfig
+- DeleteResponseHeadersPolicy
+- DeleteStreamingDistribution
+- DeleteVpcOrigin
+- DescribeFunction
+- DescribeKeyValueStore
+- GetAnycastIpList
+- GetCachePolicy
+- GetCachePolicyConfig
+- GetCloudFrontOriginAccessIdentity
+- GetCloudFrontOriginAccessIdentityConfig
+- GetContinuousDeploymentPolicy
+- GetContinuousDeploymentPolicyConfig
+- GetDistribution
+- GetDistributionConfig
+- GetFieldLevelEncryption
+- GetFieldLevelEncryptionConfig
+- GetFieldLevelEncryptionProfile
+- GetFieldLevelEncryptionProfileConfig
+- GetFunction
+- GetInvalidation
+- GetKeyGroup
+- GetKeyGroupConfig
+- GetMonitoringSubscription
+- GetOriginAccessControl
+- GetOriginAccessControlConfig
+- GetOriginRequestPolicy
+- GetOriginRequestPolicyConfig
+- GetPublicKey
+- GetPublicKeyConfig
+- GetRealtimeLogConfig
+- GetResponseHeadersPolicy
+- GetResponseHeadersPolicyConfig
+- GetStreamingDistribution
+- GetStreamingDistributionConfig
+- GetVpcOrigin
+- ListAnycastIpLists
+- ListCachePolicies
+- ListCloudFrontOriginAccessIdentities
+- ListConflictingAliases
+- ListContinuousDeploymentPolicies
+- ListDistributions
+- ListDistributionsByAnycastIpListId
+- ListDistributionsByCachePolicyId
+- ListDistributionsByKeyGroup
+- ListDistributionsByOriginRequestPolicyId
+- ListDistributionsByRealtimeLogConfig
+- ListDistributionsByResponseHeadersPolicyId
+- ListDistributionsByVpcOriginId
+- ListDistributionsByWebACLId
+- ListFieldLevelEncryptionConfigs
+- ListFieldLevelEncryptionProfiles
+- ListFunctions
+- ListInvalidations
+- ListKeyGroups
+- ListKeyValueStores
+- ListOriginAccessControls
+- ListOriginRequestPolicies
+- ListPublicKeys
+- ListRealtimeLogConfigs
+- ListResponseHeadersPolicies
+- ListStreamingDistributions
+- ListTagsForResource
+- ListVpcOrigins
+- PublishFunction
+- TagResource
+- TestFunction
+- UntagResource
+- UpdateCachePolicy
+- UpdateCloudFrontOriginAccessIdentity
+- UpdateContinuousDeploymentPolicy
+- UpdateDistribution
+- UpdateDistributionWithStagingConfig
+- UpdateFieldLevelEncryptionConfig
+- UpdateFieldLevelEncryptionProfile
+- UpdateFunction
+- UpdateKeyGroup
+- UpdateKeyValueStore
+- UpdateOriginAccessControl
+- UpdateOriginRequestPolicy
+- UpdatePublicKey
+- UpdateRealtimeLogConfig
+- UpdateResponseHeadersPolicy
+- UpdateStreamingDistribution
+- UpdateVpcOrigin
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudfront-keyvaluestore': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudhsm': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudhsmv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudsearch': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudsearchdomain': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudtrail': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudtrail-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cloudwatch': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codeartifact': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codebuild': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : codecatalyst
+Service ID        : CodeCatalyst
+API Version       : 2022-09-28
+Endpoint Prefix   : codecatalyst
+Operations:
+- CreateAccessToken
+- CreateDevEnvironment
+- CreateProject
+- CreateSourceRepository
+- CreateSourceRepositoryBranch
+- DeleteAccessToken
+- DeleteDevEnvironment
+- DeleteProject
+- DeleteSourceRepository
+- DeleteSpace
+- GetDevEnvironment
+- GetProject
+- GetSourceRepository
+- GetSourceRepositoryCloneUrls
+- GetSpace
+- GetSubscription
+- GetUserDetails
+- GetWorkflow
+- GetWorkflowRun
+- ListAccessTokens
+- ListDevEnvironmentSessions
+- ListDevEnvironments
+- ListEventLogs
+- ListProjects
+- ListSourceRepositories
+- ListSourceRepositoryBranches
+- ListSpaces
+- ListWorkflowRuns
+- ListWorkflows
+- StartDevEnvironment
+- StartDevEnvironmentSession
+- StartWorkflowRun
+- StopDevEnvironment
+- StopDevEnvironmentSession
+- UpdateDevEnvironment
+- UpdateProject
+- UpdateSpace
+- VerifySession
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codecommit': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codeconnections': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codedeploy': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codeguru-reviewer': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codeguru-security': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codeguruprofiler': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codepipeline': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codestar-connections': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'codestar-notifications': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cognito-identity': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cognito-idp': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cognito-sync': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'comprehend': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'comprehendmedical': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'compute-optimizer': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'config': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'connect': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'connect-contact-lens': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'connectcampaigns': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'connectcampaignsv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'connectcases': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'connectparticipant': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'controlcatalog': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'controltower': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cost-optimization-hub': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'cur': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'customer-profiles': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'databrew': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dataexchange': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'datapipeline': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'datasync': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'datazone': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dax': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'deadline': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'detective': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'devicefarm': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'devops-guru': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'directconnect': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'discovery': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dlm': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dms': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'docdb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'docdb-elastic': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'drs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ds': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ds-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dsql': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dynamodb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'dynamodbstreams': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ebs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ec2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ec2-instance-connect': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ecr': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ecr-public': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ecs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'efs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'eks': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'eks-auth': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'elasticache': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'elasticbeanstalk': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'elastictranscoder': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'elb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'elbv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'emr': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'emr-containers': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'emr-serverless': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'entityresolution': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'es': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'events': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'evidently': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'finspace': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'finspace-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'firehose': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'fis': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'fms': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'forecast': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'forecastquery': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'frauddetector': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'freetier': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'fsx': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'gamelift': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'gameliftstreams': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'geo-maps': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'geo-places': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'geo-routes': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'glacier': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'globalaccelerator': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'glue': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'grafana': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'greengrass': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'greengrassv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'groundstation': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'guardduty': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : health
+Service ID        : Health
+API Version       : 2016-08-04
+Endpoint Prefix   : health
+Operations:
+- DescribeAffectedAccountsForOrganization
+- DescribeAffectedEntities
+- DescribeAffectedEntitiesForOrganization
+- DescribeEntityAggregates
+- DescribeEntityAggregatesForOrganization
+- DescribeEventAggregates
+- DescribeEventDetails
+- DescribeEventDetailsForOrganization
+- DescribeEventTypes
+- DescribeEvents
+- DescribeEventsForOrganization
+- DescribeHealthServiceStatusForOrganization
+- DisableHealthServiceAccessForOrganization
+- EnableHealthServiceAccessForOrganization
+--------------------------------------------------------------------------------
+❌ Failed to load service 'healthlake': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : iam
+Service ID        : IAM
+API Version       : 2010-05-08
+Endpoint Prefix   : iam
+Operations:
+- AddClientIDToOpenIDConnectProvider
+- AddRoleToInstanceProfile
+- AddUserToGroup
+- AttachGroupPolicy
+- AttachRolePolicy
+- AttachUserPolicy
+- ChangePassword
+- CreateAccessKey
+- CreateAccountAlias
+- CreateGroup
+- CreateInstanceProfile
+- CreateLoginProfile
+- CreateOpenIDConnectProvider
+- CreatePolicy
+- CreatePolicyVersion
+- CreateRole
+- CreateSAMLProvider
+- CreateServiceLinkedRole
+- CreateServiceSpecificCredential
+- CreateUser
+- CreateVirtualMFADevice
+- DeactivateMFADevice
+- DeleteAccessKey
+- DeleteAccountAlias
+- DeleteAccountPasswordPolicy
+- DeleteGroup
+- DeleteGroupPolicy
+- DeleteInstanceProfile
+- DeleteLoginProfile
+- DeleteOpenIDConnectProvider
+- DeletePolicy
+- DeletePolicyVersion
+- DeleteRole
+- DeleteRolePermissionsBoundary
+- DeleteRolePolicy
+- DeleteSAMLProvider
+- DeleteSSHPublicKey
+- DeleteServerCertificate
+- DeleteServiceLinkedRole
+- DeleteServiceSpecificCredential
+- DeleteSigningCertificate
+- DeleteUser
+- DeleteUserPermissionsBoundary
+- DeleteUserPolicy
+- DeleteVirtualMFADevice
+- DetachGroupPolicy
+- DetachRolePolicy
+- DetachUserPolicy
+- DisableOrganizationsRootCredentialsManagement
+- DisableOrganizationsRootSessions
+- EnableMFADevice
+- EnableOrganizationsRootCredentialsManagement
+- EnableOrganizationsRootSessions
+- GenerateCredentialReport
+- GenerateOrganizationsAccessReport
+- GenerateServiceLastAccessedDetails
+- GetAccessKeyLastUsed
+- GetAccountAuthorizationDetails
+- GetAccountPasswordPolicy
+- GetAccountSummary
+- GetContextKeysForCustomPolicy
+- GetContextKeysForPrincipalPolicy
+- GetCredentialReport
+- GetGroup
+- GetGroupPolicy
+- GetInstanceProfile
+- GetLoginProfile
+- GetMFADevice
+- GetOpenIDConnectProvider
+- GetOrganizationsAccessReport
+- GetPolicy
+- GetPolicyVersion
+- GetRole
+- GetRolePolicy
+- GetSAMLProvider
+- GetSSHPublicKey
+- GetServerCertificate
+- GetServiceLastAccessedDetails
+- GetServiceLastAccessedDetailsWithEntities
+- GetServiceLinkedRoleDeletionStatus
+- GetUser
+- GetUserPolicy
+- ListAccessKeys
+- ListAccountAliases
+- ListAttachedGroupPolicies
+- ListAttachedRolePolicies
+- ListAttachedUserPolicies
+- ListEntitiesForPolicy
+- ListGroupPolicies
+- ListGroups
+- ListGroupsForUser
+- ListInstanceProfileTags
+- ListInstanceProfiles
+- ListInstanceProfilesForRole
+- ListMFADeviceTags
+- ListMFADevices
+- ListOpenIDConnectProviderTags
+- ListOpenIDConnectProviders
+- ListOrganizationsFeatures
+- ListPolicies
+- ListPoliciesGrantingServiceAccess
+- ListPolicyTags
+- ListPolicyVersions
+- ListRolePolicies
+- ListRoleTags
+- ListRoles
+- ListSAMLProviderTags
+- ListSAMLProviders
+- ListSSHPublicKeys
+- ListServerCertificateTags
+- ListServerCertificates
+- ListServiceSpecificCredentials
+- ListSigningCertificates
+- ListUserPolicies
+- ListUserTags
+- ListUsers
+- ListVirtualMFADevices
+- PutGroupPolicy
+- PutRolePermissionsBoundary
+- PutRolePolicy
+- PutUserPermissionsBoundary
+- PutUserPolicy
+- RemoveClientIDFromOpenIDConnectProvider
+- RemoveRoleFromInstanceProfile
+- RemoveUserFromGroup
+- ResetServiceSpecificCredential
+- ResyncMFADevice
+- SetDefaultPolicyVersion
+- SetSecurityTokenServicePreferences
+- SimulateCustomPolicy
+- SimulatePrincipalPolicy
+- TagInstanceProfile
+- TagMFADevice
+- TagOpenIDConnectProvider
+- TagPolicy
+- TagRole
+- TagSAMLProvider
+- TagServerCertificate
+- TagUser
+- UntagInstanceProfile
+- UntagMFADevice
+- UntagOpenIDConnectProvider
+- UntagPolicy
+- UntagRole
+- UntagSAMLProvider
+- UntagServerCertificate
+- UntagUser
+- UpdateAccessKey
+- UpdateAccountPasswordPolicy
+- UpdateAssumeRolePolicy
+- UpdateGroup
+- UpdateLoginProfile
+- UpdateOpenIDConnectProviderThumbprint
+- UpdateRole
+- UpdateRoleDescription
+- UpdateSAMLProvider
+- UpdateSSHPublicKey
+- UpdateServerCertificate
+- UpdateServiceSpecificCredential
+- UpdateSigningCertificate
+- UpdateUser
+- UploadSSHPublicKey
+- UploadServerCertificate
+- UploadSigningCertificate
+--------------------------------------------------------------------------------
+❌ Failed to load service 'identitystore': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'imagebuilder': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : importexport
+Service ID        : ImportExport
+API Version       : 2010-06-01
+Endpoint Prefix   : importexport
+Operations:
+- CancelJob
+- CreateJob
+- GetShippingLabel
+- GetStatus
+- ListJobs
+- UpdateJob
+--------------------------------------------------------------------------------
+❌ Failed to load service 'inspector': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'inspector-scan': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'inspector2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'internetmonitor': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'invoicing': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iot': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iot-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iot-jobs-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iot-managed-integrations': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotanalytics': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotdeviceadvisor': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotevents': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotevents-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotfleethub': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotfleetwise': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotsecuretunneling': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotsitewise': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotthingsgraph': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iottwinmaker': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'iotwireless': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ivs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ivs-realtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ivschat': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kafka': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kafkaconnect': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kendra': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kendra-ranking': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'keyspaces': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesis': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesis-video-archived-media': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesis-video-media': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesis-video-signaling': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesis-video-webrtc-storage': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesisanalytics': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesisanalyticsv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kinesisvideo': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'kms': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lakeformation': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lambda': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'launch-wizard': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lex-models': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lex-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lexv2-models': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lexv2-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'license-manager': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'license-manager-linux-subscriptions': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'license-manager-user-subscriptions': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lightsail': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'location': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'logs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lookoutequipment': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lookoutmetrics': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'lookoutvision': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'm2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'machinelearning': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'macie2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mailmanager': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'managedblockchain': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'managedblockchain-query': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'marketplace-agreement': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'marketplace-catalog': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'marketplace-deployment': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'marketplace-entitlement': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'marketplace-reporting': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'marketplacecommerceanalytics': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediaconnect': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediaconvert': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'medialive': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediapackage': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediapackage-vod': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediapackagev2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediastore': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediastore-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mediatailor': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'medical-imaging': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'memorydb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'meteringmarketplace': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mgh': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mgn': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'migration-hub-refactor-spaces': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'migrationhub-config': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'migrationhuborchestrator': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'migrationhubstrategy': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mq': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mturk': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'mwaa': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'neptune': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'neptune-graph': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'neptunedata': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'network-firewall': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'networkflowmonitor': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : networkmanager
+Service ID        : NetworkManager
+API Version       : 2019-07-05
+Endpoint Prefix   : networkmanager
+Operations:
+- AcceptAttachment
+- AssociateConnectPeer
+- AssociateCustomerGateway
+- AssociateLink
+- AssociateTransitGatewayConnectPeer
+- CreateConnectAttachment
+- CreateConnectPeer
+- CreateConnection
+- CreateCoreNetwork
+- CreateDevice
+- CreateDirectConnectGatewayAttachment
+- CreateGlobalNetwork
+- CreateLink
+- CreateSite
+- CreateSiteToSiteVpnAttachment
+- CreateTransitGatewayPeering
+- CreateTransitGatewayRouteTableAttachment
+- CreateVpcAttachment
+- DeleteAttachment
+- DeleteConnectPeer
+- DeleteConnection
+- DeleteCoreNetwork
+- DeleteCoreNetworkPolicyVersion
+- DeleteDevice
+- DeleteGlobalNetwork
+- DeleteLink
+- DeletePeering
+- DeleteResourcePolicy
+- DeleteSite
+- DeregisterTransitGateway
+- DescribeGlobalNetworks
+- DisassociateConnectPeer
+- DisassociateCustomerGateway
+- DisassociateLink
+- DisassociateTransitGatewayConnectPeer
+- ExecuteCoreNetworkChangeSet
+- GetConnectAttachment
+- GetConnectPeer
+- GetConnectPeerAssociations
+- GetConnections
+- GetCoreNetwork
+- GetCoreNetworkChangeEvents
+- GetCoreNetworkChangeSet
+- GetCoreNetworkPolicy
+- GetCustomerGatewayAssociations
+- GetDevices
+- GetDirectConnectGatewayAttachment
+- GetLinkAssociations
+- GetLinks
+- GetNetworkResourceCounts
+- GetNetworkResourceRelationships
+- GetNetworkResources
+- GetNetworkRoutes
+- GetNetworkTelemetry
+- GetResourcePolicy
+- GetRouteAnalysis
+- GetSiteToSiteVpnAttachment
+- GetSites
+- GetTransitGatewayConnectPeerAssociations
+- GetTransitGatewayPeering
+- GetTransitGatewayRegistrations
+- GetTransitGatewayRouteTableAttachment
+- GetVpcAttachment
+- ListAttachments
+- ListConnectPeers
+- ListCoreNetworkPolicyVersions
+- ListCoreNetworks
+- ListOrganizationServiceAccessStatus
+- ListPeerings
+- ListTagsForResource
+- PutCoreNetworkPolicy
+- PutResourcePolicy
+- RegisterTransitGateway
+- RejectAttachment
+- RestoreCoreNetworkPolicyVersion
+- StartOrganizationServiceAccessUpdate
+- StartRouteAnalysis
+- TagResource
+- UntagResource
+- UpdateConnection
+- UpdateCoreNetwork
+- UpdateDevice
+- UpdateDirectConnectGatewayAttachment
+- UpdateGlobalNetwork
+- UpdateLink
+- UpdateNetworkResourceMetadata
+- UpdateSite
+- UpdateVpcAttachment
+--------------------------------------------------------------------------------
+❌ Failed to load service 'networkmonitor': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'notifications': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : notificationscontacts
+Service ID        : NotificationsContacts
+API Version       : 2018-05-10
+Endpoint Prefix   : notifications-contacts
+Operations:
+- ActivateEmailContact
+- CreateEmailContact
+- DeleteEmailContact
+- GetEmailContact
+- ListEmailContacts
+- ListTagsForResource
+- SendActivationCode
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+❌ Failed to load service 'oam': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'observabilityadmin': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'omics': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'opensearch': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'opensearchserverless': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'opsworks': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'opsworkscm': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : organizations
+Service ID        : Organizations
+API Version       : 2016-11-28
+Endpoint Prefix   : organizations
+Operations:
+- AcceptHandshake
+- AttachPolicy
+- CancelHandshake
+- CloseAccount
+- CreateAccount
+- CreateGovCloudAccount
+- CreateOrganization
+- CreateOrganizationalUnit
+- CreatePolicy
+- DeclineHandshake
+- DeleteOrganization
+- DeleteOrganizationalUnit
+- DeletePolicy
+- DeleteResourcePolicy
+- DeregisterDelegatedAdministrator
+- DescribeAccount
+- DescribeCreateAccountStatus
+- DescribeEffectivePolicy
+- DescribeHandshake
+- DescribeOrganization
+- DescribeOrganizationalUnit
+- DescribePolicy
+- DescribeResourcePolicy
+- DetachPolicy
+- DisableAWSServiceAccess
+- DisablePolicyType
+- EnableAWSServiceAccess
+- EnableAllFeatures
+- EnablePolicyType
+- InviteAccountToOrganization
+- LeaveOrganization
+- ListAWSServiceAccessForOrganization
+- ListAccounts
+- ListAccountsForParent
+- ListChildren
+- ListCreateAccountStatus
+- ListDelegatedAdministrators
+- ListDelegatedServicesForAccount
+- ListHandshakesForAccount
+- ListHandshakesForOrganization
+- ListOrganizationalUnitsForParent
+- ListParents
+- ListPolicies
+- ListPoliciesForTarget
+- ListRoots
+- ListTagsForResource
+- ListTargetsForPolicy
+- MoveAccount
+- PutResourcePolicy
+- RegisterDelegatedAdministrator
+- RemoveAccountFromOrganization
+- TagResource
+- UntagResource
+- UpdateOrganizationalUnit
+- UpdatePolicy
+--------------------------------------------------------------------------------
+❌ Failed to load service 'osis': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'outposts': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'panorama': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'partnercentral-selling': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'payment-cryptography': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'payment-cryptography-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pca-connector-ad': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pca-connector-scep': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pcs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'personalize': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'personalize-events': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'personalize-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pi': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pinpoint': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pinpoint-email': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pinpoint-sms-voice': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pinpoint-sms-voice-v2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pipes': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'polly': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'pricing': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'privatenetworks': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'proton': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'qapps': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'qbusiness': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'qconnect': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'qldb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'qldb-session': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'quicksight': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ram': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'rbin': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'rds': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'rds-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'redshift': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'redshift-data': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'redshift-serverless': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'rekognition': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'repostspace': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'resiliencehub': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'resource-explorer-2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'resource-groups': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'resourcegroupstaggingapi': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'robomaker': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'rolesanywhere': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : route53
+Service ID        : Route 53
+API Version       : 2013-04-01
+Endpoint Prefix   : route53
+Operations:
+- ActivateKeySigningKey
+- AssociateVPCWithHostedZone
+- ChangeCidrCollection
+- ChangeResourceRecordSets
+- ChangeTagsForResource
+- CreateCidrCollection
+- CreateHealthCheck
+- CreateHostedZone
+- CreateKeySigningKey
+- CreateQueryLoggingConfig
+- CreateReusableDelegationSet
+- CreateTrafficPolicy
+- CreateTrafficPolicyInstance
+- CreateTrafficPolicyVersion
+- CreateVPCAssociationAuthorization
+- DeactivateKeySigningKey
+- DeleteCidrCollection
+- DeleteHealthCheck
+- DeleteHostedZone
+- DeleteKeySigningKey
+- DeleteQueryLoggingConfig
+- DeleteReusableDelegationSet
+- DeleteTrafficPolicy
+- DeleteTrafficPolicyInstance
+- DeleteVPCAssociationAuthorization
+- DisableHostedZoneDNSSEC
+- DisassociateVPCFromHostedZone
+- EnableHostedZoneDNSSEC
+- GetAccountLimit
+- GetChange
+- GetCheckerIpRanges
+- GetDNSSEC
+- GetGeoLocation
+- GetHealthCheck
+- GetHealthCheckCount
+- GetHealthCheckLastFailureReason
+- GetHealthCheckStatus
+- GetHostedZone
+- GetHostedZoneCount
+- GetHostedZoneLimit
+- GetQueryLoggingConfig
+- GetReusableDelegationSet
+- GetReusableDelegationSetLimit
+- GetTrafficPolicy
+- GetTrafficPolicyInstance
+- GetTrafficPolicyInstanceCount
+- ListCidrBlocks
+- ListCidrCollections
+- ListCidrLocations
+- ListGeoLocations
+- ListHealthChecks
+- ListHostedZones
+- ListHostedZonesByName
+- ListHostedZonesByVPC
+- ListQueryLoggingConfigs
+- ListResourceRecordSets
+- ListReusableDelegationSets
+- ListTagsForResource
+- ListTagsForResources
+- ListTrafficPolicies
+- ListTrafficPolicyInstances
+- ListTrafficPolicyInstancesByHostedZone
+- ListTrafficPolicyInstancesByPolicy
+- ListTrafficPolicyVersions
+- ListVPCAssociationAuthorizations
+- TestDNSAnswer
+- UpdateHealthCheck
+- UpdateHostedZoneComment
+- UpdateTrafficPolicyComment
+- UpdateTrafficPolicyInstance
+--------------------------------------------------------------------------------
+❌ Failed to load service 'route53-recovery-cluster': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'route53-recovery-control-config': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'route53-recovery-readiness': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'route53domains': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'route53profiles': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'route53resolver': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'rum': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : s3
+Service ID        : S3
+API Version       : 2006-03-01
+Endpoint Prefix   : s3
+Operations:
+- AbortMultipartUpload
+- CompleteMultipartUpload
+- CopyObject
+- CreateBucket
+- CreateBucketMetadataTableConfiguration
+- CreateMultipartUpload
+- CreateSession
+- DeleteBucket
+- DeleteBucketAnalyticsConfiguration
+- DeleteBucketCors
+- DeleteBucketEncryption
+- DeleteBucketIntelligentTieringConfiguration
+- DeleteBucketInventoryConfiguration
+- DeleteBucketLifecycle
+- DeleteBucketMetadataTableConfiguration
+- DeleteBucketMetricsConfiguration
+- DeleteBucketOwnershipControls
+- DeleteBucketPolicy
+- DeleteBucketReplication
+- DeleteBucketTagging
+- DeleteBucketWebsite
+- DeleteObject
+- DeleteObjectTagging
+- DeleteObjects
+- DeletePublicAccessBlock
+- GetBucketAccelerateConfiguration
+- GetBucketAcl
+- GetBucketAnalyticsConfiguration
+- GetBucketCors
+- GetBucketEncryption
+- GetBucketIntelligentTieringConfiguration
+- GetBucketInventoryConfiguration
+- GetBucketLifecycle
+- GetBucketLifecycleConfiguration
+- GetBucketLocation
+- GetBucketLogging
+- GetBucketMetadataTableConfiguration
+- GetBucketMetricsConfiguration
+- GetBucketNotification
+- GetBucketNotificationConfiguration
+- GetBucketOwnershipControls
+- GetBucketPolicy
+- GetBucketPolicyStatus
+- GetBucketReplication
+- GetBucketRequestPayment
+- GetBucketTagging
+- GetBucketVersioning
+- GetBucketWebsite
+- GetObject
+- GetObjectAcl
+- GetObjectAttributes
+- GetObjectLegalHold
+- GetObjectLockConfiguration
+- GetObjectRetention
+- GetObjectTagging
+- GetObjectTorrent
+- GetPublicAccessBlock
+- HeadBucket
+- HeadObject
+- ListBucketAnalyticsConfigurations
+- ListBucketIntelligentTieringConfigurations
+- ListBucketInventoryConfigurations
+- ListBucketMetricsConfigurations
+- ListBuckets
+- ListDirectoryBuckets
+- ListMultipartUploads
+- ListObjectVersions
+- ListObjects
+- ListObjectsV2
+- ListParts
+- PutBucketAccelerateConfiguration
+- PutBucketAcl
+- PutBucketAnalyticsConfiguration
+- PutBucketCors
+- PutBucketEncryption
+- PutBucketIntelligentTieringConfiguration
+- PutBucketInventoryConfiguration
+- PutBucketLifecycle
+- PutBucketLifecycleConfiguration
+- PutBucketLogging
+- PutBucketMetricsConfiguration
+- PutBucketNotification
+- PutBucketNotificationConfiguration
+- PutBucketOwnershipControls
+- PutBucketPolicy
+- PutBucketReplication
+- PutBucketRequestPayment
+- PutBucketTagging
+- PutBucketVersioning
+- PutBucketWebsite
+- PutObject
+- PutObjectAcl
+- PutObjectLegalHold
+- PutObjectLockConfiguration
+- PutObjectRetention
+- PutObjectTagging
+- PutPublicAccessBlock
+- RestoreObject
+- SelectObjectContent
+- UploadPart
+- UploadPartCopy
+- WriteGetObjectResponse
+--------------------------------------------------------------------------------
+❌ Failed to load service 's3control': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 's3outposts': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 's3tables': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker-a2i-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker-edge': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker-featurestore-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker-geospatial': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker-metrics': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sagemaker-runtime': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : savingsplans
+Service ID        : savingsplans
+API Version       : 2019-06-28
+Endpoint Prefix   : savingsplans
+Operations:
+- CreateSavingsPlan
+- DeleteQueuedSavingsPlan
+- DescribeSavingsPlanRates
+- DescribeSavingsPlans
+- DescribeSavingsPlansOfferingRates
+- DescribeSavingsPlansOfferings
+- ListTagsForResource
+- ReturnSavingsPlan
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+❌ Failed to load service 'scheduler': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'schemas': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sdb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'secretsmanager': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'security-ir': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'securityhub': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'securitylake': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'serverlessrepo': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'service-quotas': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'servicecatalog': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'servicecatalog-appregistry': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'servicediscovery': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ses': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sesv2': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : shield
+Service ID        : Shield
+API Version       : 2016-06-02
+Endpoint Prefix   : shield
+Operations:
+- AssociateDRTLogBucket
+- AssociateDRTRole
+- AssociateHealthCheck
+- AssociateProactiveEngagementDetails
+- CreateProtection
+- CreateProtectionGroup
+- CreateSubscription
+- DeleteProtection
+- DeleteProtectionGroup
+- DeleteSubscription
+- DescribeAttack
+- DescribeAttackStatistics
+- DescribeDRTAccess
+- DescribeEmergencyContactSettings
+- DescribeProtection
+- DescribeProtectionGroup
+- DescribeSubscription
+- DisableApplicationLayerAutomaticResponse
+- DisableProactiveEngagement
+- DisassociateDRTLogBucket
+- DisassociateDRTRole
+- DisassociateHealthCheck
+- EnableApplicationLayerAutomaticResponse
+- EnableProactiveEngagement
+- GetSubscriptionState
+- ListAttacks
+- ListProtectionGroups
+- ListProtections
+- ListResourcesInProtectionGroup
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateApplicationLayerAutomaticResponse
+- UpdateEmergencyContactSettings
+- UpdateProtectionGroup
+- UpdateSubscription
+--------------------------------------------------------------------------------
+❌ Failed to load service 'signer': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'simspaceweaver': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sms': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sms-voice': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'snow-device-management': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'snowball': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sns': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'socialmessaging': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sqs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ssm': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ssm-contacts': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ssm-incidents': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ssm-quicksetup': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'ssm-sap': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sso': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sso-admin': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'sso-oidc': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'stepfunctions': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'storagegateway': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : sts
+Service ID        : STS
+API Version       : 2011-06-15
+Endpoint Prefix   : sts
+Operations:
+- AssumeRole
+- AssumeRoleWithSAML
+- AssumeRoleWithWebIdentity
+- AssumeRoot
+- DecodeAuthorizationMessage
+- GetAccessKeyInfo
+- GetCallerIdentity
+- GetFederationToken
+- GetSessionToken
+--------------------------------------------------------------------------------
+❌ Failed to load service 'supplychain': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : support
+Service ID        : Support
+API Version       : 2013-04-15
+Endpoint Prefix   : support
+Operations:
+- AddAttachmentsToSet
+- AddCommunicationToCase
+- CreateCase
+- DescribeAttachment
+- DescribeCases
+- DescribeCommunications
+- DescribeCreateCaseOptions
+- DescribeServices
+- DescribeSeverityLevels
+- DescribeSupportedLanguages
+- DescribeTrustedAdvisorCheckRefreshStatuses
+- DescribeTrustedAdvisorCheckResult
+- DescribeTrustedAdvisorCheckSummaries
+- DescribeTrustedAdvisorChecks
+- RefreshTrustedAdvisorCheck
+- ResolveCase
+--------------------------------------------------------------------------------
+❌ Failed to load service 'support-app': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'swf': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'synthetics': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : taxsettings
+Service ID        : TaxSettings
+API Version       : 2018-05-10
+Endpoint Prefix   : tax
+Operations:
+- BatchDeleteTaxRegistration
+- BatchGetTaxExemptions
+- BatchPutTaxRegistration
+- DeleteSupplementalTaxRegistration
+- DeleteTaxRegistration
+- GetTaxExemptionTypes
+- GetTaxInheritance
+- GetTaxRegistration
+- GetTaxRegistrationDocument
+- ListSupplementalTaxRegistrations
+- ListTaxExemptions
+- ListTaxRegistrations
+- PutSupplementalTaxRegistration
+- PutTaxExemption
+- PutTaxInheritance
+- PutTaxRegistration
+--------------------------------------------------------------------------------
+❌ Failed to load service 'textract': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'timestream-influxdb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'timestream-query': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'timestream-write': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'tnb': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'transcribe': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'transfer': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'translate': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'trustedadvisor': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'verifiedpermissions': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'voice-id': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'vpc-lattice': You must specify a region.
+--------------------------------------------------------------------------------
+Service Name      : waf
+Service ID        : WAF
+API Version       : 2015-08-24
+Endpoint Prefix   : waf
+Operations:
+- CreateByteMatchSet
+- CreateGeoMatchSet
+- CreateIPSet
+- CreateRateBasedRule
+- CreateRegexMatchSet
+- CreateRegexPatternSet
+- CreateRule
+- CreateRuleGroup
+- CreateSizeConstraintSet
+- CreateSqlInjectionMatchSet
+- CreateWebACL
+- CreateWebACLMigrationStack
+- CreateXssMatchSet
+- DeleteByteMatchSet
+- DeleteGeoMatchSet
+- DeleteIPSet
+- DeleteLoggingConfiguration
+- DeletePermissionPolicy
+- DeleteRateBasedRule
+- DeleteRegexMatchSet
+- DeleteRegexPatternSet
+- DeleteRule
+- DeleteRuleGroup
+- DeleteSizeConstraintSet
+- DeleteSqlInjectionMatchSet
+- DeleteWebACL
+- DeleteXssMatchSet
+- GetByteMatchSet
+- GetChangeToken
+- GetChangeTokenStatus
+- GetGeoMatchSet
+- GetIPSet
+- GetLoggingConfiguration
+- GetPermissionPolicy
+- GetRateBasedRule
+- GetRateBasedRuleManagedKeys
+- GetRegexMatchSet
+- GetRegexPatternSet
+- GetRule
+- GetRuleGroup
+- GetSampledRequests
+- GetSizeConstraintSet
+- GetSqlInjectionMatchSet
+- GetWebACL
+- GetXssMatchSet
+- ListActivatedRulesInRuleGroup
+- ListByteMatchSets
+- ListGeoMatchSets
+- ListIPSets
+- ListLoggingConfigurations
+- ListRateBasedRules
+- ListRegexMatchSets
+- ListRegexPatternSets
+- ListRuleGroups
+- ListRules
+- ListSizeConstraintSets
+- ListSqlInjectionMatchSets
+- ListSubscribedRuleGroups
+- ListTagsForResource
+- ListWebACLs
+- ListXssMatchSets
+- PutLoggingConfiguration
+- PutPermissionPolicy
+- TagResource
+- UntagResource
+- UpdateByteMatchSet
+- UpdateGeoMatchSet
+- UpdateIPSet
+- UpdateRateBasedRule
+- UpdateRegexMatchSet
+- UpdateRegexPatternSet
+- UpdateRule
+- UpdateRuleGroup
+- UpdateSizeConstraintSet
+- UpdateSqlInjectionMatchSet
+- UpdateWebACL
+- UpdateXssMatchSet
+--------------------------------------------------------------------------------
+❌ Failed to load service 'waf-regional': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'wafv2': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'wellarchitected': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'wisdom': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'workdocs': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'workmail': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'workmailmessageflow': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'workspaces': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'workspaces-thin-client': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'workspaces-web': You must specify a region.
+--------------------------------------------------------------------------------
+❌ Failed to load service 'xray': You must specify a region.
+--------------------------------------------------------------------------------
