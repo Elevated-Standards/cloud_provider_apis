@@ -48,7 +48,7 @@ def main():
     session = botocore.session.get_session()
     all_services = session.get_available_services()
 
-    base_output_dir = "aws_service_docs"
+    base_output_dir = "aws"
     os.makedirs(base_output_dir, exist_ok=True)
 
     for service_name in sorted(all_services):
