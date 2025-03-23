@@ -1,9 +1,0 @@
-Service Name      : marketplacecommerceanalytics
-Service ID        : Marketplace Commerce Analytics
-API Version       : 2015-07-01
-Endpoint Prefix   : marketplacecommerceanalytics
-Operations:
-- GenerateDataSet
-- StartSupportDataExport
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------

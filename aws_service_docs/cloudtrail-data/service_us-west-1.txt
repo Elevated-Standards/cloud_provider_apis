@@ -1,8 +1,0 @@
-Service Name      : cloudtrail-data
-Service ID        : CloudTrail Data
-API Version       : 2021-08-11
-Endpoint Prefix   : cloudtrail-data
-Operations:
-- PutAuditEvents
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------

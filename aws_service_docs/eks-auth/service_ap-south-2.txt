@@ -1,8 +1,0 @@
-Service Name      : eks-auth
-Service ID        : EKS Auth
-API Version       : 2023-11-26
-Endpoint Prefix   : eks-auth
-Operations:
-- AssumeRoleForPodIdentity
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
