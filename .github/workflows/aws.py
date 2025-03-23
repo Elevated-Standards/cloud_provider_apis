@@ -1,40 +1,27 @@
-import re
-import botocore
-import boto3
-
-def parse_service_info(file_path):
-    with open(file_path, 'r') as file:
-        content = file.read()
-
-    services = content.split('--------------------------------------------------------------------------------\n')
-    service_info_list = []
-
-    for service in services:
-        if service.strip():
-            service_info = {}
-            service_info['Service Name'] = re.search(r'Service Name\s+:\s+(.+)', service).group(1)
-            service_info['Service ID'] = re.search(r'Service ID\s+:\s+(.+)', service).group(1)
-            service_info['API Version'] = re.search(r'API Version\s+:\s+(.+)', service).group(1)
-            service_info['Endpoint Prefix'] = re.search(r'Endpoint Prefix\s+:\s+(.+)', service).group(1)
-            operations = re.findall(r'-\s+(.+)', service)
-            service_info['Operations'] = operations
-            service_info_list.append(service_info)
-
-    return service_info_list
+import botocore.session
 
 def main():
-    file_path = 'aws_services.txt'  # Make sure this file exists in your repo's root
-    service_info_list = parse_service_info(file_path)
+    file_path = 'aws_services.txt'
+    session = botocore.session.get_session()
+    available_services = session.get_available_services()
 
-    for service_info in service_info_list:
-        print(f"Service Name: {service_info['Service Name']}")
-        print(f"Service ID: {service_info['Service ID']}")
-        print(f"API Version: {service_info['API Version']}")
-        print(f"Endpoint Prefix: {service_info['Endpoint Prefix']}")
-        print("Operations:")
-        for operation in service_info['Operations']:
-            print(f"  - {operation}")
-        print("--------------------------------------------------------------------------------")
+    with open(file_path, 'w') as f:
+        for service_name in sorted(available_services):
+            try:
+                client = session.create_client(service_name)
+                model = client.meta.service_model
+
+                f.write(f"Service Name      : {model.service_name}\n")
+                f.write(f"Service ID        : {model.service_id}\n")
+                f.write(f"API Version       : {model.api_version}\n")
+                f.write(f"Endpoint Prefix   : {model.endpoint_prefix}\n")
+                f.write("Operations:\n")
+                for op in sorted(model.operation_names):
+                    f.write(f"- {op}\n")
+                f.write("--------------------------------------------------------------------------------\n")
+            except Exception as e:
+                f.write(f"❌ Failed to load service '{service_name}': {e}\n")
+                f.write("--------------------------------------------------------------------------------\n")
 
 if __name__ == "__main__":
     main()
