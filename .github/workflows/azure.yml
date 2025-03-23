@@ -29,8 +29,6 @@ jobs:
         run: |
           python3 .github/workflows/azure.py
 
-      - name: Show Output (optional)
-        run: cat azure_services.txt
 
       - name: Commit and Push File
         run: |
