@@ -27,6 +27,7 @@ jobs:
         run: |
           python3 .github/workflows/services.py
 
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
