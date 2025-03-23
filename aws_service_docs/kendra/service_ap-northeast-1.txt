@@ -1,0 +1,73 @@
+Service Name      : kendra
+Service ID        : kendra
+API Version       : 2019-02-03
+Endpoint Prefix   : kendra
+Operations:
+- AssociateEntitiesToExperience
+- AssociatePersonasToEntities
+- BatchDeleteDocument
+- BatchDeleteFeaturedResultsSet
+- BatchGetDocumentStatus
+- BatchPutDocument
+- ClearQuerySuggestions
+- CreateAccessControlConfiguration
+- CreateDataSource
+- CreateExperience
+- CreateFaq
+- CreateFeaturedResultsSet
+- CreateIndex
+- CreateQuerySuggestionsBlockList
+- CreateThesaurus
+- DeleteAccessControlConfiguration
+- DeleteDataSource
+- DeleteExperience
+- DeleteFaq
+- DeleteIndex
+- DeletePrincipalMapping
+- DeleteQuerySuggestionsBlockList
+- DeleteThesaurus
+- DescribeAccessControlConfiguration
+- DescribeDataSource
+- DescribeExperience
+- DescribeFaq
+- DescribeFeaturedResultsSet
+- DescribeIndex
+- DescribePrincipalMapping
+- DescribeQuerySuggestionsBlockList
+- DescribeQuerySuggestionsConfig
+- DescribeThesaurus
+- DisassociateEntitiesFromExperience
+- DisassociatePersonasFromEntities
+- GetQuerySuggestions
+- GetSnapshots
+- ListAccessControlConfigurations
+- ListDataSourceSyncJobs
+- ListDataSources
+- ListEntityPersonas
+- ListExperienceEntities
+- ListExperiences
+- ListFaqs
+- ListFeaturedResultsSets
+- ListGroupsOlderThanOrderingId
+- ListIndices
+- ListQuerySuggestionsBlockLists
+- ListTagsForResource
+- ListThesauri
+- PutPrincipalMapping
+- Query
+- Retrieve
+- StartDataSourceSyncJob
+- StopDataSourceSyncJob
+- SubmitFeedback
+- TagResource
+- UntagResource
+- UpdateAccessControlConfiguration
+- UpdateDataSource
+- UpdateExperience
+- UpdateFeaturedResultsSet
+- UpdateIndex
+- UpdateQuerySuggestionsBlockList
+- UpdateQuerySuggestionsConfig
+- UpdateThesaurus
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

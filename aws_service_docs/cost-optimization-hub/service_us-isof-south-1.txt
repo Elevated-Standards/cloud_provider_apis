@@ -1,0 +1,14 @@
+Service Name      : cost-optimization-hub
+Service ID        : Cost Optimization Hub
+API Version       : 2022-07-26
+Endpoint Prefix   : cost-optimization-hub
+Operations:
+- GetPreferences
+- GetRecommendation
+- ListEnrollmentStatuses
+- ListRecommendationSummaries
+- ListRecommendations
+- UpdateEnrollmentStatus
+- UpdatePreferences
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

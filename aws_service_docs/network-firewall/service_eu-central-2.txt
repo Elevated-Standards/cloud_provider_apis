@@ -1,0 +1,52 @@
+Service Name      : network-firewall
+Service ID        : Network Firewall
+API Version       : 2020-11-12
+Endpoint Prefix   : network-firewall
+Operations:
+- AssociateFirewallPolicy
+- AssociateSubnets
+- CreateFirewall
+- CreateFirewallPolicy
+- CreateRuleGroup
+- CreateTLSInspectionConfiguration
+- DeleteFirewall
+- DeleteFirewallPolicy
+- DeleteResourcePolicy
+- DeleteRuleGroup
+- DeleteTLSInspectionConfiguration
+- DescribeFirewall
+- DescribeFirewallPolicy
+- DescribeFlowOperation
+- DescribeLoggingConfiguration
+- DescribeResourcePolicy
+- DescribeRuleGroup
+- DescribeRuleGroupMetadata
+- DescribeTLSInspectionConfiguration
+- DisassociateSubnets
+- GetAnalysisReportResults
+- ListAnalysisReports
+- ListFirewallPolicies
+- ListFirewalls
+- ListFlowOperationResults
+- ListFlowOperations
+- ListRuleGroups
+- ListTLSInspectionConfigurations
+- ListTagsForResource
+- PutResourcePolicy
+- StartAnalysisReport
+- StartFlowCapture
+- StartFlowFlush
+- TagResource
+- UntagResource
+- UpdateFirewallAnalysisSettings
+- UpdateFirewallDeleteProtection
+- UpdateFirewallDescription
+- UpdateFirewallEncryptionConfiguration
+- UpdateFirewallPolicy
+- UpdateFirewallPolicyChangeProtection
+- UpdateLoggingConfiguration
+- UpdateRuleGroup
+- UpdateSubnetChangeProtection
+- UpdateTLSInspectionConfiguration
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,49 @@
+Service Name      : sns
+Service ID        : SNS
+API Version       : 2010-03-31
+Endpoint Prefix   : sns
+Operations:
+- AddPermission
+- CheckIfPhoneNumberIsOptedOut
+- ConfirmSubscription
+- CreatePlatformApplication
+- CreatePlatformEndpoint
+- CreateSMSSandboxPhoneNumber
+- CreateTopic
+- DeleteEndpoint
+- DeletePlatformApplication
+- DeleteSMSSandboxPhoneNumber
+- DeleteTopic
+- GetDataProtectionPolicy
+- GetEndpointAttributes
+- GetPlatformApplicationAttributes
+- GetSMSAttributes
+- GetSMSSandboxAccountStatus
+- GetSubscriptionAttributes
+- GetTopicAttributes
+- ListEndpointsByPlatformApplication
+- ListOriginationNumbers
+- ListPhoneNumbersOptedOut
+- ListPlatformApplications
+- ListSMSSandboxPhoneNumbers
+- ListSubscriptions
+- ListSubscriptionsByTopic
+- ListTagsForResource
+- ListTopics
+- OptInPhoneNumber
+- Publish
+- PublishBatch
+- PutDataProtectionPolicy
+- RemovePermission
+- SetEndpointAttributes
+- SetPlatformApplicationAttributes
+- SetSMSAttributes
+- SetSubscriptionAttributes
+- SetTopicAttributes
+- Subscribe
+- TagResource
+- Unsubscribe
+- UntagResource
+- VerifySMSSandboxPhoneNumber
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

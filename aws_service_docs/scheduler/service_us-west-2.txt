@@ -1,0 +1,19 @@
+Service Name      : scheduler
+Service ID        : Scheduler
+API Version       : 2021-06-30
+Endpoint Prefix   : scheduler
+Operations:
+- CreateSchedule
+- CreateScheduleGroup
+- DeleteSchedule
+- DeleteScheduleGroup
+- GetSchedule
+- GetScheduleGroup
+- ListScheduleGroups
+- ListSchedules
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateSchedule
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

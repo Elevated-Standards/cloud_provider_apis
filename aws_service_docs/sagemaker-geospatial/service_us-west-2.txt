@@ -1,0 +1,26 @@
+Service Name      : sagemaker-geospatial
+Service ID        : SageMaker Geospatial
+API Version       : 2020-05-27
+Endpoint Prefix   : sagemaker-geospatial
+Operations:
+- DeleteEarthObservationJob
+- DeleteVectorEnrichmentJob
+- ExportEarthObservationJob
+- ExportVectorEnrichmentJob
+- GetEarthObservationJob
+- GetRasterDataCollection
+- GetTile
+- GetVectorEnrichmentJob
+- ListEarthObservationJobs
+- ListRasterDataCollections
+- ListTagsForResource
+- ListVectorEnrichmentJobs
+- SearchRasterDataCollection
+- StartEarthObservationJob
+- StartVectorEnrichmentJob
+- StopEarthObservationJob
+- StopVectorEnrichmentJob
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

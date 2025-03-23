@@ -1,0 +1,9 @@
+Service Name      : appconfigdata
+Service ID        : AppConfigData
+API Version       : 2021-11-11
+Endpoint Prefix   : appconfigdata
+Operations:
+- GetLatestConfiguration
+- StartConfigurationSession
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

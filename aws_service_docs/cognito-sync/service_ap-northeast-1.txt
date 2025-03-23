@@ -1,0 +1,24 @@
+Service Name      : cognito-sync
+Service ID        : Cognito Sync
+API Version       : 2014-06-30
+Endpoint Prefix   : cognito-sync
+Operations:
+- BulkPublish
+- DeleteDataset
+- DescribeDataset
+- DescribeIdentityPoolUsage
+- DescribeIdentityUsage
+- GetBulkPublishDetails
+- GetCognitoEvents
+- GetIdentityPoolConfiguration
+- ListDatasets
+- ListIdentityPoolUsage
+- ListRecords
+- RegisterDevice
+- SetCognitoEvents
+- SetIdentityPoolConfiguration
+- SubscribeToDataset
+- UnsubscribeFromDataset
+- UpdateRecords
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

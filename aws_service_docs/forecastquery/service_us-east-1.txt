@@ -1,0 +1,9 @@
+Service Name      : forecastquery
+Service ID        : forecastquery
+API Version       : 2018-06-26
+Endpoint Prefix   : forecastquery
+Operations:
+- QueryForecast
+- QueryWhatIfForecast
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

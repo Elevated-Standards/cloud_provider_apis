@@ -1,0 +1,23 @@
+Service Name      : internetmonitor
+Service ID        : InternetMonitor
+API Version       : 2021-06-03
+Endpoint Prefix   : internetmonitor
+Operations:
+- CreateMonitor
+- DeleteMonitor
+- GetHealthEvent
+- GetInternetEvent
+- GetMonitor
+- GetQueryResults
+- GetQueryStatus
+- ListHealthEvents
+- ListInternetEvents
+- ListMonitors
+- ListTagsForResource
+- StartQuery
+- StopQuery
+- TagResource
+- UntagResource
+- UpdateMonitor
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

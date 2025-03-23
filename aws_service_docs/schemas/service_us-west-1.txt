@@ -1,0 +1,38 @@
+Service Name      : schemas
+Service ID        : schemas
+API Version       : 2019-12-02
+Endpoint Prefix   : schemas
+Operations:
+- CreateDiscoverer
+- CreateRegistry
+- CreateSchema
+- DeleteDiscoverer
+- DeleteRegistry
+- DeleteResourcePolicy
+- DeleteSchema
+- DeleteSchemaVersion
+- DescribeCodeBinding
+- DescribeDiscoverer
+- DescribeRegistry
+- DescribeSchema
+- ExportSchema
+- GetCodeBindingSource
+- GetDiscoveredSchema
+- GetResourcePolicy
+- ListDiscoverers
+- ListRegistries
+- ListSchemaVersions
+- ListSchemas
+- ListTagsForResource
+- PutCodeBinding
+- PutResourcePolicy
+- SearchSchemas
+- StartDiscoverer
+- StopDiscoverer
+- TagResource
+- UntagResource
+- UpdateDiscoverer
+- UpdateRegistry
+- UpdateSchema
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

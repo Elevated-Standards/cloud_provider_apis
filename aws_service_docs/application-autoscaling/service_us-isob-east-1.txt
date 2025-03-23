@@ -1,0 +1,21 @@
+Service Name      : application-autoscaling
+Service ID        : Application Auto Scaling
+API Version       : 2016-02-06
+Endpoint Prefix   : application-autoscaling
+Operations:
+- DeleteScalingPolicy
+- DeleteScheduledAction
+- DeregisterScalableTarget
+- DescribeScalableTargets
+- DescribeScalingActivities
+- DescribeScalingPolicies
+- DescribeScheduledActions
+- GetPredictiveScalingForecast
+- ListTagsForResource
+- PutScalingPolicy
+- PutScheduledAction
+- RegisterScalableTarget
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

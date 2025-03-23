@@ -1,0 +1,77 @@
+Service Name      : ds
+Service ID        : Directory Service
+API Version       : 2015-04-16
+Endpoint Prefix   : ds
+Operations:
+- AcceptSharedDirectory
+- AddIpRoutes
+- AddRegion
+- AddTagsToResource
+- CancelSchemaExtension
+- ConnectDirectory
+- CreateAlias
+- CreateComputer
+- CreateConditionalForwarder
+- CreateDirectory
+- CreateLogSubscription
+- CreateMicrosoftAD
+- CreateSnapshot
+- CreateTrust
+- DeleteConditionalForwarder
+- DeleteDirectory
+- DeleteLogSubscription
+- DeleteSnapshot
+- DeleteTrust
+- DeregisterCertificate
+- DeregisterEventTopic
+- DescribeCertificate
+- DescribeClientAuthenticationSettings
+- DescribeConditionalForwarders
+- DescribeDirectories
+- DescribeDirectoryDataAccess
+- DescribeDomainControllers
+- DescribeEventTopics
+- DescribeLDAPSSettings
+- DescribeRegions
+- DescribeSettings
+- DescribeSharedDirectories
+- DescribeSnapshots
+- DescribeTrusts
+- DescribeUpdateDirectory
+- DisableClientAuthentication
+- DisableDirectoryDataAccess
+- DisableLDAPS
+- DisableRadius
+- DisableSso
+- EnableClientAuthentication
+- EnableDirectoryDataAccess
+- EnableLDAPS
+- EnableRadius
+- EnableSso
+- GetDirectoryLimits
+- GetSnapshotLimits
+- ListCertificates
+- ListIpRoutes
+- ListLogSubscriptions
+- ListSchemaExtensions
+- ListTagsForResource
+- RegisterCertificate
+- RegisterEventTopic
+- RejectSharedDirectory
+- RemoveIpRoutes
+- RemoveRegion
+- RemoveTagsFromResource
+- ResetUserPassword
+- RestoreFromSnapshot
+- ShareDirectory
+- StartSchemaExtension
+- UnshareDirectory
+- UpdateConditionalForwarder
+- UpdateDirectorySetup
+- UpdateNumberOfDomainControllers
+- UpdateRadius
+- UpdateSettings
+- UpdateTrust
+- VerifyTrust
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

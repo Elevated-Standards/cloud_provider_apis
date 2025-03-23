@@ -1,0 +1,21 @@
+Service Name      : health
+Service ID        : Health
+API Version       : 2016-08-04
+Endpoint Prefix   : health
+Operations:
+- DescribeAffectedAccountsForOrganization
+- DescribeAffectedEntities
+- DescribeAffectedEntitiesForOrganization
+- DescribeEntityAggregates
+- DescribeEntityAggregatesForOrganization
+- DescribeEventAggregates
+- DescribeEventDetails
+- DescribeEventDetailsForOrganization
+- DescribeEventTypes
+- DescribeEvents
+- DescribeEventsForOrganization
+- DescribeHealthServiceStatusForOrganization
+- DisableHealthServiceAccessForOrganization
+- EnableHealthServiceAccessForOrganization
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

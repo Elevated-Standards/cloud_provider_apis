@@ -1,0 +1,20 @@
+Service Name      : healthlake
+Service ID        : HealthLake
+API Version       : 2017-07-01
+Endpoint Prefix   : healthlake
+Operations:
+- CreateFHIRDatastore
+- DeleteFHIRDatastore
+- DescribeFHIRDatastore
+- DescribeFHIRExportJob
+- DescribeFHIRImportJob
+- ListFHIRDatastores
+- ListFHIRExportJobs
+- ListFHIRImportJobs
+- ListTagsForResource
+- StartFHIRExportJob
+- StartFHIRImportJob
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

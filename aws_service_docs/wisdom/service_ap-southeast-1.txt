@@ -1,0 +1,48 @@
+Service Name      : wisdom
+Service ID        : Wisdom
+API Version       : 2020-10-19
+Endpoint Prefix   : wisdom
+Operations:
+- CreateAssistant
+- CreateAssistantAssociation
+- CreateContent
+- CreateKnowledgeBase
+- CreateQuickResponse
+- CreateSession
+- DeleteAssistant
+- DeleteAssistantAssociation
+- DeleteContent
+- DeleteImportJob
+- DeleteKnowledgeBase
+- DeleteQuickResponse
+- GetAssistant
+- GetAssistantAssociation
+- GetContent
+- GetContentSummary
+- GetImportJob
+- GetKnowledgeBase
+- GetQuickResponse
+- GetRecommendations
+- GetSession
+- ListAssistantAssociations
+- ListAssistants
+- ListContents
+- ListImportJobs
+- ListKnowledgeBases
+- ListQuickResponses
+- ListTagsForResource
+- NotifyRecommendationsReceived
+- QueryAssistant
+- RemoveKnowledgeBaseTemplateUri
+- SearchContent
+- SearchQuickResponses
+- SearchSessions
+- StartContentUpload
+- StartImportJob
+- TagResource
+- UntagResource
+- UpdateContent
+- UpdateKnowledgeBaseTemplateUri
+- UpdateQuickResponse
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

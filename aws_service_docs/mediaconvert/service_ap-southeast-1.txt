@@ -1,0 +1,38 @@
+Service Name      : mediaconvert
+Service ID        : MediaConvert
+API Version       : 2017-08-29
+Endpoint Prefix   : mediaconvert
+Operations:
+- AssociateCertificate
+- CancelJob
+- CreateJob
+- CreateJobTemplate
+- CreatePreset
+- CreateQueue
+- DeleteJobTemplate
+- DeletePolicy
+- DeletePreset
+- DeleteQueue
+- DescribeEndpoints
+- DisassociateCertificate
+- GetJob
+- GetJobTemplate
+- GetPolicy
+- GetPreset
+- GetQueue
+- ListJobTemplates
+- ListJobs
+- ListPresets
+- ListQueues
+- ListTagsForResource
+- ListVersions
+- Probe
+- PutPolicy
+- SearchJobs
+- TagResource
+- UntagResource
+- UpdateJobTemplate
+- UpdatePreset
+- UpdateQueue
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

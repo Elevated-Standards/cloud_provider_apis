@@ -1,0 +1,41 @@
+Service Name      : m2
+Service ID        : m2
+API Version       : 2021-04-28
+Endpoint Prefix   : m2
+Operations:
+- CancelBatchJobExecution
+- CreateApplication
+- CreateDataSetImportTask
+- CreateDeployment
+- CreateEnvironment
+- DeleteApplication
+- DeleteApplicationFromEnvironment
+- DeleteEnvironment
+- GetApplication
+- GetApplicationVersion
+- GetBatchJobExecution
+- GetDataSetDetails
+- GetDataSetImportTask
+- GetDeployment
+- GetEnvironment
+- GetSignedBluinsightsUrl
+- ListApplicationVersions
+- ListApplications
+- ListBatchJobDefinitions
+- ListBatchJobExecutions
+- ListBatchJobRestartPoints
+- ListDataSetImportHistory
+- ListDataSets
+- ListDeployments
+- ListEngineVersions
+- ListEnvironments
+- ListTagsForResource
+- StartApplication
+- StartBatchJob
+- StopApplication
+- TagResource
+- UntagResource
+- UpdateApplication
+- UpdateEnvironment
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

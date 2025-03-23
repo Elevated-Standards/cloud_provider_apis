@@ -1,0 +1,24 @@
+Service Name      : ivschat
+Service ID        : ivschat
+API Version       : 2020-07-14
+Endpoint Prefix   : ivschat
+Operations:
+- CreateChatToken
+- CreateLoggingConfiguration
+- CreateRoom
+- DeleteLoggingConfiguration
+- DeleteMessage
+- DeleteRoom
+- DisconnectUser
+- GetLoggingConfiguration
+- GetRoom
+- ListLoggingConfigurations
+- ListRooms
+- ListTagsForResource
+- SendEvent
+- TagResource
+- UntagResource
+- UpdateLoggingConfiguration
+- UpdateRoom
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

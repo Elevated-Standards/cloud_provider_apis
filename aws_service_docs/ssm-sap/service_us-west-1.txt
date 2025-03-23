@@ -1,0 +1,28 @@
+Service Name      : ssm-sap
+Service ID        : Ssm Sap
+API Version       : 2018-05-10
+Endpoint Prefix   : ssm-sap
+Operations:
+- DeleteResourcePermission
+- DeregisterApplication
+- GetApplication
+- GetComponent
+- GetDatabase
+- GetOperation
+- GetResourcePermission
+- ListApplications
+- ListComponents
+- ListDatabases
+- ListOperationEvents
+- ListOperations
+- ListTagsForResource
+- PutResourcePermission
+- RegisterApplication
+- StartApplication
+- StartApplicationRefresh
+- StopApplication
+- TagResource
+- UntagResource
+- UpdateApplicationSettings
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

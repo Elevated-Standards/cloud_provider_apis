@@ -1,0 +1,15 @@
+Service Name      : dlm
+Service ID        : DLM
+API Version       : 2018-01-12
+Endpoint Prefix   : dlm
+Operations:
+- CreateLifecyclePolicy
+- DeleteLifecyclePolicy
+- GetLifecyclePolicies
+- GetLifecyclePolicy
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateLifecyclePolicy
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

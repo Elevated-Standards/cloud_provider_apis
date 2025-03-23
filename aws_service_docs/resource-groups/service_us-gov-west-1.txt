@@ -1,0 +1,30 @@
+Service Name      : resource-groups
+Service ID        : Resource Groups
+API Version       : 2017-11-27
+Endpoint Prefix   : resource-groups
+Operations:
+- CancelTagSyncTask
+- CreateGroup
+- DeleteGroup
+- GetAccountSettings
+- GetGroup
+- GetGroupConfiguration
+- GetGroupQuery
+- GetTagSyncTask
+- GetTags
+- GroupResources
+- ListGroupResources
+- ListGroupingStatuses
+- ListGroups
+- ListTagSyncTasks
+- PutGroupConfiguration
+- SearchResources
+- StartTagSyncTask
+- Tag
+- UngroupResources
+- Untag
+- UpdateAccountSettings
+- UpdateGroup
+- UpdateGroupQuery
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

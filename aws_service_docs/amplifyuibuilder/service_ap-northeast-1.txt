@@ -1,0 +1,35 @@
+Service Name      : amplifyuibuilder
+Service ID        : AmplifyUIBuilder
+API Version       : 2021-08-11
+Endpoint Prefix   : amplifyuibuilder
+Operations:
+- CreateComponent
+- CreateForm
+- CreateTheme
+- DeleteComponent
+- DeleteForm
+- DeleteTheme
+- ExchangeCodeForToken
+- ExportComponents
+- ExportForms
+- ExportThemes
+- GetCodegenJob
+- GetComponent
+- GetForm
+- GetMetadata
+- GetTheme
+- ListCodegenJobs
+- ListComponents
+- ListForms
+- ListTagsForResource
+- ListThemes
+- PutMetadataFlag
+- RefreshToken
+- StartCodegenJob
+- TagResource
+- UntagResource
+- UpdateComponent
+- UpdateForm
+- UpdateTheme
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

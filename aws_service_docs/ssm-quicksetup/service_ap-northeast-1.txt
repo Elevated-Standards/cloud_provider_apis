@@ -1,0 +1,21 @@
+Service Name      : ssm-quicksetup
+Service ID        : SSM QuickSetup
+API Version       : 2018-05-10
+Endpoint Prefix   : ssm-quicksetup
+Operations:
+- CreateConfigurationManager
+- DeleteConfigurationManager
+- GetConfiguration
+- GetConfigurationManager
+- GetServiceSettings
+- ListConfigurationManagers
+- ListConfigurations
+- ListQuickSetupTypes
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateConfigurationDefinition
+- UpdateConfigurationManager
+- UpdateServiceSettings
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

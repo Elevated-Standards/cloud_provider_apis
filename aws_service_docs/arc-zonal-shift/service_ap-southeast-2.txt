@@ -1,0 +1,20 @@
+Service Name      : arc-zonal-shift
+Service ID        : ARC Zonal Shift
+API Version       : 2022-10-30
+Endpoint Prefix   : arc-zonal-shift
+Operations:
+- CancelZonalShift
+- CreatePracticeRunConfiguration
+- DeletePracticeRunConfiguration
+- GetAutoshiftObserverNotificationStatus
+- GetManagedResource
+- ListAutoshifts
+- ListManagedResources
+- ListZonalShifts
+- StartZonalShift
+- UpdateAutoshiftObserverNotificationStatus
+- UpdatePracticeRunConfiguration
+- UpdateZonalAutoshiftConfiguration
+- UpdateZonalShift
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

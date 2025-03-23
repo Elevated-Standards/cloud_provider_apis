@@ -1,0 +1,30 @@
+Service Name      : emr-containers
+Service ID        : EMR containers
+API Version       : 2020-10-01
+Endpoint Prefix   : emr-containers
+Operations:
+- CancelJobRun
+- CreateJobTemplate
+- CreateManagedEndpoint
+- CreateSecurityConfiguration
+- CreateVirtualCluster
+- DeleteJobTemplate
+- DeleteManagedEndpoint
+- DeleteVirtualCluster
+- DescribeJobRun
+- DescribeJobTemplate
+- DescribeManagedEndpoint
+- DescribeSecurityConfiguration
+- DescribeVirtualCluster
+- GetManagedEndpointSessionCredentials
+- ListJobRuns
+- ListJobTemplates
+- ListManagedEndpoints
+- ListSecurityConfigurations
+- ListTagsForResource
+- ListVirtualClusters
+- StartJobRun
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

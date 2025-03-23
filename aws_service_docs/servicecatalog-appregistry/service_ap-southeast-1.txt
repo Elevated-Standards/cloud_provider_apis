@@ -1,0 +1,31 @@
+Service Name      : servicecatalog-appregistry
+Service ID        : Service Catalog AppRegistry
+API Version       : 2020-06-24
+Endpoint Prefix   : servicecatalog-appregistry
+Operations:
+- AssociateAttributeGroup
+- AssociateResource
+- CreateApplication
+- CreateAttributeGroup
+- DeleteApplication
+- DeleteAttributeGroup
+- DisassociateAttributeGroup
+- DisassociateResource
+- GetApplication
+- GetAssociatedResource
+- GetAttributeGroup
+- GetConfiguration
+- ListApplications
+- ListAssociatedAttributeGroups
+- ListAssociatedResources
+- ListAttributeGroups
+- ListAttributeGroupsForApplication
+- ListTagsForResource
+- PutConfiguration
+- SyncResource
+- TagResource
+- UntagResource
+- UpdateApplication
+- UpdateAttributeGroup
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

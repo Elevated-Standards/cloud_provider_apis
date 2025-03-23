@@ -1,0 +1,57 @@
+Service Name      : drs
+Service ID        : drs
+API Version       : 2020-02-26
+Endpoint Prefix   : drs
+Operations:
+- AssociateSourceNetworkStack
+- CreateExtendedSourceServer
+- CreateLaunchConfigurationTemplate
+- CreateReplicationConfigurationTemplate
+- CreateSourceNetwork
+- DeleteJob
+- DeleteLaunchAction
+- DeleteLaunchConfigurationTemplate
+- DeleteRecoveryInstance
+- DeleteReplicationConfigurationTemplate
+- DeleteSourceNetwork
+- DeleteSourceServer
+- DescribeJobLogItems
+- DescribeJobs
+- DescribeLaunchConfigurationTemplates
+- DescribeRecoveryInstances
+- DescribeRecoverySnapshots
+- DescribeReplicationConfigurationTemplates
+- DescribeSourceNetworks
+- DescribeSourceServers
+- DisconnectRecoveryInstance
+- DisconnectSourceServer
+- ExportSourceNetworkCfnTemplate
+- GetFailbackReplicationConfiguration
+- GetLaunchConfiguration
+- GetReplicationConfiguration
+- InitializeService
+- ListExtensibleSourceServers
+- ListLaunchActions
+- ListStagingAccounts
+- ListTagsForResource
+- PutLaunchAction
+- RetryDataReplication
+- ReverseReplication
+- StartFailbackLaunch
+- StartRecovery
+- StartReplication
+- StartSourceNetworkRecovery
+- StartSourceNetworkReplication
+- StopFailback
+- StopReplication
+- StopSourceNetworkReplication
+- TagResource
+- TerminateRecoveryInstances
+- UntagResource
+- UpdateFailbackReplicationConfiguration
+- UpdateLaunchConfiguration
+- UpdateLaunchConfigurationTemplate
+- UpdateReplicationConfiguration
+- UpdateReplicationConfigurationTemplate
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

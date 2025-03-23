@@ -1,0 +1,79 @@
+Service Name      : wellarchitected
+Service ID        : WellArchitected
+API Version       : 2020-03-31
+Endpoint Prefix   : wellarchitected
+Operations:
+- AssociateLenses
+- AssociateProfiles
+- CreateLensShare
+- CreateLensVersion
+- CreateMilestone
+- CreateProfile
+- CreateProfileShare
+- CreateReviewTemplate
+- CreateTemplateShare
+- CreateWorkload
+- CreateWorkloadShare
+- DeleteLens
+- DeleteLensShare
+- DeleteProfile
+- DeleteProfileShare
+- DeleteReviewTemplate
+- DeleteTemplateShare
+- DeleteWorkload
+- DeleteWorkloadShare
+- DisassociateLenses
+- DisassociateProfiles
+- ExportLens
+- GetAnswer
+- GetConsolidatedReport
+- GetGlobalSettings
+- GetLens
+- GetLensReview
+- GetLensReviewReport
+- GetLensVersionDifference
+- GetMilestone
+- GetProfile
+- GetProfileTemplate
+- GetReviewTemplate
+- GetReviewTemplateAnswer
+- GetReviewTemplateLensReview
+- GetWorkload
+- ImportLens
+- ListAnswers
+- ListCheckDetails
+- ListCheckSummaries
+- ListLensReviewImprovements
+- ListLensReviews
+- ListLensShares
+- ListLenses
+- ListMilestones
+- ListNotifications
+- ListProfileNotifications
+- ListProfileShares
+- ListProfiles
+- ListReviewTemplateAnswers
+- ListReviewTemplates
+- ListShareInvitations
+- ListTagsForResource
+- ListTemplateShares
+- ListWorkloadShares
+- ListWorkloads
+- TagResource
+- UntagResource
+- UpdateAnswer
+- UpdateGlobalSettings
+- UpdateIntegration
+- UpdateLensReview
+- UpdateProfile
+- UpdateReviewTemplate
+- UpdateReviewTemplateAnswer
+- UpdateReviewTemplateLensReview
+- UpdateShareInvitation
+- UpdateWorkload
+- UpdateWorkloadShare
+- UpgradeLensReview
+- UpgradeProfileVersion
+- UpgradeReviewTemplateLensReview
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

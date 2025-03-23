@@ -1,0 +1,26 @@
+Service Name      : datapipeline
+Service ID        : Data Pipeline
+API Version       : 2012-10-29
+Endpoint Prefix   : datapipeline
+Operations:
+- ActivatePipeline
+- AddTags
+- CreatePipeline
+- DeactivatePipeline
+- DeletePipeline
+- DescribeObjects
+- DescribePipelines
+- EvaluateExpression
+- GetPipelineDefinition
+- ListPipelines
+- PollForTask
+- PutPipelineDefinition
+- QueryObjects
+- RemoveTags
+- ReportTaskProgress
+- ReportTaskRunnerHeartbeat
+- SetStatus
+- SetTaskStatus
+- ValidatePipelineDefinition
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+Service Name      : codestar-notifications
+Service ID        : codestar notifications
+API Version       : 2019-10-15
+Endpoint Prefix   : codestar-notifications
+Operations:
+- CreateNotificationRule
+- DeleteNotificationRule
+- DeleteTarget
+- DescribeNotificationRule
+- ListEventTypes
+- ListNotificationRules
+- ListTagsForResource
+- ListTargets
+- Subscribe
+- TagResource
+- Unsubscribe
+- UntagResource
+- UpdateNotificationRule
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

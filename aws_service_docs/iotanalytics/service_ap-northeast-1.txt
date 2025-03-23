@@ -1,0 +1,41 @@
+Service Name      : iotanalytics
+Service ID        : IoTAnalytics
+API Version       : 2017-11-27
+Endpoint Prefix   : iotanalytics
+Operations:
+- BatchPutMessage
+- CancelPipelineReprocessing
+- CreateChannel
+- CreateDataset
+- CreateDatasetContent
+- CreateDatastore
+- CreatePipeline
+- DeleteChannel
+- DeleteDataset
+- DeleteDatasetContent
+- DeleteDatastore
+- DeletePipeline
+- DescribeChannel
+- DescribeDataset
+- DescribeDatastore
+- DescribeLoggingOptions
+- DescribePipeline
+- GetDatasetContent
+- ListChannels
+- ListDatasetContents
+- ListDatasets
+- ListDatastores
+- ListPipelines
+- ListTagsForResource
+- PutLoggingOptions
+- RunPipelineActivity
+- SampleChannelData
+- StartPipelineReprocessing
+- TagResource
+- UntagResource
+- UpdateChannel
+- UpdateDataset
+- UpdateDatastore
+- UpdatePipeline
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

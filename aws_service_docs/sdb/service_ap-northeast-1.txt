@@ -1,0 +1,17 @@
+Service Name      : sdb
+Service ID        : SimpleDB
+API Version       : 2009-04-15
+Endpoint Prefix   : sdb
+Operations:
+- BatchDeleteAttributes
+- BatchPutAttributes
+- CreateDomain
+- DeleteAttributes
+- DeleteDomain
+- DomainMetadata
+- GetAttributes
+- ListDomains
+- PutAttributes
+- Select
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
