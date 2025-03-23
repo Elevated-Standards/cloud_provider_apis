@@ -23,7 +23,7 @@ def parse_service_info(file_path):
     return service_info_list
 
 def main():
-    file_path = 'file_path = 'aws_services.txt'
+    file_path = 'aws_services.txt'
 '
     service_info_list = parse_service_info(file_path)
 
