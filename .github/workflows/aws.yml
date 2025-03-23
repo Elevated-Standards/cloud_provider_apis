@@ -1,8 +1,9 @@
 name: List AWS Services (Botocore)
 
 on:
-
-  workflow_dispatch:  
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:
 
 jobs:
   list-services:
@@ -25,8 +26,7 @@ jobs:
 
       - name: Run script to list services
         run: |
-          python3 .github/workflows/services.py
-
+          python3 .github/workflows/aws.py
 
       - name: Commit and push changes
         run: |
@@ -37,5 +37,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-          
