@@ -1,0 +1,24 @@
+Service Name      : mediapackage-vod
+Service ID        : MediaPackage Vod
+API Version       : 2018-11-07
+Endpoint Prefix   : mediapackage-vod
+Operations:
+- ConfigureLogs
+- CreateAsset
+- CreatePackagingConfiguration
+- CreatePackagingGroup
+- DeleteAsset
+- DeletePackagingConfiguration
+- DeletePackagingGroup
+- DescribeAsset
+- DescribePackagingConfiguration
+- DescribePackagingGroup
+- ListAssets
+- ListPackagingConfigurations
+- ListPackagingGroups
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdatePackagingGroup
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

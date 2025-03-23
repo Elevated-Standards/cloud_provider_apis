@@ -1,0 +1,64 @@
+Service Name      : dynamodb
+Service ID        : DynamoDB
+API Version       : 2012-08-10
+Endpoint Prefix   : dynamodb
+Operations:
+- BatchExecuteStatement
+- BatchGetItem
+- BatchWriteItem
+- CreateBackup
+- CreateGlobalTable
+- CreateTable
+- DeleteBackup
+- DeleteItem
+- DeleteResourcePolicy
+- DeleteTable
+- DescribeBackup
+- DescribeContinuousBackups
+- DescribeContributorInsights
+- DescribeEndpoints
+- DescribeExport
+- DescribeGlobalTable
+- DescribeGlobalTableSettings
+- DescribeImport
+- DescribeKinesisStreamingDestination
+- DescribeLimits
+- DescribeTable
+- DescribeTableReplicaAutoScaling
+- DescribeTimeToLive
+- DisableKinesisStreamingDestination
+- EnableKinesisStreamingDestination
+- ExecuteStatement
+- ExecuteTransaction
+- ExportTableToPointInTime
+- GetItem
+- GetResourcePolicy
+- ImportTable
+- ListBackups
+- ListContributorInsights
+- ListExports
+- ListGlobalTables
+- ListImports
+- ListTables
+- ListTagsOfResource
+- PutItem
+- PutResourcePolicy
+- Query
+- RestoreTableFromBackup
+- RestoreTableToPointInTime
+- Scan
+- TagResource
+- TransactGetItems
+- TransactWriteItems
+- UntagResource
+- UpdateContinuousBackups
+- UpdateContributorInsights
+- UpdateGlobalTable
+- UpdateGlobalTableSettings
+- UpdateItem
+- UpdateKinesisStreamingDestination
+- UpdateTable
+- UpdateTableReplicaAutoScaling
+- UpdateTimeToLive
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

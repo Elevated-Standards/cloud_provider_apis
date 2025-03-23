@@ -1,0 +1,78 @@
+Service Name      : personalize
+Service ID        : Personalize
+API Version       : 2018-05-22
+Endpoint Prefix   : personalize
+Operations:
+- CreateBatchInferenceJob
+- CreateBatchSegmentJob
+- CreateCampaign
+- CreateDataDeletionJob
+- CreateDataset
+- CreateDatasetExportJob
+- CreateDatasetGroup
+- CreateDatasetImportJob
+- CreateEventTracker
+- CreateFilter
+- CreateMetricAttribution
+- CreateRecommender
+- CreateSchema
+- CreateSolution
+- CreateSolutionVersion
+- DeleteCampaign
+- DeleteDataset
+- DeleteDatasetGroup
+- DeleteEventTracker
+- DeleteFilter
+- DeleteMetricAttribution
+- DeleteRecommender
+- DeleteSchema
+- DeleteSolution
+- DescribeAlgorithm
+- DescribeBatchInferenceJob
+- DescribeBatchSegmentJob
+- DescribeCampaign
+- DescribeDataDeletionJob
+- DescribeDataset
+- DescribeDatasetExportJob
+- DescribeDatasetGroup
+- DescribeDatasetImportJob
+- DescribeEventTracker
+- DescribeFeatureTransformation
+- DescribeFilter
+- DescribeMetricAttribution
+- DescribeRecipe
+- DescribeRecommender
+- DescribeSchema
+- DescribeSolution
+- DescribeSolutionVersion
+- GetSolutionMetrics
+- ListBatchInferenceJobs
+- ListBatchSegmentJobs
+- ListCampaigns
+- ListDataDeletionJobs
+- ListDatasetExportJobs
+- ListDatasetGroups
+- ListDatasetImportJobs
+- ListDatasets
+- ListEventTrackers
+- ListFilters
+- ListMetricAttributionMetrics
+- ListMetricAttributions
+- ListRecipes
+- ListRecommenders
+- ListSchemas
+- ListSolutionVersions
+- ListSolutions
+- ListTagsForResource
+- StartRecommender
+- StopRecommender
+- StopSolutionVersionCreation
+- TagResource
+- UntagResource
+- UpdateCampaign
+- UpdateDataset
+- UpdateMetricAttribution
+- UpdateRecommender
+- UpdateSolution
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

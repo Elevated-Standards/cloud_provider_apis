@@ -1,0 +1,26 @@
+Service Name      : translate
+Service ID        : Translate
+API Version       : 2017-07-01
+Endpoint Prefix   : translate
+Operations:
+- CreateParallelData
+- DeleteParallelData
+- DeleteTerminology
+- DescribeTextTranslationJob
+- GetParallelData
+- GetTerminology
+- ImportTerminology
+- ListLanguages
+- ListParallelData
+- ListTagsForResource
+- ListTerminologies
+- ListTextTranslationJobs
+- StartTextTranslationJob
+- StopTextTranslationJob
+- TagResource
+- TranslateDocument
+- TranslateText
+- UntagResource
+- UpdateParallelData
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

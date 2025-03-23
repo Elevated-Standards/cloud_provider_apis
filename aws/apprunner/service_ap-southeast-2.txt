@@ -1,0 +1,44 @@
+Service Name      : apprunner
+Service ID        : AppRunner
+API Version       : 2020-05-15
+Endpoint Prefix   : apprunner
+Operations:
+- AssociateCustomDomain
+- CreateAutoScalingConfiguration
+- CreateConnection
+- CreateObservabilityConfiguration
+- CreateService
+- CreateVpcConnector
+- CreateVpcIngressConnection
+- DeleteAutoScalingConfiguration
+- DeleteConnection
+- DeleteObservabilityConfiguration
+- DeleteService
+- DeleteVpcConnector
+- DeleteVpcIngressConnection
+- DescribeAutoScalingConfiguration
+- DescribeCustomDomains
+- DescribeObservabilityConfiguration
+- DescribeService
+- DescribeVpcConnector
+- DescribeVpcIngressConnection
+- DisassociateCustomDomain
+- ListAutoScalingConfigurations
+- ListConnections
+- ListObservabilityConfigurations
+- ListOperations
+- ListServices
+- ListServicesForAutoScalingConfiguration
+- ListTagsForResource
+- ListVpcConnectors
+- ListVpcIngressConnections
+- PauseService
+- ResumeService
+- StartDeployment
+- TagResource
+- UntagResource
+- UpdateDefaultAutoScalingConfiguration
+- UpdateService
+- UpdateVpcIngressConnection
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,82 @@
+Service Name      : rekognition
+Service ID        : Rekognition
+API Version       : 2016-06-27
+Endpoint Prefix   : rekognition
+Operations:
+- AssociateFaces
+- CompareFaces
+- CopyProjectVersion
+- CreateCollection
+- CreateDataset
+- CreateFaceLivenessSession
+- CreateProject
+- CreateProjectVersion
+- CreateStreamProcessor
+- CreateUser
+- DeleteCollection
+- DeleteDataset
+- DeleteFaces
+- DeleteProject
+- DeleteProjectPolicy
+- DeleteProjectVersion
+- DeleteStreamProcessor
+- DeleteUser
+- DescribeCollection
+- DescribeDataset
+- DescribeProjectVersions
+- DescribeProjects
+- DescribeStreamProcessor
+- DetectCustomLabels
+- DetectFaces
+- DetectLabels
+- DetectModerationLabels
+- DetectProtectiveEquipment
+- DetectText
+- DisassociateFaces
+- DistributeDatasetEntries
+- GetCelebrityInfo
+- GetCelebrityRecognition
+- GetContentModeration
+- GetFaceDetection
+- GetFaceLivenessSessionResults
+- GetFaceSearch
+- GetLabelDetection
+- GetMediaAnalysisJob
+- GetPersonTracking
+- GetSegmentDetection
+- GetTextDetection
+- IndexFaces
+- ListCollections
+- ListDatasetEntries
+- ListDatasetLabels
+- ListFaces
+- ListMediaAnalysisJobs
+- ListProjectPolicies
+- ListStreamProcessors
+- ListTagsForResource
+- ListUsers
+- PutProjectPolicy
+- RecognizeCelebrities
+- SearchFaces
+- SearchFacesByImage
+- SearchUsers
+- SearchUsersByImage
+- StartCelebrityRecognition
+- StartContentModeration
+- StartFaceDetection
+- StartFaceSearch
+- StartLabelDetection
+- StartMediaAnalysisJob
+- StartPersonTracking
+- StartProjectVersion
+- StartSegmentDetection
+- StartStreamProcessor
+- StartTextDetection
+- StopProjectVersion
+- StopStreamProcessor
+- TagResource
+- UntagResource
+- UpdateDatasetEntries
+- UpdateStreamProcessor
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

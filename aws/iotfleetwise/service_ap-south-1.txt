@@ -1,0 +1,64 @@
+Service Name      : iotfleetwise
+Service ID        : IoTFleetWise
+API Version       : 2021-06-17
+Endpoint Prefix   : iotfleetwise
+Operations:
+- AssociateVehicleFleet
+- BatchCreateVehicle
+- BatchUpdateVehicle
+- CreateCampaign
+- CreateDecoderManifest
+- CreateFleet
+- CreateModelManifest
+- CreateSignalCatalog
+- CreateStateTemplate
+- CreateVehicle
+- DeleteCampaign
+- DeleteDecoderManifest
+- DeleteFleet
+- DeleteModelManifest
+- DeleteSignalCatalog
+- DeleteStateTemplate
+- DeleteVehicle
+- DisassociateVehicleFleet
+- GetCampaign
+- GetDecoderManifest
+- GetEncryptionConfiguration
+- GetFleet
+- GetLoggingOptions
+- GetModelManifest
+- GetRegisterAccountStatus
+- GetSignalCatalog
+- GetStateTemplate
+- GetVehicle
+- GetVehicleStatus
+- ImportDecoderManifest
+- ImportSignalCatalog
+- ListCampaigns
+- ListDecoderManifestNetworkInterfaces
+- ListDecoderManifestSignals
+- ListDecoderManifests
+- ListFleets
+- ListFleetsForVehicle
+- ListModelManifestNodes
+- ListModelManifests
+- ListSignalCatalogNodes
+- ListSignalCatalogs
+- ListStateTemplates
+- ListTagsForResource
+- ListVehicles
+- ListVehiclesInFleet
+- PutEncryptionConfiguration
+- PutLoggingOptions
+- RegisterAccount
+- TagResource
+- UntagResource
+- UpdateCampaign
+- UpdateDecoderManifest
+- UpdateFleet
+- UpdateModelManifest
+- UpdateSignalCatalog
+- UpdateStateTemplate
+- UpdateVehicle
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

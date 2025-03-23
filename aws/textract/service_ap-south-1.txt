@@ -1,0 +1,32 @@
+Service Name      : textract
+Service ID        : Textract
+API Version       : 2018-06-27
+Endpoint Prefix   : textract
+Operations:
+- AnalyzeDocument
+- AnalyzeExpense
+- AnalyzeID
+- CreateAdapter
+- CreateAdapterVersion
+- DeleteAdapter
+- DeleteAdapterVersion
+- DetectDocumentText
+- GetAdapter
+- GetAdapterVersion
+- GetDocumentAnalysis
+- GetDocumentTextDetection
+- GetExpenseAnalysis
+- GetLendingAnalysis
+- GetLendingAnalysisSummary
+- ListAdapterVersions
+- ListAdapters
+- ListTagsForResource
+- StartDocumentAnalysis
+- StartDocumentTextDetection
+- StartExpenseAnalysis
+- StartLendingAnalysis
+- TagResource
+- UntagResource
+- UpdateAdapter
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,67 @@
+Service Name      : lakeformation
+Service ID        : LakeFormation
+API Version       : 2017-03-31
+Endpoint Prefix   : lakeformation
+Operations:
+- AddLFTagsToResource
+- AssumeDecoratedRoleWithSAML
+- BatchGrantPermissions
+- BatchRevokePermissions
+- CancelTransaction
+- CommitTransaction
+- CreateDataCellsFilter
+- CreateLFTag
+- CreateLFTagExpression
+- CreateLakeFormationIdentityCenterConfiguration
+- CreateLakeFormationOptIn
+- DeleteDataCellsFilter
+- DeleteLFTag
+- DeleteLFTagExpression
+- DeleteLakeFormationIdentityCenterConfiguration
+- DeleteLakeFormationOptIn
+- DeleteObjectsOnCancel
+- DeregisterResource
+- DescribeLakeFormationIdentityCenterConfiguration
+- DescribeResource
+- DescribeTransaction
+- ExtendTransaction
+- GetDataCellsFilter
+- GetDataLakePrincipal
+- GetDataLakeSettings
+- GetEffectivePermissionsForPath
+- GetLFTag
+- GetLFTagExpression
+- GetQueryState
+- GetQueryStatistics
+- GetResourceLFTags
+- GetTableObjects
+- GetTemporaryGluePartitionCredentials
+- GetTemporaryGlueTableCredentials
+- GetWorkUnitResults
+- GetWorkUnits
+- GrantPermissions
+- ListDataCellsFilter
+- ListLFTagExpressions
+- ListLFTags
+- ListLakeFormationOptIns
+- ListPermissions
+- ListResources
+- ListTableStorageOptimizers
+- ListTransactions
+- PutDataLakeSettings
+- RegisterResource
+- RemoveLFTagsFromResource
+- RevokePermissions
+- SearchDatabasesByLFTags
+- SearchTablesByLFTags
+- StartQueryPlanning
+- StartTransaction
+- UpdateDataCellsFilter
+- UpdateLFTag
+- UpdateLFTagExpression
+- UpdateLakeFormationIdentityCenterConfiguration
+- UpdateResource
+- UpdateTableObjects
+- UpdateTableStorageOptimizer
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

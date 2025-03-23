@@ -1,0 +1,42 @@
+Service Name      : sms
+Service ID        : SMS
+API Version       : 2016-10-24
+Endpoint Prefix   : sms
+Operations:
+- CreateApp
+- CreateReplicationJob
+- DeleteApp
+- DeleteAppLaunchConfiguration
+- DeleteAppReplicationConfiguration
+- DeleteAppValidationConfiguration
+- DeleteReplicationJob
+- DeleteServerCatalog
+- DisassociateConnector
+- GenerateChangeSet
+- GenerateTemplate
+- GetApp
+- GetAppLaunchConfiguration
+- GetAppReplicationConfiguration
+- GetAppValidationConfiguration
+- GetAppValidationOutput
+- GetConnectors
+- GetReplicationJobs
+- GetReplicationRuns
+- GetServers
+- ImportAppCatalog
+- ImportServerCatalog
+- LaunchApp
+- ListApps
+- NotifyAppValidationOutput
+- PutAppLaunchConfiguration
+- PutAppReplicationConfiguration
+- PutAppValidationConfiguration
+- StartAppReplication
+- StartOnDemandAppReplication
+- StartOnDemandReplicationRun
+- StopAppReplication
+- TerminateApp
+- UpdateApp
+- UpdateReplicationJob
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

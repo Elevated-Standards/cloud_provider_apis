@@ -1,0 +1,23 @@
+Service Name      : support
+Service ID        : Support
+API Version       : 2013-04-15
+Endpoint Prefix   : support
+Operations:
+- AddAttachmentsToSet
+- AddCommunicationToCase
+- CreateCase
+- DescribeAttachment
+- DescribeCases
+- DescribeCommunications
+- DescribeCreateCaseOptions
+- DescribeServices
+- DescribeSeverityLevels
+- DescribeSupportedLanguages
+- DescribeTrustedAdvisorCheckRefreshStatuses
+- DescribeTrustedAdvisorCheckResult
+- DescribeTrustedAdvisorCheckSummaries
+- DescribeTrustedAdvisorChecks
+- RefreshTrustedAdvisorCheck
+- ResolveCase
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

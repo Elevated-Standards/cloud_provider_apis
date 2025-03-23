@@ -1,0 +1,42 @@
+Service Name      : ivs
+Service ID        : ivs
+API Version       : 2020-07-14
+Endpoint Prefix   : ivs
+Operations:
+- BatchGetChannel
+- BatchGetStreamKey
+- BatchStartViewerSessionRevocation
+- CreateChannel
+- CreatePlaybackRestrictionPolicy
+- CreateRecordingConfiguration
+- CreateStreamKey
+- DeleteChannel
+- DeletePlaybackKeyPair
+- DeletePlaybackRestrictionPolicy
+- DeleteRecordingConfiguration
+- DeleteStreamKey
+- GetChannel
+- GetPlaybackKeyPair
+- GetPlaybackRestrictionPolicy
+- GetRecordingConfiguration
+- GetStream
+- GetStreamKey
+- GetStreamSession
+- ImportPlaybackKeyPair
+- ListChannels
+- ListPlaybackKeyPairs
+- ListPlaybackRestrictionPolicies
+- ListRecordingConfigurations
+- ListStreamKeys
+- ListStreamSessions
+- ListStreams
+- ListTagsForResource
+- PutMetadata
+- StartViewerSessionRevocation
+- StopStream
+- TagResource
+- UntagResource
+- UpdateChannel
+- UpdatePlaybackRestrictionPolicy
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

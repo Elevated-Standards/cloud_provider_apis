@@ -1,0 +1,35 @@
+Service Name      : controltower
+Service ID        : ControlTower
+API Version       : 2018-05-10
+Endpoint Prefix   : controltower
+Operations:
+- CreateLandingZone
+- DeleteLandingZone
+- DisableBaseline
+- DisableControl
+- EnableBaseline
+- EnableControl
+- GetBaseline
+- GetBaselineOperation
+- GetControlOperation
+- GetEnabledBaseline
+- GetEnabledControl
+- GetLandingZone
+- GetLandingZoneOperation
+- ListBaselines
+- ListControlOperations
+- ListEnabledBaselines
+- ListEnabledControls
+- ListLandingZoneOperations
+- ListLandingZones
+- ListTagsForResource
+- ResetEnabledBaseline
+- ResetEnabledControl
+- ResetLandingZone
+- TagResource
+- UntagResource
+- UpdateEnabledBaseline
+- UpdateEnabledControl
+- UpdateLandingZone
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

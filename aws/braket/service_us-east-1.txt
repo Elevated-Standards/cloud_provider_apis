@@ -1,0 +1,20 @@
+Service Name      : braket
+Service ID        : Braket
+API Version       : 2019-09-01
+Endpoint Prefix   : braket
+Operations:
+- CancelJob
+- CancelQuantumTask
+- CreateJob
+- CreateQuantumTask
+- GetDevice
+- GetJob
+- GetQuantumTask
+- ListTagsForResource
+- SearchDevices
+- SearchJobs
+- SearchQuantumTasks
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+Service Name      : codeartifact
+Service ID        : codeartifact
+API Version       : 2018-09-22
+Endpoint Prefix   : codeartifact
+Operations:
+- AssociateExternalConnection
+- CopyPackageVersions
+- CreateDomain
+- CreatePackageGroup
+- CreateRepository
+- DeleteDomain
+- DeleteDomainPermissionsPolicy
+- DeletePackage
+- DeletePackageGroup
+- DeletePackageVersions
+- DeleteRepository
+- DeleteRepositoryPermissionsPolicy
+- DescribeDomain
+- DescribePackage
+- DescribePackageGroup
+- DescribePackageVersion
+- DescribeRepository
+- DisassociateExternalConnection
+- DisposePackageVersions
+- GetAssociatedPackageGroup
+- GetAuthorizationToken
+- GetDomainPermissionsPolicy
+- GetPackageVersionAsset
+- GetPackageVersionReadme
+- GetRepositoryEndpoint
+- GetRepositoryPermissionsPolicy
+- ListAllowedRepositoriesForGroup
+- ListAssociatedPackages
+- ListDomains
+- ListPackageGroups
+- ListPackageVersionAssets
+- ListPackageVersionDependencies
+- ListPackageVersions
+- ListPackages
+- ListRepositories
+- ListRepositoriesInDomain
+- ListSubPackageGroups
+- ListTagsForResource
+- PublishPackageVersion
+- PutDomainPermissionsPolicy
+- PutPackageOriginConfiguration
+- PutRepositoryPermissionsPolicy
+- TagResource
+- UntagResource
+- UpdatePackageGroup
+- UpdatePackageGroupOriginConfiguration
+- UpdatePackageVersionsStatus
+- UpdateRepository
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

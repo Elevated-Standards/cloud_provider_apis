@@ -1,0 +1,40 @@
+Service Name      : groundstation
+Service ID        : GroundStation
+API Version       : 2019-05-23
+Endpoint Prefix   : groundstation
+Operations:
+- CancelContact
+- CreateConfig
+- CreateDataflowEndpointGroup
+- CreateEphemeris
+- CreateMissionProfile
+- DeleteConfig
+- DeleteDataflowEndpointGroup
+- DeleteEphemeris
+- DeleteMissionProfile
+- DescribeContact
+- DescribeEphemeris
+- GetAgentConfiguration
+- GetConfig
+- GetDataflowEndpointGroup
+- GetMinuteUsage
+- GetMissionProfile
+- GetSatellite
+- ListConfigs
+- ListContacts
+- ListDataflowEndpointGroups
+- ListEphemerides
+- ListGroundStations
+- ListMissionProfiles
+- ListSatellites
+- ListTagsForResource
+- RegisterAgent
+- ReserveContact
+- TagResource
+- UntagResource
+- UpdateAgentStatus
+- UpdateConfig
+- UpdateEphemeris
+- UpdateMissionProfile
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,62 @@
+Service Name      : docdb
+Service ID        : DocDB
+API Version       : 2014-10-31
+Endpoint Prefix   : rds
+Operations:
+- AddSourceIdentifierToSubscription
+- AddTagsToResource
+- ApplyPendingMaintenanceAction
+- CopyDBClusterParameterGroup
+- CopyDBClusterSnapshot
+- CreateDBCluster
+- CreateDBClusterParameterGroup
+- CreateDBClusterSnapshot
+- CreateDBInstance
+- CreateDBSubnetGroup
+- CreateEventSubscription
+- CreateGlobalCluster
+- DeleteDBCluster
+- DeleteDBClusterParameterGroup
+- DeleteDBClusterSnapshot
+- DeleteDBInstance
+- DeleteDBSubnetGroup
+- DeleteEventSubscription
+- DeleteGlobalCluster
+- DescribeCertificates
+- DescribeDBClusterParameterGroups
+- DescribeDBClusterParameters
+- DescribeDBClusterSnapshotAttributes
+- DescribeDBClusterSnapshots
+- DescribeDBClusters
+- DescribeDBEngineVersions
+- DescribeDBInstances
+- DescribeDBSubnetGroups
+- DescribeEngineDefaultClusterParameters
+- DescribeEventCategories
+- DescribeEventSubscriptions
+- DescribeEvents
+- DescribeGlobalClusters
+- DescribeOrderableDBInstanceOptions
+- DescribePendingMaintenanceActions
+- FailoverDBCluster
+- FailoverGlobalCluster
+- ListTagsForResource
+- ModifyDBCluster
+- ModifyDBClusterParameterGroup
+- ModifyDBClusterSnapshotAttribute
+- ModifyDBInstance
+- ModifyDBSubnetGroup
+- ModifyEventSubscription
+- ModifyGlobalCluster
+- RebootDBInstance
+- RemoveFromGlobalCluster
+- RemoveSourceIdentifierFromSubscription
+- RemoveTagsFromResource
+- ResetDBClusterParameterGroup
+- RestoreDBClusterFromSnapshot
+- RestoreDBClusterToPointInTime
+- StartDBCluster
+- StopDBCluster
+- SwitchoverGlobalCluster
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+Service Name      : es
+Service ID        : Elasticsearch Service
+API Version       : 2015-01-01
+Endpoint Prefix   : es
+Operations:
+- AcceptInboundCrossClusterSearchConnection
+- AddTags
+- AssociatePackage
+- AuthorizeVpcEndpointAccess
+- CancelDomainConfigChange
+- CancelElasticsearchServiceSoftwareUpdate
+- CreateElasticsearchDomain
+- CreateOutboundCrossClusterSearchConnection
+- CreatePackage
+- CreateVpcEndpoint
+- DeleteElasticsearchDomain
+- DeleteElasticsearchServiceRole
+- DeleteInboundCrossClusterSearchConnection
+- DeleteOutboundCrossClusterSearchConnection
+- DeletePackage
+- DeleteVpcEndpoint
+- DescribeDomainAutoTunes
+- DescribeDomainChangeProgress
+- DescribeElasticsearchDomain
+- DescribeElasticsearchDomainConfig
+- DescribeElasticsearchDomains
+- DescribeElasticsearchInstanceTypeLimits
+- DescribeInboundCrossClusterSearchConnections
+- DescribeOutboundCrossClusterSearchConnections
+- DescribePackages
+- DescribeReservedElasticsearchInstanceOfferings
+- DescribeReservedElasticsearchInstances
+- DescribeVpcEndpoints
+- DissociatePackage
+- GetCompatibleElasticsearchVersions
+- GetPackageVersionHistory
+- GetUpgradeHistory
+- GetUpgradeStatus
+- ListDomainNames
+- ListDomainsForPackage
+- ListElasticsearchInstanceTypes
+- ListElasticsearchVersions
+- ListPackagesForDomain
+- ListTags
+- ListVpcEndpointAccess
+- ListVpcEndpoints
+- ListVpcEndpointsForDomain
+- PurchaseReservedElasticsearchInstanceOffering
+- RejectInboundCrossClusterSearchConnection
+- RemoveTags
+- RevokeVpcEndpointAccess
+- StartElasticsearchServiceSoftwareUpdate
+- UpdateElasticsearchDomainConfig
+- UpdatePackage
+- UpdateVpcEndpoint
+- UpgradeElasticsearchDomain
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,27 @@
+Service Name      : qldb
+Service ID        : QLDB
+API Version       : 2019-01-02
+Endpoint Prefix   : qldb
+Operations:
+- CancelJournalKinesisStream
+- CreateLedger
+- DeleteLedger
+- DescribeJournalKinesisStream
+- DescribeJournalS3Export
+- DescribeLedger
+- ExportJournalToS3
+- GetBlock
+- GetDigest
+- GetRevision
+- ListJournalKinesisStreamsForLedger
+- ListJournalS3Exports
+- ListJournalS3ExportsForLedger
+- ListLedgers
+- ListTagsForResource
+- StreamJournalToKinesis
+- TagResource
+- UntagResource
+- UpdateLedger
+- UpdateLedgerPermissionsMode
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

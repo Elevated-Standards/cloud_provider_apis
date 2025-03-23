@@ -1,0 +1,35 @@
+Service Name      : discovery
+Service ID        : Application Discovery Service
+API Version       : 2015-11-01
+Endpoint Prefix   : discovery
+Operations:
+- AssociateConfigurationItemsToApplication
+- BatchDeleteAgents
+- BatchDeleteImportData
+- CreateApplication
+- CreateTags
+- DeleteApplications
+- DeleteTags
+- DescribeAgents
+- DescribeBatchDeleteConfigurationTask
+- DescribeConfigurations
+- DescribeContinuousExports
+- DescribeExportConfigurations
+- DescribeExportTasks
+- DescribeImportTasks
+- DescribeTags
+- DisassociateConfigurationItemsFromApplication
+- ExportConfigurations
+- GetDiscoverySummary
+- ListConfigurations
+- ListServerNeighbors
+- StartBatchDeleteConfigurationTask
+- StartContinuousExport
+- StartDataCollectionByAgentIds
+- StartExportTask
+- StartImportTask
+- StopContinuousExport
+- StopDataCollectionByAgentIds
+- UpdateApplication
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

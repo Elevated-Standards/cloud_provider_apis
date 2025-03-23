@@ -1,0 +1,34 @@
+Service Name      : verifiedpermissions
+Service ID        : VerifiedPermissions
+API Version       : 2021-12-01
+Endpoint Prefix   : verifiedpermissions
+Operations:
+- BatchGetPolicy
+- BatchIsAuthorized
+- BatchIsAuthorizedWithToken
+- CreateIdentitySource
+- CreatePolicy
+- CreatePolicyStore
+- CreatePolicyTemplate
+- DeleteIdentitySource
+- DeletePolicy
+- DeletePolicyStore
+- DeletePolicyTemplate
+- GetIdentitySource
+- GetPolicy
+- GetPolicyStore
+- GetPolicyTemplate
+- GetSchema
+- IsAuthorized
+- IsAuthorizedWithToken
+- ListIdentitySources
+- ListPolicies
+- ListPolicyStores
+- ListPolicyTemplates
+- PutSchema
+- UpdateIdentitySource
+- UpdatePolicy
+- UpdatePolicyStore
+- UpdatePolicyTemplate
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

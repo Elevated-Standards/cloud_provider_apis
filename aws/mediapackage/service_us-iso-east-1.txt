@@ -1,0 +1,26 @@
+Service Name      : mediapackage
+Service ID        : MediaPackage
+API Version       : 2017-10-12
+Endpoint Prefix   : mediapackage
+Operations:
+- ConfigureLogs
+- CreateChannel
+- CreateHarvestJob
+- CreateOriginEndpoint
+- DeleteChannel
+- DeleteOriginEndpoint
+- DescribeChannel
+- DescribeHarvestJob
+- DescribeOriginEndpoint
+- ListChannels
+- ListHarvestJobs
+- ListOriginEndpoints
+- ListTagsForResource
+- RotateChannelCredentials
+- RotateIngestEndpointCredentials
+- TagResource
+- UntagResource
+- UpdateChannel
+- UpdateOriginEndpoint
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

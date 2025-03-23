@@ -1,0 +1,37 @@
+Service Name      : kinesisvideo
+Service ID        : Kinesis Video
+API Version       : 2017-09-30
+Endpoint Prefix   : kinesisvideo
+Operations:
+- CreateSignalingChannel
+- CreateStream
+- DeleteEdgeConfiguration
+- DeleteSignalingChannel
+- DeleteStream
+- DescribeEdgeConfiguration
+- DescribeImageGenerationConfiguration
+- DescribeMappedResourceConfiguration
+- DescribeMediaStorageConfiguration
+- DescribeNotificationConfiguration
+- DescribeSignalingChannel
+- DescribeStream
+- GetDataEndpoint
+- GetSignalingChannelEndpoint
+- ListEdgeAgentConfigurations
+- ListSignalingChannels
+- ListStreams
+- ListTagsForResource
+- ListTagsForStream
+- StartEdgeConfigurationUpdate
+- TagResource
+- TagStream
+- UntagResource
+- UntagStream
+- UpdateDataRetention
+- UpdateImageGenerationConfiguration
+- UpdateMediaStorageConfiguration
+- UpdateNotificationConfiguration
+- UpdateSignalingChannel
+- UpdateStream
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

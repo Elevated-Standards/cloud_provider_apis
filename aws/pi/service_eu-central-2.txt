@@ -1,0 +1,20 @@
+Service Name      : pi
+Service ID        : PI
+API Version       : 2018-02-27
+Endpoint Prefix   : pi
+Operations:
+- CreatePerformanceAnalysisReport
+- DeletePerformanceAnalysisReport
+- DescribeDimensionKeys
+- GetDimensionKeyDetails
+- GetPerformanceAnalysisReport
+- GetResourceMetadata
+- GetResourceMetrics
+- ListAvailableResourceDimensions
+- ListAvailableResourceMetrics
+- ListPerformanceAnalysisReports
+- ListTagsForResource
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
