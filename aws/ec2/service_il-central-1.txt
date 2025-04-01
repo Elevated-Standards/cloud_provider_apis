@@ -29,6 +29,7 @@ Operations:
 - AssociateIpamByoasn
 - AssociateIpamResourceDiscovery
 - AssociateNatGatewayAddress
+- AssociateRouteServer
 - AssociateRouteTable
 - AssociateSecurityGroupVpc
 - AssociateSubnetCidrBlock
@@ -109,6 +110,9 @@ Operations:
 - CreateReservedInstancesListing
 - CreateRestoreImageTask
 - CreateRoute
+- CreateRouteServer
+- CreateRouteServerEndpoint
+- CreateRouteServerPeer
 - CreateRouteTable
 - CreateSecurityGroup
 - CreateSnapshot
@@ -187,6 +191,9 @@ Operations:
 - DeletePublicIpv4Pool
 - DeleteQueuedReservedInstances
 - DeleteRoute
+- DeleteRouteServer
+- DeleteRouteServerEndpoint
+- DeleteRouteServerPeer
 - DeleteRouteTable
 - DeleteSecurityGroup
 - DeleteSnapshot
@@ -332,6 +339,9 @@ Operations:
 - DescribeReservedInstancesListings
 - DescribeReservedInstancesModifications
 - DescribeReservedInstancesOfferings
+- DescribeRouteServerEndpoints
+- DescribeRouteServerPeers
+- DescribeRouteServers
 - DescribeRouteTables
 - DescribeScheduledInstanceAvailability
 - DescribeScheduledInstances
@@ -409,6 +419,7 @@ Operations:
 - DisableImageDeprecation
 - DisableImageDeregistrationProtection
 - DisableIpamOrganizationAdminAccount
+- DisableRouteServerPropagation
 - DisableSerialConsoleAccess
 - DisableSnapshotBlockPublicAccess
 - DisableTransitGatewayRouteTablePropagation
@@ -424,6 +435,7 @@ Operations:
 - DisassociateIpamByoasn
 - DisassociateIpamResourceDiscovery
 - DisassociateNatGatewayAddress
+- DisassociateRouteServer
 - DisassociateRouteTable
 - DisassociateSecurityGroupVpc
 - DisassociateSubnetCidrBlock
@@ -444,6 +456,7 @@ Operations:
 - EnableImageDeregistrationProtection
 - EnableIpamOrganizationAdminAccount
 - EnableReachabilityAnalyzerOrganizationSharing
+- EnableRouteServerPropagation
 - EnableSerialConsoleAccess
 - EnableSnapshotBlockPublicAccess
 - EnableTransitGatewayRouteTablePropagation
@@ -490,6 +503,9 @@ Operations:
 - GetNetworkInsightsAccessScopeContent
 - GetPasswordData
 - GetReservedInstancesExchangeQuote
+- GetRouteServerAssociations
+- GetRouteServerPropagations
+- GetRouteServerRoutingDatabase
 - GetSecurityGroupsForVpc
 - GetSerialConsoleAccessStatus
 - GetSnapshotBlockPublicAccessState
@@ -552,6 +568,7 @@ Operations:
 - ModifyNetworkInterfaceAttribute
 - ModifyPrivateDnsNameOptions
 - ModifyReservedInstances
+- ModifyRouteServer
 - ModifySecurityGroupRules
 - ModifySnapshotAttribute
 - ModifySnapshotTier
