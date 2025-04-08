@@ -25,6 +25,7 @@ Operations:
 - CreateNode
 - CreateNodeRegistrationScript
 - CreatePartnerInput
+- CreateSdiSource
 - CreateSignalMap
 - CreateTags
 - DeleteChannel
@@ -42,6 +43,7 @@ Operations:
 - DeleteNode
 - DeleteReservation
 - DeleteSchedule
+- DeleteSdiSource
 - DeleteSignalMap
 - DeleteTags
 - DescribeAccountConfiguration
@@ -59,6 +61,7 @@ Operations:
 - DescribeOffering
 - DescribeReservation
 - DescribeSchedule
+- DescribeSdiSource
 - DescribeThumbnails
 - GetCloudWatchAlarmTemplate
 - GetCloudWatchAlarmTemplateGroup
@@ -82,6 +85,7 @@ Operations:
 - ListNodes
 - ListOfferings
 - ListReservations
+- ListSdiSources
 - ListSignalMaps
 - ListTagsForResource
 - ListVersions
@@ -118,5 +122,6 @@ Operations:
 - UpdateNode
 - UpdateNodeState
 - UpdateReservation
+- UpdateSdiSource
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
