@@ -1,0 +1,28 @@
+Service Name      : synthetics
+Service ID        : synthetics
+API Version       : 2017-10-11
+Endpoint Prefix   : synthetics
+Operations:
+- AssociateResource
+- CreateCanary
+- CreateGroup
+- DeleteCanary
+- DeleteGroup
+- DescribeCanaries
+- DescribeCanariesLastRun
+- DescribeRuntimeVersions
+- DisassociateResource
+- GetCanary
+- GetCanaryRuns
+- GetGroup
+- ListAssociatedGroups
+- ListGroupResources
+- ListGroups
+- ListTagsForResource
+- StartCanary
+- StopCanary
+- TagResource
+- UntagResource
+- UpdateCanary
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

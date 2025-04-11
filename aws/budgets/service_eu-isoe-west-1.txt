@@ -1,0 +1,33 @@
+Service Name      : budgets
+Service ID        : Budgets
+API Version       : 2016-10-20
+Endpoint Prefix   : budgets
+Operations:
+- CreateBudget
+- CreateBudgetAction
+- CreateNotification
+- CreateSubscriber
+- DeleteBudget
+- DeleteBudgetAction
+- DeleteNotification
+- DeleteSubscriber
+- DescribeBudget
+- DescribeBudgetAction
+- DescribeBudgetActionHistories
+- DescribeBudgetActionsForAccount
+- DescribeBudgetActionsForBudget
+- DescribeBudgetNotificationsForAccount
+- DescribeBudgetPerformanceHistory
+- DescribeBudgets
+- DescribeNotificationsForBudget
+- DescribeSubscribersForNotification
+- ExecuteBudgetAction
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateBudget
+- UpdateBudgetAction
+- UpdateNotification
+- UpdateSubscriber
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

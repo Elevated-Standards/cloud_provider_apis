@@ -1,0 +1,66 @@
+Service Name      : ecs
+Service ID        : ECS
+API Version       : 2014-11-13
+Endpoint Prefix   : ecs
+Operations:
+- CreateCapacityProvider
+- CreateCluster
+- CreateService
+- CreateTaskSet
+- DeleteAccountSetting
+- DeleteAttributes
+- DeleteCapacityProvider
+- DeleteCluster
+- DeleteService
+- DeleteTaskDefinitions
+- DeleteTaskSet
+- DeregisterContainerInstance
+- DeregisterTaskDefinition
+- DescribeCapacityProviders
+- DescribeClusters
+- DescribeContainerInstances
+- DescribeServiceDeployments
+- DescribeServiceRevisions
+- DescribeServices
+- DescribeTaskDefinition
+- DescribeTaskSets
+- DescribeTasks
+- DiscoverPollEndpoint
+- ExecuteCommand
+- GetTaskProtection
+- ListAccountSettings
+- ListAttributes
+- ListClusters
+- ListContainerInstances
+- ListServiceDeployments
+- ListServices
+- ListServicesByNamespace
+- ListTagsForResource
+- ListTaskDefinitionFamilies
+- ListTaskDefinitions
+- ListTasks
+- PutAccountSetting
+- PutAccountSettingDefault
+- PutAttributes
+- PutClusterCapacityProviders
+- RegisterContainerInstance
+- RegisterTaskDefinition
+- RunTask
+- StartTask
+- StopTask
+- SubmitAttachmentStateChanges
+- SubmitContainerStateChange
+- SubmitTaskStateChange
+- TagResource
+- UntagResource
+- UpdateCapacityProvider
+- UpdateCluster
+- UpdateClusterSettings
+- UpdateContainerAgent
+- UpdateContainerInstancesState
+- UpdateService
+- UpdateServicePrimaryTaskSet
+- UpdateTaskProtection
+- UpdateTaskSet
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

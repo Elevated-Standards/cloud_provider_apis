@@ -1,0 +1,17 @@
+Service Name      : pipes
+Service ID        : Pipes
+API Version       : 2015-10-07
+Endpoint Prefix   : pipes
+Operations:
+- CreatePipe
+- DeletePipe
+- DescribePipe
+- ListPipes
+- ListTagsForResource
+- StartPipe
+- StopPipe
+- TagResource
+- UntagResource
+- UpdatePipe
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

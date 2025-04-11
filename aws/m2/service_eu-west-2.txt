@@ -5,6 +5,7 @@ Endpoint Prefix   : m2
 Operations:
 - CancelBatchJobExecution
 - CreateApplication
+- CreateDataSetExportTask
 - CreateDataSetImportTask
 - CreateDeployment
 - CreateEnvironment
@@ -15,6 +16,7 @@ Operations:
 - GetApplicationVersion
 - GetBatchJobExecution
 - GetDataSetDetails
+- GetDataSetExportTask
 - GetDataSetImportTask
 - GetDeployment
 - GetEnvironment
@@ -24,6 +26,7 @@ Operations:
 - ListBatchJobDefinitions
 - ListBatchJobExecutions
 - ListBatchJobRestartPoints
+- ListDataSetExportHistory
 - ListDataSetImportHistory
 - ListDataSets
 - ListDeployments
