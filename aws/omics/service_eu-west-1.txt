@@ -20,6 +20,7 @@ Operations:
 - CreateShare
 - CreateVariantStore
 - CreateWorkflow
+- CreateWorkflowVersion
 - DeleteAnnotationStore
 - DeleteAnnotationStoreVersions
 - DeleteReference
@@ -32,6 +33,7 @@ Operations:
 - DeleteShare
 - DeleteVariantStore
 - DeleteWorkflow
+- DeleteWorkflowVersion
 - GetAnnotationImportJob
 - GetAnnotationStore
 - GetAnnotationStoreVersion
@@ -54,6 +56,7 @@ Operations:
 - GetVariantImportJob
 - GetVariantStore
 - GetWorkflow
+- GetWorkflowVersion
 - ListAnnotationImportJobs
 - ListAnnotationStoreVersions
 - ListAnnotationStores
@@ -75,6 +78,7 @@ Operations:
 - ListTagsForResource
 - ListVariantImportJobs
 - ListVariantStores
+- ListWorkflowVersions
 - ListWorkflows
 - PutS3AccessPolicy
 - StartAnnotationImportJob
@@ -93,6 +97,7 @@ Operations:
 - UpdateSequenceStore
 - UpdateVariantStore
 - UpdateWorkflow
+- UpdateWorkflowVersion
 - UploadReadSetPart
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

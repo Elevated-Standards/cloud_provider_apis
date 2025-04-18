@@ -1,0 +1,52 @@
+Service Name      : fsx
+Service ID        : FSx
+API Version       : 2018-03-01
+Endpoint Prefix   : fsx
+Operations:
+- AssociateFileSystemAliases
+- CancelDataRepositoryTask
+- CopyBackup
+- CopySnapshotAndUpdateVolume
+- CreateBackup
+- CreateDataRepositoryAssociation
+- CreateDataRepositoryTask
+- CreateFileCache
+- CreateFileSystem
+- CreateFileSystemFromBackup
+- CreateSnapshot
+- CreateStorageVirtualMachine
+- CreateVolume
+- CreateVolumeFromBackup
+- DeleteBackup
+- DeleteDataRepositoryAssociation
+- DeleteFileCache
+- DeleteFileSystem
+- DeleteSnapshot
+- DeleteStorageVirtualMachine
+- DeleteVolume
+- DescribeBackups
+- DescribeDataRepositoryAssociations
+- DescribeDataRepositoryTasks
+- DescribeFileCaches
+- DescribeFileSystemAliases
+- DescribeFileSystems
+- DescribeSharedVpcConfiguration
+- DescribeSnapshots
+- DescribeStorageVirtualMachines
+- DescribeVolumes
+- DisassociateFileSystemAliases
+- ListTagsForResource
+- ReleaseFileSystemNfsV3Locks
+- RestoreVolumeFromSnapshot
+- StartMisconfiguredStateRecovery
+- TagResource
+- UntagResource
+- UpdateDataRepositoryAssociation
+- UpdateFileCache
+- UpdateFileSystem
+- UpdateSharedVpcConfiguration
+- UpdateSnapshot
+- UpdateStorageVirtualMachine
+- UpdateVolume
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
