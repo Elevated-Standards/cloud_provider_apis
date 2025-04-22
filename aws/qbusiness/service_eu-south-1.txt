@@ -9,6 +9,7 @@ Operations:
 - CancelSubscription
 - Chat
 - ChatSync
+- CheckDocumentAccess
 - CreateApplication
 - CreateDataAccessor
 - CreateDataSource
