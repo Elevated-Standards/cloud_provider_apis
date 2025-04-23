@@ -7,6 +7,7 @@ Operations:
 - CreateCustomDomainAssociation
 - CreateEndpointAccess
 - CreateNamespace
+- CreateReservation
 - CreateScheduledAction
 - CreateSnapshot
 - CreateSnapshotCopyConfiguration
@@ -26,6 +27,8 @@ Operations:
 - GetEndpointAccess
 - GetNamespace
 - GetRecoveryPoint
+- GetReservation
+- GetReservationOffering
 - GetResourcePolicy
 - GetScheduledAction
 - GetSnapshot
@@ -38,6 +41,8 @@ Operations:
 - ListManagedWorkgroups
 - ListNamespaces
 - ListRecoveryPoints
+- ListReservationOfferings
+- ListReservations
 - ListScheduledActions
 - ListSnapshotCopyConfigurations
 - ListSnapshots

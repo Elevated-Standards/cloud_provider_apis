@@ -71,6 +71,7 @@ Operations:
 - GetIdentityProviderByIdentifier
 - GetLogDeliveryConfiguration
 - GetSigningCertificate
+- GetTokensFromRefreshToken
 - GetUICustomization
 - GetUser
 - GetUserAttributeVerificationCode

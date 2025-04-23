@@ -8,6 +8,7 @@ Operations:
 - CreateTags
 - CreateUser
 - DeleteBroker
+- DeleteConfiguration
 - DeleteTags
 - DeleteUser
 - DescribeBroker
