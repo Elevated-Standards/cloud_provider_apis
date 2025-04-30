@@ -10,6 +10,7 @@ Operations:
 - Chat
 - ChatSync
 - CheckDocumentAccess
+- CreateAnonymousWebExperienceUrl
 - CreateApplication
 - CreateDataAccessor
 - CreateDataSource

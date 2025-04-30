@@ -66,6 +66,7 @@ Operations:
 - DescribePatchProperties
 - DescribeSessions
 - DisassociateOpsItemRelatedItem
+- GetAccessToken
 - GetAutomationExecution
 - GetCalendarState
 - GetCommandInvocation
@@ -125,6 +126,7 @@ Operations:
 - ResumeSession
 - SendAutomationSignal
 - SendCommand
+- StartAccessRequest
 - StartAssociationsOnce
 - StartAutomationExecution
 - StartChangeRequestExecution
