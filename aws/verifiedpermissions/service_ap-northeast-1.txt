@@ -25,7 +25,10 @@ Operations:
 - ListPolicies
 - ListPolicyStores
 - ListPolicyTemplates
+- ListTagsForResource
 - PutSchema
+- TagResource
+- UntagResource
 - UpdateIdentitySource
 - UpdatePolicy
 - UpdatePolicyStore
