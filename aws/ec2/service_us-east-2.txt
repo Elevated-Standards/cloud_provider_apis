@@ -96,6 +96,8 @@ Operations:
 - CreateLocalGatewayRouteTable
 - CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation
 - CreateLocalGatewayRouteTableVpcAssociation
+- CreateLocalGatewayVirtualInterface
+- CreateLocalGatewayVirtualInterfaceGroup
 - CreateManagedPrefixList
 - CreateNatGateway
 - CreateNetworkAcl
@@ -177,6 +179,8 @@ Operations:
 - DeleteLocalGatewayRouteTable
 - DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociation
 - DeleteLocalGatewayRouteTableVpcAssociation
+- DeleteLocalGatewayVirtualInterface
+- DeleteLocalGatewayVirtualInterfaceGroup
 - DeleteManagedPrefixList
 - DeleteNatGateway
 - DeleteNetworkAcl
@@ -329,6 +333,7 @@ Operations:
 - DescribeNetworkInterfaceAttribute
 - DescribeNetworkInterfacePermissions
 - DescribeNetworkInterfaces
+- DescribeOutpostLags
 - DescribePlacementGroups
 - DescribePrefixLists
 - DescribePrincipalIdFormat
@@ -349,6 +354,7 @@ Operations:
 - DescribeSecurityGroupRules
 - DescribeSecurityGroupVpcAssociations
 - DescribeSecurityGroups
+- DescribeServiceLinkVirtualInterfaces
 - DescribeSnapshotAttribute
 - DescribeSnapshotTierStatus
 - DescribeSnapshots
