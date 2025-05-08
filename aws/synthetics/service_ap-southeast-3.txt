@@ -20,6 +20,7 @@ Operations:
 - ListGroups
 - ListTagsForResource
 - StartCanary
+- StartCanaryDryRun
 - StopCanary
 - TagResource
 - UntagResource
