@@ -61,6 +61,7 @@ Operations:
 - ListAnomalies
 - ListIntegrations
 - ListLogAnomalyDetectors
+- ListLogGroups
 - ListLogGroupsForQuery
 - ListTagsForResource
 - ListTagsLogGroup
