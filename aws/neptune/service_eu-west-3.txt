@@ -72,5 +72,6 @@ Operations:
 - RestoreDBClusterToPointInTime
 - StartDBCluster
 - StopDBCluster
+- SwitchoverGlobalCluster
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

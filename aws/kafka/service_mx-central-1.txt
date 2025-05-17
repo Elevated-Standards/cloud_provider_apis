@@ -1,0 +1,59 @@
+Service Name      : kafka
+Service ID        : Kafka
+API Version       : 2018-11-14
+Endpoint Prefix   : kafka
+Operations:
+- BatchAssociateScramSecret
+- BatchDisassociateScramSecret
+- CreateCluster
+- CreateClusterV2
+- CreateConfiguration
+- CreateReplicator
+- CreateVpcConnection
+- DeleteCluster
+- DeleteClusterPolicy
+- DeleteConfiguration
+- DeleteReplicator
+- DeleteVpcConnection
+- DescribeCluster
+- DescribeClusterOperation
+- DescribeClusterOperationV2
+- DescribeClusterV2
+- DescribeConfiguration
+- DescribeConfigurationRevision
+- DescribeReplicator
+- DescribeVpcConnection
+- GetBootstrapBrokers
+- GetClusterPolicy
+- GetCompatibleKafkaVersions
+- ListClientVpcConnections
+- ListClusterOperations
+- ListClusterOperationsV2
+- ListClusters
+- ListClustersV2
+- ListConfigurationRevisions
+- ListConfigurations
+- ListKafkaVersions
+- ListNodes
+- ListReplicators
+- ListScramSecrets
+- ListTagsForResource
+- ListVpcConnections
+- PutClusterPolicy
+- RebootBroker
+- RejectClientVpcConnection
+- TagResource
+- UntagResource
+- UpdateBrokerCount
+- UpdateBrokerStorage
+- UpdateBrokerType
+- UpdateClusterConfiguration
+- UpdateClusterKafkaVersion
+- UpdateConfiguration
+- UpdateConnectivity
+- UpdateMonitoring
+- UpdateReplicationInfo
+- UpdateSecurity
+- UpdateStorage
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

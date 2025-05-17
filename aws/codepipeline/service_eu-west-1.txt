@@ -21,6 +21,7 @@ Operations:
 - GetThirdPartyJobDetails
 - ListActionExecutions
 - ListActionTypes
+- ListDeployActionExecutionTargets
 - ListPipelineExecutions
 - ListPipelines
 - ListRuleExecutions
