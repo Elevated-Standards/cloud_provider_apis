@@ -74,6 +74,7 @@ Operations:
 - CreateCustomerGateway
 - CreateDefaultSubnet
 - CreateDefaultVpc
+- CreateDelegateMacVolumeOwnershipTask
 - CreateDhcpOptions
 - CreateEgressOnlyInternetGateway
 - CreateFleet
@@ -98,6 +99,7 @@ Operations:
 - CreateLocalGatewayRouteTableVpcAssociation
 - CreateLocalGatewayVirtualInterface
 - CreateLocalGatewayVirtualInterfaceGroup
+- CreateMacSystemIntegrityProtectionModificationTask
 - CreateManagedPrefixList
 - CreateNatGateway
 - CreateNetworkAcl
@@ -322,6 +324,7 @@ Operations:
 - DescribeLocalGateways
 - DescribeLockedSnapshots
 - DescribeMacHosts
+- DescribeMacModificationTasks
 - DescribeManagedPrefixLists
 - DescribeMovingAddresses
 - DescribeNatGateways
