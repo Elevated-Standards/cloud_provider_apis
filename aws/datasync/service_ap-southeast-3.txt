@@ -3,7 +3,6 @@ Service ID        : DataSync
 API Version       : 2018-11-09
 Endpoint Prefix   : datasync
 Operations:
-- AddStorageSystem
 - CancelTaskExecution
 - CreateAgent
 - CreateLocationAzureBlob
@@ -22,7 +21,6 @@ Operations:
 - DeleteLocation
 - DeleteTask
 - DescribeAgent
-- DescribeDiscoveryJob
 - DescribeLocationAzureBlob
 - DescribeLocationEfs
 - DescribeLocationFsxLustre
@@ -34,27 +32,17 @@ Operations:
 - DescribeLocationObjectStorage
 - DescribeLocationS3
 - DescribeLocationSmb
-- DescribeStorageSystem
-- DescribeStorageSystemResourceMetrics
-- DescribeStorageSystemResources
 - DescribeTask
 - DescribeTaskExecution
-- GenerateRecommendations
 - ListAgents
-- ListDiscoveryJobs
 - ListLocations
-- ListStorageSystems
 - ListTagsForResource
 - ListTaskExecutions
 - ListTasks
-- RemoveStorageSystem
-- StartDiscoveryJob
 - StartTaskExecution
-- StopDiscoveryJob
 - TagResource
 - UntagResource
 - UpdateAgent
-- UpdateDiscoveryJob
 - UpdateLocationAzureBlob
 - UpdateLocationEfs
 - UpdateLocationFsxLustre
@@ -66,7 +54,6 @@ Operations:
 - UpdateLocationObjectStorage
 - UpdateLocationS3
 - UpdateLocationSmb
-- UpdateStorageSystem
 - UpdateTask
 - UpdateTaskExecution
 --------------------------------------------------------------------------------
