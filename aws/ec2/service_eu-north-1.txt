@@ -576,6 +576,7 @@ Operations:
 - ModifyManagedPrefixList
 - ModifyNetworkInterfaceAttribute
 - ModifyPrivateDnsNameOptions
+- ModifyPublicIpDnsNameOptions
 - ModifyReservedInstances
 - ModifyRouteServer
 - ModifySecurityGroupRules
