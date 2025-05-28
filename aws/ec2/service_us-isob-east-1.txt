@@ -478,6 +478,7 @@ Operations:
 - ExportImage
 - ExportTransitGatewayRoutes
 - ExportVerifiedAccessInstanceClientConfiguration
+- GetActiveVpnTunnelStatus
 - GetAllowedImagesSettings
 - GetAssociatedEnclaveCertificateIamRoles
 - GetAssociatedIpv6PoolCidrs
