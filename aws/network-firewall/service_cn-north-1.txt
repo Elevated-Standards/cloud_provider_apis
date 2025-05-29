@@ -9,12 +9,15 @@ Operations:
 - CreateFirewallPolicy
 - CreateRuleGroup
 - CreateTLSInspectionConfiguration
+- CreateVpcEndpointAssociation
 - DeleteFirewall
 - DeleteFirewallPolicy
 - DeleteResourcePolicy
 - DeleteRuleGroup
 - DeleteTLSInspectionConfiguration
+- DeleteVpcEndpointAssociation
 - DescribeFirewall
+- DescribeFirewallMetadata
 - DescribeFirewallPolicy
 - DescribeFlowOperation
 - DescribeLoggingConfiguration
@@ -22,6 +25,7 @@ Operations:
 - DescribeRuleGroup
 - DescribeRuleGroupMetadata
 - DescribeTLSInspectionConfiguration
+- DescribeVpcEndpointAssociation
 - DisassociateSubnets
 - GetAnalysisReportResults
 - ListAnalysisReports
@@ -32,6 +36,7 @@ Operations:
 - ListRuleGroups
 - ListTLSInspectionConfigurations
 - ListTagsForResource
+- ListVpcEndpointAssociations
 - PutResourcePolicy
 - StartAnalysisReport
 - StartFlowCapture
