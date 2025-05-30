@@ -22,6 +22,7 @@ Operations:
 - GenerateQuery
 - GetChannel
 - GetDashboard
+- GetEventConfiguration
 - GetEventDataStore
 - GetEventSelectors
 - GetImport
@@ -41,6 +42,7 @@ Operations:
 - ListTags
 - ListTrails
 - LookupEvents
+- PutEventConfiguration
 - PutEventSelectors
 - PutInsightSelectors
 - PutResourcePolicy
