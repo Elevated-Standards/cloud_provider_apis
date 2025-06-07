@@ -1,0 +1,60 @@
+Service Name      : datasync
+Service ID        : DataSync
+API Version       : 2018-11-09
+Endpoint Prefix   : datasync
+Operations:
+- CancelTaskExecution
+- CreateAgent
+- CreateLocationAzureBlob
+- CreateLocationEfs
+- CreateLocationFsxLustre
+- CreateLocationFsxOntap
+- CreateLocationFsxOpenZfs
+- CreateLocationFsxWindows
+- CreateLocationHdfs
+- CreateLocationNfs
+- CreateLocationObjectStorage
+- CreateLocationS3
+- CreateLocationSmb
+- CreateTask
+- DeleteAgent
+- DeleteLocation
+- DeleteTask
+- DescribeAgent
+- DescribeLocationAzureBlob
+- DescribeLocationEfs
+- DescribeLocationFsxLustre
+- DescribeLocationFsxOntap
+- DescribeLocationFsxOpenZfs
+- DescribeLocationFsxWindows
+- DescribeLocationHdfs
+- DescribeLocationNfs
+- DescribeLocationObjectStorage
+- DescribeLocationS3
+- DescribeLocationSmb
+- DescribeTask
+- DescribeTaskExecution
+- ListAgents
+- ListLocations
+- ListTagsForResource
+- ListTaskExecutions
+- ListTasks
+- StartTaskExecution
+- TagResource
+- UntagResource
+- UpdateAgent
+- UpdateLocationAzureBlob
+- UpdateLocationEfs
+- UpdateLocationFsxLustre
+- UpdateLocationFsxOntap
+- UpdateLocationFsxOpenZfs
+- UpdateLocationFsxWindows
+- UpdateLocationHdfs
+- UpdateLocationNfs
+- UpdateLocationObjectStorage
+- UpdateLocationS3
+- UpdateLocationSmb
+- UpdateTask
+- UpdateTaskExecution
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
