@@ -38,7 +38,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Automated commit by GitHub Actions"
+            git commit -m "📘 Auto-update for AWS API"
             git pull origin main --rebase
             git push origin main
           fi
