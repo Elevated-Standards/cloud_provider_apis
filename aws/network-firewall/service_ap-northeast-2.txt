@@ -3,6 +3,8 @@ Service ID        : Network Firewall
 API Version       : 2020-11-12
 Endpoint Prefix   : network-firewall
 Operations:
+- AcceptNetworkFirewallTransitGatewayAttachment
+- AssociateAvailabilityZones
 - AssociateFirewallPolicy
 - AssociateSubnets
 - CreateFirewall
@@ -12,6 +14,7 @@ Operations:
 - CreateVpcEndpointAssociation
 - DeleteFirewall
 - DeleteFirewallPolicy
+- DeleteNetworkFirewallTransitGatewayAttachment
 - DeleteResourcePolicy
 - DeleteRuleGroup
 - DeleteTLSInspectionConfiguration
@@ -26,6 +29,7 @@ Operations:
 - DescribeRuleGroupMetadata
 - DescribeTLSInspectionConfiguration
 - DescribeVpcEndpointAssociation
+- DisassociateAvailabilityZones
 - DisassociateSubnets
 - GetAnalysisReportResults
 - ListAnalysisReports
@@ -38,11 +42,13 @@ Operations:
 - ListTagsForResource
 - ListVpcEndpointAssociations
 - PutResourcePolicy
+- RejectNetworkFirewallTransitGatewayAttachment
 - StartAnalysisReport
 - StartFlowCapture
 - StartFlowFlush
 - TagResource
 - UntagResource
+- UpdateAvailabilityZoneChangeProtection
 - UpdateFirewallAnalysisSettings
 - UpdateFirewallDeleteProtection
 - UpdateFirewallDescription

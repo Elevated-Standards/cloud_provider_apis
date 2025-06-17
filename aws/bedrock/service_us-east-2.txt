@@ -4,6 +4,7 @@ API Version       : 2023-04-20
 Endpoint Prefix   : bedrock
 Operations:
 - BatchDeleteEvaluationJob
+- CreateCustomModel
 - CreateEvaluationJob
 - CreateGuardrail
 - CreateGuardrailVersion
