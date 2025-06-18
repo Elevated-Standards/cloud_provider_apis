@@ -3,6 +3,7 @@ Service ID        : Backup
 API Version       : 2018-11-15
 Endpoint Prefix   : backup
 Operations:
+- AssociateBackupVaultMpaApprovalTeam
 - CancelLegalHold
 - CreateBackupPlan
 - CreateBackupSelection
@@ -11,6 +12,7 @@ Operations:
 - CreateLegalHold
 - CreateLogicallyAirGappedBackupVault
 - CreateReportPlan
+- CreateRestoreAccessBackupVault
 - CreateRestoreTestingPlan
 - CreateRestoreTestingSelection
 - DeleteBackupPlan
@@ -35,6 +37,7 @@ Operations:
 - DescribeReportJob
 - DescribeReportPlan
 - DescribeRestoreJob
+- DisassociateBackupVaultMpaApprovalTeam
 - DisassociateRecoveryPoint
 - DisassociateRecoveryPointFromParent
 - ExportBackupPlanTemplate
@@ -71,6 +74,7 @@ Operations:
 - ListRecoveryPointsByResource
 - ListReportJobs
 - ListReportPlans
+- ListRestoreAccessBackupVaults
 - ListRestoreJobSummaries
 - ListRestoreJobs
 - ListRestoreJobsByProtectedResource
@@ -81,6 +85,7 @@ Operations:
 - PutBackupVaultLockConfiguration
 - PutBackupVaultNotifications
 - PutRestoreValidationResult
+- RevokeRestoreAccessBackupVault
 - StartBackupJob
 - StartCopyJob
 - StartReportJob

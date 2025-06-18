@@ -4,6 +4,8 @@ API Version       : 2020-06-08
 Endpoint Prefix   : inspector2
 Operations:
 - AssociateMember
+- BatchAssociateCodeSecurityScanConfiguration
+- BatchDisassociateCodeSecurityScanConfiguration
 - BatchGetAccountStatus
 - BatchGetCodeSnippet
 - BatchGetFindingDetails
@@ -13,10 +15,14 @@ Operations:
 - CancelFindingsReport
 - CancelSbomExport
 - CreateCisScanConfiguration
+- CreateCodeSecurityIntegration
+- CreateCodeSecurityScanConfiguration
 - CreateFilter
 - CreateFindingsReport
 - CreateSbomExport
 - DeleteCisScanConfiguration
+- DeleteCodeSecurityIntegration
+- DeleteCodeSecurityScanConfiguration
 - DeleteFilter
 - DescribeOrganizationConfiguration
 - Disable
@@ -27,6 +33,9 @@ Operations:
 - GetCisScanReport
 - GetCisScanResultDetails
 - GetClustersForImage
+- GetCodeSecurityIntegration
+- GetCodeSecurityScan
+- GetCodeSecurityScanConfiguration
 - GetConfiguration
 - GetDelegatedAdminAccount
 - GetEc2DeepInspectionConfiguration
@@ -39,6 +48,9 @@ Operations:
 - ListCisScanResultsAggregatedByChecks
 - ListCisScanResultsAggregatedByTargetResource
 - ListCisScans
+- ListCodeSecurityIntegrations
+- ListCodeSecurityScanConfigurationAssociations
+- ListCodeSecurityScanConfigurations
 - ListCoverage
 - ListCoverageStatistics
 - ListDelegatedAdminAccounts
@@ -53,10 +65,13 @@ Operations:
 - SendCisSessionHealth
 - SendCisSessionTelemetry
 - StartCisSession
+- StartCodeSecurityScan
 - StopCisSession
 - TagResource
 - UntagResource
 - UpdateCisScanConfiguration
+- UpdateCodeSecurityIntegration
+- UpdateCodeSecurityScanConfiguration
 - UpdateConfiguration
 - UpdateEc2DeepInspectionConfiguration
 - UpdateEncryptionKey
