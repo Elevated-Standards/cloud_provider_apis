@@ -6,6 +6,7 @@ Operations:
 - BatchDeleteEvaluationJob
 - CreateCustomModel
 - CreateEvaluationJob
+- CreateFoundationModelAgreement
 - CreateGuardrail
 - CreateGuardrailVersion
 - CreateInferenceProfile
@@ -17,6 +18,7 @@ Operations:
 - CreatePromptRouter
 - CreateProvisionedModelThroughput
 - DeleteCustomModel
+- DeleteFoundationModelAgreement
 - DeleteGuardrail
 - DeleteImportedModel
 - DeleteInferenceProfile
@@ -28,6 +30,7 @@ Operations:
 - GetCustomModel
 - GetEvaluationJob
 - GetFoundationModel
+- GetFoundationModelAvailability
 - GetGuardrail
 - GetImportedModel
 - GetInferenceProfile
@@ -39,8 +42,10 @@ Operations:
 - GetModelInvocationLoggingConfiguration
 - GetPromptRouter
 - GetProvisionedModelThroughput
+- GetUseCaseForModelAccess
 - ListCustomModels
 - ListEvaluationJobs
+- ListFoundationModelAgreementOffers
 - ListFoundationModels
 - ListGuardrails
 - ListImportedModels
@@ -54,6 +59,7 @@ Operations:
 - ListProvisionedModelThroughputs
 - ListTagsForResource
 - PutModelInvocationLoggingConfiguration
+- PutUseCaseForModelAccess
 - RegisterMarketplaceModelEndpoint
 - StopEvaluationJob
 - StopModelCustomizationJob
