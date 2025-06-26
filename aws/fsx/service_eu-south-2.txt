@@ -7,6 +7,7 @@ Operations:
 - CancelDataRepositoryTask
 - CopyBackup
 - CopySnapshotAndUpdateVolume
+- CreateAndAttachS3AccessPoint
 - CreateBackup
 - CreateDataRepositoryAssociation
 - CreateDataRepositoryTask
@@ -30,10 +31,12 @@ Operations:
 - DescribeFileCaches
 - DescribeFileSystemAliases
 - DescribeFileSystems
+- DescribeS3AccessPointAttachments
 - DescribeSharedVpcConfiguration
 - DescribeSnapshots
 - DescribeStorageVirtualMachines
 - DescribeVolumes
+- DetachAndDeleteS3AccessPoint
 - DisassociateFileSystemAliases
 - ListTagsForResource
 - ReleaseFileSystemNfsV3Locks
