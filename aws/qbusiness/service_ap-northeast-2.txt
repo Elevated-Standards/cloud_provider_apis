@@ -12,6 +12,7 @@ Operations:
 - CheckDocumentAccess
 - CreateAnonymousWebExperienceUrl
 - CreateApplication
+- CreateChatResponseConfiguration
 - CreateDataAccessor
 - CreateDataSource
 - CreateIndex
@@ -23,6 +24,7 @@ Operations:
 - DeleteApplication
 - DeleteAttachment
 - DeleteChatControlsConfiguration
+- DeleteChatResponseConfiguration
 - DeleteConversation
 - DeleteDataAccessor
 - DeleteDataSource
@@ -35,6 +37,7 @@ Operations:
 - DisassociatePermission
 - GetApplication
 - GetChatControlsConfiguration
+- GetChatResponseConfiguration
 - GetDataAccessor
 - GetDataSource
 - GetGroup
@@ -47,6 +50,7 @@ Operations:
 - GetWebExperience
 - ListApplications
 - ListAttachments
+- ListChatResponseConfigurations
 - ListConversations
 - ListDataAccessors
 - ListDataSourceSyncJobs
@@ -72,6 +76,7 @@ Operations:
 - UntagResource
 - UpdateApplication
 - UpdateChatControlsConfiguration
+- UpdateChatResponseConfiguration
 - UpdateDataAccessor
 - UpdateDataSource
 - UpdateIndex
