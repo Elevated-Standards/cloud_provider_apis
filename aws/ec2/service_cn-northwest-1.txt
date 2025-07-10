@@ -256,6 +256,8 @@ Operations:
 - DescribeCapacityBlockExtensionHistory
 - DescribeCapacityBlockExtensionOfferings
 - DescribeCapacityBlockOfferings
+- DescribeCapacityBlockStatus
+- DescribeCapacityBlocks
 - DescribeCapacityReservationBillingRequests
 - DescribeCapacityReservationFleets
 - DescribeCapacityReservations
