@@ -5,6 +5,7 @@ Endpoint Prefix   : bedrock
 Operations:
 - BatchDeleteEvaluationJob
 - CreateCustomModel
+- CreateCustomModelDeployment
 - CreateEvaluationJob
 - CreateFoundationModelAgreement
 - CreateGuardrail
@@ -18,6 +19,7 @@ Operations:
 - CreatePromptRouter
 - CreateProvisionedModelThroughput
 - DeleteCustomModel
+- DeleteCustomModelDeployment
 - DeleteFoundationModelAgreement
 - DeleteGuardrail
 - DeleteImportedModel
@@ -28,6 +30,7 @@ Operations:
 - DeleteProvisionedModelThroughput
 - DeregisterMarketplaceModelEndpoint
 - GetCustomModel
+- GetCustomModelDeployment
 - GetEvaluationJob
 - GetFoundationModel
 - GetFoundationModelAvailability
@@ -43,6 +46,7 @@ Operations:
 - GetPromptRouter
 - GetProvisionedModelThroughput
 - GetUseCaseForModelAccess
+- ListCustomModelDeployments
 - ListCustomModels
 - ListEvaluationJobs
 - ListFoundationModelAgreementOffers
