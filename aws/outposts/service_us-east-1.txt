@@ -15,6 +15,7 @@ Operations:
 - GetConnection
 - GetOrder
 - GetOutpost
+- GetOutpostBillingInformation
 - GetOutpostInstanceTypes
 - GetOutpostSupportedInstanceTypes
 - GetSite

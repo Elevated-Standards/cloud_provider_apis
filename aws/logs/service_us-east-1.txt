@@ -55,6 +55,7 @@ Operations:
 - GetLogAnomalyDetector
 - GetLogEvents
 - GetLogGroupFields
+- GetLogObject
 - GetLogRecord
 - GetQueryResults
 - GetTransformer
