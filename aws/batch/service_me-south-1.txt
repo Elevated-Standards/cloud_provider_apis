@@ -8,10 +8,12 @@ Operations:
 - CreateConsumableResource
 - CreateJobQueue
 - CreateSchedulingPolicy
+- CreateServiceEnvironment
 - DeleteComputeEnvironment
 - DeleteConsumableResource
 - DeleteJobQueue
 - DeleteSchedulingPolicy
+- DeleteServiceEnvironment
 - DeregisterJobDefinition
 - DescribeComputeEnvironments
 - DescribeConsumableResource
@@ -19,20 +21,26 @@ Operations:
 - DescribeJobQueues
 - DescribeJobs
 - DescribeSchedulingPolicies
+- DescribeServiceEnvironments
+- DescribeServiceJob
 - GetJobQueueSnapshot
 - ListConsumableResources
 - ListJobs
 - ListJobsByConsumableResource
 - ListSchedulingPolicies
+- ListServiceJobs
 - ListTagsForResource
 - RegisterJobDefinition
 - SubmitJob
+- SubmitServiceJob
 - TagResource
 - TerminateJob
+- TerminateServiceJob
 - UntagResource
 - UpdateComputeEnvironment
 - UpdateConsumableResource
 - UpdateJobQueue
 - UpdateSchedulingPolicy
+- UpdateServiceEnvironment
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
