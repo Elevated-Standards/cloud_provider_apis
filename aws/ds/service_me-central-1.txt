@@ -13,10 +13,12 @@ Operations:
 - CreateComputer
 - CreateConditionalForwarder
 - CreateDirectory
+- CreateHybridAD
 - CreateLogSubscription
 - CreateMicrosoftAD
 - CreateSnapshot
 - CreateTrust
+- DeleteADAssessment
 - DeleteConditionalForwarder
 - DeleteDirectory
 - DeleteLogSubscription
@@ -24,6 +26,7 @@ Operations:
 - DeleteTrust
 - DeregisterCertificate
 - DeregisterEventTopic
+- DescribeADAssessment
 - DescribeCertificate
 - DescribeClientAuthenticationSettings
 - DescribeConditionalForwarders
@@ -31,6 +34,7 @@ Operations:
 - DescribeDirectoryDataAccess
 - DescribeDomainControllers
 - DescribeEventTopics
+- DescribeHybridADUpdate
 - DescribeLDAPSSettings
 - DescribeRegions
 - DescribeSettings
@@ -50,6 +54,7 @@ Operations:
 - EnableSso
 - GetDirectoryLimits
 - GetSnapshotLimits
+- ListADAssessments
 - ListCertificates
 - ListIpRoutes
 - ListLogSubscriptions
@@ -64,10 +69,12 @@ Operations:
 - ResetUserPassword
 - RestoreFromSnapshot
 - ShareDirectory
+- StartADAssessment
 - StartSchemaExtension
 - UnshareDirectory
 - UpdateConditionalForwarder
 - UpdateDirectorySetup
+- UpdateHybridAD
 - UpdateNumberOfDomainControllers
 - UpdateRadius
 - UpdateSettings
