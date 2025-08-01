@@ -7,6 +7,7 @@ Operations:
 - AssociateDataProtectionSettings
 - AssociateIpAccessSettings
 - AssociateNetworkSettings
+- AssociateSessionLogger
 - AssociateTrustStore
 - AssociateUserAccessLoggingSettings
 - AssociateUserSettings
@@ -16,6 +17,7 @@ Operations:
 - CreateIpAccessSettings
 - CreateNetworkSettings
 - CreatePortal
+- CreateSessionLogger
 - CreateTrustStore
 - CreateUserAccessLoggingSettings
 - CreateUserSettings
@@ -25,6 +27,7 @@ Operations:
 - DeleteIpAccessSettings
 - DeleteNetworkSettings
 - DeletePortal
+- DeleteSessionLogger
 - DeleteTrustStore
 - DeleteUserAccessLoggingSettings
 - DeleteUserSettings
@@ -32,6 +35,7 @@ Operations:
 - DisassociateDataProtectionSettings
 - DisassociateIpAccessSettings
 - DisassociateNetworkSettings
+- DisassociateSessionLogger
 - DisassociateTrustStore
 - DisassociateUserAccessLoggingSettings
 - DisassociateUserSettings
@@ -44,6 +48,7 @@ Operations:
 - GetPortal
 - GetPortalServiceProviderMetadata
 - GetSession
+- GetSessionLogger
 - GetTrustStore
 - GetTrustStoreCertificate
 - GetUserAccessLoggingSettings
@@ -54,6 +59,7 @@ Operations:
 - ListIpAccessSettings
 - ListNetworkSettings
 - ListPortals
+- ListSessionLoggers
 - ListSessions
 - ListTagsForResource
 - ListTrustStoreCertificates
@@ -68,6 +74,7 @@ Operations:
 - UpdateIpAccessSettings
 - UpdateNetworkSettings
 - UpdatePortal
+- UpdateSessionLogger
 - UpdateTrustStore
 - UpdateUserAccessLoggingSettings
 - UpdateUserSettings

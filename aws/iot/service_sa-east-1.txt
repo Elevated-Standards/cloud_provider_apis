@@ -104,6 +104,7 @@ Operations:
 - DescribeDetectMitigationActionsTask
 - DescribeDimension
 - DescribeDomainConfiguration
+- DescribeEncryptionConfiguration
 - DescribeEndpoint
 - DescribeEventConfigurations
 - DescribeFleetMetric
@@ -254,6 +255,7 @@ Operations:
 - UpdateDimension
 - UpdateDomainConfiguration
 - UpdateDynamicThingGroup
+- UpdateEncryptionConfiguration
 - UpdateEventConfigurations
 - UpdateFleetMetric
 - UpdateIndexingConfiguration
