@@ -1,0 +1,81 @@
+Service Name      : guardduty
+Service ID        : GuardDuty
+API Version       : 2017-11-28
+Endpoint Prefix   : guardduty
+Operations:
+- AcceptAdministratorInvitation
+- AcceptInvitation
+- ArchiveFindings
+- CreateDetector
+- CreateFilter
+- CreateIPSet
+- CreateMalwareProtectionPlan
+- CreateMembers
+- CreatePublishingDestination
+- CreateSampleFindings
+- CreateThreatIntelSet
+- DeclineInvitations
+- DeleteDetector
+- DeleteFilter
+- DeleteIPSet
+- DeleteInvitations
+- DeleteMalwareProtectionPlan
+- DeleteMembers
+- DeletePublishingDestination
+- DeleteThreatIntelSet
+- DescribeMalwareScans
+- DescribeOrganizationConfiguration
+- DescribePublishingDestination
+- DisableOrganizationAdminAccount
+- DisassociateFromAdministratorAccount
+- DisassociateFromMasterAccount
+- DisassociateMembers
+- EnableOrganizationAdminAccount
+- GetAdministratorAccount
+- GetCoverageStatistics
+- GetDetector
+- GetFilter
+- GetFindings
+- GetFindingsStatistics
+- GetIPSet
+- GetInvitationsCount
+- GetMalwareProtectionPlan
+- GetMalwareScanSettings
+- GetMasterAccount
+- GetMemberDetectors
+- GetMembers
+- GetOrganizationStatistics
+- GetRemainingFreeTrialDays
+- GetThreatIntelSet
+- GetUsageStatistics
+- InviteMembers
+- ListCoverage
+- ListDetectors
+- ListFilters
+- ListFindings
+- ListIPSets
+- ListInvitations
+- ListMalwareProtectionPlans
+- ListMembers
+- ListOrganizationAdminAccounts
+- ListPublishingDestinations
+- ListTagsForResource
+- ListThreatIntelSets
+- StartMalwareScan
+- StartMonitoringMembers
+- StopMonitoringMembers
+- TagResource
+- UnarchiveFindings
+- UntagResource
+- UpdateDetector
+- UpdateFilter
+- UpdateFindingsFeedback
+- UpdateIPSet
+- UpdateMalwareProtectionPlan
+- UpdateMalwareScanSettings
+- UpdateMemberDetectors
+- UpdateOrganizationConfiguration
+- UpdatePublishingDestination
+- UpdateThreatIntelSet
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
