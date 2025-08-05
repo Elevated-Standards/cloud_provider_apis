@@ -26,6 +26,7 @@ Operations:
 - DeleteAsset
 - DeleteAssetModel
 - DeleteAssetModelCompositeModel
+- DeleteAssetModelInterfaceRelationship
 - DeleteComputationModel
 - DeleteDashboard
 - DeleteDataset
@@ -39,6 +40,7 @@ Operations:
 - DescribeAssetCompositeModel
 - DescribeAssetModel
 - DescribeAssetModelCompositeModel
+- DescribeAssetModelInterfaceRelationship
 - DescribeAssetProperty
 - DescribeBulkImportJob
 - DescribeComputationModel
@@ -81,11 +83,13 @@ Operations:
 - ListDatasets
 - ListExecutions
 - ListGateways
+- ListInterfaceRelationships
 - ListPortals
 - ListProjectAssets
 - ListProjects
 - ListTagsForResource
 - ListTimeSeries
+- PutAssetModelInterfaceRelationship
 - PutDefaultEncryptionConfiguration
 - PutLoggingOptions
 - PutStorageConfiguration
