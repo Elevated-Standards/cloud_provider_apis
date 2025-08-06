@@ -4,6 +4,10 @@ API Version       : 2023-04-20
 Endpoint Prefix   : bedrock
 Operations:
 - BatchDeleteEvaluationJob
+- CancelAutomatedReasoningPolicyBuildWorkflow
+- CreateAutomatedReasoningPolicy
+- CreateAutomatedReasoningPolicyTestCase
+- CreateAutomatedReasoningPolicyVersion
 - CreateCustomModel
 - CreateCustomModelDeployment
 - CreateEvaluationJob
@@ -18,6 +22,9 @@ Operations:
 - CreateModelInvocationJob
 - CreatePromptRouter
 - CreateProvisionedModelThroughput
+- DeleteAutomatedReasoningPolicy
+- DeleteAutomatedReasoningPolicyBuildWorkflow
+- DeleteAutomatedReasoningPolicyTestCase
 - DeleteCustomModel
 - DeleteCustomModelDeployment
 - DeleteFoundationModelAgreement
@@ -29,6 +36,14 @@ Operations:
 - DeletePromptRouter
 - DeleteProvisionedModelThroughput
 - DeregisterMarketplaceModelEndpoint
+- ExportAutomatedReasoningPolicyVersion
+- GetAutomatedReasoningPolicy
+- GetAutomatedReasoningPolicyAnnotations
+- GetAutomatedReasoningPolicyBuildWorkflow
+- GetAutomatedReasoningPolicyBuildWorkflowResultAssets
+- GetAutomatedReasoningPolicyNextScenario
+- GetAutomatedReasoningPolicyTestCase
+- GetAutomatedReasoningPolicyTestResult
 - GetCustomModel
 - GetCustomModelDeployment
 - GetEvaluationJob
@@ -46,6 +61,10 @@ Operations:
 - GetPromptRouter
 - GetProvisionedModelThroughput
 - GetUseCaseForModelAccess
+- ListAutomatedReasoningPolicies
+- ListAutomatedReasoningPolicyBuildWorkflows
+- ListAutomatedReasoningPolicyTestCases
+- ListAutomatedReasoningPolicyTestResults
 - ListCustomModelDeployments
 - ListCustomModels
 - ListEvaluationJobs
@@ -65,11 +84,16 @@ Operations:
 - PutModelInvocationLoggingConfiguration
 - PutUseCaseForModelAccess
 - RegisterMarketplaceModelEndpoint
+- StartAutomatedReasoningPolicyBuildWorkflow
+- StartAutomatedReasoningPolicyTestWorkflow
 - StopEvaluationJob
 - StopModelCustomizationJob
 - StopModelInvocationJob
 - TagResource
 - UntagResource
+- UpdateAutomatedReasoningPolicy
+- UpdateAutomatedReasoningPolicyAnnotations
+- UpdateAutomatedReasoningPolicyTestCase
 - UpdateGuardrail
 - UpdateMarketplaceModelEndpoint
 - UpdateProvisionedModelThroughput
