@@ -125,6 +125,7 @@ Operations:
 - DismissUserContact
 - GetAttachedFile
 - GetContactAttributes
+- GetContactMetrics
 - GetCurrentMetricData
 - GetCurrentUserData
 - GetEffectiveHoursOfOperations
