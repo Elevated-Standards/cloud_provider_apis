@@ -1,0 +1,64 @@
+Service Name      : network-firewall
+Service ID        : Network Firewall
+API Version       : 2020-11-12
+Endpoint Prefix   : network-firewall
+Operations:
+- AcceptNetworkFirewallTransitGatewayAttachment
+- AssociateAvailabilityZones
+- AssociateFirewallPolicy
+- AssociateSubnets
+- CreateFirewall
+- CreateFirewallPolicy
+- CreateRuleGroup
+- CreateTLSInspectionConfiguration
+- CreateVpcEndpointAssociation
+- DeleteFirewall
+- DeleteFirewallPolicy
+- DeleteNetworkFirewallTransitGatewayAttachment
+- DeleteResourcePolicy
+- DeleteRuleGroup
+- DeleteTLSInspectionConfiguration
+- DeleteVpcEndpointAssociation
+- DescribeFirewall
+- DescribeFirewallMetadata
+- DescribeFirewallPolicy
+- DescribeFlowOperation
+- DescribeLoggingConfiguration
+- DescribeResourcePolicy
+- DescribeRuleGroup
+- DescribeRuleGroupMetadata
+- DescribeRuleGroupSummary
+- DescribeTLSInspectionConfiguration
+- DescribeVpcEndpointAssociation
+- DisassociateAvailabilityZones
+- DisassociateSubnets
+- GetAnalysisReportResults
+- ListAnalysisReports
+- ListFirewallPolicies
+- ListFirewalls
+- ListFlowOperationResults
+- ListFlowOperations
+- ListRuleGroups
+- ListTLSInspectionConfigurations
+- ListTagsForResource
+- ListVpcEndpointAssociations
+- PutResourcePolicy
+- RejectNetworkFirewallTransitGatewayAttachment
+- StartAnalysisReport
+- StartFlowCapture
+- StartFlowFlush
+- TagResource
+- UntagResource
+- UpdateAvailabilityZoneChangeProtection
+- UpdateFirewallAnalysisSettings
+- UpdateFirewallDeleteProtection
+- UpdateFirewallDescription
+- UpdateFirewallEncryptionConfiguration
+- UpdateFirewallPolicy
+- UpdateFirewallPolicyChangeProtection
+- UpdateLoggingConfiguration
+- UpdateRuleGroup
+- UpdateSubnetChangeProtection
+- UpdateTLSInspectionConfiguration
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
