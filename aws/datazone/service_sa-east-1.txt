@@ -10,6 +10,7 @@ Operations:
 - AssociateEnvironmentRole
 - CancelMetadataGenerationRun
 - CancelSubscription
+- CreateAccountPool
 - CreateAsset
 - CreateAssetFilter
 - CreateAssetRevision
@@ -36,6 +37,7 @@ Operations:
 - CreateSubscriptionRequest
 - CreateSubscriptionTarget
 - CreateUserProfile
+- DeleteAccountPool
 - DeleteAsset
 - DeleteAssetFilter
 - DeleteAssetType
@@ -61,6 +63,7 @@ Operations:
 - DeleteSubscriptionTarget
 - DeleteTimeSeriesDataPoints
 - DisassociateEnvironmentRole
+- GetAccountPool
 - GetAsset
 - GetAssetFilter
 - GetAssetType
@@ -95,6 +98,8 @@ Operations:
 - GetSubscriptionTarget
 - GetTimeSeriesDataPoint
 - GetUserProfile
+- ListAccountPools
+- ListAccountsInAccountPool
 - ListAssetFilters
 - ListAssetRevisions
 - ListConnections
@@ -143,6 +148,7 @@ Operations:
 - StartMetadataGenerationRun
 - TagResource
 - UntagResource
+- UpdateAccountPool
 - UpdateAssetFilter
 - UpdateConnection
 - UpdateDataSource
