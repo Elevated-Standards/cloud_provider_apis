@@ -560,6 +560,7 @@ Operations:
 - ModifyImageAttribute
 - ModifyInstanceAttribute
 - ModifyInstanceCapacityReservationAttributes
+- ModifyInstanceConnectEndpoint
 - ModifyInstanceCpuOptions
 - ModifyInstanceCreditSpecification
 - ModifyInstanceEventStartTime

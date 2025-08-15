@@ -36,6 +36,7 @@ Operations:
 - CreateDataQualityRuleset
 - CreateDatabase
 - CreateDevEndpoint
+- CreateGlueIdentityCenterConfiguration
 - CreateIntegration
 - CreateIntegrationResourceProperty
 - CreateIntegrationTableProperties
@@ -66,6 +67,7 @@ Operations:
 - DeleteDataQualityRuleset
 - DeleteDatabase
 - DeleteDevEndpoint
+- DeleteGlueIdentityCenterConfiguration
 - DeleteIntegration
 - DeleteIntegrationTableProperties
 - DeleteJob
@@ -121,6 +123,7 @@ Operations:
 - GetDevEndpoint
 - GetDevEndpoints
 - GetEntityRecords
+- GetGlueIdentityCenterConfiguration
 - GetIntegrationResourceProperty
 - GetIntegrationTableProperties
 - GetJob
@@ -241,6 +244,7 @@ Operations:
 - UpdateDataQualityRuleset
 - UpdateDatabase
 - UpdateDevEndpoint
+- UpdateGlueIdentityCenterConfiguration
 - UpdateIntegrationResourceProperty
 - UpdateIntegrationTableProperties
 - UpdateJob

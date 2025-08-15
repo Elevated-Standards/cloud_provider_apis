@@ -40,6 +40,7 @@ Operations:
 - DescribeConnectClientAddIns
 - DescribeConnectionAliasPermissions
 - DescribeConnectionAliases
+- DescribeCustomWorkspaceImageImport
 - DescribeImageAssociations
 - DescribeIpGroups
 - DescribeTags
@@ -58,6 +59,7 @@ Operations:
 - DisassociateWorkspaceApplication
 - GetAccountLink
 - ImportClientBranding
+- ImportCustomWorkspaceImage
 - ImportWorkspaceImage
 - ListAccountLinks
 - ListAvailableManagementCidrRanges

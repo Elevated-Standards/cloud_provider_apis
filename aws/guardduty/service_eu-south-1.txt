@@ -13,7 +13,9 @@ Operations:
 - CreateMembers
 - CreatePublishingDestination
 - CreateSampleFindings
+- CreateThreatEntitySet
 - CreateThreatIntelSet
+- CreateTrustedEntitySet
 - DeclineInvitations
 - DeleteDetector
 - DeleteFilter
@@ -22,7 +24,9 @@ Operations:
 - DeleteMalwareProtectionPlan
 - DeleteMembers
 - DeletePublishingDestination
+- DeleteThreatEntitySet
 - DeleteThreatIntelSet
+- DeleteTrustedEntitySet
 - DescribeMalwareScans
 - DescribeOrganizationConfiguration
 - DescribePublishingDestination
@@ -46,7 +50,9 @@ Operations:
 - GetMembers
 - GetOrganizationStatistics
 - GetRemainingFreeTrialDays
+- GetThreatEntitySet
 - GetThreatIntelSet
+- GetTrustedEntitySet
 - GetUsageStatistics
 - InviteMembers
 - ListCoverage
@@ -60,7 +66,9 @@ Operations:
 - ListOrganizationAdminAccounts
 - ListPublishingDestinations
 - ListTagsForResource
+- ListThreatEntitySets
 - ListThreatIntelSets
+- ListTrustedEntitySets
 - StartMalwareScan
 - StartMonitoringMembers
 - StopMonitoringMembers
@@ -76,6 +84,8 @@ Operations:
 - UpdateMemberDetectors
 - UpdateOrganizationConfiguration
 - UpdatePublishingDestination
+- UpdateThreatEntitySet
 - UpdateThreatIntelSet
+- UpdateTrustedEntitySet
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
