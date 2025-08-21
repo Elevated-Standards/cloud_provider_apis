@@ -40,6 +40,7 @@ Operations:
 - CreateIdentityProvider
 - CreateManagedLoginBranding
 - CreateResourceServer
+- CreateTerms
 - CreateUserImportJob
 - CreateUserPool
 - CreateUserPoolClient
@@ -48,6 +49,7 @@ Operations:
 - DeleteIdentityProvider
 - DeleteManagedLoginBranding
 - DeleteResourceServer
+- DeleteTerms
 - DeleteUser
 - DeleteUserAttributes
 - DeleteUserPool
@@ -59,6 +61,7 @@ Operations:
 - DescribeManagedLoginBrandingByClient
 - DescribeResourceServer
 - DescribeRiskConfiguration
+- DescribeTerms
 - DescribeUserImportJob
 - DescribeUserPool
 - DescribeUserPoolClient
@@ -84,6 +87,7 @@ Operations:
 - ListIdentityProviders
 - ListResourceServers
 - ListTagsForResource
+- ListTerms
 - ListUserImportJobs
 - ListUserPoolClients
 - ListUserPools
@@ -111,6 +115,7 @@ Operations:
 - UpdateIdentityProvider
 - UpdateManagedLoginBranding
 - UpdateResourceServer
+- UpdateTerms
 - UpdateUserAttributes
 - UpdateUserPool
 - UpdateUserPoolClient
