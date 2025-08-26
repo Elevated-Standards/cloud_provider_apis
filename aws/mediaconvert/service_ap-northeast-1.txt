@@ -9,6 +9,7 @@ Operations:
 - CreateJobTemplate
 - CreatePreset
 - CreateQueue
+- CreateResourceShare
 - DeleteJobTemplate
 - DeletePolicy
 - DeletePreset

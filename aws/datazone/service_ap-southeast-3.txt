@@ -8,6 +8,7 @@ Operations:
 - AddEntityOwner
 - AddPolicyGrant
 - AssociateEnvironmentRole
+- AssociateGovernedTerms
 - CancelMetadataGenerationRun
 - CancelSubscription
 - CreateAccountPool
@@ -63,6 +64,7 @@ Operations:
 - DeleteSubscriptionTarget
 - DeleteTimeSeriesDataPoints
 - DisassociateEnvironmentRole
+- DisassociateGovernedTerms
 - GetAccountPool
 - GetAsset
 - GetAssetFilter
