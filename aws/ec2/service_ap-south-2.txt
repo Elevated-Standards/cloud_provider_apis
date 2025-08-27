@@ -81,6 +81,7 @@ Operations:
 - CreateFlowLogs
 - CreateFpgaImage
 - CreateImage
+- CreateImageUsageReport
 - CreateInstanceConnectEndpoint
 - CreateInstanceEventWindow
 - CreateInstanceExportTask
@@ -166,6 +167,7 @@ Operations:
 - DeleteFleets
 - DeleteFlowLogs
 - DeleteFpgaImage
+- DeleteImageUsageReport
 - DeleteInstanceConnectEndpoint
 - DeleteInstanceEventWindow
 - DeleteInternetGateway
@@ -292,6 +294,9 @@ Operations:
 - DescribeIdFormat
 - DescribeIdentityIdFormat
 - DescribeImageAttribute
+- DescribeImageReferences
+- DescribeImageUsageReportEntries
+- DescribeImageUsageReports
 - DescribeImages
 - DescribeImportImageTasks
 - DescribeImportSnapshotTasks
