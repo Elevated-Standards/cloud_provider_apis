@@ -27,6 +27,7 @@ Operations:
 - DeregisterCertificate
 - DeregisterEventTopic
 - DescribeADAssessment
+- DescribeCAEnrollmentPolicy
 - DescribeCertificate
 - DescribeClientAuthenticationSettings
 - DescribeConditionalForwarders
@@ -42,11 +43,13 @@ Operations:
 - DescribeSnapshots
 - DescribeTrusts
 - DescribeUpdateDirectory
+- DisableCAEnrollmentPolicy
 - DisableClientAuthentication
 - DisableDirectoryDataAccess
 - DisableLDAPS
 - DisableRadius
 - DisableSso
+- EnableCAEnrollmentPolicy
 - EnableClientAuthentication
 - EnableDirectoryDataAccess
 - EnableLDAPS

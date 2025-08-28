@@ -31,6 +31,7 @@ Operations:
 - DescribeFargateProfile
 - DescribeIdentityProviderConfig
 - DescribeInsight
+- DescribeInsightsRefresh
 - DescribeNodegroup
 - DescribePodIdentityAssociation
 - DescribeUpdate
@@ -50,6 +51,7 @@ Operations:
 - ListTagsForResource
 - ListUpdates
 - RegisterCluster
+- StartInsightsRefresh
 - TagResource
 - UntagResource
 - UpdateAccessEntry
