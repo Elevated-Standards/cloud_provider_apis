@@ -1,0 +1,42 @@
+Service Name      : kinesis
+Service ID        : Kinesis
+API Version       : 2013-12-02
+Endpoint Prefix   : kinesis
+Operations:
+- AddTagsToStream
+- CreateStream
+- DecreaseStreamRetentionPeriod
+- DeleteResourcePolicy
+- DeleteStream
+- DeregisterStreamConsumer
+- DescribeLimits
+- DescribeStream
+- DescribeStreamConsumer
+- DescribeStreamSummary
+- DisableEnhancedMonitoring
+- EnableEnhancedMonitoring
+- GetRecords
+- GetResourcePolicy
+- GetShardIterator
+- IncreaseStreamRetentionPeriod
+- ListShards
+- ListStreamConsumers
+- ListStreams
+- ListTagsForResource
+- ListTagsForStream
+- MergeShards
+- PutRecord
+- PutRecords
+- PutResourcePolicy
+- RegisterStreamConsumer
+- RemoveTagsFromStream
+- SplitShard
+- StartStreamEncryption
+- StopStreamEncryption
+- SubscribeToShard
+- TagResource
+- UntagResource
+- UpdateShardCount
+- UpdateStreamMode
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
