@@ -6,6 +6,7 @@ Operations:
 - AssociateChannel
 - AssociateManagedNotificationAccountContact
 - AssociateManagedNotificationAdditionalChannel
+- AssociateOrganizationalUnit
 - CreateEventRule
 - CreateNotificationConfiguration
 - DeleteEventRule
@@ -15,6 +16,7 @@ Operations:
 - DisassociateChannel
 - DisassociateManagedNotificationAccountContact
 - DisassociateManagedNotificationAdditionalChannel
+- DisassociateOrganizationalUnit
 - EnableNotificationsAccessForOrganization
 - GetEventRule
 - GetManagedNotificationChildEvent
@@ -29,9 +31,11 @@ Operations:
 - ListManagedNotificationChildEvents
 - ListManagedNotificationConfigurations
 - ListManagedNotificationEvents
+- ListMemberAccounts
 - ListNotificationConfigurations
 - ListNotificationEvents
 - ListNotificationHubs
+- ListOrganizationalUnits
 - ListTagsForResource
 - RegisterNotificationHub
 - TagResource
