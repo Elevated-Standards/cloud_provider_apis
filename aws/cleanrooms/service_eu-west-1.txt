@@ -8,6 +8,7 @@ Operations:
 - BatchGetSchemaAnalysisRule
 - CreateAnalysisTemplate
 - CreateCollaboration
+- CreateCollaborationChangeRequest
 - CreateConfiguredAudienceModelAssociation
 - CreateConfiguredTable
 - CreateConfiguredTableAnalysisRule
@@ -32,6 +33,7 @@ Operations:
 - GetAnalysisTemplate
 - GetCollaboration
 - GetCollaborationAnalysisTemplate
+- GetCollaborationChangeRequest
 - GetCollaborationConfiguredAudienceModelAssociation
 - GetCollaborationIdNamespaceAssociation
 - GetCollaborationPrivacyBudgetTemplate
@@ -50,6 +52,7 @@ Operations:
 - GetSchemaAnalysisRule
 - ListAnalysisTemplates
 - ListCollaborationAnalysisTemplates
+- ListCollaborationChangeRequests
 - ListCollaborationConfiguredAudienceModelAssociations
 - ListCollaborationIdNamespaceAssociations
 - ListCollaborationPrivacyBudgetTemplates
