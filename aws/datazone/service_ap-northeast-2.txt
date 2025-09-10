@@ -24,6 +24,7 @@ Operations:
 - CreateDomainUnit
 - CreateEnvironment
 - CreateEnvironmentAction
+- CreateEnvironmentBlueprint
 - CreateEnvironmentProfile
 - CreateFormType
 - CreateGlossary
@@ -49,6 +50,7 @@ Operations:
 - DeleteDomainUnit
 - DeleteEnvironment
 - DeleteEnvironmentAction
+- DeleteEnvironmentBlueprint
 - DeleteEnvironmentBlueprintConfiguration
 - DeleteEnvironmentProfile
 - DeleteFormType
@@ -158,6 +160,7 @@ Operations:
 - UpdateDomainUnit
 - UpdateEnvironment
 - UpdateEnvironmentAction
+- UpdateEnvironmentBlueprint
 - UpdateEnvironmentProfile
 - UpdateGlossary
 - UpdateGlossaryTerm
