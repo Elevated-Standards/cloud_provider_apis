@@ -30,6 +30,7 @@ Operations:
 - CreateTopic
 - CreateTopicRefreshSchedule
 - CreateVPCConnection
+- DeleteAccountCustomPermission
 - DeleteAccountCustomization
 - DeleteAccountSubscription
 - DeleteAnalysis
@@ -61,6 +62,7 @@ Operations:
 - DeleteUserByPrincipalId
 - DeleteUserCustomPermission
 - DeleteVPCConnection
+- DescribeAccountCustomPermission
 - DescribeAccountCustomization
 - DescribeAccountSettings
 - DescribeAccountSubscription
@@ -168,6 +170,7 @@ Operations:
 - StartDashboardSnapshotJobSchedule
 - TagResource
 - UntagResource
+- UpdateAccountCustomPermission
 - UpdateAccountCustomization
 - UpdateAccountSettings
 - UpdateAnalysis
