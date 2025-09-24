@@ -1,0 +1,25 @@
+Service Name      : kafkaconnect
+Service ID        : KafkaConnect
+API Version       : 2021-09-14
+Endpoint Prefix   : kafkaconnect
+Operations:
+- CreateConnector
+- CreateCustomPlugin
+- CreateWorkerConfiguration
+- DeleteConnector
+- DeleteCustomPlugin
+- DeleteWorkerConfiguration
+- DescribeConnector
+- DescribeConnectorOperation
+- DescribeCustomPlugin
+- DescribeWorkerConfiguration
+- ListConnectorOperations
+- ListConnectors
+- ListCustomPlugins
+- ListTagsForResource
+- ListWorkerConfigurations
+- TagResource
+- UntagResource
+- UpdateConnector
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
