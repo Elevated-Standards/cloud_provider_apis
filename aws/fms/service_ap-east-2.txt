@@ -1,0 +1,49 @@
+Service Name      : fms
+Service ID        : FMS
+API Version       : 2018-01-01
+Endpoint Prefix   : fms
+Operations:
+- AssociateAdminAccount
+- AssociateThirdPartyFirewall
+- BatchAssociateResource
+- BatchDisassociateResource
+- DeleteAppsList
+- DeleteNotificationChannel
+- DeletePolicy
+- DeleteProtocolsList
+- DeleteResourceSet
+- DisassociateAdminAccount
+- DisassociateThirdPartyFirewall
+- GetAdminAccount
+- GetAdminScope
+- GetAppsList
+- GetComplianceDetail
+- GetNotificationChannel
+- GetPolicy
+- GetProtectionStatus
+- GetProtocolsList
+- GetResourceSet
+- GetThirdPartyFirewallAssociationStatus
+- GetViolationDetails
+- ListAdminAccountsForOrganization
+- ListAdminsManagingAccount
+- ListAppsLists
+- ListComplianceStatus
+- ListDiscoveredResources
+- ListMemberAccounts
+- ListPolicies
+- ListProtocolsLists
+- ListResourceSetResources
+- ListResourceSets
+- ListTagsForResource
+- ListThirdPartyFirewallFirewallPolicies
+- PutAdminAccount
+- PutAppsList
+- PutNotificationChannel
+- PutPolicy
+- PutProtocolsList
+- PutResourceSet
+- TagResource
+- UntagResource
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
