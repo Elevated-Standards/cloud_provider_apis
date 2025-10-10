@@ -8,6 +8,7 @@ Operations:
 - CancelIngestion
 - CreateAccountCustomization
 - CreateAccountSubscription
+- CreateActionConnector
 - CreateAnalysis
 - CreateBrand
 - CreateCustomPermissions
@@ -33,6 +34,7 @@ Operations:
 - DeleteAccountCustomPermission
 - DeleteAccountCustomization
 - DeleteAccountSubscription
+- DeleteActionConnector
 - DeleteAnalysis
 - DeleteBrand
 - DeleteBrandAssignment
@@ -66,6 +68,8 @@ Operations:
 - DescribeAccountCustomization
 - DescribeAccountSettings
 - DescribeAccountSubscription
+- DescribeActionConnector
+- DescribeActionConnectorPermissions
 - DescribeAnalysis
 - DescribeAnalysisDefinition
 - DescribeAnalysisPermissions
@@ -118,7 +122,10 @@ Operations:
 - GenerateEmbedUrlForRegisteredUser
 - GenerateEmbedUrlForRegisteredUserWithIdentity
 - GetDashboardEmbedUrl
+- GetFlowMetadata
+- GetFlowPermissions
 - GetSessionEmbedUrl
+- ListActionConnectors
 - ListAnalyses
 - ListAssetBundleExportJobs
 - ListAssetBundleImportJobs
@@ -128,6 +135,7 @@ Operations:
 - ListDashboards
 - ListDataSets
 - ListDataSources
+- ListFlows
 - ListFolderMembers
 - ListFolders
 - ListFoldersForResource
@@ -157,10 +165,12 @@ Operations:
 - PutDataSetRefreshProperties
 - RegisterUser
 - RestoreAnalysis
+- SearchActionConnectors
 - SearchAnalyses
 - SearchDashboards
 - SearchDataSets
 - SearchDataSources
+- SearchFlows
 - SearchFolders
 - SearchGroups
 - SearchTopics
@@ -173,6 +183,8 @@ Operations:
 - UpdateAccountCustomPermission
 - UpdateAccountCustomization
 - UpdateAccountSettings
+- UpdateActionConnector
+- UpdateActionConnectorPermissions
 - UpdateAnalysis
 - UpdateAnalysisPermissions
 - UpdateApplicationWithTokenExchangeGrant
@@ -190,6 +202,7 @@ Operations:
 - UpdateDataSource
 - UpdateDataSourcePermissions
 - UpdateDefaultQBusinessApplication
+- UpdateFlowPermissions
 - UpdateFolder
 - UpdateFolderPermissions
 - UpdateGroup
