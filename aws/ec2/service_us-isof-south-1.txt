@@ -63,6 +63,7 @@ Operations:
 - CopyFpgaImage
 - CopyImage
 - CopySnapshot
+- CopyVolumes
 - CreateCapacityReservation
 - CreateCapacityReservationBySplitting
 - CreateCapacityReservationFleet
