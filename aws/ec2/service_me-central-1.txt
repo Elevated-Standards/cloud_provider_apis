@@ -64,6 +64,7 @@ Operations:
 - CopyImage
 - CopySnapshot
 - CopyVolumes
+- CreateCapacityManagerDataExport
 - CreateCapacityReservation
 - CreateCapacityReservationBySplitting
 - CreateCapacityReservationFleet
@@ -157,6 +158,7 @@ Operations:
 - CreateVpnConnection
 - CreateVpnConnectionRoute
 - CreateVpnGateway
+- DeleteCapacityManagerDataExport
 - DeleteCarrierGateway
 - DeleteClientVpnEndpoint
 - DeleteClientVpnRoute
@@ -261,6 +263,7 @@ Operations:
 - DescribeCapacityBlockOfferings
 - DescribeCapacityBlockStatus
 - DescribeCapacityBlocks
+- DescribeCapacityManagerDataExports
 - DescribeCapacityReservationBillingRequests
 - DescribeCapacityReservationFleets
 - DescribeCapacityReservations
@@ -428,6 +431,7 @@ Operations:
 - DisableAddressTransfer
 - DisableAllowedImagesSettings
 - DisableAwsNetworkPerformanceMetricSubscription
+- DisableCapacityManager
 - DisableEbsEncryptionByDefault
 - DisableFastLaunch
 - DisableFastSnapshotRestores
@@ -464,6 +468,7 @@ Operations:
 - EnableAddressTransfer
 - EnableAllowedImagesSettings
 - EnableAwsNetworkPerformanceMetricSubscription
+- EnableCapacityManager
 - EnableEbsEncryptionByDefault
 - EnableFastLaunch
 - EnableFastSnapshotRestores
@@ -491,6 +496,9 @@ Operations:
 - GetAssociatedEnclaveCertificateIamRoles
 - GetAssociatedIpv6PoolCidrs
 - GetAwsNetworkPerformanceData
+- GetCapacityManagerAttributes
+- GetCapacityManagerMetricData
+- GetCapacityManagerMetricDimensions
 - GetCapacityReservationUsage
 - GetCoipPoolUsage
 - GetConsoleOutput
@@ -695,6 +703,7 @@ Operations:
 - UnassignPrivateNatGatewayAddress
 - UnlockSnapshot
 - UnmonitorInstances
+- UpdateCapacityManagerOrganizationsAccess
 - UpdateSecurityGroupRuleDescriptionsEgress
 - UpdateSecurityGroupRuleDescriptionsIngress
 - WithdrawByoipCidr
