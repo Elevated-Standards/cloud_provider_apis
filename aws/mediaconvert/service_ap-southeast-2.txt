@@ -18,6 +18,7 @@ Operations:
 - DisassociateCertificate
 - GetJob
 - GetJobTemplate
+- GetJobsQueryResults
 - GetPolicy
 - GetPreset
 - GetQueue
@@ -30,6 +31,7 @@ Operations:
 - Probe
 - PutPolicy
 - SearchJobs
+- StartJobsQuery
 - TagResource
 - UntagResource
 - UpdateJobTemplate
