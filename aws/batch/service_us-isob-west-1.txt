@@ -1,0 +1,46 @@
+Service Name      : batch
+Service ID        : Batch
+API Version       : 2016-08-10
+Endpoint Prefix   : batch
+Operations:
+- CancelJob
+- CreateComputeEnvironment
+- CreateConsumableResource
+- CreateJobQueue
+- CreateSchedulingPolicy
+- CreateServiceEnvironment
+- DeleteComputeEnvironment
+- DeleteConsumableResource
+- DeleteJobQueue
+- DeleteSchedulingPolicy
+- DeleteServiceEnvironment
+- DeregisterJobDefinition
+- DescribeComputeEnvironments
+- DescribeConsumableResource
+- DescribeJobDefinitions
+- DescribeJobQueues
+- DescribeJobs
+- DescribeSchedulingPolicies
+- DescribeServiceEnvironments
+- DescribeServiceJob
+- GetJobQueueSnapshot
+- ListConsumableResources
+- ListJobs
+- ListJobsByConsumableResource
+- ListSchedulingPolicies
+- ListServiceJobs
+- ListTagsForResource
+- RegisterJobDefinition
+- SubmitJob
+- SubmitServiceJob
+- TagResource
+- TerminateJob
+- TerminateServiceJob
+- UntagResource
+- UpdateComputeEnvironment
+- UpdateConsumableResource
+- UpdateJobQueue
+- UpdateSchedulingPolicy
+- UpdateServiceEnvironment
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

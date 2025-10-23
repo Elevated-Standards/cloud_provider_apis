@@ -68,10 +68,12 @@ Operations:
 - GetEventBridgeRuleTemplate
 - GetEventBridgeRuleTemplateGroup
 - GetSignalMap
+- ListAlerts
 - ListChannelPlacementGroups
 - ListChannels
 - ListCloudWatchAlarmTemplateGroups
 - ListCloudWatchAlarmTemplates
+- ListClusterAlerts
 - ListClusters
 - ListEventBridgeRuleTemplateGroups
 - ListEventBridgeRuleTemplates
@@ -79,6 +81,7 @@ Operations:
 - ListInputDevices
 - ListInputSecurityGroups
 - ListInputs
+- ListMultiplexAlerts
 - ListMultiplexPrograms
 - ListMultiplexes
 - ListNetworks

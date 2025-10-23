@@ -9,6 +9,7 @@ Operations:
 - AssociateBot
 - AssociateContactWithUser
 - AssociateDefaultVocabulary
+- AssociateEmailAddressAlias
 - AssociateFlow
 - AssociateInstanceStorageConfig
 - AssociateLambdaFunction
@@ -113,6 +114,7 @@ Operations:
 - DisassociateAnalyticsDataSet
 - DisassociateApprovedOrigin
 - DisassociateBot
+- DisassociateEmailAddressAlias
 - DisassociateFlow
 - DisassociateInstanceStorageConfig
 - DisassociateLambdaFunction
