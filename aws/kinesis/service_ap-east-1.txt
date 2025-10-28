@@ -36,6 +36,7 @@ Operations:
 - SubscribeToShard
 - TagResource
 - UntagResource
+- UpdateMaxRecordSize
 - UpdateShardCount
 - UpdateStreamMode
 --------------------------------------------------------------------------------
