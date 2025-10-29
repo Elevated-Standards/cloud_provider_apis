@@ -266,6 +266,7 @@ Operations:
 - DescribeCapacityManagerDataExports
 - DescribeCapacityReservationBillingRequests
 - DescribeCapacityReservationFleets
+- DescribeCapacityReservationTopology
 - DescribeCapacityReservations
 - DescribeCarrierGateways
 - DescribeClassicLinkInstances
