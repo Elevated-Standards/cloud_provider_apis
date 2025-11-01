@@ -91,6 +91,8 @@ Operations:
 - CreateIpam
 - CreateIpamExternalResourceVerificationToken
 - CreateIpamPool
+- CreateIpamPrefixListResolver
+- CreateIpamPrefixListResolverTarget
 - CreateIpamResourceDiscovery
 - CreateIpamScope
 - CreateKeyPair
@@ -177,6 +179,8 @@ Operations:
 - DeleteIpam
 - DeleteIpamExternalResourceVerificationToken
 - DeleteIpamPool
+- DeleteIpamPrefixListResolver
+- DeleteIpamPrefixListResolverTarget
 - DeleteIpamResourceDiscovery
 - DeleteIpamScope
 - DeleteKeyPair
@@ -320,6 +324,8 @@ Operations:
 - DescribeIpamByoasn
 - DescribeIpamExternalResourceVerificationTokens
 - DescribeIpamPools
+- DescribeIpamPrefixListResolverTargets
+- DescribeIpamPrefixListResolvers
 - DescribeIpamResourceDiscoveries
 - DescribeIpamResourceDiscoveryAssociations
 - DescribeIpamScopes
@@ -522,6 +528,9 @@ Operations:
 - GetIpamDiscoveredResourceCidrs
 - GetIpamPoolAllocations
 - GetIpamPoolCidrs
+- GetIpamPrefixListResolverRules
+- GetIpamPrefixListResolverVersionEntries
+- GetIpamPrefixListResolverVersions
 - GetIpamResourceCidrs
 - GetLaunchTemplateData
 - GetManagedPrefixListAssociations
@@ -587,6 +596,8 @@ Operations:
 - ModifyInstancePlacement
 - ModifyIpam
 - ModifyIpamPool
+- ModifyIpamPrefixListResolver
+- ModifyIpamPrefixListResolverTarget
 - ModifyIpamResourceCidr
 - ModifyIpamResourceDiscovery
 - ModifyIpamScope
