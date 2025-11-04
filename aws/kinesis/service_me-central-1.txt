@@ -9,6 +9,7 @@ Operations:
 - DeleteResourcePolicy
 - DeleteStream
 - DeregisterStreamConsumer
+- DescribeAccountSettings
 - DescribeLimits
 - DescribeStream
 - DescribeStreamConsumer
@@ -36,8 +37,10 @@ Operations:
 - SubscribeToShard
 - TagResource
 - UntagResource
+- UpdateAccountSettings
 - UpdateMaxRecordSize
 - UpdateShardCount
 - UpdateStreamMode
+- UpdateStreamWarmThroughput
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
