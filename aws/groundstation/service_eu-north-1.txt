@@ -6,6 +6,7 @@ Operations:
 - CancelContact
 - CreateConfig
 - CreateDataflowEndpointGroup
+- CreateDataflowEndpointGroupV2
 - CreateEphemeris
 - CreateMissionProfile
 - DeleteConfig
@@ -15,6 +16,7 @@ Operations:
 - DescribeContact
 - DescribeEphemeris
 - GetAgentConfiguration
+- GetAgentTaskResponseUrl
 - GetConfig
 - GetDataflowEndpointGroup
 - GetMinuteUsage
