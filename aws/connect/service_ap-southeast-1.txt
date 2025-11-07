@@ -199,10 +199,12 @@ Operations:
 - ResumeContactRecording
 - SearchAgentStatuses
 - SearchAvailablePhoneNumbers
+- SearchContactEvaluations
 - SearchContactFlowModules
 - SearchContactFlows
 - SearchContacts
 - SearchEmailAddresses
+- SearchEvaluationForms
 - SearchHoursOfOperationOverrides
 - SearchHoursOfOperations
 - SearchPredefinedAttributes
