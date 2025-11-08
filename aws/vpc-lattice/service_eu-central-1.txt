@@ -17,6 +17,7 @@ Operations:
 - CreateTargetGroup
 - DeleteAccessLogSubscription
 - DeleteAuthPolicy
+- DeleteDomainVerification
 - DeleteListener
 - DeleteResourceConfiguration
 - DeleteResourceEndpointAssociation
@@ -32,6 +33,7 @@ Operations:
 - DeregisterTargets
 - GetAccessLogSubscription
 - GetAuthPolicy
+- GetDomainVerification
 - GetListener
 - GetResourceConfiguration
 - GetResourceGateway
@@ -44,6 +46,7 @@ Operations:
 - GetServiceNetworkVpcAssociation
 - GetTargetGroup
 - ListAccessLogSubscriptions
+- ListDomainVerifications
 - ListListeners
 - ListResourceConfigurations
 - ListResourceEndpointAssociations
@@ -61,6 +64,7 @@ Operations:
 - PutAuthPolicy
 - PutResourcePolicy
 - RegisterTargets
+- StartDomainVerification
 - TagResource
 - UntagResource
 - UpdateAccessLogSubscription
