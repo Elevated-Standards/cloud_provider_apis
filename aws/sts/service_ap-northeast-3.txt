@@ -10,6 +10,7 @@ Operations:
 - DecodeAuthorizationMessage
 - GetAccessKeyInfo
 - GetCallerIdentity
+- GetDelegatedAccessToken
 - GetFederationToken
 - GetSessionToken
 --------------------------------------------------------------------------------
