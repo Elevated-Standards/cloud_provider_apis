@@ -517,6 +517,7 @@ Operations:
 - GetFlowLogsIntegrationTemplate
 - GetGroupsForCapacityReservation
 - GetHostReservationPurchasePreview
+- GetImageAncestry
 - GetImageBlockPublicAccessState
 - GetInstanceMetadataDefaults
 - GetInstanceTpmEkPub

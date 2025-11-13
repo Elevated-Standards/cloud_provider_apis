@@ -103,6 +103,7 @@ Operations:
 - FailoverPrimaryCompute
 - GetClusterCredentials
 - GetClusterCredentialsWithIAM
+- GetIdentityCenterAuthToken
 - GetReservedNodeExchangeConfigurationOptions
 - GetReservedNodeExchangeOfferings
 - GetResourcePolicy

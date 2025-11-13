@@ -6,6 +6,8 @@ Operations:
 - AddTagsToResource
 - ApplyPendingMaintenanceAction
 - BatchStartRecommendations
+- CancelMetadataModelConversion
+- CancelMetadataModelCreation
 - CancelReplicationTaskAssessmentRun
 - CreateDataMigration
 - CreateDataProvider
@@ -54,8 +56,11 @@ Operations:
 - DescribeFleetAdvisorSchemaObjectSummary
 - DescribeFleetAdvisorSchemas
 - DescribeInstanceProfiles
+- DescribeMetadataModel
 - DescribeMetadataModelAssessments
+- DescribeMetadataModelChildren
 - DescribeMetadataModelConversions
+- DescribeMetadataModelCreations
 - DescribeMetadataModelExportsAsScript
 - DescribeMetadataModelExportsToTarget
 - DescribeMetadataModelImports
@@ -78,6 +83,7 @@ Operations:
 - DescribeSchemas
 - DescribeTableStatistics
 - ExportMetadataModelAssessment
+- GetTargetSelectionRules
 - ImportCertificate
 - ListTagsForResource
 - ModifyConversionConfiguration
@@ -102,6 +108,7 @@ Operations:
 - StartExtensionPackAssociation
 - StartMetadataModelAssessment
 - StartMetadataModelConversion
+- StartMetadataModelCreation
 - StartMetadataModelExportAsScript
 - StartMetadataModelExportToTarget
 - StartMetadataModelImport
