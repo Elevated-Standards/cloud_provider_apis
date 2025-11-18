@@ -69,6 +69,7 @@ Operations:
 - ListThreatEntitySets
 - ListThreatIntelSets
 - ListTrustedEntitySets
+- SendObjectMalwareScan
 - StartMalwareScan
 - StartMonitoringMembers
 - StopMonitoringMembers

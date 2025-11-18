@@ -69,6 +69,7 @@ Operations:
 - DeleteDevEndpoint
 - DeleteGlueIdentityCenterConfiguration
 - DeleteIntegration
+- DeleteIntegrationResourceProperty
 - DeleteIntegrationTableProperties
 - DeleteJob
 - DeleteMLTransform
@@ -184,6 +185,7 @@ Operations:
 - ListDataQualityStatistics
 - ListDevEndpoints
 - ListEntities
+- ListIntegrationResourceProperties
 - ListJobs
 - ListMLTransforms
 - ListRegistries

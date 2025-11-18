@@ -315,6 +315,8 @@ Operations:
 - DescribeInstanceEventNotificationAttributes
 - DescribeInstanceEventWindows
 - DescribeInstanceImageMetadata
+- DescribeInstanceSqlHaHistoryStates
+- DescribeInstanceSqlHaStates
 - DescribeInstanceStatus
 - DescribeInstanceTopology
 - DescribeInstanceTypeOfferings
@@ -446,6 +448,7 @@ Operations:
 - DisableImageBlockPublicAccess
 - DisableImageDeprecation
 - DisableImageDeregistrationProtection
+- DisableInstanceSqlHaStandbyDetections
 - DisableIpamOrganizationAdminAccount
 - DisableRouteServerPropagation
 - DisableSerialConsoleAccess
@@ -483,6 +486,7 @@ Operations:
 - EnableImageBlockPublicAccess
 - EnableImageDeprecation
 - EnableImageDeregistrationProtection
+- EnableInstanceSqlHaStandbyDetections
 - EnableIpamOrganizationAdminAccount
 - EnableReachabilityAnalyzerOrganizationSharing
 - EnableRouteServerPropagation
