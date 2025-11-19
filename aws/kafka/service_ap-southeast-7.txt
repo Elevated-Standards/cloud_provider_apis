@@ -22,6 +22,8 @@ Operations:
 - DescribeConfiguration
 - DescribeConfigurationRevision
 - DescribeReplicator
+- DescribeTopic
+- DescribeTopicPartitions
 - DescribeVpcConnection
 - GetBootstrapBrokers
 - GetClusterPolicy
@@ -38,6 +40,7 @@ Operations:
 - ListReplicators
 - ListScramSecrets
 - ListTagsForResource
+- ListTopics
 - ListVpcConnections
 - PutClusterPolicy
 - RebootBroker

@@ -10,6 +10,7 @@ Operations:
 - CreateLogAnomalyDetector
 - CreateLogGroup
 - CreateLogStream
+- CreateScheduledQuery
 - DeleteAccountPolicy
 - DeleteDataProtectionPolicy
 - DeleteDelivery
@@ -26,6 +27,7 @@ Operations:
 - DeleteQueryDefinition
 - DeleteResourcePolicy
 - DeleteRetentionPolicy
+- DeleteScheduledQuery
 - DeleteSubscriptionFilter
 - DeleteTransformer
 - DescribeAccountPolicies
@@ -58,12 +60,15 @@ Operations:
 - GetLogObject
 - GetLogRecord
 - GetQueryResults
+- GetScheduledQuery
+- GetScheduledQueryHistory
 - GetTransformer
 - ListAnomalies
 - ListIntegrations
 - ListLogAnomalyDetectors
 - ListLogGroups
 - ListLogGroupsForQuery
+- ListScheduledQueries
 - ListTagsForResource
 - ListTagsLogGroup
 - PutAccountPolicy
@@ -94,5 +99,6 @@ Operations:
 - UpdateAnomaly
 - UpdateDeliveryConfiguration
 - UpdateLogAnomalyDetector
+- UpdateScheduledQuery
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

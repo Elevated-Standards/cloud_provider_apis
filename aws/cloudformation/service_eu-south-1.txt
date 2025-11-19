@@ -25,6 +25,7 @@ Operations:
 - DescribeAccountLimits
 - DescribeChangeSet
 - DescribeChangeSetHooks
+- DescribeEvents
 - DescribeGeneratedTemplate
 - DescribeOrganizationsAccess
 - DescribePublisher

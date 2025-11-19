@@ -15,6 +15,7 @@ Operations:
 - CreateRestoreAccessBackupVault
 - CreateRestoreTestingPlan
 - CreateRestoreTestingSelection
+- CreateTieringConfiguration
 - DeleteBackupPlan
 - DeleteBackupSelection
 - DeleteBackupVault
@@ -26,6 +27,7 @@ Operations:
 - DeleteReportPlan
 - DeleteRestoreTestingPlan
 - DeleteRestoreTestingSelection
+- DeleteTieringConfiguration
 - DescribeBackupJob
 - DescribeBackupVault
 - DescribeCopyJob
@@ -55,6 +57,7 @@ Operations:
 - GetRestoreTestingPlan
 - GetRestoreTestingSelection
 - GetSupportedResourceTypes
+- GetTieringConfiguration
 - ListBackupJobSummaries
 - ListBackupJobs
 - ListBackupPlanTemplates
@@ -81,6 +84,7 @@ Operations:
 - ListRestoreTestingPlans
 - ListRestoreTestingSelections
 - ListTags
+- ListTieringConfigurations
 - PutBackupVaultAccessPolicy
 - PutBackupVaultLockConfiguration
 - PutBackupVaultNotifications
@@ -102,5 +106,6 @@ Operations:
 - UpdateReportPlan
 - UpdateRestoreTestingPlan
 - UpdateRestoreTestingSelection
+- UpdateTieringConfiguration
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

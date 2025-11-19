@@ -53,6 +53,7 @@ Operations:
 - ExecutePolicy
 - ExitStandby
 - GetPredictiveScalingForecast
+- LaunchInstances
 - PutLifecycleHook
 - PutNotificationConfiguration
 - PutScalingPolicy

@@ -157,6 +157,7 @@ Operations:
 - CreateVpcEndpointConnectionNotification
 - CreateVpcEndpointServiceConfiguration
 - CreateVpcPeeringConnection
+- CreateVpnConcentrator
 - CreateVpnConnection
 - CreateVpnConnectionRoute
 - CreateVpnGateway
@@ -242,6 +243,7 @@ Operations:
 - DeleteVpcEndpointServiceConfigurations
 - DeleteVpcEndpoints
 - DeleteVpcPeeringConnection
+- DeleteVpnConcentrator
 - DeleteVpnConnection
 - DeleteVpnConnectionRoute
 - DeleteVpnGateway
@@ -429,6 +431,7 @@ Operations:
 - DescribeVpcEndpoints
 - DescribeVpcPeeringConnections
 - DescribeVpcs
+- DescribeVpnConcentrators
 - DescribeVpnConnections
 - DescribeVpnGateways
 - DetachClassicLinkVpc
