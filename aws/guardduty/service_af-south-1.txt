@@ -44,6 +44,7 @@ Operations:
 - GetIPSet
 - GetInvitationsCount
 - GetMalwareProtectionPlan
+- GetMalwareScan
 - GetMalwareScanSettings
 - GetMasterAccount
 - GetMemberDetectors
@@ -62,6 +63,7 @@ Operations:
 - ListIPSets
 - ListInvitations
 - ListMalwareProtectionPlans
+- ListMalwareScans
 - ListMembers
 - ListOrganizationAdminAccounts
 - ListPublishingDestinations

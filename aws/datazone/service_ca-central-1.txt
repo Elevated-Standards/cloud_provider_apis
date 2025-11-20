@@ -9,6 +9,8 @@ Operations:
 - AddPolicyGrant
 - AssociateEnvironmentRole
 - AssociateGovernedTerms
+- BatchGetAttributesMetadata
+- BatchPutAttributesMetadata
 - CancelMetadataGenerationRun
 - CancelSubscription
 - CreateAccountPool
@@ -167,6 +169,7 @@ Operations:
 - UpdateGroupProfile
 - UpdateProject
 - UpdateProjectProfile
+- UpdateRootDomainUnitOwner
 - UpdateRule
 - UpdateSubscriptionGrantStatus
 - UpdateSubscriptionRequest

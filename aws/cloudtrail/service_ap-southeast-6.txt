@@ -36,6 +36,7 @@ Operations:
 - ListEventDataStores
 - ListImportFailures
 - ListImports
+- ListInsightsData
 - ListInsightsMetricData
 - ListPublicKeys
 - ListQueries

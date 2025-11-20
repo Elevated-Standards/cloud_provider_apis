@@ -90,6 +90,7 @@ Operations:
 - CreateInternetGateway
 - CreateIpam
 - CreateIpamExternalResourceVerificationToken
+- CreateIpamPolicy
 - CreateIpamPool
 - CreateIpamPrefixListResolver
 - CreateIpamPrefixListResolverTarget
@@ -179,6 +180,7 @@ Operations:
 - DeleteInternetGateway
 - DeleteIpam
 - DeleteIpamExternalResourceVerificationToken
+- DeleteIpamPolicy
 - DeleteIpamPool
 - DeleteIpamPrefixListResolver
 - DeleteIpamPrefixListResolverTarget
@@ -327,6 +329,7 @@ Operations:
 - DescribeInternetGateways
 - DescribeIpamByoasn
 - DescribeIpamExternalResourceVerificationTokens
+- DescribeIpamPolicies
 - DescribeIpamPools
 - DescribeIpamPrefixListResolverTargets
 - DescribeIpamPrefixListResolvers
@@ -453,6 +456,7 @@ Operations:
 - DisableImageDeregistrationProtection
 - DisableInstanceSqlHaStandbyDetections
 - DisableIpamOrganizationAdminAccount
+- DisableIpamPolicy
 - DisableRouteServerPropagation
 - DisableSerialConsoleAccess
 - DisableSnapshotBlockPublicAccess
@@ -491,6 +495,7 @@ Operations:
 - EnableImageDeregistrationProtection
 - EnableInstanceSqlHaStandbyDetections
 - EnableIpamOrganizationAdminAccount
+- EnableIpamPolicy
 - EnableReachabilityAnalyzerOrganizationSharing
 - EnableRouteServerPropagation
 - EnableSerialConsoleAccess
@@ -521,6 +526,7 @@ Operations:
 - GetDefaultCreditSpecification
 - GetEbsDefaultKmsKeyId
 - GetEbsEncryptionByDefault
+- GetEnabledIpamPolicy
 - GetFlowLogsIntegrationTemplate
 - GetGroupsForCapacityReservation
 - GetHostReservationPurchasePreview
@@ -534,6 +540,8 @@ Operations:
 - GetIpamDiscoveredAccounts
 - GetIpamDiscoveredPublicAddresses
 - GetIpamDiscoveredResourceCidrs
+- GetIpamPolicyAllocationRules
+- GetIpamPolicyOrganizationTargets
 - GetIpamPoolAllocations
 - GetIpamPoolCidrs
 - GetIpamPrefixListResolverRules
@@ -603,6 +611,7 @@ Operations:
 - ModifyInstanceNetworkPerformanceOptions
 - ModifyInstancePlacement
 - ModifyIpam
+- ModifyIpamPolicyAllocationRules
 - ModifyIpamPool
 - ModifyIpamPrefixListResolver
 - ModifyIpamPrefixListResolverTarget

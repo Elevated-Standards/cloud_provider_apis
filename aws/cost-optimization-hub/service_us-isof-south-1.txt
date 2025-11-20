@@ -5,6 +5,7 @@ Endpoint Prefix   : cost-optimization-hub
 Operations:
 - GetPreferences
 - GetRecommendation
+- ListEfficiencyMetrics
 - ListEnrollmentStatuses
 - ListRecommendationSummaries
 - ListRecommendations

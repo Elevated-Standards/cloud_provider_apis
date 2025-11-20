@@ -39,6 +39,7 @@ Operations:
 - DescribeReportJob
 - DescribeReportPlan
 - DescribeRestoreJob
+- DescribeScanJob
 - DisassociateBackupVaultMpaApprovalTeam
 - DisassociateRecoveryPoint
 - DisassociateRecoveryPointFromParent
@@ -83,6 +84,8 @@ Operations:
 - ListRestoreJobsByProtectedResource
 - ListRestoreTestingPlans
 - ListRestoreTestingSelections
+- ListScanJobSummaries
+- ListScanJobs
 - ListTags
 - ListTieringConfigurations
 - PutBackupVaultAccessPolicy
@@ -94,6 +97,7 @@ Operations:
 - StartCopyJob
 - StartReportJob
 - StartRestoreJob
+- StartScanJob
 - StopBackupJob
 - TagResource
 - UntagResource

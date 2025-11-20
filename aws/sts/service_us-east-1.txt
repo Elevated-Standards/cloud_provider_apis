@@ -13,5 +13,6 @@ Operations:
 - GetDelegatedAccessToken
 - GetFederationToken
 - GetSessionToken
+- GetWebIdentityToken
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
