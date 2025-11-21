@@ -139,6 +139,8 @@ Operations:
 - CreateTransitGateway
 - CreateTransitGatewayConnect
 - CreateTransitGatewayConnectPeer
+- CreateTransitGatewayMeteringPolicy
+- CreateTransitGatewayMeteringPolicyEntry
 - CreateTransitGatewayMulticastDomain
 - CreateTransitGatewayPeeringAttachment
 - CreateTransitGatewayPolicyTable
@@ -154,6 +156,7 @@ Operations:
 - CreateVolume
 - CreateVpc
 - CreateVpcBlockPublicAccessExclusion
+- CreateVpcEncryptionControl
 - CreateVpcEndpoint
 - CreateVpcEndpointConnectionNotification
 - CreateVpcEndpointServiceConfiguration
@@ -226,6 +229,8 @@ Operations:
 - DeleteTransitGateway
 - DeleteTransitGatewayConnect
 - DeleteTransitGatewayConnectPeer
+- DeleteTransitGatewayMeteringPolicy
+- DeleteTransitGatewayMeteringPolicyEntry
 - DeleteTransitGatewayMulticastDomain
 - DeleteTransitGatewayPeeringAttachment
 - DeleteTransitGatewayPolicyTable
@@ -241,6 +246,7 @@ Operations:
 - DeleteVolume
 - DeleteVpc
 - DeleteVpcBlockPublicAccessExclusion
+- DeleteVpcEncryptionControl
 - DeleteVpcEndpointConnectionNotifications
 - DeleteVpcEndpointServiceConfigurations
 - DeleteVpcEndpoints
@@ -403,6 +409,7 @@ Operations:
 - DescribeTransitGatewayAttachments
 - DescribeTransitGatewayConnectPeers
 - DescribeTransitGatewayConnects
+- DescribeTransitGatewayMeteringPolicies
 - DescribeTransitGatewayMulticastDomains
 - DescribeTransitGatewayPeeringAttachments
 - DescribeTransitGatewayPolicyTables
@@ -425,6 +432,7 @@ Operations:
 - DescribeVpcBlockPublicAccessOptions
 - DescribeVpcClassicLink
 - DescribeVpcClassicLinkDnsSupport
+- DescribeVpcEncryptionControls
 - DescribeVpcEndpointAssociations
 - DescribeVpcEndpointConnectionNotifications
 - DescribeVpcEndpointConnections
@@ -564,6 +572,7 @@ Operations:
 - GetSpotPlacementScores
 - GetSubnetCidrReservations
 - GetTransitGatewayAttachmentPropagations
+- GetTransitGatewayMeteringPolicyEntries
 - GetTransitGatewayMulticastDomainAssociations
 - GetTransitGatewayPolicyTableAssociations
 - GetTransitGatewayPolicyTableEntries
@@ -573,6 +582,7 @@ Operations:
 - GetVerifiedAccessEndpointPolicy
 - GetVerifiedAccessEndpointTargets
 - GetVerifiedAccessGroupPolicy
+- GetVpcResourcesBlockingEncryptionEnforcement
 - GetVpnConnectionDeviceSampleConfiguration
 - GetVpnConnectionDeviceTypes
 - GetVpnTunnelReplacementStatus
@@ -584,6 +594,7 @@ Operations:
 - ImportVolume
 - ListImagesInRecycleBin
 - ListSnapshotsInRecycleBin
+- ListVolumesInRecycleBin
 - LockSnapshot
 - ModifyAddressAttribute
 - ModifyAvailabilityZoneGroup
@@ -635,6 +646,7 @@ Operations:
 - ModifyTrafficMirrorFilterRule
 - ModifyTrafficMirrorSession
 - ModifyTransitGateway
+- ModifyTransitGatewayMeteringPolicy
 - ModifyTransitGatewayPrefixListReference
 - ModifyTransitGatewayVpcAttachment
 - ModifyVerifiedAccessEndpoint
@@ -649,6 +661,7 @@ Operations:
 - ModifyVpcAttribute
 - ModifyVpcBlockPublicAccessExclusion
 - ModifyVpcBlockPublicAccessOptions
+- ModifyVpcEncryptionControl
 - ModifyVpcEndpoint
 - ModifyVpcEndpointConnectionNotification
 - ModifyVpcEndpointServiceConfiguration
@@ -710,6 +723,7 @@ Operations:
 - RestoreManagedPrefixListVersion
 - RestoreSnapshotFromRecycleBin
 - RestoreSnapshotTier
+- RestoreVolumeFromRecycleBin
 - RevokeClientVpnIngress
 - RevokeSecurityGroupEgress
 - RevokeSecurityGroupIngress

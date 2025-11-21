@@ -30,6 +30,7 @@ Operations:
 - DeleteObjectTagging
 - DeleteObjects
 - DeletePublicAccessBlock
+- GetBucketAbac
 - GetBucketAccelerateConfiguration
 - GetBucketAcl
 - GetBucketAnalyticsConfiguration
@@ -76,6 +77,7 @@ Operations:
 - ListObjects
 - ListObjectsV2
 - ListParts
+- PutBucketAbac
 - PutBucketAccelerateConfiguration
 - PutBucketAcl
 - PutBucketAnalyticsConfiguration

@@ -7,6 +7,8 @@ Operations:
 - CancelQuantumTask
 - CreateJob
 - CreateQuantumTask
+- CreateSpendingLimit
+- DeleteSpendingLimit
 - GetDevice
 - GetJob
 - GetQuantumTask
@@ -14,7 +16,9 @@ Operations:
 - SearchDevices
 - SearchJobs
 - SearchQuantumTasks
+- SearchSpendingLimits
 - TagResource
 - UntagResource
+- UpdateSpendingLimit
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

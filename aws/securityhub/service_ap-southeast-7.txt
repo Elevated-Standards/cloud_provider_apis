@@ -68,6 +68,7 @@ Operations:
 - GetFindingHistory
 - GetFindingStatisticsV2
 - GetFindings
+- GetFindingsTrendsV2
 - GetFindingsV2
 - GetInsightResults
 - GetInsights
@@ -75,6 +76,7 @@ Operations:
 - GetMasterAccount
 - GetMembers
 - GetResourcesStatisticsV2
+- GetResourcesTrendsV2
 - GetResourcesV2
 - GetSecurityControlDefinition
 - InviteMembers
