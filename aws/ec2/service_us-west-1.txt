@@ -88,6 +88,7 @@ Operations:
 - CreateInstanceEventWindow
 - CreateInstanceExportTask
 - CreateInternetGateway
+- CreateInterruptibleCapacityReservationAllocation
 - CreateIpam
 - CreateIpamExternalResourceVerificationToken
 - CreateIpamPolicy
@@ -747,6 +748,7 @@ Operations:
 - UnlockSnapshot
 - UnmonitorInstances
 - UpdateCapacityManagerOrganizationsAccess
+- UpdateInterruptibleCapacityReservationAllocation
 - UpdateSecurityGroupRuleDescriptionsEgress
 - UpdateSecurityGroupRuleDescriptionsIngress
 - WithdrawByoipCidr

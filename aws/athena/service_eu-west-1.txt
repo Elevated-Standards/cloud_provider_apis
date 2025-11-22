@@ -34,7 +34,9 @@ Operations:
 - GetQueryExecution
 - GetQueryResults
 - GetQueryRuntimeStatistics
+- GetResourceDashboard
 - GetSession
+- GetSessionEndpoint
 - GetSessionStatus
 - GetTableMetadata
 - GetWorkGroup

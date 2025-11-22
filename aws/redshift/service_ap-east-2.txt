@@ -122,6 +122,7 @@ Operations:
 - ModifyEndpointAccess
 - ModifyEventSubscription
 - ModifyIntegration
+- ModifyLakehouseConfiguration
 - ModifyRedshiftIdcApplication
 - ModifyScheduledAction
 - ModifySnapshotCopyRetentionPeriod

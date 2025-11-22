@@ -60,6 +60,7 @@ Operations:
 - UntagResource
 - UpdateCustomDomainAssociation
 - UpdateEndpointAccess
+- UpdateLakehouseConfiguration
 - UpdateNamespace
 - UpdateScheduledAction
 - UpdateSnapshot

@@ -31,6 +31,8 @@ Operations:
 - CreateContact
 - CreateContactFlow
 - CreateContactFlowModule
+- CreateContactFlowModuleAlias
+- CreateContactFlowModuleVersion
 - CreateContactFlowVersion
 - CreateEmailAddress
 - CreateEvaluationForm
@@ -61,6 +63,8 @@ Operations:
 - DeleteContactEvaluation
 - DeleteContactFlow
 - DeleteContactFlowModule
+- DeleteContactFlowModuleAlias
+- DeleteContactFlowModuleVersion
 - DeleteContactFlowVersion
 - DeleteEmailAddress
 - DeleteEvaluationForm
@@ -90,6 +94,7 @@ Operations:
 - DescribeContactEvaluation
 - DescribeContactFlow
 - DescribeContactFlowModule
+- DescribeContactFlowModuleAlias
 - DescribeEmailAddress
 - DescribeEvaluationForm
 - DescribeHoursOfOperation
@@ -148,6 +153,8 @@ Operations:
 - ListAuthenticationProfiles
 - ListBots
 - ListContactEvaluations
+- ListContactFlowModuleAliases
+- ListContactFlowModuleVersions
 - ListContactFlowModules
 - ListContactFlowVersions
 - ListContactFlows
@@ -248,6 +255,7 @@ Operations:
 - UpdateContactEvaluation
 - UpdateContactFlowContent
 - UpdateContactFlowMetadata
+- UpdateContactFlowModuleAlias
 - UpdateContactFlowModuleContent
 - UpdateContactFlowModuleMetadata
 - UpdateContactFlowName

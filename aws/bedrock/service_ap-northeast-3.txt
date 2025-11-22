@@ -27,6 +27,7 @@ Operations:
 - DeleteAutomatedReasoningPolicyTestCase
 - DeleteCustomModel
 - DeleteCustomModelDeployment
+- DeleteEnforcedGuardrailConfiguration
 - DeleteFoundationModelAgreement
 - DeleteGuardrail
 - DeleteImportedModel
@@ -67,6 +68,7 @@ Operations:
 - ListAutomatedReasoningPolicyTestResults
 - ListCustomModelDeployments
 - ListCustomModels
+- ListEnforcedGuardrailsConfiguration
 - ListEvaluationJobs
 - ListFoundationModelAgreementOffers
 - ListFoundationModels
@@ -81,6 +83,7 @@ Operations:
 - ListPromptRouters
 - ListProvisionedModelThroughputs
 - ListTagsForResource
+- PutEnforcedGuardrailConfiguration
 - PutModelInvocationLoggingConfiguration
 - PutUseCaseForModelAccess
 - RegisterMarketplaceModelEndpoint
