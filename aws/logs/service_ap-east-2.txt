@@ -81,6 +81,7 @@ Operations:
 - PutIndexPolicy
 - PutIntegration
 - PutLogEvents
+- PutLogGroupDeletionProtection
 - PutMetricFilter
 - PutQueryDefinition
 - PutResourcePolicy
