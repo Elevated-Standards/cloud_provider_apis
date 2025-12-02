@@ -6,11 +6,13 @@ Operations:
 - AddLayerVersionPermission
 - AddPermission
 - CreateAlias
+- CreateCapacityProvider
 - CreateCodeSigningConfig
 - CreateEventSourceMapping
 - CreateFunction
 - CreateFunctionUrlConfig
 - DeleteAlias
+- DeleteCapacityProvider
 - DeleteCodeSigningConfig
 - DeleteEventSourceMapping
 - DeleteFunction
@@ -22,6 +24,7 @@ Operations:
 - DeleteProvisionedConcurrencyConfig
 - GetAccountSettings
 - GetAlias
+- GetCapacityProvider
 - GetCodeSigningConfig
 - GetEventSourceMapping
 - GetFunction
@@ -30,6 +33,7 @@ Operations:
 - GetFunctionConfiguration
 - GetFunctionEventInvokeConfig
 - GetFunctionRecursionConfig
+- GetFunctionScalingConfig
 - GetFunctionUrlConfig
 - GetLayerVersion
 - GetLayerVersionByArn
@@ -41,10 +45,12 @@ Operations:
 - InvokeAsync
 - InvokeWithResponseStream
 - ListAliases
+- ListCapacityProviders
 - ListCodeSigningConfigs
 - ListEventSourceMappings
 - ListFunctionEventInvokeConfigs
 - ListFunctionUrlConfigs
+- ListFunctionVersionsByCapacityProvider
 - ListFunctions
 - ListFunctionsByCodeSigningConfig
 - ListLayerVersions
@@ -58,6 +64,7 @@ Operations:
 - PutFunctionConcurrency
 - PutFunctionEventInvokeConfig
 - PutFunctionRecursionConfig
+- PutFunctionScalingConfig
 - PutProvisionedConcurrencyConfig
 - PutRuntimeManagementConfig
 - RemoveLayerVersionPermission
@@ -65,6 +72,7 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateAlias
+- UpdateCapacityProvider
 - UpdateCodeSigningConfig
 - UpdateEventSourceMapping
 - UpdateFunctionCode

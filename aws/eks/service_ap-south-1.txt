@@ -8,6 +8,7 @@ Operations:
 - AssociateIdentityProviderConfig
 - CreateAccessEntry
 - CreateAddon
+- CreateCapability
 - CreateCluster
 - CreateEksAnywhereSubscription
 - CreateFargateProfile
@@ -15,6 +16,7 @@ Operations:
 - CreatePodIdentityAssociation
 - DeleteAccessEntry
 - DeleteAddon
+- DeleteCapability
 - DeleteCluster
 - DeleteEksAnywhereSubscription
 - DeleteFargateProfile
@@ -25,6 +27,7 @@ Operations:
 - DescribeAddon
 - DescribeAddonConfiguration
 - DescribeAddonVersions
+- DescribeCapability
 - DescribeCluster
 - DescribeClusterVersions
 - DescribeEksAnywhereSubscription
@@ -41,6 +44,7 @@ Operations:
 - ListAccessPolicies
 - ListAddons
 - ListAssociatedAccessPolicies
+- ListCapabilities
 - ListClusters
 - ListEksAnywhereSubscriptions
 - ListFargateProfiles
@@ -56,6 +60,7 @@ Operations:
 - UntagResource
 - UpdateAccessEntry
 - UpdateAddon
+- UpdateCapability
 - UpdateClusterConfig
 - UpdateClusterVersion
 - UpdateEksAnywhereSubscription

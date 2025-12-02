@@ -18,13 +18,19 @@ Operations:
 - AssociateQueueQuickConnects
 - AssociateRoutingProfileQueues
 - AssociateSecurityKey
+- AssociateSecurityProfiles
 - AssociateTrafficDistributionGroupUser
 - AssociateUserProficiencies
+- AssociateWorkspace
 - BatchAssociateAnalyticsDataSet
+- BatchCreateDataTableValue
+- BatchDeleteDataTableValue
+- BatchDescribeDataTableValue
 - BatchDisassociateAnalyticsDataSet
 - BatchGetAttachedFileMetadata
 - BatchGetFlowAssociation
 - BatchPutContact
+- BatchUpdateDataTableValue
 - ClaimPhoneNumber
 - CompleteAttachedFileUpload
 - CreateAgentStatus
@@ -34,6 +40,8 @@ Operations:
 - CreateContactFlowModuleAlias
 - CreateContactFlowModuleVersion
 - CreateContactFlowVersion
+- CreateDataTable
+- CreateDataTableAttribute
 - CreateEmailAddress
 - CreateEvaluationForm
 - CreateHoursOfOperation
@@ -58,6 +66,8 @@ Operations:
 - CreateView
 - CreateViewVersion
 - CreateVocabulary
+- CreateWorkspace
+- CreateWorkspacePage
 - DeactivateEvaluationForm
 - DeleteAttachedFile
 - DeleteContactEvaluation
@@ -66,6 +76,8 @@ Operations:
 - DeleteContactFlowModuleAlias
 - DeleteContactFlowModuleVersion
 - DeleteContactFlowVersion
+- DeleteDataTable
+- DeleteDataTableAttribute
 - DeleteEmailAddress
 - DeleteEvaluationForm
 - DeleteHoursOfOperation
@@ -88,6 +100,9 @@ Operations:
 - DeleteView
 - DeleteViewVersion
 - DeleteVocabulary
+- DeleteWorkspace
+- DeleteWorkspaceMedia
+- DeleteWorkspacePage
 - DescribeAgentStatus
 - DescribeAuthenticationProfile
 - DescribeContact
@@ -95,6 +110,8 @@ Operations:
 - DescribeContactFlow
 - DescribeContactFlowModule
 - DescribeContactFlowModuleAlias
+- DescribeDataTable
+- DescribeDataTableAttribute
 - DescribeEmailAddress
 - DescribeEvaluationForm
 - DescribeHoursOfOperation
@@ -116,6 +133,7 @@ Operations:
 - DescribeUserHierarchyStructure
 - DescribeView
 - DescribeVocabulary
+- DescribeWorkspace
 - DisassociateAnalyticsDataSet
 - DisassociateApprovedOrigin
 - DisassociateBot
@@ -128,9 +146,12 @@ Operations:
 - DisassociateQueueQuickConnects
 - DisassociateRoutingProfileQueues
 - DisassociateSecurityKey
+- DisassociateSecurityProfiles
 - DisassociateTrafficDistributionGroupUser
 - DisassociateUserProficiencies
+- DisassociateWorkspace
 - DismissUserContact
+- EvaluateDataTableValues
 - GetAttachedFile
 - GetContactAttributes
 - GetContactMetrics
@@ -145,6 +166,7 @@ Operations:
 - GetTaskTemplate
 - GetTrafficDistribution
 - ImportPhoneNumber
+- ImportWorkspaceMedia
 - ListAgentStatuses
 - ListAnalyticsDataAssociations
 - ListAnalyticsDataLakeDataSets
@@ -159,7 +181,12 @@ Operations:
 - ListContactFlowVersions
 - ListContactFlows
 - ListContactReferences
+- ListDataTableAttributes
+- ListDataTablePrimaryValues
+- ListDataTableValues
+- ListDataTables
 - ListDefaultVocabularies
+- ListEntitySecurityProfiles
 - ListEvaluationFormVersions
 - ListEvaluationForms
 - ListFlowAssociations
@@ -185,6 +212,7 @@ Operations:
 - ListRules
 - ListSecurityKeys
 - ListSecurityProfileApplications
+- ListSecurityProfileFlowModules
 - ListSecurityProfilePermissions
 - ListSecurityProfiles
 - ListTagsForResource
@@ -197,6 +225,9 @@ Operations:
 - ListUsers
 - ListViewVersions
 - ListViews
+- ListWorkspaceMedia
+- ListWorkspacePages
+- ListWorkspaces
 - MonitorContact
 - PauseContact
 - PutUserStatus
@@ -210,6 +241,7 @@ Operations:
 - SearchContactFlowModules
 - SearchContactFlows
 - SearchContacts
+- SearchDataTables
 - SearchEmailAddresses
 - SearchEvaluationForms
 - SearchHoursOfOperationOverrides
@@ -223,12 +255,16 @@ Operations:
 - SearchSecurityProfiles
 - SearchUserHierarchyGroups
 - SearchUsers
+- SearchViews
 - SearchVocabularies
+- SearchWorkspaceAssociations
+- SearchWorkspaces
 - SendChatIntegrationEvent
 - SendOutboundEmail
 - StartAttachedFileUpload
 - StartChatContact
 - StartContactEvaluation
+- StartContactMediaProcessing
 - StartContactRecording
 - StartContactStreaming
 - StartEmailContact
@@ -239,6 +275,7 @@ Operations:
 - StartTaskContact
 - StartWebRTCContact
 - StopContact
+- StopContactMediaProcessing
 - StopContactRecording
 - StopContactStreaming
 - SubmitContactEvaluation
@@ -261,6 +298,9 @@ Operations:
 - UpdateContactFlowName
 - UpdateContactRoutingData
 - UpdateContactSchedule
+- UpdateDataTableAttribute
+- UpdateDataTableMetadata
+- UpdateDataTablePrimaryValues
 - UpdateEmailAddressMetadata
 - UpdateEvaluationForm
 - UpdateHoursOfOperation
@@ -300,5 +340,9 @@ Operations:
 - UpdateUserSecurityProfiles
 - UpdateViewContent
 - UpdateViewMetadata
+- UpdateWorkspaceMetadata
+- UpdateWorkspacePage
+- UpdateWorkspaceTheme
+- UpdateWorkspaceVisibility
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
