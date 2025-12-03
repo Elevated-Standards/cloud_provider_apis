@@ -4,6 +4,7 @@ API Version       : 2014-03-28
 Endpoint Prefix   : logs
 Operations:
 - AssociateKmsKey
+- AssociateSourceToS3TableIntegration
 - CancelExportTask
 - CreateDelivery
 - CreateExportTask
@@ -47,6 +48,7 @@ Operations:
 - DescribeResourcePolicies
 - DescribeSubscriptionFilters
 - DisassociateKmsKey
+- DisassociateSourceFromS3TableIntegration
 - FilterLogEvents
 - GetDataProtectionPolicy
 - GetDelivery
@@ -56,6 +58,7 @@ Operations:
 - GetIntegration
 - GetLogAnomalyDetector
 - GetLogEvents
+- GetLogFields
 - GetLogGroupFields
 - GetLogObject
 - GetLogRecord
@@ -63,12 +66,14 @@ Operations:
 - GetScheduledQuery
 - GetScheduledQueryHistory
 - GetTransformer
+- ListAggregateLogGroupSummaries
 - ListAnomalies
 - ListIntegrations
 - ListLogAnomalyDetectors
 - ListLogGroups
 - ListLogGroupsForQuery
 - ListScheduledQueries
+- ListSourcesForS3TableIntegration
 - ListTagsForResource
 - ListTagsLogGroup
 - PutAccountPolicy

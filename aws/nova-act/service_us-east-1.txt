@@ -1,0 +1,23 @@
+Service Name      : nova-act
+Service ID        : Nova Act
+API Version       : 2025-08-22
+Endpoint Prefix   : nova-act
+Operations:
+- CreateAct
+- CreateSession
+- CreateWorkflowDefinition
+- CreateWorkflowRun
+- DeleteWorkflowDefinition
+- DeleteWorkflowRun
+- GetWorkflowDefinition
+- GetWorkflowRun
+- InvokeActStep
+- ListActs
+- ListModels
+- ListSessions
+- ListWorkflowDefinitions
+- ListWorkflowRuns
+- UpdateAct
+- UpdateWorkflowRun
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

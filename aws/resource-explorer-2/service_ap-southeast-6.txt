@@ -1,0 +1,39 @@
+Service Name      : resource-explorer-2
+Service ID        : Resource Explorer 2
+API Version       : 2022-07-28
+Endpoint Prefix   : resource-explorer-2
+Operations:
+- AssociateDefaultView
+- BatchGetView
+- CreateIndex
+- CreateResourceExplorerSetup
+- CreateView
+- DeleteIndex
+- DeleteResourceExplorerSetup
+- DeleteView
+- DisassociateDefaultView
+- GetAccountLevelServiceConfiguration
+- GetDefaultView
+- GetIndex
+- GetManagedView
+- GetResourceExplorerSetup
+- GetServiceIndex
+- GetServiceView
+- GetView
+- ListIndexes
+- ListIndexesForMembers
+- ListManagedViews
+- ListResources
+- ListServiceIndexes
+- ListServiceViews
+- ListStreamingAccessForServices
+- ListSupportedResourceTypes
+- ListTagsForResource
+- ListViews
+- Search
+- TagResource
+- UntagResource
+- UpdateIndexType
+- UpdateView
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

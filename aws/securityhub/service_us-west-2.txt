@@ -17,7 +17,6 @@ Operations:
 - BatchUpdateFindings
 - BatchUpdateFindingsV2
 - BatchUpdateStandardsControlAssociations
-- ConnectorRegistrationsV2
 - CreateActionTarget
 - CreateAggregatorV2
 - CreateAutomationRule
@@ -94,6 +93,7 @@ Operations:
 - ListSecurityControlDefinitions
 - ListStandardsControlAssociations
 - ListTagsForResource
+- RegisterConnectorV2
 - StartConfigurationPolicyAssociation
 - StartConfigurationPolicyDisassociation
 - TagResource

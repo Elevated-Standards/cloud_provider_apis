@@ -74,6 +74,7 @@ Operations:
 - GetAssetFilter
 - GetAssetType
 - GetConnection
+- GetDataExportConfiguration
 - GetDataProduct
 - GetDataSource
 - GetDataSourceRun
@@ -139,6 +140,7 @@ Operations:
 - ListTimeSeriesDataPoints
 - PostLineageEvent
 - PostTimeSeriesDataPoints
+- PutDataExportConfiguration
 - PutEnvironmentBlueprintConfiguration
 - RejectPredictions
 - RejectSubscriptionRequest

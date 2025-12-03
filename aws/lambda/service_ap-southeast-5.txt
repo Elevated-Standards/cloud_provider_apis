@@ -5,6 +5,7 @@ Endpoint Prefix   : lambda
 Operations:
 - AddLayerVersionPermission
 - AddPermission
+- CheckpointDurableExecution
 - CreateAlias
 - CreateCapacityProvider
 - CreateCodeSigningConfig
@@ -26,6 +27,9 @@ Operations:
 - GetAlias
 - GetCapacityProvider
 - GetCodeSigningConfig
+- GetDurableExecution
+- GetDurableExecutionHistory
+- GetDurableExecutionState
 - GetEventSourceMapping
 - GetFunction
 - GetFunctionCodeSigningConfig
@@ -47,6 +51,7 @@ Operations:
 - ListAliases
 - ListCapacityProviders
 - ListCodeSigningConfigs
+- ListDurableExecutionsByFunction
 - ListEventSourceMappings
 - ListFunctionEventInvokeConfigs
 - ListFunctionUrlConfigs
@@ -69,6 +74,10 @@ Operations:
 - PutRuntimeManagementConfig
 - RemoveLayerVersionPermission
 - RemovePermission
+- SendDurableExecutionCallbackFailure
+- SendDurableExecutionCallbackHeartbeat
+- SendDurableExecutionCallbackSuccess
+- StopDurableExecution
 - TagResource
 - UntagResource
 - UpdateAlias
