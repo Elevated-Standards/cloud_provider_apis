@@ -97,6 +97,7 @@ Operations:
 - UpdateAutomatedReasoningPolicy
 - UpdateAutomatedReasoningPolicyAnnotations
 - UpdateAutomatedReasoningPolicyTestCase
+- UpdateCustomModelDeployment
 - UpdateGuardrail
 - UpdateMarketplaceModelEndpoint
 - UpdateProvisionedModelThroughput
