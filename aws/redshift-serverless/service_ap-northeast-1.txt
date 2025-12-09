@@ -25,6 +25,7 @@ Operations:
 - GetCredentials
 - GetCustomDomainAssociation
 - GetEndpointAccess
+- GetIdentityCenterAuthToken
 - GetNamespace
 - GetRecoveryPoint
 - GetReservation
