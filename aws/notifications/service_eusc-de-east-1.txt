@@ -1,0 +1,46 @@
+Service Name      : notifications
+Service ID        : Notifications
+API Version       : 2018-05-10
+Endpoint Prefix   : notifications
+Operations:
+- AssociateChannel
+- AssociateManagedNotificationAccountContact
+- AssociateManagedNotificationAdditionalChannel
+- AssociateOrganizationalUnit
+- CreateEventRule
+- CreateNotificationConfiguration
+- DeleteEventRule
+- DeleteNotificationConfiguration
+- DeregisterNotificationHub
+- DisableNotificationsAccessForOrganization
+- DisassociateChannel
+- DisassociateManagedNotificationAccountContact
+- DisassociateManagedNotificationAdditionalChannel
+- DisassociateOrganizationalUnit
+- EnableNotificationsAccessForOrganization
+- GetEventRule
+- GetManagedNotificationChildEvent
+- GetManagedNotificationConfiguration
+- GetManagedNotificationEvent
+- GetNotificationConfiguration
+- GetNotificationEvent
+- GetNotificationsAccessForOrganization
+- ListChannels
+- ListEventRules
+- ListManagedNotificationChannelAssociations
+- ListManagedNotificationChildEvents
+- ListManagedNotificationConfigurations
+- ListManagedNotificationEvents
+- ListMemberAccounts
+- ListNotificationConfigurations
+- ListNotificationEvents
+- ListNotificationHubs
+- ListOrganizationalUnits
+- ListTagsForResource
+- RegisterNotificationHub
+- TagResource
+- UntagResource
+- UpdateEventRule
+- UpdateNotificationConfiguration
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+Service Name      : sts
+Service ID        : STS
+API Version       : 2011-06-15
+Endpoint Prefix   : sts
+Operations:
+- AssumeRole
+- AssumeRoleWithSAML
+- AssumeRoleWithWebIdentity
+- AssumeRoot
+- DecodeAuthorizationMessage
+- GetAccessKeyInfo
+- GetCallerIdentity
+- GetDelegatedAccessToken
+- GetFederationToken
+- GetSessionToken
+- GetWebIdentityToken
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

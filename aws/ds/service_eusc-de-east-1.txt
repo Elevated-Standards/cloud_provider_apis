@@ -1,0 +1,87 @@
+Service Name      : ds
+Service ID        : Directory Service
+API Version       : 2015-04-16
+Endpoint Prefix   : ds
+Operations:
+- AcceptSharedDirectory
+- AddIpRoutes
+- AddRegion
+- AddTagsToResource
+- CancelSchemaExtension
+- ConnectDirectory
+- CreateAlias
+- CreateComputer
+- CreateConditionalForwarder
+- CreateDirectory
+- CreateHybridAD
+- CreateLogSubscription
+- CreateMicrosoftAD
+- CreateSnapshot
+- CreateTrust
+- DeleteADAssessment
+- DeleteConditionalForwarder
+- DeleteDirectory
+- DeleteLogSubscription
+- DeleteSnapshot
+- DeleteTrust
+- DeregisterCertificate
+- DeregisterEventTopic
+- DescribeADAssessment
+- DescribeCAEnrollmentPolicy
+- DescribeCertificate
+- DescribeClientAuthenticationSettings
+- DescribeConditionalForwarders
+- DescribeDirectories
+- DescribeDirectoryDataAccess
+- DescribeDomainControllers
+- DescribeEventTopics
+- DescribeHybridADUpdate
+- DescribeLDAPSSettings
+- DescribeRegions
+- DescribeSettings
+- DescribeSharedDirectories
+- DescribeSnapshots
+- DescribeTrusts
+- DescribeUpdateDirectory
+- DisableCAEnrollmentPolicy
+- DisableClientAuthentication
+- DisableDirectoryDataAccess
+- DisableLDAPS
+- DisableRadius
+- DisableSso
+- EnableCAEnrollmentPolicy
+- EnableClientAuthentication
+- EnableDirectoryDataAccess
+- EnableLDAPS
+- EnableRadius
+- EnableSso
+- GetDirectoryLimits
+- GetSnapshotLimits
+- ListADAssessments
+- ListCertificates
+- ListIpRoutes
+- ListLogSubscriptions
+- ListSchemaExtensions
+- ListTagsForResource
+- RegisterCertificate
+- RegisterEventTopic
+- RejectSharedDirectory
+- RemoveIpRoutes
+- RemoveRegion
+- RemoveTagsFromResource
+- ResetUserPassword
+- RestoreFromSnapshot
+- ShareDirectory
+- StartADAssessment
+- StartSchemaExtension
+- UnshareDirectory
+- UpdateConditionalForwarder
+- UpdateDirectorySetup
+- UpdateHybridAD
+- UpdateNumberOfDomainControllers
+- UpdateRadius
+- UpdateSettings
+- UpdateTrust
+- VerifyTrust
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

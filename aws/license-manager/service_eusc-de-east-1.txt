@@ -1,0 +1,69 @@
+Service Name      : license-manager
+Service ID        : License Manager
+API Version       : 2018-08-01
+Endpoint Prefix   : license-manager
+Operations:
+- AcceptGrant
+- CheckInLicense
+- CheckoutBorrowLicense
+- CheckoutLicense
+- CreateGrant
+- CreateGrantVersion
+- CreateLicense
+- CreateLicenseAssetGroup
+- CreateLicenseAssetRuleset
+- CreateLicenseConfiguration
+- CreateLicenseConversionTaskForResource
+- CreateLicenseManagerReportGenerator
+- CreateLicenseVersion
+- CreateToken
+- DeleteGrant
+- DeleteLicense
+- DeleteLicenseAssetGroup
+- DeleteLicenseAssetRuleset
+- DeleteLicenseConfiguration
+- DeleteLicenseManagerReportGenerator
+- DeleteToken
+- ExtendLicenseConsumption
+- GetAccessToken
+- GetGrant
+- GetLicense
+- GetLicenseAssetGroup
+- GetLicenseAssetRuleset
+- GetLicenseConfiguration
+- GetLicenseConversionTask
+- GetLicenseManagerReportGenerator
+- GetLicenseUsage
+- GetServiceSettings
+- ListAssetsForLicenseAssetGroup
+- ListAssociationsForLicenseConfiguration
+- ListDistributedGrants
+- ListFailuresForLicenseConfigurationOperations
+- ListLicenseAssetGroups
+- ListLicenseAssetRulesets
+- ListLicenseConfigurations
+- ListLicenseConfigurationsForOrganization
+- ListLicenseConversionTasks
+- ListLicenseManagerReportGenerators
+- ListLicenseSpecificationsForResource
+- ListLicenseVersions
+- ListLicenses
+- ListReceivedGrants
+- ListReceivedGrantsForOrganization
+- ListReceivedLicenses
+- ListReceivedLicensesForOrganization
+- ListResourceInventory
+- ListTagsForResource
+- ListTokens
+- ListUsageForLicenseConfiguration
+- RejectGrant
+- TagResource
+- UntagResource
+- UpdateLicenseAssetGroup
+- UpdateLicenseAssetRuleset
+- UpdateLicenseConfiguration
+- UpdateLicenseManagerReportGenerator
+- UpdateLicenseSpecificationsForResource
+- UpdateServiceSettings
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,37 @@
+Service Name      : servicediscovery
+Service ID        : ServiceDiscovery
+API Version       : 2017-03-14
+Endpoint Prefix   : servicediscovery
+Operations:
+- CreateHttpNamespace
+- CreatePrivateDnsNamespace
+- CreatePublicDnsNamespace
+- CreateService
+- DeleteNamespace
+- DeleteService
+- DeleteServiceAttributes
+- DeregisterInstance
+- DiscoverInstances
+- DiscoverInstancesRevision
+- GetInstance
+- GetInstancesHealthStatus
+- GetNamespace
+- GetOperation
+- GetService
+- GetServiceAttributes
+- ListInstances
+- ListNamespaces
+- ListOperations
+- ListServices
+- ListTagsForResource
+- RegisterInstance
+- TagResource
+- UntagResource
+- UpdateHttpNamespace
+- UpdateInstanceCustomHealthStatus
+- UpdatePrivateDnsNamespace
+- UpdatePublicDnsNamespace
+- UpdateService
+- UpdateServiceAttributes
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

@@ -1,0 +1,41 @@
+Service Name      : ram
+Service ID        : RAM
+API Version       : 2018-01-04
+Endpoint Prefix   : ram
+Operations:
+- AcceptResourceShareInvitation
+- AssociateResourceShare
+- AssociateResourceSharePermission
+- CreatePermission
+- CreatePermissionVersion
+- CreateResourceShare
+- DeletePermission
+- DeletePermissionVersion
+- DeleteResourceShare
+- DisassociateResourceShare
+- DisassociateResourceSharePermission
+- EnableSharingWithAwsOrganization
+- GetPermission
+- GetResourcePolicies
+- GetResourceShareAssociations
+- GetResourceShareInvitations
+- GetResourceShares
+- ListPendingInvitationResources
+- ListPermissionAssociations
+- ListPermissionVersions
+- ListPermissions
+- ListPrincipals
+- ListReplacePermissionAssociationsWork
+- ListResourceSharePermissions
+- ListResourceTypes
+- ListResources
+- PromotePermissionCreatedFromPolicy
+- PromoteResourceShareCreatedFromPolicy
+- RejectResourceShareInvitation
+- ReplacePermissionAssociations
+- SetDefaultPermissionVersion
+- TagResource
+- UntagResource
+- UpdateResourceShare
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
