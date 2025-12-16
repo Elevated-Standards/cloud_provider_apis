@@ -6,8 +6,10 @@ Operations:
 - AssociateKmsKey
 - AssociateSourceToS3TableIntegration
 - CancelExportTask
+- CancelImportTask
 - CreateDelivery
 - CreateExportTask
+- CreateImportTask
 - CreateLogAnomalyDetector
 - CreateLogGroup
 - CreateLogStream
@@ -39,6 +41,8 @@ Operations:
 - DescribeDestinations
 - DescribeExportTasks
 - DescribeFieldIndexes
+- DescribeImportTaskBatches
+- DescribeImportTasks
 - DescribeIndexPolicies
 - DescribeLogGroups
 - DescribeLogStreams
