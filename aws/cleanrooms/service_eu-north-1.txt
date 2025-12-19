@@ -79,6 +79,7 @@ Operations:
 - UntagResource
 - UpdateAnalysisTemplate
 - UpdateCollaboration
+- UpdateCollaborationChangeRequest
 - UpdateConfiguredAudienceModelAssociation
 - UpdateConfiguredTable
 - UpdateConfiguredTableAnalysisRule
