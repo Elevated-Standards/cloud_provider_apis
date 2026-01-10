@@ -137,6 +137,7 @@ Operations:
 - GetMLTransform
 - GetMLTransforms
 - GetMapping
+- GetMaterializedViewRefreshTaskRun
 - GetPartition
 - GetPartitionIndexes
 - GetPartitions
@@ -188,6 +189,7 @@ Operations:
 - ListIntegrationResourceProperties
 - ListJobs
 - ListMLTransforms
+- ListMaterializedViewRefreshTaskRuns
 - ListRegistries
 - ListSchemaVersions
 - ListSchemas
@@ -222,12 +224,14 @@ Operations:
 - StartJobRun
 - StartMLEvaluationTaskRun
 - StartMLLabelingSetGenerationTaskRun
+- StartMaterializedViewRefreshTaskRun
 - StartTrigger
 - StartWorkflowRun
 - StopColumnStatisticsTaskRun
 - StopColumnStatisticsTaskRunSchedule
 - StopCrawler
 - StopCrawlerSchedule
+- StopMaterializedViewRefreshTaskRun
 - StopSession
 - StopTrigger
 - StopWorkflowRun
