@@ -60,6 +60,7 @@ Operations:
 - CreateRule
 - CreateSecurityProfile
 - CreateTaskTemplate
+- CreateTestCase
 - CreateTrafficDistributionGroup
 - CreateUseCase
 - CreateUser
@@ -94,6 +95,7 @@ Operations:
 - DeleteRule
 - DeleteSecurityProfile
 - DeleteTaskTemplate
+- DeleteTestCase
 - DeleteTrafficDistributionGroup
 - DeleteUseCase
 - DeleteUser
@@ -128,6 +130,7 @@ Operations:
 - DescribeRoutingProfile
 - DescribeRule
 - DescribeSecurityProfile
+- DescribeTestCase
 - DescribeTrafficDistributionGroup
 - DescribeUser
 - DescribeUserHierarchyGroup
@@ -166,6 +169,7 @@ Operations:
 - GetMetricDataV2
 - GetPromptFile
 - GetTaskTemplate
+- GetTestCaseExecutionSummary
 - GetTrafficDistribution
 - ImportPhoneNumber
 - ImportWorkspaceMedia
@@ -220,6 +224,9 @@ Operations:
 - ListSecurityProfiles
 - ListTagsForResource
 - ListTaskTemplates
+- ListTestCaseExecutionRecords
+- ListTestCaseExecutions
+- ListTestCases
 - ListTrafficDistributionGroupUsers
 - ListTrafficDistributionGroups
 - ListUseCases
@@ -256,6 +263,7 @@ Operations:
 - SearchResourceTags
 - SearchRoutingProfiles
 - SearchSecurityProfiles
+- SearchTestCases
 - SearchUserHierarchyGroups
 - SearchUsers
 - SearchViews
@@ -276,11 +284,13 @@ Operations:
 - StartOutboundVoiceContact
 - StartScreenSharing
 - StartTaskContact
+- StartTestCaseExecution
 - StartWebRTCContact
 - StopContact
 - StopContactMediaProcessing
 - StopContactRecording
 - StopContactStreaming
+- StopTestCaseExecution
 - SubmitContactEvaluation
 - SuspendContactRecording
 - TagContact
@@ -332,6 +342,7 @@ Operations:
 - UpdateRule
 - UpdateSecurityProfile
 - UpdateTaskTemplate
+- UpdateTestCase
 - UpdateTrafficDistribution
 - UpdateUserHierarchy
 - UpdateUserHierarchyGroupName

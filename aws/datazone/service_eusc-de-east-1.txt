@@ -46,6 +46,7 @@ Operations:
 - DeleteAssetFilter
 - DeleteAssetType
 - DeleteConnection
+- DeleteDataExportConfiguration
 - DeleteDataProduct
 - DeleteDataSource
 - DeleteDomain
