@@ -110,6 +110,7 @@ Operations:
 - SelectObjectContent
 - UpdateBucketMetadataInventoryTableConfiguration
 - UpdateBucketMetadataJournalTableConfiguration
+- UpdateObjectEncryption
 - UploadPart
 - UploadPartCopy
 - WriteGetObjectResponse
