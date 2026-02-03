@@ -1,0 +1,23 @@
+Service Name      : emr-serverless
+Service ID        : EMR Serverless
+API Version       : 2021-07-13
+Endpoint Prefix   : emr-serverless
+Operations:
+- CancelJobRun
+- CreateApplication
+- DeleteApplication
+- GetApplication
+- GetDashboardForJobRun
+- GetJobRun
+- ListApplications
+- ListJobRunAttempts
+- ListJobRuns
+- ListTagsForResource
+- StartApplication
+- StartJobRun
+- StopApplication
+- TagResource
+- UntagResource
+- UpdateApplication
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
