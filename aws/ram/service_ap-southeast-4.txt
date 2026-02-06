@@ -29,6 +29,7 @@ Operations:
 - ListResourceSharePermissions
 - ListResourceTypes
 - ListResources
+- ListSourceAssociations
 - PromotePermissionCreatedFromPolicy
 - PromoteResourceShareCreatedFromPolicy
 - RejectResourceShareInvitation

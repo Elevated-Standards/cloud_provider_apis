@@ -62,6 +62,7 @@ Operations:
 - DeleteColumnStatisticsForTable
 - DeleteColumnStatisticsTaskSettings
 - DeleteConnection
+- DeleteConnectionType
 - DeleteCrawler
 - DeleteCustomEntityType
 - DeleteDataQualityRuleset
@@ -206,6 +207,7 @@ Operations:
 - PutSchemaVersionMetadata
 - PutWorkflowRunProperties
 - QuerySchemaVersionMetadata
+- RegisterConnectionType
 - RegisterSchemaVersion
 - RemoveSchemaVersionMetadata
 - ResetJobBookmark
