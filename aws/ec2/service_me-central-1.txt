@@ -125,6 +125,8 @@ Operations:
 - CreateRouteServerEndpoint
 - CreateRouteServerPeer
 - CreateRouteTable
+- CreateSecondaryNetwork
+- CreateSecondarySubnet
 - CreateSecurityGroup
 - CreateSnapshot
 - CreateSnapshots
@@ -217,6 +219,8 @@ Operations:
 - DeleteRouteServerEndpoint
 - DeleteRouteServerPeer
 - DeleteRouteTable
+- DeleteSecondaryNetwork
+- DeleteSecondarySubnet
 - DeleteSecurityGroup
 - DeleteSnapshot
 - DeleteSpotDatafeedSubscription
@@ -385,6 +389,9 @@ Operations:
 - DescribeRouteTables
 - DescribeScheduledInstanceAvailability
 - DescribeScheduledInstances
+- DescribeSecondaryInterfaces
+- DescribeSecondaryNetworks
+- DescribeSecondarySubnets
 - DescribeSecurityGroupReferences
 - DescribeSecurityGroupRules
 - DescribeSecurityGroupVpcAssociations
