@@ -344,6 +344,7 @@ Operations:
 - UpdateTaskTemplate
 - UpdateTestCase
 - UpdateTrafficDistribution
+- UpdateUserConfig
 - UpdateUserHierarchy
 - UpdateUserHierarchyGroupName
 - UpdateUserHierarchyStructure

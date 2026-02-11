@@ -9,11 +9,13 @@ Operations:
 - CreateClusterV2
 - CreateConfiguration
 - CreateReplicator
+- CreateTopic
 - CreateVpcConnection
 - DeleteCluster
 - DeleteClusterPolicy
 - DeleteConfiguration
 - DeleteReplicator
+- DeleteTopic
 - DeleteVpcConnection
 - DescribeCluster
 - DescribeClusterOperation
@@ -59,5 +61,6 @@ Operations:
 - UpdateReplicationInfo
 - UpdateSecurity
 - UpdateStorage
+- UpdateTopic
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
