@@ -4,6 +4,7 @@ API Version       : 2016-04-18
 Endpoint Prefix   : cognito-idp
 Operations:
 - AddCustomAttributes
+- AddUserPoolClientSecret
 - AdminAddUserToGroup
 - AdminConfirmSignUp
 - AdminCreateUser
@@ -54,6 +55,7 @@ Operations:
 - DeleteUserAttributes
 - DeleteUserPool
 - DeleteUserPoolClient
+- DeleteUserPoolClientSecret
 - DeleteUserPoolDomain
 - DeleteWebAuthnCredential
 - DescribeIdentityProvider
@@ -89,6 +91,7 @@ Operations:
 - ListTagsForResource
 - ListTerms
 - ListUserImportJobs
+- ListUserPoolClientSecrets
 - ListUserPoolClients
 - ListUserPools
 - ListUsers
