@@ -81,6 +81,7 @@ Operations:
 - ListTagsForResource
 - ListTagsLogGroup
 - PutAccountPolicy
+- PutBearerTokenAuthentication
 - PutDataProtectionPolicy
 - PutDeliveryDestination
 - PutDeliveryDestinationPolicy
