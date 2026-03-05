@@ -75,6 +75,7 @@ Operations:
 - GetComputeAuthToken
 - GetGameSessionLogUrl
 - GetInstanceAccess
+- GetPlayerConnectionDetails
 - ListAliases
 - ListBuilds
 - ListCompute

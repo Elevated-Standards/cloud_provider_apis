@@ -16,6 +16,7 @@ Operations:
 - AssociateLambdaFunction
 - AssociateLexBot
 - AssociatePhoneNumberContactFlow
+- AssociateQueueEmailAddresses
 - AssociateQueueQuickConnects
 - AssociateRoutingProfileQueues
 - AssociateSecurityKey
@@ -151,6 +152,7 @@ Operations:
 - DisassociateLambdaFunction
 - DisassociateLexBot
 - DisassociatePhoneNumberContactFlow
+- DisassociateQueueEmailAddresses
 - DisassociateQueueQuickConnects
 - DisassociateRoutingProfileQueues
 - DisassociateSecurityKey
@@ -213,6 +215,7 @@ Operations:
 - ListPhoneNumbersV2
 - ListPredefinedAttributes
 - ListPrompts
+- ListQueueEmailAddresses
 - ListQueueQuickConnects
 - ListQueues
 - ListQuickConnects
