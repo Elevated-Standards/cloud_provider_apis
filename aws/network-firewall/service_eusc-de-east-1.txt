@@ -1,0 +1,86 @@
+Service Name      : network-firewall
+Service ID        : Network Firewall
+API Version       : 2020-11-12
+Endpoint Prefix   : network-firewall
+Operations:
+- AcceptNetworkFirewallTransitGatewayAttachment
+- AssociateAvailabilityZones
+- AssociateFirewallPolicy
+- AssociateSubnets
+- AttachRuleGroupsToProxyConfiguration
+- CreateFirewall
+- CreateFirewallPolicy
+- CreateProxy
+- CreateProxyConfiguration
+- CreateProxyRuleGroup
+- CreateProxyRules
+- CreateRuleGroup
+- CreateTLSInspectionConfiguration
+- CreateVpcEndpointAssociation
+- DeleteFirewall
+- DeleteFirewallPolicy
+- DeleteNetworkFirewallTransitGatewayAttachment
+- DeleteProxy
+- DeleteProxyConfiguration
+- DeleteProxyRuleGroup
+- DeleteProxyRules
+- DeleteResourcePolicy
+- DeleteRuleGroup
+- DeleteTLSInspectionConfiguration
+- DeleteVpcEndpointAssociation
+- DescribeFirewall
+- DescribeFirewallMetadata
+- DescribeFirewallPolicy
+- DescribeFlowOperation
+- DescribeLoggingConfiguration
+- DescribeProxy
+- DescribeProxyConfiguration
+- DescribeProxyRule
+- DescribeProxyRuleGroup
+- DescribeResourcePolicy
+- DescribeRuleGroup
+- DescribeRuleGroupMetadata
+- DescribeRuleGroupSummary
+- DescribeTLSInspectionConfiguration
+- DescribeVpcEndpointAssociation
+- DetachRuleGroupsFromProxyConfiguration
+- DisassociateAvailabilityZones
+- DisassociateSubnets
+- GetAnalysisReportResults
+- ListAnalysisReports
+- ListFirewallPolicies
+- ListFirewalls
+- ListFlowOperationResults
+- ListFlowOperations
+- ListProxies
+- ListProxyConfigurations
+- ListProxyRuleGroups
+- ListRuleGroups
+- ListTLSInspectionConfigurations
+- ListTagsForResource
+- ListVpcEndpointAssociations
+- PutResourcePolicy
+- RejectNetworkFirewallTransitGatewayAttachment
+- StartAnalysisReport
+- StartFlowCapture
+- StartFlowFlush
+- TagResource
+- UntagResource
+- UpdateAvailabilityZoneChangeProtection
+- UpdateFirewallAnalysisSettings
+- UpdateFirewallDeleteProtection
+- UpdateFirewallDescription
+- UpdateFirewallEncryptionConfiguration
+- UpdateFirewallPolicy
+- UpdateFirewallPolicyChangeProtection
+- UpdateLoggingConfiguration
+- UpdateProxy
+- UpdateProxyConfiguration
+- UpdateProxyRule
+- UpdateProxyRuleGroupPriorities
+- UpdateProxyRulePriorities
+- UpdateRuleGroup
+- UpdateSubnetChangeProtection
+- UpdateTLSInspectionConfiguration
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
