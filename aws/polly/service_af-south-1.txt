@@ -10,6 +10,7 @@ Operations:
 - ListLexicons
 - ListSpeechSynthesisTasks
 - PutLexicon
+- StartSpeechSynthesisStream
 - StartSpeechSynthesisTask
 - SynthesizeSpeech
 --------------------------------------------------------------------------------
