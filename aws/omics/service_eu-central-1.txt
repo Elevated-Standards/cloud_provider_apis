@@ -8,6 +8,7 @@ Operations:
 - BatchDeleteReadSet
 - CancelAnnotationImportJob
 - CancelRun
+- CancelRunBatch
 - CancelVariantImportJob
 - CompleteMultipartReadSetUpload
 - CreateAnnotationStore
@@ -23,9 +24,11 @@ Operations:
 - CreateWorkflowVersion
 - DeleteAnnotationStore
 - DeleteAnnotationStoreVersions
+- DeleteBatch
 - DeleteReference
 - DeleteReferenceStore
 - DeleteRun
+- DeleteRunBatch
 - DeleteRunCache
 - DeleteRunGroup
 - DeleteS3AccessPolicy
@@ -37,6 +40,7 @@ Operations:
 - GetAnnotationImportJob
 - GetAnnotationStore
 - GetAnnotationStoreVersion
+- GetBatch
 - GetReadSet
 - GetReadSetActivationJob
 - GetReadSetExportJob
@@ -60,6 +64,7 @@ Operations:
 - ListAnnotationImportJobs
 - ListAnnotationStoreVersions
 - ListAnnotationStores
+- ListBatch
 - ListMultipartReadSetUploads
 - ListReadSetActivationJobs
 - ListReadSetExportJobs
@@ -73,6 +78,7 @@ Operations:
 - ListRunGroups
 - ListRunTasks
 - ListRuns
+- ListRunsInBatch
 - ListSequenceStores
 - ListShares
 - ListTagsForResource
@@ -87,6 +93,7 @@ Operations:
 - StartReadSetImportJob
 - StartReferenceImportJob
 - StartRun
+- StartRunBatch
 - StartVariantImportJob
 - TagResource
 - UntagResource
