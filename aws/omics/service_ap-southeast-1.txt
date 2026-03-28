@@ -13,6 +13,7 @@ Operations:
 - CompleteMultipartReadSetUpload
 - CreateAnnotationStore
 - CreateAnnotationStoreVersion
+- CreateConfiguration
 - CreateMultipartReadSetUpload
 - CreateReferenceStore
 - CreateRunCache
@@ -25,6 +26,7 @@ Operations:
 - DeleteAnnotationStore
 - DeleteAnnotationStoreVersions
 - DeleteBatch
+- DeleteConfiguration
 - DeleteReference
 - DeleteReferenceStore
 - DeleteRun
@@ -41,6 +43,7 @@ Operations:
 - GetAnnotationStore
 - GetAnnotationStoreVersion
 - GetBatch
+- GetConfiguration
 - GetReadSet
 - GetReadSetActivationJob
 - GetReadSetExportJob
@@ -65,6 +68,7 @@ Operations:
 - ListAnnotationStoreVersions
 - ListAnnotationStores
 - ListBatch
+- ListConfigurations
 - ListMultipartReadSetUploads
 - ListReadSetActivationJobs
 - ListReadSetExportJobs
