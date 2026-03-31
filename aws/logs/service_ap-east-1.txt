@@ -13,6 +13,7 @@ Operations:
 - CreateLogAnomalyDetector
 - CreateLogGroup
 - CreateLogStream
+- CreateLookupTable
 - CreateScheduledQuery
 - DeleteAccountPolicy
 - DeleteDataProtectionPolicy
@@ -26,6 +27,7 @@ Operations:
 - DeleteLogAnomalyDetector
 - DeleteLogGroup
 - DeleteLogStream
+- DeleteLookupTable
 - DeleteMetricFilter
 - DeleteQueryDefinition
 - DeleteResourcePolicy
@@ -46,6 +48,7 @@ Operations:
 - DescribeIndexPolicies
 - DescribeLogGroups
 - DescribeLogStreams
+- DescribeLookupTables
 - DescribeMetricFilters
 - DescribeQueries
 - DescribeQueryDefinitions
@@ -66,6 +69,7 @@ Operations:
 - GetLogGroupFields
 - GetLogObject
 - GetLogRecord
+- GetLookupTable
 - GetQueryResults
 - GetScheduledQuery
 - GetScheduledQueryHistory
@@ -110,6 +114,7 @@ Operations:
 - UpdateAnomaly
 - UpdateDeliveryConfiguration
 - UpdateLogAnomalyDetector
+- UpdateLookupTable
 - UpdateScheduledQuery
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
