@@ -75,6 +75,7 @@ Operations:
 - DescribeAnalysisPermissions
 - DescribeAssetBundleExportJob
 - DescribeAssetBundleImportJob
+- DescribeAutomationJob
 - DescribeBrand
 - DescribeBrandAssignment
 - DescribeBrandPublishedVersion
@@ -179,6 +180,7 @@ Operations:
 - SearchTopics
 - StartAssetBundleExportJob
 - StartAssetBundleImportJob
+- StartAutomationJob
 - StartDashboardSnapshotJob
 - StartDashboardSnapshotJobSchedule
 - TagResource

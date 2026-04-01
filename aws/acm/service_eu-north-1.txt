@@ -18,6 +18,7 @@ Operations:
 - RequestCertificate
 - ResendValidationEmail
 - RevokeCertificate
+- SearchCertificates
 - UpdateCertificateOptions
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
