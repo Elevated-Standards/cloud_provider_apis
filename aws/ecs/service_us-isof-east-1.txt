@@ -5,6 +5,7 @@ Endpoint Prefix   : ecs
 Operations:
 - CreateCapacityProvider
 - CreateCluster
+- CreateDaemon
 - CreateExpressGatewayService
 - CreateService
 - CreateTaskSet
@@ -12,6 +13,8 @@ Operations:
 - DeleteAttributes
 - DeleteCapacityProvider
 - DeleteCluster
+- DeleteDaemon
+- DeleteDaemonTaskDefinition
 - DeleteExpressGatewayService
 - DeleteService
 - DeleteTaskDefinitions
@@ -21,6 +24,10 @@ Operations:
 - DescribeCapacityProviders
 - DescribeClusters
 - DescribeContainerInstances
+- DescribeDaemon
+- DescribeDaemonDeployments
+- DescribeDaemonRevisions
+- DescribeDaemonTaskDefinition
 - DescribeExpressGatewayService
 - DescribeServiceDeployments
 - DescribeServiceRevisions
@@ -35,6 +42,9 @@ Operations:
 - ListAttributes
 - ListClusters
 - ListContainerInstances
+- ListDaemonDeployments
+- ListDaemonTaskDefinitions
+- ListDaemons
 - ListServiceDeployments
 - ListServices
 - ListServicesByNamespace
@@ -47,6 +57,7 @@ Operations:
 - PutAttributes
 - PutClusterCapacityProviders
 - RegisterContainerInstance
+- RegisterDaemonTaskDefinition
 - RegisterTaskDefinition
 - RunTask
 - StartTask
@@ -62,6 +73,7 @@ Operations:
 - UpdateClusterSettings
 - UpdateContainerAgent
 - UpdateContainerInstancesState
+- UpdateDaemon
 - UpdateExpressGatewayService
 - UpdateService
 - UpdateServicePrimaryTaskSet
