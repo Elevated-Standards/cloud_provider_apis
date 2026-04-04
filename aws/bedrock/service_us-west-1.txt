@@ -36,6 +36,7 @@ Operations:
 - DeleteModelInvocationLoggingConfiguration
 - DeletePromptRouter
 - DeleteProvisionedModelThroughput
+- DeleteResourcePolicy
 - DeregisterMarketplaceModelEndpoint
 - ExportAutomatedReasoningPolicyVersion
 - GetAutomatedReasoningPolicy
@@ -61,6 +62,7 @@ Operations:
 - GetModelInvocationLoggingConfiguration
 - GetPromptRouter
 - GetProvisionedModelThroughput
+- GetResourcePolicy
 - GetUseCaseForModelAccess
 - ListAutomatedReasoningPolicies
 - ListAutomatedReasoningPolicyBuildWorkflows
@@ -85,6 +87,7 @@ Operations:
 - ListTagsForResource
 - PutEnforcedGuardrailConfiguration
 - PutModelInvocationLoggingConfiguration
+- PutResourcePolicy
 - PutUseCaseForModelAccess
 - RegisterMarketplaceModelEndpoint
 - StartAutomatedReasoningPolicyBuildWorkflow
