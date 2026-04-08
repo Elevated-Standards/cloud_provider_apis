@@ -534,6 +534,7 @@ Operations:
 - GetCapacityManagerAttributes
 - GetCapacityManagerMetricData
 - GetCapacityManagerMetricDimensions
+- GetCapacityManagerMonitoredTagKeys
 - GetCapacityReservationUsage
 - GetCoipPoolUsage
 - GetConsoleOutput
@@ -754,6 +755,7 @@ Operations:
 - UnassignPrivateNatGatewayAddress
 - UnlockSnapshot
 - UnmonitorInstances
+- UpdateCapacityManagerMonitoredTagKeys
 - UpdateCapacityManagerOrganizationsAccess
 - UpdateInterruptibleCapacityReservationAllocation
 - UpdateSecurityGroupRuleDescriptionsEgress
