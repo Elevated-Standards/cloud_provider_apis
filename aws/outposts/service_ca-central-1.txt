@@ -7,6 +7,7 @@ Operations:
 - CancelOrder
 - CreateOrder
 - CreateOutpost
+- CreateRenewal
 - CreateSite
 - DeleteOutpost
 - DeleteSite
@@ -18,6 +19,7 @@ Operations:
 - GetOutpostBillingInformation
 - GetOutpostInstanceTypes
 - GetOutpostSupportedInstanceTypes
+- GetRenewalPricing
 - GetSite
 - GetSiteAddress
 - ListAssetInstances
