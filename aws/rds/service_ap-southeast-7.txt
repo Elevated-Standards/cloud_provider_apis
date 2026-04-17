@@ -101,6 +101,7 @@ Operations:
 - DescribePendingMaintenanceActions
 - DescribeReservedDBInstances
 - DescribeReservedDBInstancesOfferings
+- DescribeServerlessV2PlatformVersions
 - DescribeSourceRegions
 - DescribeTenantDatabases
 - DescribeValidDBInstanceModifications
