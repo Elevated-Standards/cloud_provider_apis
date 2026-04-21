@@ -6,6 +6,7 @@ Operations:
 - AcceptAddressTransfer
 - AcceptCapacityReservationBillingOwnership
 - AcceptReservedInstancesExchangeQuote
+- AcceptTransitGatewayClientVpnAttachment
 - AcceptTransitGatewayMulticastDomainAssociations
 - AcceptTransitGatewayPeeringAttachment
 - AcceptTransitGatewayVpcAttachment
@@ -232,6 +233,7 @@ Operations:
 - DeleteTrafficMirrorSession
 - DeleteTrafficMirrorTarget
 - DeleteTransitGateway
+- DeleteTransitGatewayClientVpnAttachment
 - DeleteTransitGatewayConnect
 - DeleteTransitGatewayConnectPeer
 - DeleteTransitGatewayMeteringPolicy
@@ -701,6 +703,7 @@ Operations:
 - RegisterTransitGatewayMulticastGroupMembers
 - RegisterTransitGatewayMulticastGroupSources
 - RejectCapacityReservationBillingOwnership
+- RejectTransitGatewayClientVpnAttachment
 - RejectTransitGatewayMulticastDomainAssociations
 - RejectTransitGatewayPeeringAttachment
 - RejectTransitGatewayVpcAttachment
