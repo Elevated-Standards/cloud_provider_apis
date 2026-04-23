@@ -570,6 +570,7 @@ Operations:
 - GetLaunchTemplateData
 - GetManagedPrefixListAssociations
 - GetManagedPrefixListEntries
+- GetManagedResourceVisibility
 - GetNetworkInsightsAccessScopeAnalysisFindings
 - GetNetworkInsightsAccessScopeContent
 - GetPasswordData
@@ -643,6 +644,7 @@ Operations:
 - ModifyLaunchTemplate
 - ModifyLocalGatewayRoute
 - ModifyManagedPrefixList
+- ModifyManagedResourceVisibility
 - ModifyNetworkInterfaceAttribute
 - ModifyPrivateDnsNameOptions
 - ModifyPublicIpDnsNameOptions

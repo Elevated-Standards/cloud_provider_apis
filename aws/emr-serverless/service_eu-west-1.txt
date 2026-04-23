@@ -9,14 +9,20 @@ Operations:
 - GetApplication
 - GetDashboardForJobRun
 - GetJobRun
+- GetResourceDashboard
+- GetSession
+- GetSessionEndpoint
 - ListApplications
 - ListJobRunAttempts
 - ListJobRuns
+- ListSessions
 - ListTagsForResource
 - StartApplication
 - StartJobRun
+- StartSession
 - StopApplication
 - TagResource
+- TerminateSession
 - UntagResource
 - UpdateApplication
 --------------------------------------------------------------------------------

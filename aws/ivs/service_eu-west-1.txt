@@ -6,15 +6,18 @@ Operations:
 - BatchGetChannel
 - BatchGetStreamKey
 - BatchStartViewerSessionRevocation
+- CreateAdConfiguration
 - CreateChannel
 - CreatePlaybackRestrictionPolicy
 - CreateRecordingConfiguration
 - CreateStreamKey
+- DeleteAdConfiguration
 - DeleteChannel
 - DeletePlaybackKeyPair
 - DeletePlaybackRestrictionPolicy
 - DeleteRecordingConfiguration
 - DeleteStreamKey
+- GetAdConfiguration
 - GetChannel
 - GetPlaybackKeyPair
 - GetPlaybackRestrictionPolicy
@@ -23,6 +26,8 @@ Operations:
 - GetStreamKey
 - GetStreamSession
 - ImportPlaybackKeyPair
+- InsertAdBreak
+- ListAdConfigurations
 - ListChannels
 - ListPlaybackKeyPairs
 - ListPlaybackRestrictionPolicies
