@@ -110,6 +110,7 @@ Operations:
 - DeleteWorkspaceMedia
 - DeleteWorkspacePage
 - DescribeAgentStatus
+- DescribeAttachedFilesConfiguration
 - DescribeAuthenticationProfile
 - DescribeContact
 - DescribeContactEvaluation
@@ -183,6 +184,7 @@ Operations:
 - ListAnalyticsDataLakeDataSets
 - ListApprovedOrigins
 - ListAssociatedContacts
+- ListAttachedFilesConfigurations
 - ListAuthenticationProfiles
 - ListBots
 - ListChildHoursOfOperations
@@ -308,6 +310,7 @@ Operations:
 - UntagContact
 - UntagResource
 - UpdateAgentStatus
+- UpdateAttachedFilesConfiguration
 - UpdateAuthenticationProfile
 - UpdateContact
 - UpdateContactAttributes
