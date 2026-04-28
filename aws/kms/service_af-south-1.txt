@@ -28,6 +28,7 @@ Operations:
 - GenerateDataKeyWithoutPlaintext
 - GenerateMac
 - GenerateRandom
+- GetKeyLastUsage
 - GetKeyPolicy
 - GetKeyRotationStatus
 - GetParametersForImport
