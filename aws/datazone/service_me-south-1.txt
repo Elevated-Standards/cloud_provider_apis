@@ -97,6 +97,7 @@ Operations:
 - GetLineageNode
 - GetListing
 - GetMetadataGenerationRun
+- GetNotebookRun
 - GetProject
 - GetProjectProfile
 - GetRule
@@ -127,6 +128,7 @@ Operations:
 - ListLineageEvents
 - ListLineageNodeHistory
 - ListMetadataGenerationRuns
+- ListNotebookRuns
 - ListNotifications
 - ListPolicyGrants
 - ListProjectMemberships
@@ -156,6 +158,8 @@ Operations:
 - SearchUserProfiles
 - StartDataSourceRun
 - StartMetadataGenerationRun
+- StartNotebookRun
+- StopNotebookRun
 - TagResource
 - UntagResource
 - UpdateAccountPool
