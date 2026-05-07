@@ -56,6 +56,7 @@ Operations:
 - EnableOrganizationAdminAccount
 - EnableSecurityHub
 - EnableSecurityHubV2
+- GenerateRecommendedPolicyV2
 - GetAdministratorAccount
 - GetAggregatorV2
 - GetAutomationRuleV2
@@ -74,6 +75,7 @@ Operations:
 - GetInvitationsCount
 - GetMasterAccount
 - GetMembers
+- GetRecommendedPolicyV2
 - GetResourcesStatisticsV2
 - GetResourcesTrendsV2
 - GetResourcesV2
