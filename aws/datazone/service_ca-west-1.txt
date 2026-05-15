@@ -33,6 +33,7 @@ Operations:
 - CreateGlossaryTerm
 - CreateGroupProfile
 - CreateListingChangeSet
+- CreateNotebook
 - CreateProject
 - CreateProjectMembership
 - CreateProjectProfile
@@ -60,6 +61,7 @@ Operations:
 - DeleteGlossary
 - DeleteGlossaryTerm
 - DeleteListing
+- DeleteNotebook
 - DeleteProject
 - DeleteProjectMembership
 - DeleteProjectProfile
@@ -97,6 +99,8 @@ Operations:
 - GetLineageNode
 - GetListing
 - GetMetadataGenerationRun
+- GetNotebook
+- GetNotebookExport
 - GetNotebookRun
 - GetProject
 - GetProjectProfile
@@ -129,6 +133,7 @@ Operations:
 - ListLineageNodeHistory
 - ListMetadataGenerationRuns
 - ListNotebookRuns
+- ListNotebooks
 - ListNotifications
 - ListPolicyGrants
 - ListProjectMemberships
@@ -158,6 +163,8 @@ Operations:
 - SearchUserProfiles
 - StartDataSourceRun
 - StartMetadataGenerationRun
+- StartNotebookExport
+- StartNotebookImport
 - StartNotebookRun
 - StopNotebookRun
 - TagResource
@@ -175,6 +182,7 @@ Operations:
 - UpdateGlossary
 - UpdateGlossaryTerm
 - UpdateGroupProfile
+- UpdateNotebook
 - UpdateProject
 - UpdateProjectProfile
 - UpdateRootDomainUnitOwner

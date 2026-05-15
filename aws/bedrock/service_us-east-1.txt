@@ -3,8 +3,10 @@ Service ID        : Bedrock
 API Version       : 2023-04-20
 Endpoint Prefix   : bedrock
 Operations:
+- BatchDeleteAdvancedPromptOptimizationJob
 - BatchDeleteEvaluationJob
 - CancelAutomatedReasoningPolicyBuildWorkflow
+- CreateAdvancedPromptOptimizationJob
 - CreateAutomatedReasoningPolicy
 - CreateAutomatedReasoningPolicyTestCase
 - CreateAutomatedReasoningPolicyVersion
@@ -39,6 +41,7 @@ Operations:
 - DeleteResourcePolicy
 - DeregisterMarketplaceModelEndpoint
 - ExportAutomatedReasoningPolicyVersion
+- GetAdvancedPromptOptimizationJob
 - GetAutomatedReasoningPolicy
 - GetAutomatedReasoningPolicyAnnotations
 - GetAutomatedReasoningPolicyBuildWorkflow
@@ -64,6 +67,7 @@ Operations:
 - GetProvisionedModelThroughput
 - GetResourcePolicy
 - GetUseCaseForModelAccess
+- ListAdvancedPromptOptimizationJobs
 - ListAutomatedReasoningPolicies
 - ListAutomatedReasoningPolicyBuildWorkflows
 - ListAutomatedReasoningPolicyTestCases
@@ -92,6 +96,7 @@ Operations:
 - RegisterMarketplaceModelEndpoint
 - StartAutomatedReasoningPolicyBuildWorkflow
 - StartAutomatedReasoningPolicyTestWorkflow
+- StopAdvancedPromptOptimizationJob
 - StopEvaluationJob
 - StopModelCustomizationJob
 - StopModelInvocationJob
