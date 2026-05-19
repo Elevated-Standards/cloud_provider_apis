@@ -343,6 +343,7 @@ Operations:
 - DescribeIpamByoasn
 - DescribeIpamExternalResourceVerificationTokens
 - DescribeIpamPolicies
+- DescribeIpamPoolAllocations
 - DescribeIpamPools
 - DescribeIpamPrefixListResolverTargets
 - DescribeIpamPrefixListResolvers
@@ -636,6 +637,7 @@ Operations:
 - ModifyIpam
 - ModifyIpamPolicyAllocationRules
 - ModifyIpamPool
+- ModifyIpamPoolAllocation
 - ModifyIpamPrefixListResolver
 - ModifyIpamPrefixListResolverTarget
 - ModifyIpamResourceCidr

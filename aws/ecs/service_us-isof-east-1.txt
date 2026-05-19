@@ -3,6 +3,7 @@ Service ID        : ECS
 API Version       : 2014-11-13
 Endpoint Prefix   : ecs
 Operations:
+- ContinueServiceDeployment
 - CreateCapacityProvider
 - CreateCluster
 - CreateDaemon
