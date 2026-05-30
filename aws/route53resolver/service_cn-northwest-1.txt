@@ -7,6 +7,9 @@ Operations:
 - AssociateResolverEndpointIpAddress
 - AssociateResolverQueryLogConfig
 - AssociateResolverRule
+- BatchCreateFirewallRule
+- BatchDeleteFirewallRule
+- BatchUpdateFirewallRule
 - CreateFirewallDomainList
 - CreateFirewallRule
 - CreateFirewallRuleGroup
@@ -46,6 +49,7 @@ Operations:
 - ListFirewallDomains
 - ListFirewallRuleGroupAssociations
 - ListFirewallRuleGroups
+- ListFirewallRuleTypes
 - ListFirewallRules
 - ListOutpostResolvers
 - ListResolverConfigs

@@ -22,6 +22,7 @@ Operations:
 - CreateIAMPolicyAssignment
 - CreateIngestion
 - CreateNamespace
+- CreateOAuthClientApplication
 - CreateRefreshSchedule
 - CreateRoleMembership
 - CreateTemplate
@@ -51,6 +52,7 @@ Operations:
 - DeleteIAMPolicyAssignment
 - DeleteIdentityPropagationConfig
 - DeleteNamespace
+- DeleteOAuthClientApplication
 - DeleteRefreshSchedule
 - DeleteRoleCustomPermission
 - DeleteRoleMembership
@@ -102,6 +104,7 @@ Operations:
 - DescribeIpRestriction
 - DescribeKeyRegistration
 - DescribeNamespace
+- DescribeOAuthClientApplication
 - DescribeQPersonalizationConfiguration
 - DescribeQuickSightQSearchConfiguration
 - DescribeRefreshSchedule
@@ -149,6 +152,7 @@ Operations:
 - ListIdentityPropagationConfigs
 - ListIngestions
 - ListNamespaces
+- ListOAuthClientApplications
 - ListRefreshSchedules
 - ListRoleMemberships
 - ListSelfUpgrades
@@ -215,6 +219,7 @@ Operations:
 - UpdateIdentityPropagationConfig
 - UpdateIpRestriction
 - UpdateKeyRegistration
+- UpdateOAuthClientApplication
 - UpdatePublicSharingSettings
 - UpdateQPersonalizationConfiguration
 - UpdateQuickSightQSearchConfiguration
