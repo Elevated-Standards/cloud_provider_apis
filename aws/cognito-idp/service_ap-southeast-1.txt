@@ -46,6 +46,7 @@ Operations:
 - CreateUserPool
 - CreateUserPoolClient
 - CreateUserPoolDomain
+- CreateUserPoolReplica
 - DeleteGroup
 - DeleteIdentityProvider
 - DeleteManagedLoginBranding
@@ -57,6 +58,7 @@ Operations:
 - DeleteUserPoolClient
 - DeleteUserPoolClientSecret
 - DeleteUserPoolDomain
+- DeleteUserPoolReplica
 - DeleteWebAuthnCredential
 - DescribeIdentityProvider
 - DescribeManagedLoginBranding
@@ -93,6 +95,7 @@ Operations:
 - ListUserImportJobs
 - ListUserPoolClientSecrets
 - ListUserPoolClients
+- ListUserPoolReplicas
 - ListUserPools
 - ListUsers
 - ListUsersInGroup
@@ -123,6 +126,7 @@ Operations:
 - UpdateUserPool
 - UpdateUserPoolClient
 - UpdateUserPoolDomain
+- UpdateUserPoolReplica
 - VerifySoftwareToken
 - VerifyUserAttribute
 --------------------------------------------------------------------------------

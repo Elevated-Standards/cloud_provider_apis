@@ -9,12 +9,14 @@ Operations:
 - CreateAccountCustomization
 - CreateAccountSubscription
 - CreateActionConnector
+- CreateAgent
 - CreateAnalysis
 - CreateBrand
 - CreateCustomPermissions
 - CreateDashboard
 - CreateDataSet
 - CreateDataSource
+- CreateFlow
 - CreateFolder
 - CreateFolderMembership
 - CreateGroup
@@ -25,6 +27,7 @@ Operations:
 - CreateOAuthClientApplication
 - CreateRefreshSchedule
 - CreateRoleMembership
+- CreateSpace
 - CreateTemplate
 - CreateTemplateAlias
 - CreateTheme
@@ -36,6 +39,7 @@ Operations:
 - DeleteAccountCustomization
 - DeleteAccountSubscription
 - DeleteActionConnector
+- DeleteAgent
 - DeleteAnalysis
 - DeleteBrand
 - DeleteBrandAssignment
@@ -45,6 +49,7 @@ Operations:
 - DeleteDataSetRefreshProperties
 - DeleteDataSource
 - DeleteDefaultQBusinessApplication
+- DeleteFlow
 - DeleteFolder
 - DeleteFolderMembership
 - DeleteGroup
@@ -56,6 +61,7 @@ Operations:
 - DeleteRefreshSchedule
 - DeleteRoleCustomPermission
 - DeleteRoleMembership
+- DeleteSpace
 - DeleteTemplate
 - DeleteTemplateAlias
 - DeleteTheme
@@ -72,6 +78,8 @@ Operations:
 - DescribeAccountSubscription
 - DescribeActionConnector
 - DescribeActionConnectorPermissions
+- DescribeAgent
+- DescribeAgentPermissions
 - DescribeAnalysis
 - DescribeAnalysisDefinition
 - DescribeAnalysisPermissions
@@ -94,6 +102,7 @@ Operations:
 - DescribeDataSource
 - DescribeDataSourcePermissions
 - DescribeDefaultQBusinessApplication
+- DescribeFlow
 - DescribeFolder
 - DescribeFolderPermissions
 - DescribeFolderResolvedPermissions
@@ -110,6 +119,8 @@ Operations:
 - DescribeRefreshSchedule
 - DescribeRoleCustomPermission
 - DescribeSelfUpgradeConfiguration
+- DescribeSpace
+- DescribeSpacePermissions
 - DescribeTemplate
 - DescribeTemplateAlias
 - DescribeTemplateDefinition
@@ -132,6 +143,7 @@ Operations:
 - GetIdentityContext
 - GetSessionEmbedUrl
 - ListActionConnectors
+- ListAgents
 - ListAnalyses
 - ListAssetBundleExportJobs
 - ListAssetBundleImportJobs
@@ -156,6 +168,8 @@ Operations:
 - ListRefreshSchedules
 - ListRoleMemberships
 - ListSelfUpgrades
+- ListSpaceResources
+- ListSpaces
 - ListTagsForResource
 - ListTemplateAliases
 - ListTemplateVersions
@@ -174,6 +188,7 @@ Operations:
 - RegisterUser
 - RestoreAnalysis
 - SearchActionConnectors
+- SearchAgents
 - SearchAnalyses
 - SearchDashboards
 - SearchDataSets
@@ -181,6 +196,7 @@ Operations:
 - SearchFlows
 - SearchFolders
 - SearchGroups
+- SearchSpaces
 - SearchTopics
 - StartAssetBundleExportJob
 - StartAssetBundleImportJob
@@ -194,6 +210,8 @@ Operations:
 - UpdateAccountSettings
 - UpdateActionConnector
 - UpdateActionConnectorPermissions
+- UpdateAgent
+- UpdateAgentPermissions
 - UpdateAnalysis
 - UpdateAnalysisPermissions
 - UpdateApplicationWithTokenExchangeGrant
@@ -211,6 +229,7 @@ Operations:
 - UpdateDataSource
 - UpdateDataSourcePermissions
 - UpdateDefaultQBusinessApplication
+- UpdateFlow
 - UpdateFlowPermissions
 - UpdateFolder
 - UpdateFolderPermissions
@@ -228,6 +247,9 @@ Operations:
 - UpdateSPICECapacityConfiguration
 - UpdateSelfUpgrade
 - UpdateSelfUpgradeConfiguration
+- UpdateSpace
+- UpdateSpacePermissions
+- UpdateSpaceResources
 - UpdateTemplate
 - UpdateTemplateAlias
 - UpdateTemplatePermissions
