@@ -112,6 +112,7 @@ Operations:
 - GetCrawlerMetrics
 - GetCrawlers
 - GetCustomEntityType
+- GetDashboardUrl
 - GetDataCatalogEncryptionSettings
 - GetDataQualityModel
 - GetDataQualityModelResult
@@ -153,6 +154,7 @@ Operations:
 - GetSecurityConfiguration
 - GetSecurityConfigurations
 - GetSession
+- GetSessionEndpoint
 - GetStatement
 - GetTable
 - GetTableOptimizer

@@ -41,6 +41,7 @@ Operations:
 - StopStream
 - TagResource
 - UntagResource
+- UpdateAdConfiguration
 - UpdateChannel
 - UpdatePlaybackRestrictionPolicy
 --------------------------------------------------------------------------------
