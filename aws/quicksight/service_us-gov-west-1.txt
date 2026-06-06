@@ -4,6 +4,7 @@ API Version       : 2018-04-01
 Endpoint Prefix   : quicksight
 Operations:
 - BatchCreateTopicReviewedAnswer
+- BatchDeleteKnowledgeBase
 - BatchDeleteTopicReviewedAnswer
 - CancelIngestion
 - CreateAccountCustomization
@@ -56,6 +57,7 @@ Operations:
 - DeleteGroupMembership
 - DeleteIAMPolicyAssignment
 - DeleteIdentityPropagationConfig
+- DeleteKnowledgeBase
 - DeleteNamespace
 - DeleteOAuthClientApplication
 - DeleteRefreshSchedule
@@ -112,6 +114,8 @@ Operations:
 - DescribeIngestion
 - DescribeIpRestriction
 - DescribeKeyRegistration
+- DescribeKnowledgeBase
+- DescribeKnowledgeBasePermissions
 - DescribeNamespace
 - DescribeOAuthClientApplication
 - DescribeQPersonalizationConfiguration
@@ -163,6 +167,7 @@ Operations:
 - ListIAMPolicyAssignmentsForUser
 - ListIdentityPropagationConfigs
 - ListIngestions
+- ListKnowledgeBases
 - ListNamespaces
 - ListOAuthClientApplications
 - ListRefreshSchedules
@@ -182,6 +187,7 @@ Operations:
 - ListTopics
 - ListUserGroups
 - ListUsers
+- ListUsersIndexCapacity
 - ListVPCConnections
 - PredictQAResults
 - PutDataSetRefreshProperties
@@ -196,6 +202,7 @@ Operations:
 - SearchFlows
 - SearchFolders
 - SearchGroups
+- SearchKnowledgeBases
 - SearchSpaces
 - SearchTopics
 - StartAssetBundleExportJob
@@ -238,6 +245,7 @@ Operations:
 - UpdateIdentityPropagationConfig
 - UpdateIpRestriction
 - UpdateKeyRegistration
+- UpdateKnowledgeBasePermissions
 - UpdateOAuthClientApplication
 - UpdatePublicSharingSettings
 - UpdateQPersonalizationConfiguration
