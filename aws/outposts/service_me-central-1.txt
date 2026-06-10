@@ -7,9 +7,11 @@ Operations:
 - CancelOrder
 - CreateOrder
 - CreateOutpost
+- CreateQuote
 - CreateRenewal
 - CreateSite
 - DeleteOutpost
+- DeleteQuote
 - DeleteSite
 - GetCapacityTask
 - GetCatalogItem
@@ -19,6 +21,7 @@ Operations:
 - GetOutpostBillingInformation
 - GetOutpostInstanceTypes
 - GetOutpostSupportedInstanceTypes
+- GetQuote
 - GetRenewalPricing
 - GetSite
 - GetSiteAddress
@@ -27,8 +30,10 @@ Operations:
 - ListBlockingInstancesForCapacityTask
 - ListCapacityTasks
 - ListCatalogItems
+- ListOrderableInstanceTypes
 - ListOrders
 - ListOutposts
+- ListQuotes
 - ListSites
 - ListTagsForResource
 - StartCapacityTask
@@ -37,6 +42,7 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateOutpost
+- UpdateQuote
 - UpdateSite
 - UpdateSiteAddress
 - UpdateSiteRackPhysicalProperties

@@ -41,6 +41,7 @@ Operations:
 - DeleteResourcePolicy
 - DeregisterMarketplaceModelEndpoint
 - ExportAutomatedReasoningPolicyVersion
+- GetAccountDataRetention
 - GetAdvancedPromptOptimizationJob
 - GetAutomatedReasoningPolicy
 - GetAutomatedReasoningPolicyAnnotations
@@ -89,6 +90,7 @@ Operations:
 - ListPromptRouters
 - ListProvisionedModelThroughputs
 - ListTagsForResource
+- PutAccountDataRetention
 - PutEnforcedGuardrailConfiguration
 - PutModelInvocationLoggingConfiguration
 - PutResourcePolicy
