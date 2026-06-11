@@ -40,6 +40,7 @@ Operations:
 - AssociateTrunkInterface
 - AssociateVpcCidrBlock
 - AttachClassicLinkVpc
+- AttachImageWatermark
 - AttachInternetGateway
 - AttachNetworkInterface
 - AttachVerifiedAccessTrustProvider
@@ -459,6 +460,7 @@ Operations:
 - DescribeVpnConnections
 - DescribeVpnGateways
 - DetachClassicLinkVpc
+- DetachImageWatermark
 - DetachInternetGateway
 - DetachNetworkInterface
 - DetachVerifiedAccessTrustProvider
