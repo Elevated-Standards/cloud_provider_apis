@@ -31,6 +31,9 @@ Operations:
 - GetPermissionPolicy
 - GetRateBasedStatementManagedKeys
 - GetRegexPatternSet
+- GetRevenueStatistics
+- GetRevenueStatisticsSummary
+- GetRevenueStatisticsTimeSeries
 - GetRuleGroup
 - GetSampledRequests
 - GetTopPathStatisticsByTraffic
@@ -46,6 +49,7 @@ Operations:
 - ListRegexPatternSets
 - ListResourcesForWebACL
 - ListRuleGroups
+- ListSettlementRecords
 - ListTagsForResource
 - ListWebACLs
 - PutLoggingConfiguration

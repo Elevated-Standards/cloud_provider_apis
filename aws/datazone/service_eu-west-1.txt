@@ -60,6 +60,7 @@ Operations:
 - DeleteFormType
 - DeleteGlossary
 - DeleteGlossaryTerm
+- DeleteLineageEvent
 - DeleteListing
 - DeleteNotebook
 - DeleteProject
