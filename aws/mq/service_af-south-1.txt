@@ -16,6 +16,7 @@ Operations:
 - DescribeBrokerInstanceOptions
 - DescribeConfiguration
 - DescribeConfigurationRevision
+- DescribeSharedResources
 - DescribeUser
 - ListBrokers
 - ListConfigurationRevisions

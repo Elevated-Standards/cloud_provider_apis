@@ -3,6 +3,7 @@ Service ID        : Glue
 API Version       : 2017-03-31
 Endpoint Prefix   : glue
 Operations:
+- AssociateGlossaryTerms
 - BatchCreatePartition
 - BatchDeleteConnection
 - BatchDeletePartition
@@ -13,6 +14,7 @@ Operations:
 - BatchGetCustomEntityTypes
 - BatchGetDataQualityResult
 - BatchGetDevEndpoints
+- BatchGetIterableForms
 - BatchGetJobs
 - BatchGetPartition
 - BatchGetTableOptimizer
@@ -36,6 +38,8 @@ Operations:
 - CreateDataQualityRuleset
 - CreateDatabase
 - CreateDevEndpoint
+- CreateGlossary
+- CreateGlossaryTerm
 - CreateGlueIdentityCenterConfiguration
 - CreateIntegration
 - CreateIntegrationResourceProperty
@@ -55,6 +59,9 @@ Operations:
 - CreateUsageProfile
 - CreateUserDefinedFunction
 - CreateWorkflow
+- DeleteAsset
+- DeleteAssetType
+- DeleteAttachment
 - DeleteBlueprint
 - DeleteCatalog
 - DeleteClassifier
@@ -68,6 +75,9 @@ Operations:
 - DeleteDataQualityRuleset
 - DeleteDatabase
 - DeleteDevEndpoint
+- DeleteFormType
+- DeleteGlossary
+- DeleteGlossaryTerm
 - DeleteGlueIdentityCenterConfiguration
 - DeleteIntegration
 - DeleteIntegrationResourceProperty
@@ -93,6 +103,9 @@ Operations:
 - DescribeEntity
 - DescribeInboundIntegrations
 - DescribeIntegrations
+- DisassociateGlossaryTerms
+- GetAsset
+- GetAssetType
 - GetBlueprint
 - GetBlueprintRun
 - GetBlueprintRuns
@@ -126,6 +139,9 @@ Operations:
 - GetDevEndpoint
 - GetDevEndpoints
 - GetEntityRecords
+- GetFormType
+- GetGlossary
+- GetGlossaryTerm
 - GetGlueIdentityCenterConfiguration
 - GetIntegrationResourceProperty
 - GetIntegrationTableProperties
@@ -175,6 +191,7 @@ Operations:
 - GetWorkflowRunProperties
 - GetWorkflowRuns
 - ImportCatalogToGlue
+- ListAssetTypes
 - ListBlueprints
 - ListColumnStatisticsTaskRuns
 - ListConnectionTypes
@@ -189,7 +206,11 @@ Operations:
 - ListDataQualityStatistics
 - ListDevEndpoints
 - ListEntities
+- ListFormTypes
+- ListGlossaries
+- ListGlossaryTerms
 - ListIntegrationResourceProperties
+- ListIterableForms
 - ListJobs
 - ListMLTransforms
 - ListMaterializedViewRefreshTaskRuns
@@ -203,8 +224,12 @@ Operations:
 - ListUsageProfiles
 - ListWorkflows
 - ModifyIntegration
+- PutAsset
+- PutAssetType
+- PutAttachment
 - PutDataCatalogEncryptionSettings
 - PutDataQualityProfileAnnotation
+- PutFormType
 - PutResourcePolicy
 - PutSchemaVersionMetadata
 - PutWorkflowRunProperties
@@ -215,6 +240,7 @@ Operations:
 - ResetJobBookmark
 - ResumeWorkflowRun
 - RunStatement
+- Search
 - SearchTables
 - StartBlueprintRun
 - StartColumnStatisticsTaskRun
@@ -254,6 +280,8 @@ Operations:
 - UpdateDataQualityRuleset
 - UpdateDatabase
 - UpdateDevEndpoint
+- UpdateGlossary
+- UpdateGlossaryTerm
 - UpdateGlueIdentityCenterConfiguration
 - UpdateIntegrationResourceProperty
 - UpdateIntegrationTableProperties
