@@ -169,6 +169,7 @@ Operations:
 - GetCurrentMetricData
 - GetCurrentUserData
 - GetEffectiveHoursOfOperations
+- GetEvaluationFormValidation
 - GetFederationToken
 - GetFlowAssociation
 - GetMetricData
@@ -290,6 +291,7 @@ Operations:
 - StartContactRecording
 - StartContactStreaming
 - StartEmailContact
+- StartEvaluationFormValidation
 - StartOutboundChatContact
 - StartOutboundEmailContact
 - StartOutboundVoiceContact

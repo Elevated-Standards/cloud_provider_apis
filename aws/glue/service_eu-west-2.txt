@@ -240,7 +240,7 @@ Operations:
 - ResetJobBookmark
 - ResumeWorkflowRun
 - RunStatement
-- Search
+- SearchAssets
 - SearchTables
 - StartBlueprintRun
 - StartColumnStatisticsTaskRun
