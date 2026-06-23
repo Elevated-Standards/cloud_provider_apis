@@ -9,6 +9,7 @@ Operations:
 - CreateDetector
 - CreateFilter
 - CreateIPSet
+- CreateInvestigation
 - CreateMalwareProtectionPlan
 - CreateMembers
 - CreatePublishingDestination
@@ -42,6 +43,7 @@ Operations:
 - GetFindings
 - GetFindingsStatistics
 - GetIPSet
+- GetInvestigation
 - GetInvitationsCount
 - GetMalwareProtectionPlan
 - GetMalwareScan
@@ -61,6 +63,7 @@ Operations:
 - ListFilters
 - ListFindings
 - ListIPSets
+- ListInvestigations
 - ListInvitations
 - ListMalwareProtectionPlans
 - ListMalwareScans

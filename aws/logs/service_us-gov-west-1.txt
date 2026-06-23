@@ -34,6 +34,7 @@ Operations:
 - DeleteRetentionPolicy
 - DeleteScheduledQuery
 - DeleteSubscriptionFilter
+- DeleteSyslogConfiguration
 - DeleteTransformer
 - DescribeAccountPolicies
 - DescribeConfigurationTemplates
@@ -82,6 +83,7 @@ Operations:
 - ListLogGroupsForQuery
 - ListScheduledQueries
 - ListSourcesForS3TableIntegration
+- ListSyslogConfigurations
 - ListTagsForResource
 - ListTagsLogGroup
 - PutAccountPolicy
@@ -101,6 +103,7 @@ Operations:
 - PutResourcePolicy
 - PutRetentionPolicy
 - PutSubscriptionFilter
+- PutSyslogConfiguration
 - PutTransformer
 - StartLiveTail
 - StartQuery
