@@ -7,6 +7,7 @@ Operations:
 - CreateConfigurationProfile
 - CreateDeploymentStrategy
 - CreateEnvironment
+- CreateExperimentDefinition
 - CreateExtension
 - CreateExtensionAssociation
 - CreateHostedConfigurationVersion
@@ -14,6 +15,7 @@ Operations:
 - DeleteConfigurationProfile
 - DeleteDeploymentStrategy
 - DeleteEnvironment
+- DeleteExperimentDefinition
 - DeleteExtension
 - DeleteExtensionAssociation
 - DeleteHostedConfigurationVersion
@@ -24,6 +26,8 @@ Operations:
 - GetDeployment
 - GetDeploymentStrategy
 - GetEnvironment
+- GetExperimentDefinition
+- GetExperimentRun
 - GetExtension
 - GetExtensionAssociation
 - GetHostedConfigurationVersion
@@ -32,12 +36,17 @@ Operations:
 - ListDeploymentStrategies
 - ListDeployments
 - ListEnvironments
+- ListExperimentDefinitions
+- ListExperimentRunEvents
+- ListExperimentRuns
 - ListExtensionAssociations
 - ListExtensions
 - ListHostedConfigurationVersions
 - ListTagsForResource
 - StartDeployment
+- StartExperimentRun
 - StopDeployment
+- StopExperimentRun
 - TagResource
 - UntagResource
 - UpdateAccountSettings
@@ -45,6 +54,8 @@ Operations:
 - UpdateConfigurationProfile
 - UpdateDeploymentStrategy
 - UpdateEnvironment
+- UpdateExperimentDefinition
+- UpdateExperimentRun
 - UpdateExtension
 - UpdateExtensionAssociation
 - ValidateConfiguration
