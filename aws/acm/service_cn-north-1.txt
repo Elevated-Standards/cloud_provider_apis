@@ -4,21 +4,43 @@ API Version       : 2015-12-08
 Endpoint Prefix   : acm
 Operations:
 - AddTagsToCertificate
+- CreateAcmeDomainValidation
+- CreateAcmeEndpoint
+- CreateAcmeExternalAccountBinding
+- DeleteAcmeDomainValidation
+- DeleteAcmeEndpoint
+- DeleteAcmeExternalAccountBinding
 - DeleteCertificate
+- DescribeAcmeAccount
+- DescribeAcmeDomainValidation
+- DescribeAcmeEndpoint
+- DescribeAcmeExternalAccountBinding
 - DescribeCertificate
 - ExportCertificate
 - GetAccountConfiguration
+- GetAcmeExternalAccountBindingCredentials
 - GetCertificate
 - ImportCertificate
+- ListAcmeAccounts
+- ListAcmeDomainValidations
+- ListAcmeEndpoints
+- ListAcmeExternalAccountBindings
 - ListCertificates
 - ListTagsForCertificate
+- ListTagsForResource
 - PutAccountConfiguration
 - RemoveTagsFromCertificate
 - RenewCertificate
 - RequestCertificate
 - ResendValidationEmail
+- RevokeAcmeAccount
+- RevokeAcmeExternalAccountBinding
 - RevokeCertificate
 - SearchCertificates
+- TagResource
+- UntagResource
+- UpdateAcmeDomainValidation
+- UpdateAcmeEndpoint
 - UpdateCertificateOptions
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

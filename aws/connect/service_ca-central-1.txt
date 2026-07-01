@@ -36,6 +36,7 @@ Operations:
 - ClaimPhoneNumber
 - CompleteAttachedFileUpload
 - CreateAgentStatus
+- CreateAttachedFile
 - CreateContact
 - CreateContactFlow
 - CreateContactFlowModule
@@ -286,6 +287,7 @@ Operations:
 - SendOutboundEmail
 - StartAttachedFileUpload
 - StartChatContact
+- StartContactConversationalAnalyticsJob
 - StartContactEvaluation
 - StartContactMediaProcessing
 - StartContactRecording

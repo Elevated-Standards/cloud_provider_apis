@@ -683,6 +683,7 @@ Operations:
 - ModifyVpcEncryptionControl
 - ModifyVpcEndpoint
 - ModifyVpcEndpointConnectionNotification
+- ModifyVpcEndpointPayerResponsibility
 - ModifyVpcEndpointServiceConfiguration
 - ModifyVpcEndpointServicePayerResponsibility
 - ModifyVpcEndpointServicePermissions

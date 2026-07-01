@@ -6,6 +6,7 @@ Operations:
 - AssociateAccessPolicy
 - AssociateEncryptionConfig
 - AssociateIdentityProviderConfig
+- CancelUpdate
 - CreateAccessEntry
 - CreateAddon
 - CreateCapability

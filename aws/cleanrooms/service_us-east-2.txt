@@ -16,6 +16,8 @@ Operations:
 - CreateConfiguredTableAssociationAnalysisRule
 - CreateIdMappingTable
 - CreateIdNamespaceAssociation
+- CreateIntermediateTable
+- CreateIntermediateTableAnalysisRule
 - CreateMembership
 - CreatePrivacyBudgetTemplate
 - DeleteAnalysisTemplate
@@ -27,9 +29,12 @@ Operations:
 - DeleteConfiguredTableAssociationAnalysisRule
 - DeleteIdMappingTable
 - DeleteIdNamespaceAssociation
+- DeleteIntermediateTable
+- DeleteIntermediateTableAnalysisRule
 - DeleteMember
 - DeleteMembership
 - DeletePrivacyBudgetTemplate
+- DisallowIntermediateTable
 - GetAnalysisTemplate
 - GetCollaboration
 - GetCollaborationAnalysisTemplate
@@ -44,6 +49,8 @@ Operations:
 - GetConfiguredTableAssociationAnalysisRule
 - GetIdMappingTable
 - GetIdNamespaceAssociation
+- GetIntermediateTable
+- GetIntermediateTableAnalysisRule
 - GetMembership
 - GetPrivacyBudgetTemplate
 - GetProtectedJob
@@ -63,6 +70,8 @@ Operations:
 - ListConfiguredTables
 - ListIdMappingTables
 - ListIdNamespaceAssociations
+- ListIntermediateTableVersions
+- ListIntermediateTables
 - ListMembers
 - ListMemberships
 - ListPrivacyBudgetTemplates
@@ -72,6 +81,7 @@ Operations:
 - ListSchemas
 - ListTagsForResource
 - PopulateIdMappingTable
+- PopulateIntermediateTable
 - PreviewPrivacyImpact
 - StartProtectedJob
 - StartProtectedQuery
@@ -87,6 +97,8 @@ Operations:
 - UpdateConfiguredTableAssociationAnalysisRule
 - UpdateIdMappingTable
 - UpdateIdNamespaceAssociation
+- UpdateIntermediateTable
+- UpdateIntermediateTableAnalysisRule
 - UpdateMembership
 - UpdatePrivacyBudgetTemplate
 - UpdateProtectedJob

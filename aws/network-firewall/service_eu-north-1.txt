@@ -8,6 +8,7 @@ Operations:
 - AssociateFirewallPolicy
 - AssociateSubnets
 - AttachRuleGroupsToProxyConfiguration
+- CreateContainerAssociation
 - CreateFirewall
 - CreateFirewallPolicy
 - CreateProxy
@@ -17,6 +18,7 @@ Operations:
 - CreateRuleGroup
 - CreateTLSInspectionConfiguration
 - CreateVpcEndpointAssociation
+- DeleteContainerAssociation
 - DeleteFirewall
 - DeleteFirewallPolicy
 - DeleteNetworkFirewallTransitGatewayAttachment
@@ -28,6 +30,7 @@ Operations:
 - DeleteRuleGroup
 - DeleteTLSInspectionConfiguration
 - DeleteVpcEndpointAssociation
+- DescribeContainerAssociation
 - DescribeFirewall
 - DescribeFirewallMetadata
 - DescribeFirewallPolicy
@@ -48,6 +51,7 @@ Operations:
 - DisassociateSubnets
 - GetAnalysisReportResults
 - ListAnalysisReports
+- ListContainerAssociations
 - ListFirewallPolicies
 - ListFirewalls
 - ListFlowOperationResults
@@ -67,6 +71,7 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateAvailabilityZoneChangeProtection
+- UpdateContainerAssociation
 - UpdateFirewallAnalysisSettings
 - UpdateFirewallDeleteProtection
 - UpdateFirewallDescription
