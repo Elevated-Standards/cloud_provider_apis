@@ -273,6 +273,7 @@ Operations:
 - DeregisterTransitGatewayMulticastGroupMembers
 - DeregisterTransitGatewayMulticastGroupSources
 - DescribeAccountAttributes
+- DescribeAccountVpcEncryptionControl
 - DescribeAddressTransfers
 - DescribeAddresses
 - DescribeAddressesAttribute
@@ -613,6 +614,7 @@ Operations:
 - ListSnapshotsInRecycleBin
 - ListVolumesInRecycleBin
 - LockSnapshot
+- ModifyAccountVpcEncryptionControl
 - ModifyAddressAttribute
 - ModifyAvailabilityZoneGroup
 - ModifyCapacityReservation
