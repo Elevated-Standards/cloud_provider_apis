@@ -74,6 +74,7 @@ Operations:
 - GetQueryResults
 - GetScheduledQuery
 - GetScheduledQueryHistory
+- GetStorageTierPolicy
 - GetTransformer
 - ListAggregateLogGroupSummaries
 - ListAnomalies
@@ -102,6 +103,7 @@ Operations:
 - PutQueryDefinition
 - PutResourcePolicy
 - PutRetentionPolicy
+- PutStorageTierPolicy
 - PutSubscriptionFilter
 - PutSyslogConfiguration
 - PutTransformer
