@@ -11,6 +11,7 @@ Operations:
 - DeleteConfigurationAggregator
 - DeleteConfigurationRecorder
 - DeleteConformancePack
+- DeleteConnector
 - DeleteDeliveryChannel
 - DeleteEvaluationResults
 - DeleteOrganizationConfigRule
@@ -60,6 +61,7 @@ Operations:
 - GetComplianceSummaryByResourceType
 - GetConformancePackComplianceDetails
 - GetConformancePackComplianceSummary
+- GetConnector
 - GetCustomRulePolicy
 - GetDiscoveredResourceCounts
 - GetOrganizationConfigRuleDetailedStatus
@@ -71,6 +73,7 @@ Operations:
 - ListAggregateDiscoveredResources
 - ListConfigurationRecorders
 - ListConformancePackComplianceScores
+- ListConnectors
 - ListDiscoveredResources
 - ListResourceEvaluations
 - ListStoredQueries
@@ -80,6 +83,7 @@ Operations:
 - PutConfigurationAggregator
 - PutConfigurationRecorder
 - PutConformancePack
+- PutConnector
 - PutDeliveryChannel
 - PutEvaluations
 - PutExternalEvaluation
@@ -91,6 +95,7 @@ Operations:
 - PutRetentionConfiguration
 - PutServiceLinkedConfigurationRecorder
 - PutStoredQuery
+- PutThirdPartyServiceLinkedConfigurationRecorder
 - SelectAggregateResourceConfig
 - SelectResourceConfig
 - StartConfigRulesEvaluation

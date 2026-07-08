@@ -17,12 +17,14 @@ Operations:
 - CreateCisScanConfiguration
 - CreateCodeSecurityIntegration
 - CreateCodeSecurityScanConfiguration
+- CreateConnector
 - CreateFilter
 - CreateFindingsReport
 - CreateSbomExport
 - DeleteCisScanConfiguration
 - DeleteCodeSecurityIntegration
 - DeleteCodeSecurityScanConfiguration
+- DeleteConnector
 - DeleteFilter
 - DescribeOrganizationConfiguration
 - Disable
@@ -51,6 +53,8 @@ Operations:
 - ListCodeSecurityIntegrations
 - ListCodeSecurityScanConfigurationAssociations
 - ListCodeSecurityScanConfigurations
+- ListConnectorScanConfigurations
+- ListConnectors
 - ListCoverage
 - ListCoverageStatistics
 - ListDelegatedAdminAccounts
@@ -73,6 +77,8 @@ Operations:
 - UpdateCodeSecurityIntegration
 - UpdateCodeSecurityScanConfiguration
 - UpdateConfiguration
+- UpdateConnector
+- UpdateConnectorScanConfiguration
 - UpdateEc2DeepInspectionConfiguration
 - UpdateEncryptionKey
 - UpdateFilter

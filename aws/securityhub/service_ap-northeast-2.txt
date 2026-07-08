@@ -22,6 +22,7 @@ Operations:
 - CreateAutomationRule
 - CreateAutomationRuleV2
 - CreateConfigurationPolicy
+- CreateConnector
 - CreateConnectorV2
 - CreateFindingAggregator
 - CreateInsight
@@ -32,6 +33,7 @@ Operations:
 - DeleteAggregatorV2
 - DeleteAutomationRuleV2
 - DeleteConfigurationPolicy
+- DeleteConnector
 - DeleteConnectorV2
 - DeleteFindingAggregator
 - DeleteInsight
@@ -48,6 +50,7 @@ Operations:
 - DisableImportFindingsForProduct
 - DisableOrganizationAdminAccount
 - DisableSecurityHub
+- DisableSecurityHubFeatureV2
 - DisableSecurityHubV2
 - DisassociateFromAdministratorAccount
 - DisassociateFromMasterAccount
@@ -55,6 +58,7 @@ Operations:
 - EnableImportFindingsForProduct
 - EnableOrganizationAdminAccount
 - EnableSecurityHub
+- EnableSecurityHubFeatureV2
 - EnableSecurityHubV2
 - GenerateRecommendedPolicyV2
 - GetAdministratorAccount
@@ -62,6 +66,7 @@ Operations:
 - GetAutomationRuleV2
 - GetConfigurationPolicy
 - GetConfigurationPolicyAssociation
+- GetConnector
 - GetConnectorV2
 - GetEnabledStandards
 - GetFindingAggregator
@@ -86,6 +91,7 @@ Operations:
 - ListAutomationRulesV2
 - ListConfigurationPolicies
 - ListConfigurationPolicyAssociations
+- ListConnectors
 - ListConnectorsV2
 - ListEnabledProductsForImport
 - ListFindingAggregators
@@ -104,6 +110,7 @@ Operations:
 - UpdateAggregatorV2
 - UpdateAutomationRuleV2
 - UpdateConfigurationPolicy
+- UpdateConnector
 - UpdateConnectorV2
 - UpdateFindingAggregator
 - UpdateFindings

@@ -37,6 +37,7 @@ Operations:
 - CompleteAttachedFileUpload
 - CreateAgentStatus
 - CreateAttachedFile
+- CreateAuthCode
 - CreateContact
 - CreateContactFlow
 - CreateContactFlowModule
@@ -98,6 +99,7 @@ Operations:
 - DeleteRoutingProfile
 - DeleteRule
 - DeleteSecurityProfile
+- DeleteSession
 - DeleteTaskTemplate
 - DeleteTestCase
 - DeleteTrafficDistributionGroup
