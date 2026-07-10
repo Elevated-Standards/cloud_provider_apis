@@ -76,6 +76,7 @@ Operations:
 - CreateWorkspacePage
 - DeactivateEvaluationForm
 - DeleteAttachedFile
+- DeleteContactData
 - DeleteContactEvaluation
 - DeleteContactFlow
 - DeleteContactFlowModule
