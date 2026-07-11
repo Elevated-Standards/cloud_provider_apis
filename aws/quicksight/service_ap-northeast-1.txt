@@ -24,6 +24,7 @@ Operations:
 - CreateGroupMembership
 - CreateIAMPolicyAssignment
 - CreateIngestion
+- CreateKnowledgeBase
 - CreateNamespace
 - CreateOAuthClientApplication
 - CreateRefreshSchedule
@@ -245,6 +246,7 @@ Operations:
 - UpdateIdentityPropagationConfig
 - UpdateIpRestriction
 - UpdateKeyRegistration
+- UpdateKnowledgeBase
 - UpdateKnowledgeBasePermissions
 - UpdateOAuthClientApplication
 - UpdatePublicSharingSettings
