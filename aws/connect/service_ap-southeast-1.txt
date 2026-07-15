@@ -278,6 +278,7 @@ Operations:
 - SearchQuickConnects
 - SearchResourceTags
 - SearchRoutingProfiles
+- SearchRules
 - SearchSecurityProfiles
 - SearchTestCases
 - SearchUserHierarchyGroups
