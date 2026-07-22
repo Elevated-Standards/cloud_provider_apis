@@ -10,6 +10,7 @@ Operations:
 - CreateVirtualCluster
 - DeleteJobTemplate
 - DeleteManagedEndpoint
+- DeleteSecurityConfiguration
 - DeleteVirtualCluster
 - DescribeJobRun
 - DescribeJobTemplate

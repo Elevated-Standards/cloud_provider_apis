@@ -26,6 +26,7 @@ Operations:
 - CreateHsmClientCertificate
 - CreateHsmConfiguration
 - CreateIntegration
+- CreateQev2IdcApplication
 - CreateRedshiftIdcApplication
 - CreateScheduledAction
 - CreateSnapshotCopyGrant
@@ -46,6 +47,7 @@ Operations:
 - DeleteHsmConfiguration
 - DeleteIntegration
 - DeletePartner
+- DeleteQev2IdcApplication
 - DeleteRedshiftIdcApplication
 - DeleteResourcePolicy
 - DeleteScheduledAction
@@ -83,6 +85,7 @@ Operations:
 - DescribeNodeConfigurationOptions
 - DescribeOrderableClusterOptions
 - DescribePartners
+- DescribeQev2IdcApplications
 - DescribeRedshiftIdcApplications
 - DescribeReservedNodeExchangeStatus
 - DescribeReservedNodeOfferings
@@ -123,6 +126,7 @@ Operations:
 - ModifyEventSubscription
 - ModifyIntegration
 - ModifyLakehouseConfiguration
+- ModifyQev2IdcApplication
 - ModifyRedshiftIdcApplication
 - ModifyScheduledAction
 - ModifySnapshotCopyRetentionPeriod
