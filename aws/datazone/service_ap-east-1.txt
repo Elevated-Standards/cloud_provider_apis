@@ -167,6 +167,7 @@ Operations:
 - StartNotebookExport
 - StartNotebookImport
 - StartNotebookRun
+- StartNotebookSync
 - StopNotebookRun
 - TagResource
 - UntagResource
