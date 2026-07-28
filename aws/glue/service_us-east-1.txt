@@ -13,6 +13,7 @@ Operations:
 - BatchGetCrawlers
 - BatchGetCustomEntityTypes
 - BatchGetDataQualityResult
+- BatchGetDataQualityRulesetEvaluationRun
 - BatchGetDevEndpoints
 - BatchGetIterableForms
 - BatchGetJobs
