@@ -12,6 +12,7 @@ Operations:
 - ListOrganizationRecommendations
 - ListRecommendationResources
 - ListRecommendations
+- ListRecommendationsForResource
 - UpdateOrganizationRecommendationLifecycle
 - UpdateRecommendationLifecycle
 --------------------------------------------------------------------------------
