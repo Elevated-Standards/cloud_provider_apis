@@ -150,6 +150,7 @@ Operations:
 - CreateTransitGatewayMulticastDomain
 - CreateTransitGatewayPeeringAttachment
 - CreateTransitGatewayPolicyTable
+- CreateTransitGatewayPolicyTableEntry
 - CreateTransitGatewayPrefixListReference
 - CreateTransitGatewayRoute
 - CreateTransitGatewayRouteTable
@@ -243,6 +244,7 @@ Operations:
 - DeleteTransitGatewayMulticastDomain
 - DeleteTransitGatewayPeeringAttachment
 - DeleteTransitGatewayPolicyTable
+- DeleteTransitGatewayPolicyTableEntry
 - DeleteTransitGatewayPrefixListReference
 - DeleteTransitGatewayRoute
 - DeleteTransitGatewayRouteTable
@@ -668,6 +670,7 @@ Operations:
 - ModifyTrafficMirrorSession
 - ModifyTransitGateway
 - ModifyTransitGatewayMeteringPolicy
+- ModifyTransitGatewayPolicyTableEntry
 - ModifyTransitGatewayPrefixListReference
 - ModifyTransitGatewayVpcAttachment
 - ModifyVerifiedAccessEndpoint

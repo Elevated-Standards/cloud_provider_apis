@@ -9,6 +9,7 @@ Operations:
 - CreateStreamGroup
 - CreateStreamSessionAdminShell
 - CreateStreamSessionConnection
+- CreateStreamUrl
 - DeleteApplication
 - DeleteStreamGroup
 - DisassociateApplications
@@ -16,12 +17,16 @@ Operations:
 - GetApplication
 - GetStreamGroup
 - GetStreamSession
+- GetStreamUrl
+- ListApplicationShaderCaches
 - ListApplications
 - ListStreamGroups
 - ListStreamSessions
 - ListStreamSessionsByAccount
+- ListStreamUrls
 - ListTagsForResource
 - RemoveStreamGroupLocations
+- RevokeStreamUrl
 - StartStreamSession
 - TagResource
 - TerminateStreamSession
