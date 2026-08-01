@@ -36,6 +36,7 @@ Operations:
 - CreateThemeAlias
 - CreateTopic
 - CreateTopicRefreshSchedule
+- CreateTopicV2
 - CreateVPCConnection
 - DeleteAccountCustomPermission
 - DeleteAccountCustomization
@@ -71,6 +72,7 @@ Operations:
 - DeleteThemeAlias
 - DeleteTopic
 - DeleteTopicRefreshSchedule
+- DeleteTopicV2
 - DeleteUser
 - DeleteUserByPrincipalId
 - DeleteUserCustomPermission
@@ -135,8 +137,10 @@ Operations:
 - DescribeThemePermissions
 - DescribeTopic
 - DescribeTopicPermissions
+- DescribeTopicPermissionsV2
 - DescribeTopicRefresh
 - DescribeTopicRefreshSchedule
+- DescribeTopicV2
 - DescribeUser
 - DescribeVPCConnection
 - GenerateEmbedUrlForAnonymousUser
@@ -186,6 +190,7 @@ Operations:
 - ListTopicRefreshSchedules
 - ListTopicReviewedAnswers
 - ListTopics
+- ListTopicsV2
 - ListUserGroups
 - ListUsers
 - ListUsersIndexCapacity
@@ -206,6 +211,7 @@ Operations:
 - SearchKnowledgeBases
 - SearchSpaces
 - SearchTopics
+- SearchTopicsV2
 - StartAssetBundleExportJob
 - StartAssetBundleImportJob
 - StartAutomationJob
@@ -268,7 +274,9 @@ Operations:
 - UpdateThemePermissions
 - UpdateTopic
 - UpdateTopicPermissions
+- UpdateTopicPermissionsV2
 - UpdateTopicRefreshSchedule
+- UpdateTopicV2
 - UpdateUser
 - UpdateUserCustomPermission
 - UpdateVPCConnection
