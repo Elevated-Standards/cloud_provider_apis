@@ -84,6 +84,7 @@ Operations:
 - UpdateProxyRule
 - UpdateProxyRuleGroupPriorities
 - UpdateProxyRulePriorities
+- UpdateProxySettings
 - UpdateRuleGroup
 - UpdateSubnetChangeProtection
 - UpdateTLSInspectionConfiguration
