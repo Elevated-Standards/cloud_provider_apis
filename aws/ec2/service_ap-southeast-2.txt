@@ -21,6 +21,7 @@ Operations:
 - AssignPrivateIpAddresses
 - AssignPrivateNatGatewayAddress
 - AssociateAddress
+- AssociateApplicationStatusCheck
 - AssociateCapacityReservationBillingOwner
 - AssociateClientVpnTargetNetwork
 - AssociateDhcpOptions
@@ -66,6 +67,7 @@ Operations:
 - CopyImage
 - CopySnapshot
 - CopyVolumes
+- CreateApplicationStatusCheck
 - CreateCapacityManagerDataExport
 - CreateCapacityReservation
 - CreateCapacityReservationBySplitting
@@ -172,6 +174,7 @@ Operations:
 - CreateVpnConnection
 - CreateVpnConnectionRoute
 - CreateVpnGateway
+- DeleteApplicationStatusCheck
 - DeleteCapacityManagerDataExport
 - DeleteCarrierGateway
 - DeleteClientVpnEndpoint
@@ -280,6 +283,9 @@ Operations:
 - DescribeAddresses
 - DescribeAddressesAttribute
 - DescribeAggregateIdFormat
+- DescribeApplicationStatus
+- DescribeApplicationStatusCheckAssociations
+- DescribeApplicationStatusChecks
 - DescribeAvailabilityZones
 - DescribeAwsNetworkPerformanceMetricSubscriptions
 - DescribeBundleTasks
@@ -471,6 +477,7 @@ Operations:
 - DetachVpnGateway
 - DisableAddressTransfer
 - DisableAllowedImagesSettings
+- DisableApplicationStatusCheckSuppression
 - DisableAwsNetworkPerformanceMetricSubscription
 - DisableCapacityManager
 - DisableEbsEncryptionByDefault
@@ -491,6 +498,7 @@ Operations:
 - DisableVpcClassicLink
 - DisableVpcClassicLinkDnsSupport
 - DisassociateAddress
+- DisassociateApplicationStatusCheck
 - DisassociateCapacityReservationBillingOwner
 - DisassociateClientVpnTargetNetwork
 - DisassociateEnclaveCertificateIamRole
@@ -510,6 +518,7 @@ Operations:
 - DisassociateVpcCidrBlock
 - EnableAddressTransfer
 - EnableAllowedImagesSettings
+- EnableApplicationStatusCheckSuppression
 - EnableAwsNetworkPerformanceMetricSubscription
 - EnableCapacityManager
 - EnableEbsEncryptionByDefault
@@ -618,6 +627,7 @@ Operations:
 - LockSnapshot
 - ModifyAccountVpcEncryptionControl
 - ModifyAddressAttribute
+- ModifyApplicationStatusCheck
 - ModifyAvailabilityZoneGroup
 - ModifyCapacityReservation
 - ModifyCapacityReservationFleet
