@@ -5,6 +5,7 @@ Endpoint Prefix   : backup
 Operations:
 - AssociateBackupVaultMpaApprovalTeam
 - CancelLegalHold
+- CreateBackupAccessPoint
 - CreateBackupPlan
 - CreateBackupSelection
 - CreateBackupVault
@@ -16,6 +17,7 @@ Operations:
 - CreateRestoreTestingPlan
 - CreateRestoreTestingSelection
 - CreateTieringConfiguration
+- DeleteBackupAccessPoint
 - DeleteBackupPlan
 - DeleteBackupSelection
 - DeleteBackupVault
@@ -28,6 +30,7 @@ Operations:
 - DeleteRestoreTestingPlan
 - DeleteRestoreTestingSelection
 - DeleteTieringConfiguration
+- DescribeBackupAccessPoint
 - DescribeBackupJob
 - DescribeBackupVault
 - DescribeCopyJob
@@ -60,6 +63,9 @@ Operations:
 - GetRestoreTestingSelection
 - GetSupportedResourceTypes
 - GetTieringConfiguration
+- ListBackupAccessPoints
+- ListBackupAccessPointsByRecoveryPoint
+- ListBackupAccessPointsByResource
 - ListBackupJobSummaries
 - ListBackupJobs
 - ListBackupPlanTemplates

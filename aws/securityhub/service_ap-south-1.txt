@@ -95,6 +95,7 @@ Operations:
 - ListConnectorsV2
 - ListEnabledProductsForImport
 - ListFindingAggregators
+- ListFreeTrialStatusesV2
 - ListInvitations
 - ListMembers
 - ListOrganizationAdminAccounts
