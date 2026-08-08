@@ -50,6 +50,7 @@ Operations:
 - AuthorizeClientVpnIngress
 - AuthorizeSecurityGroupEgress
 - AuthorizeSecurityGroupIngress
+- BatchModifyIpamRoutingPolicyRegistrations
 - BundleInstance
 - CancelBundleTask
 - CancelCapacityReservation
@@ -96,11 +97,13 @@ Operations:
 - CreateInterruptibleCapacityReservationAllocation
 - CreateIpam
 - CreateIpamExternalResourceVerificationToken
+- CreateIpamInternetRegistryAssociation
 - CreateIpamPolicy
 - CreateIpamPool
 - CreateIpamPrefixListResolver
 - CreateIpamPrefixListResolverTarget
 - CreateIpamResourceDiscovery
+- CreateIpamRoutingPolicyRegistration
 - CreateIpamScope
 - CreateKeyPair
 - CreateLaunchTemplate
@@ -193,11 +196,13 @@ Operations:
 - DeleteInternetGateway
 - DeleteIpam
 - DeleteIpamExternalResourceVerificationToken
+- DeleteIpamInternetRegistryAssociation
 - DeleteIpamPolicy
 - DeleteIpamPool
 - DeleteIpamPrefixListResolver
 - DeleteIpamPrefixListResolverTarget
 - DeleteIpamResourceDiscovery
+- DeleteIpamRoutingPolicyRegistration
 - DeleteIpamScope
 - DeleteKeyPair
 - DeleteLaunchTemplate
@@ -354,6 +359,7 @@ Operations:
 - DescribeInternetGateways
 - DescribeIpamByoasn
 - DescribeIpamExternalResourceVerificationTokens
+- DescribeIpamInternetRegistryAssociations
 - DescribeIpamPolicies
 - DescribeIpamPoolAllocations
 - DescribeIpamPools
@@ -529,6 +535,7 @@ Operations:
 - EnableImageDeprecation
 - EnableImageDeregistrationProtection
 - EnableInstanceSqlHaStandbyDetections
+- EnableIpamInternetRegistryAssociation
 - EnableIpamOrganizationAdminAccount
 - EnableIpamPolicy
 - EnableReachabilityAnalyzerOrganizationSharing
@@ -576,6 +583,9 @@ Operations:
 - GetIpamDiscoveredAccounts
 - GetIpamDiscoveredPublicAddresses
 - GetIpamDiscoveredResourceCidrs
+- GetIpamDiscoveredRoutes
+- GetIpamInternetRegistryAssociationAsns
+- GetIpamInternetRegistryAssociationCidrs
 - GetIpamPolicyAllocationRules
 - GetIpamPolicyOrganizationTargets
 - GetIpamPoolAllocations
@@ -584,6 +594,10 @@ Operations:
 - GetIpamPrefixListResolverVersionEntries
 - GetIpamPrefixListResolverVersions
 - GetIpamResourceCidrs
+- GetIpamRouteOriginAuthorizations
+- GetIpamRouteProtectionFindings
+- GetIpamRoutingPolicyRegistrationDeltas
+- GetIpamRoutingPolicyRegistrations
 - GetLaunchTemplateData
 - GetManagedPrefixListAssociations
 - GetManagedPrefixListEntries
@@ -660,6 +674,7 @@ Operations:
 - ModifyIpamPrefixListResolverTarget
 - ModifyIpamResourceCidr
 - ModifyIpamResourceDiscovery
+- ModifyIpamRoutingPolicyRegistration
 - ModifyIpamScope
 - ModifyLaunchTemplate
 - ModifyLocalGatewayRoute

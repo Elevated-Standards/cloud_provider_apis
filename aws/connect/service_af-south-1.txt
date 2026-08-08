@@ -332,6 +332,7 @@ Operations:
 - UpdateContactFlowName
 - UpdateContactRoutingData
 - UpdateContactSchedule
+- UpdateContactTaskTemplate
 - UpdateDataTableAttribute
 - UpdateDataTableMetadata
 - UpdateDataTablePrimaryValues
