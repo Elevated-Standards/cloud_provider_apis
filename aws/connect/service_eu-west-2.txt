@@ -52,6 +52,7 @@ Operations:
 - CreateHoursOfOperationOverride
 - CreateInstance
 - CreateIntegrationAssociation
+- CreateMetric
 - CreateNotification
 - CreateParticipant
 - CreatePersistentContactAssociation
@@ -91,6 +92,7 @@ Operations:
 - DeleteHoursOfOperationOverride
 - DeleteInstance
 - DeleteIntegrationAssociation
+- DeleteMetric
 - DeleteNotification
 - DeletePredefinedAttribute
 - DeletePrompt
@@ -130,6 +132,7 @@ Operations:
 - DescribeInstance
 - DescribeInstanceAttribute
 - DescribeInstanceStorageConfig
+- DescribeMetric
 - DescribeNotification
 - DescribePhoneNumber
 - DescribePredefinedAttribute
@@ -217,6 +220,7 @@ Operations:
 - ListIntegrationAssociations
 - ListLambdaFunctions
 - ListLexBots
+- ListMetrics
 - ListNotifications
 - ListPhoneNumbers
 - ListPhoneNumbersV2
@@ -271,6 +275,7 @@ Operations:
 - SearchEvaluationForms
 - SearchHoursOfOperationOverrides
 - SearchHoursOfOperations
+- SearchMetrics
 - SearchNotifications
 - SearchPredefinedAttributes
 - SearchPrompts
@@ -342,6 +347,8 @@ Operations:
 - UpdateHoursOfOperationOverride
 - UpdateInstanceAttribute
 - UpdateInstanceStorageConfig
+- UpdateMetricContent
+- UpdateMetricMetadata
 - UpdateNotificationContent
 - UpdateParticipantAuthentication
 - UpdateParticipantRoleConfig
