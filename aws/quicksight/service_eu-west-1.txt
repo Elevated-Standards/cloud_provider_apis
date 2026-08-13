@@ -6,17 +6,20 @@ Operations:
 - BatchCreateTopicReviewedAnswer
 - BatchDeleteKnowledgeBase
 - BatchDeleteTopicReviewedAnswer
+- BatchDescribeUserLimits
 - CancelIngestion
 - CreateAccountCustomization
 - CreateAccountSubscription
 - CreateActionConnector
 - CreateAgent
 - CreateAnalysis
+- CreateApprovalPolicy
 - CreateBrand
 - CreateCustomPermissions
 - CreateDashboard
 - CreateDataSet
 - CreateDataSource
+- CreateDlpSetting
 - CreateFlow
 - CreateFolder
 - CreateFolderMembership
@@ -25,6 +28,7 @@ Operations:
 - CreateIAMPolicyAssignment
 - CreateIngestion
 - CreateKnowledgeBase
+- CreateLimitsProfile
 - CreateNamespace
 - CreateOAuthClientApplication
 - CreateRefreshSchedule
@@ -44,6 +48,7 @@ Operations:
 - DeleteActionConnector
 - DeleteAgent
 - DeleteAnalysis
+- DeleteApprovalPolicy
 - DeleteBrand
 - DeleteBrandAssignment
 - DeleteCustomPermissions
@@ -52,6 +57,7 @@ Operations:
 - DeleteDataSetRefreshProperties
 - DeleteDataSource
 - DeleteDefaultQBusinessApplication
+- DeleteDlpSetting
 - DeleteFlow
 - DeleteFolder
 - DeleteFolderMembership
@@ -60,6 +66,7 @@ Operations:
 - DeleteIAMPolicyAssignment
 - DeleteIdentityPropagationConfig
 - DeleteKnowledgeBase
+- DeleteLimitsProfile
 - DeleteNamespace
 - DeleteOAuthClientApplication
 - DeleteRefreshSchedule
@@ -88,6 +95,7 @@ Operations:
 - DescribeAnalysis
 - DescribeAnalysisDefinition
 - DescribeAnalysisPermissions
+- DescribeApprovalPolicy
 - DescribeAssetBundleExportJob
 - DescribeAssetBundleImportJob
 - DescribeAutomationJob
@@ -107,6 +115,7 @@ Operations:
 - DescribeDataSource
 - DescribeDataSourcePermissions
 - DescribeDefaultQBusinessApplication
+- DescribeDlpSetting
 - DescribeFlow
 - DescribeFolder
 - DescribeFolderPermissions
@@ -119,6 +128,7 @@ Operations:
 - DescribeKeyRegistration
 - DescribeKnowledgeBase
 - DescribeKnowledgeBasePermissions
+- DescribeLimitsProfile
 - DescribeNamespace
 - DescribeOAuthClientApplication
 - DescribeQPersonalizationConfiguration
@@ -154,6 +164,7 @@ Operations:
 - ListActionConnectors
 - ListAgents
 - ListAnalyses
+- ListApprovalPolicies
 - ListAssetBundleExportJobs
 - ListAssetBundleImportJobs
 - ListBrands
@@ -162,6 +173,7 @@ Operations:
 - ListDashboards
 - ListDataSets
 - ListDataSources
+- ListDlpSettings
 - ListFlows
 - ListFolderMembers
 - ListFolders
@@ -173,6 +185,7 @@ Operations:
 - ListIdentityPropagationConfigs
 - ListIngestions
 - ListKnowledgeBases
+- ListLimitsProfiles
 - ListNamespaces
 - ListOAuthClientApplications
 - ListRefreshSchedules
@@ -229,6 +242,7 @@ Operations:
 - UpdateAnalysis
 - UpdateAnalysisPermissions
 - UpdateApplicationWithTokenExchangeGrant
+- UpdateApprovalPolicy
 - UpdateBrand
 - UpdateBrandAssignment
 - UpdateBrandPublishedVersion
@@ -243,6 +257,7 @@ Operations:
 - UpdateDataSource
 - UpdateDataSourcePermissions
 - UpdateDefaultQBusinessApplication
+- UpdateDlpSetting
 - UpdateFlow
 - UpdateFlowPermissions
 - UpdateFolder
@@ -254,6 +269,7 @@ Operations:
 - UpdateKeyRegistration
 - UpdateKnowledgeBase
 - UpdateKnowledgeBasePermissions
+- UpdateLimitsProfile
 - UpdateOAuthClientApplication
 - UpdatePublicSharingSettings
 - UpdateQPersonalizationConfiguration

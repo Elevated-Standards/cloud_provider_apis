@@ -5,6 +5,9 @@ Endpoint Prefix   : wellarchitected
 Operations:
 - AssociateLenses
 - AssociateProfiles
+- CreateAgentContext
+- CreateAgentGoal
+- CreateAgentProfile
 - CreateLensShare
 - CreateLensVersion
 - CreateMilestone
@@ -14,6 +17,9 @@ Operations:
 - CreateTemplateShare
 - CreateWorkload
 - CreateWorkloadShare
+- DeleteAgentContext
+- DeleteAgentGoal
+- DeleteAgentProfile
 - DeleteLens
 - DeleteLensShare
 - DeleteProfile
@@ -25,6 +31,11 @@ Operations:
 - DisassociateLenses
 - DisassociateProfiles
 - ExportLens
+- GetAgentContext
+- GetAgentGoal
+- GetAgentProfile
+- GetAgentRecommendation
+- GetAgentRecommendationGeneration
 - GetAnswer
 - GetConsolidatedReport
 - GetGlobalSettings
@@ -40,6 +51,12 @@ Operations:
 - GetReviewTemplateLensReview
 - GetWorkload
 - ImportLens
+- ListAgentContexts
+- ListAgentGoals
+- ListAgentProfiles
+- ListAgentRecommendationGenerations
+- ListAgentRecommendationItems
+- ListAgentRecommendations
 - ListAnswers
 - ListCheckDetails
 - ListCheckSummaries
@@ -59,8 +76,14 @@ Operations:
 - ListTemplateShares
 - ListWorkloadShares
 - ListWorkloads
+- PutAgentRecommendationFeedback
+- StartAgentRecommendationGeneration
 - TagResource
 - UntagResource
+- UpdateAgentContext
+- UpdateAgentGoal
+- UpdateAgentProfile
+- UpdateAgentRecommendationStatus
 - UpdateAnswer
 - UpdateGlobalSettings
 - UpdateIntegration
