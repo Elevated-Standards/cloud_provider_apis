@@ -28,6 +28,7 @@ Operations:
 - EvaluatePullRequestApprovalRules
 - GetApprovalRuleTemplate
 - GetBlob
+- GetBlobDifferences
 - GetBranch
 - GetComment
 - GetCommentReactions

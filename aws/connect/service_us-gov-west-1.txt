@@ -295,6 +295,7 @@ Operations:
 - SendChatIntegrationEvent
 - SendOutboundEmail
 - SendOutboundWebNotification
+- StartAssistantContact
 - StartAttachedFileUpload
 - StartChatContact
 - StartContactConversationalAnalyticsJob

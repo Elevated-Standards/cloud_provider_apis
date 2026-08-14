@@ -25,6 +25,7 @@ Operations:
 - ListAcmeDomainValidations
 - ListAcmeEndpoints
 - ListAcmeExternalAccountBindings
+- ListCertificateDomainValidations
 - ListCertificates
 - ListTagsForCertificate
 - ListTagsForResource
