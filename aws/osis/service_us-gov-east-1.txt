@@ -1,0 +1,29 @@
+Service Name      : osis
+Service ID        : OSIS
+API Version       : 2022-01-01
+Endpoint Prefix   : osis
+Operations:
+- CreatePipeline
+- CreatePipelineEndpoint
+- DeletePipeline
+- DeletePipelineEndpoint
+- DeleteResourcePolicy
+- GetPipeline
+- GetPipelineBlueprint
+- GetPipelineChangeProgress
+- GetResourcePolicy
+- ListPipelineBlueprints
+- ListPipelineEndpointConnections
+- ListPipelineEndpoints
+- ListPipelines
+- ListTagsForResource
+- PutResourcePolicy
+- RevokePipelineEndpointConnections
+- StartPipeline
+- StopPipeline
+- TagResource
+- UntagResource
+- UpdatePipeline
+- ValidatePipeline
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
