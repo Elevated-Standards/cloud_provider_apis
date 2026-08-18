@@ -48,6 +48,7 @@ Operations:
 - CreateDataTableAttribute
 - CreateEmailAddress
 - CreateEvaluationForm
+- CreateExtractionDefinition
 - CreateHoursOfOperation
 - CreateHoursOfOperationOverride
 - CreateInstance
@@ -88,6 +89,7 @@ Operations:
 - DeleteDataTableAttribute
 - DeleteEmailAddress
 - DeleteEvaluationForm
+- DeleteExtractionDefinition
 - DeleteHoursOfOperation
 - DeleteHoursOfOperationOverride
 - DeleteInstance
@@ -127,6 +129,7 @@ Operations:
 - DescribeDataTableAttribute
 - DescribeEmailAddress
 - DescribeEvaluationForm
+- DescribeExtractionDefinition
 - DescribeHoursOfOperation
 - DescribeHoursOfOperationOverride
 - DescribeInstance
@@ -211,6 +214,7 @@ Operations:
 - ListEntitySecurityProfiles
 - ListEvaluationFormVersions
 - ListEvaluationForms
+- ListExtractionDefinitions
 - ListFlowAssociations
 - ListHoursOfOperationOverrides
 - ListHoursOfOperations
@@ -344,6 +348,7 @@ Operations:
 - UpdateDataTablePrimaryValues
 - UpdateEmailAddressMetadata
 - UpdateEvaluationForm
+- UpdateExtractionDefinition
 - UpdateHoursOfOperation
 - UpdateHoursOfOperationOverride
 - UpdateInstanceAttribute

@@ -4,14 +4,20 @@ API Version       : 2020-02-26
 Endpoint Prefix   : drs
 Operations:
 - AssociateSourceNetworkStack
+- CancelRecoveryPlanExecution
 - CreateExtendedSourceServer
 - CreateLaunchConfigurationTemplate
+- CreateRecoveryPlan
+- CreateRecoveryPlanStep
 - CreateReplicationConfigurationTemplate
 - CreateSourceNetwork
 - DeleteJob
 - DeleteLaunchAction
 - DeleteLaunchConfigurationTemplate
 - DeleteRecoveryInstance
+- DeleteRecoveryPlan
+- DeleteRecoveryPlanExecution
+- DeleteRecoveryPlanStep
 - DeleteReplicationConfigurationTemplate
 - DeleteSourceNetwork
 - DeleteSourceServer
@@ -28,17 +34,28 @@ Operations:
 - ExportSourceNetworkCfnTemplate
 - GetFailbackReplicationConfiguration
 - GetLaunchConfiguration
+- GetRecoveryPlan
+- GetRecoveryPlanExecution
+- GetRecoveryPlanExecutionStep
+- GetRecoveryPlanStep
 - GetReplicationConfiguration
 - InitializeService
 - ListExtensibleSourceServers
 - ListLaunchActions
+- ListRecoveryPlanExecutionSteps
+- ListRecoveryPlanExecutions
+- ListRecoveryPlanSteps
+- ListRecoveryPlans
 - ListStagingAccounts
 - ListTagsForResource
 - PutLaunchAction
+- ReorderRecoveryPlanSteps
 - RetryDataReplication
+- RetryRecoveryPlanExecutionStep
 - ReverseReplication
 - StartFailbackLaunch
 - StartRecovery
+- StartRecoveryPlanExecution
 - StartReplication
 - StartSourceNetworkRecovery
 - StartSourceNetworkReplication
@@ -51,6 +68,9 @@ Operations:
 - UpdateFailbackReplicationConfiguration
 - UpdateLaunchConfiguration
 - UpdateLaunchConfigurationTemplate
+- UpdateRecoveryPlan
+- UpdateRecoveryPlanExecutionStep
+- UpdateRecoveryPlanStep
 - UpdateReplicationConfiguration
 - UpdateReplicationConfigurationTemplate
 --------------------------------------------------------------------------------
