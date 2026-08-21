@@ -23,6 +23,7 @@ Operations:
 - DeleteFunctionUrlConfig
 - DeleteLayerVersion
 - DeleteProvisionedConcurrencyConfig
+- DeleteResourcePolicy
 - GetAccountSettings
 - GetAlias
 - GetCapacityProvider
@@ -44,6 +45,7 @@ Operations:
 - GetLayerVersionPolicy
 - GetPolicy
 - GetProvisionedConcurrencyConfig
+- GetResourcePolicy
 - GetRuntimeManagementConfig
 - Invoke
 - InvokeAsync
@@ -71,6 +73,7 @@ Operations:
 - PutFunctionRecursionConfig
 - PutFunctionScalingConfig
 - PutProvisionedConcurrencyConfig
+- PutResourcePolicy
 - PutRuntimeManagementConfig
 - RemoveLayerVersionPermission
 - RemovePermission
