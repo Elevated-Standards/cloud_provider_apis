@@ -8,6 +8,7 @@ Operations:
 - AdminAddUserToGroup
 - AdminConfirmSignUp
 - AdminCreateUser
+- AdminDeleteSoftwareToken
 - AdminDeleteUser
 - AdminDeleteUserAttributes
 - AdminDisableProviderForUser
