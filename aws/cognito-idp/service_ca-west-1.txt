@@ -68,6 +68,7 @@ Operations:
 - DescribeResourceServer
 - DescribeRiskConfiguration
 - DescribeTerms
+- DescribeTermsByClient
 - DescribeUserImportJob
 - DescribeUserPool
 - DescribeUserPoolClient
@@ -75,6 +76,7 @@ Operations:
 - ForgetDevice
 - ForgotPassword
 - GetCSVHeader
+- GetClientToken
 - GetDevice
 - GetGroup
 - GetIdentityProviderByIdentifier

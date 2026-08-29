@@ -20,6 +20,7 @@ Operations:
 - ListFHIRImportJobs
 - ListTagsForResource
 - PublishDataTransformationProfile
+- RestoreFHIRDatastore
 - StartDataTransformationJob
 - StartFHIRExportJob
 - StartFHIRImportJob
