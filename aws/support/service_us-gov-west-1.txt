@@ -5,8 +5,10 @@ Endpoint Prefix   : support
 Operations:
 - AddAttachmentsToSet
 - AddCommunicationToCase
+- CompleteAttachmentUpload
 - CreateCase
 - DescribeAttachment
+- DescribeAttachmentUploadStatus
 - DescribeCases
 - DescribeCommunications
 - DescribeCreateCaseOptions
@@ -17,6 +19,8 @@ Operations:
 - DescribeTrustedAdvisorCheckResult
 - DescribeTrustedAdvisorCheckSummaries
 - DescribeTrustedAdvisorChecks
+- GetAttachmentDownloadLink
+- GetAttachmentUploadLinks
 - RefreshTrustedAdvisorCheck
 - ResolveCase
 --------------------------------------------------------------------------------

@@ -48,6 +48,7 @@ Operations:
 - DeleteActionConnector
 - DeleteAgent
 - DeleteAnalysis
+- DeleteApp
 - DeleteApprovalPolicy
 - DeleteBrand
 - DeleteBrandAssignment
@@ -95,6 +96,8 @@ Operations:
 - DescribeAnalysis
 - DescribeAnalysisDefinition
 - DescribeAnalysisPermissions
+- DescribeApp
+- DescribeAppPermissions
 - DescribeApprovalPolicy
 - DescribeAssetBundleExportJob
 - DescribeAssetBundleImportJob
@@ -165,6 +168,7 @@ Operations:
 - ListAgents
 - ListAnalyses
 - ListApprovalPolicies
+- ListApps
 - ListAssetBundleExportJobs
 - ListAssetBundleImportJobs
 - ListBrands
@@ -215,6 +219,7 @@ Operations:
 - SearchActionConnectors
 - SearchAgents
 - SearchAnalyses
+- SearchApps
 - SearchDashboards
 - SearchDataSets
 - SearchDataSources
@@ -241,6 +246,7 @@ Operations:
 - UpdateAgentPermissions
 - UpdateAnalysis
 - UpdateAnalysisPermissions
+- UpdateAppPermissions
 - UpdateApplicationWithTokenExchangeGrant
 - UpdateApprovalPolicy
 - UpdateBrand

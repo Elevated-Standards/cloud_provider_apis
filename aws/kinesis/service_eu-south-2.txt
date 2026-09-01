@@ -4,12 +4,15 @@ API Version       : 2013-12-02
 Endpoint Prefix   : kinesis
 Operations:
 - AddTagsToStream
+- CreateChannel
 - CreateStream
 - DecreaseStreamRetentionPeriod
+- DeleteChannel
 - DeleteResourcePolicy
 - DeleteStream
 - DeregisterStreamConsumer
 - DescribeAccountSettings
+- DescribeChannel
 - DescribeLimits
 - DescribeStream
 - DescribeStreamConsumer
@@ -20,6 +23,7 @@ Operations:
 - GetResourcePolicy
 - GetShardIterator
 - IncreaseStreamRetentionPeriod
+- ListChannels
 - ListShards
 - ListStreamConsumers
 - ListStreams
@@ -38,6 +42,7 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateAccountSettings
+- UpdateChannel
 - UpdateMaxRecordSize
 - UpdateShardCount
 - UpdateStreamMode

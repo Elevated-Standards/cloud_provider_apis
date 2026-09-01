@@ -176,6 +176,7 @@ Operations:
 - GetAttachedFile
 - GetContactAttributes
 - GetContactMetrics
+- GetCrossRegionRouting
 - GetCurrentMetricData
 - GetCurrentUserData
 - GetEffectiveHoursOfOperations
@@ -343,6 +344,7 @@ Operations:
 - UpdateContactRoutingData
 - UpdateContactSchedule
 - UpdateContactTaskTemplate
+- UpdateCrossRegionRouting
 - UpdateDataTableAttribute
 - UpdateDataTableMetadata
 - UpdateDataTablePrimaryValues

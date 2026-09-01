@@ -18,6 +18,7 @@ Operations:
 - ListCustomPlugins
 - ListTagsForResource
 - ListWorkerConfigurations
+- RestartConnector
 - TagResource
 - UntagResource
 - UpdateConnector
