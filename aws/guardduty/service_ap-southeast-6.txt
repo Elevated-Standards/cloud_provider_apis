@@ -6,6 +6,8 @@ Operations:
 - AcceptAdministratorInvitation
 - AcceptInvitation
 - ArchiveFindings
+- CreateCustomDetectionRuleAssociation
+- CreateCustomDetectionRuleOrgConfiguration
 - CreateDetector
 - CreateFilter
 - CreateIPSet
@@ -18,6 +20,8 @@ Operations:
 - CreateThreatIntelSet
 - CreateTrustedEntitySet
 - DeclineInvitations
+- DeleteCustomDetectionRuleAssociation
+- DeleteCustomDetectionRuleOrgConfiguration
 - DeleteDetector
 - DeleteFilter
 - DeleteIPSet
@@ -38,6 +42,9 @@ Operations:
 - EnableOrganizationAdminAccount
 - GetAdministratorAccount
 - GetCoverageStatistics
+- GetCustomDetectionRule
+- GetCustomDetectionRuleAssociation
+- GetCustomDetectionRuleOrgConfiguration
 - GetDetector
 - GetFilter
 - GetFindings
@@ -59,6 +66,9 @@ Operations:
 - GetUsageStatistics
 - InviteMembers
 - ListCoverage
+- ListCustomDetectionRuleAssociations
+- ListCustomDetectionRuleOrgConfigurations
+- ListCustomDetectionRules
 - ListDetectors
 - ListFilters
 - ListFindings
@@ -81,6 +91,8 @@ Operations:
 - TagResource
 - UnarchiveFindings
 - UntagResource
+- UpdateCustomDetectionRuleAssociation
+- UpdateCustomDetectionRuleOrgConfiguration
 - UpdateDetector
 - UpdateFilter
 - UpdateFindingsFeedback

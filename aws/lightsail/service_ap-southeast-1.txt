@@ -113,6 +113,7 @@ Operations:
 - GetOperation
 - GetOperations
 - GetOperationsForResource
+- GetProfile
 - GetRegions
 - GetRelationalDatabase
 - GetRelationalDatabaseBlueprints
