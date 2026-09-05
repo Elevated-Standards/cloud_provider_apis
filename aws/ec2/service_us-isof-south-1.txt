@@ -803,6 +803,7 @@ Operations:
 - UpdateInterruptibleCapacityReservationAllocation
 - UpdateSecurityGroupRuleDescriptionsEgress
 - UpdateSecurityGroupRuleDescriptionsIngress
+- ValidateSecurityGroupQuotasForInterface
 - WithdrawByoipCidr
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
