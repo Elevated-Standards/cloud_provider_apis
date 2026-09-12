@@ -4,6 +4,7 @@ API Version       : 2016-08-10
 Endpoint Prefix   : batch
 Operations:
 - CancelJob
+- CancelJobs
 - CreateComputeEnvironment
 - CreateConsumableResource
 - CreateJobQueue
@@ -39,7 +40,9 @@ Operations:
 - SubmitServiceJob
 - TagResource
 - TerminateJob
+- TerminateJobs
 - TerminateServiceJob
+- TerminateServiceJobs
 - UntagResource
 - UpdateComputeEnvironment
 - UpdateConsumableResource
