@@ -212,6 +212,7 @@ Operations:
 - ListGlossaries
 - ListGlossaryTerms
 - ListIntegrationResourceProperties
+- ListIntegrationTableProperties
 - ListIterableForms
 - ListJobs
 - ListMLTransforms
