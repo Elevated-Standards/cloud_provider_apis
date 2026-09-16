@@ -10,6 +10,7 @@ Operations:
 - AllocatePublicVirtualInterface
 - AllocateTransitVirtualInterface
 - AssociateConnectionWithLag
+- AssociateConnectionsToResiliencyGroup
 - AssociateHostedConnection
 - AssociateMacSecKey
 - AssociateVirtualInterface
@@ -27,6 +28,7 @@ Operations:
 - CreateLag
 - CreatePrivateVirtualInterface
 - CreatePublicVirtualInterface
+- CreateResiliencyGroup
 - CreateTransitVirtualInterface
 - DeleteBGPPeer
 - DeleteConnection
@@ -35,6 +37,7 @@ Operations:
 - DeleteDirectConnectGatewayAssociationProposal
 - DeleteInterconnect
 - DeleteLag
+- DeleteResiliencyGroup
 - DeleteVirtualInterface
 - DescribeConnectionLoa
 - DescribeConnections
@@ -55,7 +58,11 @@ Operations:
 - DescribeVirtualGateways
 - DescribeVirtualInterfaces
 - DisassociateConnectionFromLag
+- DisassociateConnectionsFromResiliencyGroup
 - DisassociateMacSecKey
+- GetResiliencyGroup
+- ListResiliencyGroupAssociations
+- ListResiliencyGroups
 - ListVirtualInterfaceRoutes
 - ListVirtualInterfaceTestHistory
 - StartBgpFailoverTest
@@ -63,9 +70,11 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateConnection
+- UpdateConnectionsBillingMode
 - UpdateDirectConnectGateway
 - UpdateDirectConnectGatewayAssociation
 - UpdateLag
+- UpdateResiliencyGroup
 - UpdateVirtualInterfaceAttributes
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
