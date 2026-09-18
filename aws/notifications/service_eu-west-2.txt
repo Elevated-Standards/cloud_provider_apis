@@ -41,6 +41,7 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateEventRule
+- UpdateManagedNotificationChannelAssociation
 - UpdateNotificationConfiguration
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
