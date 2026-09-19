@@ -43,6 +43,7 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateCallAnalyticsCategory
+- UpdateLanguageModel
 - UpdateMedicalVocabulary
 - UpdateVocabulary
 - UpdateVocabularyFilter

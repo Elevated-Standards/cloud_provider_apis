@@ -242,6 +242,7 @@ Operations:
 - ListRoutingProfiles
 - ListRules
 - ListSecurityKeys
+- ListSecurityProfileAIAgents
 - ListSecurityProfileApplications
 - ListSecurityProfileFlowModules
 - ListSecurityProfilePermissions
