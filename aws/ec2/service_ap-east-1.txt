@@ -73,6 +73,7 @@ Operations:
 - CreateCapacityReservation
 - CreateCapacityReservationBySplitting
 - CreateCapacityReservationCancellationQuote
+- CreateCapacityReservationDateChangeQuote
 - CreateCapacityReservationFleet
 - CreateCarrierGateway
 - CreateClientVpnEndpoint
@@ -303,6 +304,7 @@ Operations:
 - DescribeCapacityManagerDataExports
 - DescribeCapacityReservationBillingRequests
 - DescribeCapacityReservationCancellationQuotes
+- DescribeCapacityReservationDateChangeQuotes
 - DescribeCapacityReservationFleets
 - DescribeCapacityReservationTopology
 - DescribeCapacityReservations
