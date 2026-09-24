@@ -46,6 +46,7 @@ Operations:
 - UpdateMaxRecordSize
 - UpdateShardCount
 - UpdateStreamMode
+- UpdateStreamRecordDistributionStrategy
 - UpdateStreamWarmThroughput
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
