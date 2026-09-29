@@ -182,6 +182,7 @@ Operations:
 - DeleteCapacityManagerDataExport
 - DeleteCarrierGateway
 - DeleteClientVpnEndpoint
+- DeleteClientVpnEndpointAuthorizationPolicy
 - DeleteClientVpnRoute
 - DeleteCoipCidr
 - DeleteCoipPool
@@ -564,6 +565,7 @@ Operations:
 - GetCapacityManagerMetricDimensions
 - GetCapacityManagerMonitoredTagKeys
 - GetCapacityReservationUsage
+- GetClientVpnEndpointAuthorizationPolicy
 - GetCoipPoolUsage
 - GetConsoleOutput
 - GetConsoleScreenshot
@@ -648,6 +650,7 @@ Operations:
 - ModifyCapacityReservation
 - ModifyCapacityReservationFleet
 - ModifyClientVpnEndpoint
+- ModifyClientVpnEndpointAuthorizationPolicy
 - ModifyDefaultCreditSpecification
 - ModifyEbsDefaultKmsKeyId
 - ModifyFleet
