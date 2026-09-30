@@ -11,6 +11,7 @@ Operations:
 - DeleteUser
 - DescribeGroup
 - DescribeGroupMembership
+- DescribeIdentityStore
 - DescribeUser
 - GetGroupId
 - GetGroupMembershipId
@@ -19,8 +20,10 @@ Operations:
 - ListGroupMemberships
 - ListGroupMembershipsForMember
 - ListGroups
+- ListIdentityStores
 - ListUsers
 - UpdateGroup
+- UpdateIdentityStore
 - UpdateUser
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
