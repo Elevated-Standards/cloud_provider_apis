@@ -81,6 +81,7 @@ Operations:
 - GetMasterAccount
 - GetMembers
 - GetRecommendedPolicyV2
+- GetRemediationsV2
 - GetResourcesStatisticsV2
 - GetResourcesTrendsV2
 - GetResourcesV2
@@ -94,6 +95,7 @@ Operations:
 - ListConnectors
 - ListConnectorsV2
 - ListEnabledProductsForImport
+- ListExposuresByRemediationV2
 - ListFindingAggregators
 - ListFreeTrialStatusesV2
 - ListInvitations

@@ -1,0 +1,34 @@
+Service Name      : codestar-connections
+Service ID        : CodeStar connections
+API Version       : 2019-12-01
+Endpoint Prefix   : codestar-connections
+Operations:
+- CreateConnection
+- CreateHost
+- CreateRepositoryLink
+- CreateSyncConfiguration
+- DeleteConnection
+- DeleteHost
+- DeleteRepositoryLink
+- DeleteSyncConfiguration
+- GetConnection
+- GetHost
+- GetRepositoryLink
+- GetRepositorySyncStatus
+- GetResourceSyncStatus
+- GetSyncBlockerSummary
+- GetSyncConfiguration
+- ListConnections
+- ListHosts
+- ListRepositoryLinks
+- ListRepositorySyncDefinitions
+- ListSyncConfigurations
+- ListTagsForResource
+- TagResource
+- UntagResource
+- UpdateHost
+- UpdateRepositoryLink
+- UpdateSyncBlocker
+- UpdateSyncConfiguration
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

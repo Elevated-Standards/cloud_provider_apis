@@ -15,6 +15,7 @@ Operations:
 - DescribeEvents
 - DescribeEventsForOrganization
 - DescribeHealthServiceStatusForOrganization
+- DescribeServiceLifecycle
 - DisableHealthServiceAccessForOrganization
 - EnableHealthServiceAccessForOrganization
 --------------------------------------------------------------------------------
