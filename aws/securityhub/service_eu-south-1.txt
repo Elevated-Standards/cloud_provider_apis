@@ -17,6 +17,7 @@ Operations:
 - BatchUpdateFindings
 - BatchUpdateFindingsV2
 - BatchUpdateStandardsControlAssociations
+- CancelExportJobV2
 - CreateActionTarget
 - CreateAggregatorV2
 - CreateAutomationRule
@@ -69,6 +70,7 @@ Operations:
 - GetConnector
 - GetConnectorV2
 - GetEnabledStandards
+- GetExportJobV2
 - GetFindingAggregator
 - GetFindingHistory
 - GetFindingStatisticsV2
@@ -95,6 +97,7 @@ Operations:
 - ListConnectors
 - ListConnectorsV2
 - ListEnabledProductsForImport
+- ListExportJobsV2
 - ListExposuresByRemediationV2
 - ListFindingAggregators
 - ListFreeTrialStatusesV2
@@ -107,6 +110,7 @@ Operations:
 - RegisterConnectorV2
 - StartConfigurationPolicyAssociation
 - StartConfigurationPolicyDisassociation
+- StartExportJobV2
 - TagResource
 - UntagResource
 - UpdateActionTarget
