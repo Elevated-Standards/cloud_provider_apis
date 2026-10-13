@@ -15031,6 +15031,42 @@ Operations:
 - GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DelegatedNetwork/controllers
 --------------------------------------------------------------------------------
 Service Name        : AdvisorManagementClient
+API Version         : 2026-08-01-preview
+Resource Provider   : advisor
+Operations:
+- GET /{resourceUri}/providers/Microsoft.Advisor/recommendations
+- GET /{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}
+- GET /{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}/suppressions/{name}
+- PUT /{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}/suppressions/{name}
+- DELETE /{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}/suppressions/{name}
+- GET /providers/Microsoft.Advisor/metadata
+- GET /providers/Microsoft.Advisor/metadata/{name}
+- GET /providers/Microsoft.Advisor/operations
+- GET /providers/Microsoft.Management/serviceGroups/{serviceGroupName}/providers/Microsoft.Advisor/recommendations
+- GET /providers/Microsoft.Management/serviceGroups/{serviceGroupName}/providers/Microsoft.Advisor/recommendations/{recommendationId}
+- PATCH /providers/Microsoft.Management/serviceGroups/{serviceGroupName}/providers/Microsoft.Advisor/recommendations/{recommendationId}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/advisorScore
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/advisorScore/{name}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessmentTypes
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments/{assessmentName}
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments/{assessmentName}
+- DELETE /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments/{assessmentName}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/configurations
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/configurations/{configurationName}
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/generateRecommendations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/generateRecommendations/{operationId}
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/predict
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/recommendations
+- PATCH /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/recommendations/{recommendationId}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/resiliencyReviews
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/resiliencyReviews/{reviewId}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/suppressions
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/workloads
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Advisor/configurations
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Advisor/configurations/{configurationName}
+--------------------------------------------------------------------------------
+Service Name        : AdvisorManagementClient
 API Version         : 2016-07-12-preview
 Resource Provider   : advisor
 Operations:
@@ -26883,6 +26919,98 @@ Operations:
 - GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
 - PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
 - DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
+--------------------------------------------------------------------------------
+Service Name        : Microsoft.IoTOperations management service.
+API Version         : 2026-11-01-preview
+Resource Provider   : iotoperations
+Operations:
+- GET /providers/Microsoft.IoTOperations/operations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.IoTOperations/instances
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}
+- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioApplicationConfigurations
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioApplicationConfigurations/{aioApplicationConfigurationName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioApplicationConfigurations/{aioApplicationConfigurationName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioApplicationConfigurations/{aioApplicationConfigurationName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioConnectorConfigurations
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioConnectorConfigurations/{aioConnectorConfigurationName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioConnectorConfigurations/{aioConnectorConfigurationName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/aioApplicationDefinitions/{aioApplicationDefinitionName}/aioConnectorConfigurations/{aioConnectorConfigurationName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriConnectorApplicationConfigurations
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriConnectorApplicationConfigurations/{aioConnectorApplicationConfigurationName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriConnectorApplicationConfigurations/{aioConnectorApplicationConfigurationName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriConnectorApplicationConfigurations/{aioConnectorApplicationConfigurationName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriEdgeApplicationConfigurations
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriEdgeApplicationConfigurations/{aioApplicationConfigurationName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriEdgeApplicationConfigurations/{aioApplicationConfigurationName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriApplicationProfiles/{aioApplicationProfileName}/akriEdgeApplicationConfigurations/{aioApplicationConfigurationName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}/connectors
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}/connectors/{connectorName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}/connectors/{connectorName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriConnectorTemplates/{akriConnectorTemplateName}/connectors/{connectorName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriServices
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriServices/{akriServiceName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriServices/{akriServiceName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/akriServices/{akriServiceName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authentications
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authentications/{authenticationName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authentications/{authenticationName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authentications/{authenticationName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authorizations
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authorizations/{authorizationName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authorizations/{authorizationName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/authorizations/{authorizationName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/listeners
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/listeners/{listenerName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/listeners/{listenerName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/brokers/{brokerName}/listeners/{listenerName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowEndpoints
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowEndpoints/{dataflowEndpointName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowEndpoints/{dataflowEndpointName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowEndpoints/{dataflowEndpointName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflowGraphs
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflowGraphs/{dataflowGraphName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflowGraphs/{dataflowGraphName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflowGraphs/{dataflowGraphName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpAuthorizationPolicies
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpAuthorizationPolicies/{mcpAuthorizationPolicyName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpAuthorizationPolicies/{mcpAuthorizationPolicyName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpAuthorizationPolicies/{mcpAuthorizationPolicyName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpServerConnections
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpServerConnections/{mcpServerConnectionName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpServerConnections/{mcpServerConnectionName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/mcpServerConnections/{mcpServerConnectionName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/registryEndpoints
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/registryEndpoints/{registryEndpointName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/registryEndpoints/{registryEndpointName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/registryEndpoints/{registryEndpointName}
 --------------------------------------------------------------------------------
 Service Name        : Microsoft.IoTOperations management service.
 API Version         : 2026-07-01
@@ -210219,6 +210347,37 @@ Resource Provider   : resourcegraph
 Operations:
 - POST /providers/Microsoft.ResourceGraph/resources
 - GET /providers/Microsoft.ResourceGraph/operations
+--------------------------------------------------------------------------------
+Service Name        : Azure Resource Graph Onboarding
+API Version         : 2026-05-01-preview
+Resource Provider   : resourcegraph
+Operations:
+- GET /providers/Microsoft.ResourceGraph/operations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/dataOnboardings
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/dataOnboardings/{dataOnboardingName}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/dataOnboardings/{dataOnboardingName}/locations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/dataOnboardings/{dataOnboardingName}/locations/{location}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/dataOnboardings/{dataOnboardingName}/locations/{location}/activation
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/dataOnboardings/{dataOnboardingName}/locations/{location}/activation/default
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}/locations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}/locations/{location}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}/locations/{location}/activation
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}/locations/{location}/activation/default
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/ontologies/{ontologyName}/locations/{location}/activation/default
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}/locations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}/locations/{location}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}/locations/{location}/activation
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}/locations/{location}/activation/default
+- PUT /subscriptions/{subscriptionId}/providers/Microsoft.ResourceGraph/offerings/{offeringName}/queryEndpoints/{queryEndpointName}/locations/{location}/activation/default
 --------------------------------------------------------------------------------
 Service Name        : Azure Resource Graph Query
 API Version         : 2022-10-01
