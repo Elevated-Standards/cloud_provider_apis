@@ -13,6 +13,7 @@ Operations:
 - BatchGetCrawlers
 - BatchGetCustomEntityTypes
 - BatchGetDataQualityResult
+- BatchGetDataQualityResultV2
 - BatchGetDataQualityRulesetEvaluationRun
 - BatchGetDevEndpoints
 - BatchGetIterableForms
@@ -132,6 +133,7 @@ Operations:
 - GetDataQualityModel
 - GetDataQualityModelResult
 - GetDataQualityResult
+- GetDataQualityResultV2
 - GetDataQualityRuleRecommendationRun
 - GetDataQualityRuleset
 - GetDataQualityRulesetEvaluationRun
@@ -203,6 +205,7 @@ Operations:
 - ListCrawls
 - ListCustomEntityTypes
 - ListDataQualityResults
+- ListDataQualityResultsV2
 - ListDataQualityRuleRecommendationRuns
 - ListDataQualityRulesetEvaluationRuns
 - ListDataQualityRulesets
@@ -229,6 +232,7 @@ Operations:
 - ListUsageProfiles
 - ListWorkflows
 - ModifyIntegration
+- PublishDataQualityResultV2
 - PutAsset
 - PutAssetType
 - PutAttachment
