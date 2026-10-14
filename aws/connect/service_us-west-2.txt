@@ -40,6 +40,7 @@ Operations:
 - CreateAuthCode
 - CreateContact
 - CreateContactFlow
+- CreateContactFlowAlias
 - CreateContactFlowModule
 - CreateContactFlowModuleAlias
 - CreateContactFlowModuleVersion
@@ -81,6 +82,7 @@ Operations:
 - DeleteContactData
 - DeleteContactEvaluation
 - DeleteContactFlow
+- DeleteContactFlowAlias
 - DeleteContactFlowModule
 - DeleteContactFlowModuleAlias
 - DeleteContactFlowModuleVersion
@@ -123,6 +125,7 @@ Operations:
 - DescribeContact
 - DescribeContactEvaluation
 - DescribeContactFlow
+- DescribeContactFlowAlias
 - DescribeContactFlowModule
 - DescribeContactFlowModuleAlias
 - DescribeDataTable
@@ -201,6 +204,7 @@ Operations:
 - ListBots
 - ListChildHoursOfOperations
 - ListContactEvaluations
+- ListContactFlowAliases
 - ListContactFlowModuleAliases
 - ListContactFlowModuleVersions
 - ListContactFlowModules
@@ -337,6 +341,7 @@ Operations:
 - UpdateContact
 - UpdateContactAttributes
 - UpdateContactEvaluation
+- UpdateContactFlowAlias
 - UpdateContactFlowContent
 - UpdateContactFlowMetadata
 - UpdateContactFlowModuleAlias

@@ -5,6 +5,7 @@ Endpoint Prefix   : lakeformation
 Operations:
 - AddLFTagsToResource
 - AssumeDecoratedRoleWithSAML
+- AttachRLSPolicy
 - BatchGrantPermissions
 - BatchRevokePermissions
 - CancelTransaction
@@ -14,16 +15,19 @@ Operations:
 - CreateLFTagExpression
 - CreateLakeFormationIdentityCenterConfiguration
 - CreateLakeFormationOptIn
+- CreateRLSPolicy
 - DeleteDataCellsFilter
 - DeleteLFTag
 - DeleteLFTagExpression
 - DeleteLakeFormationIdentityCenterConfiguration
 - DeleteLakeFormationOptIn
 - DeleteObjectsOnCancel
+- DeleteRLSPolicy
 - DeregisterResource
 - DescribeLakeFormationIdentityCenterConfiguration
 - DescribeResource
 - DescribeTransaction
+- DetachRLSPolicy
 - ExtendTransaction
 - GetDataCellsFilter
 - GetDataLakePrincipal
@@ -33,6 +37,7 @@ Operations:
 - GetLFTagExpression
 - GetQueryState
 - GetQueryStatistics
+- GetRLSPolicy
 - GetResourceLFTags
 - GetTableObjects
 - GetTemporaryDataLocationCredentials
@@ -46,6 +51,8 @@ Operations:
 - ListLFTags
 - ListLakeFormationOptIns
 - ListPermissions
+- ListRLSPolicies
+- ListRLSPolicyAttachments
 - ListResources
 - ListTableStorageOptimizers
 - ListTransactions
@@ -61,6 +68,7 @@ Operations:
 - UpdateLFTag
 - UpdateLFTagExpression
 - UpdateLakeFormationIdentityCenterConfiguration
+- UpdateRLSPolicy
 - UpdateResource
 - UpdateTableObjects
 - UpdateTableStorageOptimizer
