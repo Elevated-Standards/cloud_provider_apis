@@ -10,6 +10,7 @@ Operations:
 - ApplyPendingMaintenanceAction
 - AuthorizeDBSecurityGroupIngress
 - BacktrackDBCluster
+- CancelDBCapacityReservation
 - CancelExportTask
 - CopyDBClusterParameterGroup
 - CopyDBClusterSnapshot
@@ -18,6 +19,7 @@ Operations:
 - CopyOptionGroup
 - CreateBlueGreenDeployment
 - CreateCustomDBEngineVersion
+- CreateDBCapacityReservation
 - CreateDBCluster
 - CreateDBClusterEndpoint
 - CreateDBClusterParameterGroup
@@ -61,6 +63,7 @@ Operations:
 - DescribeAccountAttributes
 - DescribeBlueGreenDeployments
 - DescribeCertificates
+- DescribeDBCapacityReservations
 - DescribeDBClusterAutomatedBackups
 - DescribeDBClusterBacktracks
 - DescribeDBClusterEndpoints
@@ -115,6 +118,7 @@ Operations:
 - ModifyCertificates
 - ModifyCurrentDBClusterCapacity
 - ModifyCustomDBEngineVersion
+- ModifyDBCapacityReservation
 - ModifyDBCluster
 - ModifyDBClusterEndpoint
 - ModifyDBClusterParameterGroup
