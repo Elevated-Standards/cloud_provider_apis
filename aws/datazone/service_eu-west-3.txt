@@ -22,6 +22,7 @@ Operations:
 - CreateDataProduct
 - CreateDataProductRevision
 - CreateDataSource
+- CreateDesignation
 - CreateDomain
 - CreateDomainUnit
 - CreateEnvironment
@@ -50,6 +51,7 @@ Operations:
 - DeleteDataExportConfiguration
 - DeleteDataProduct
 - DeleteDataSource
+- DeleteDesignation
 - DeleteDomain
 - DeleteDomainUnit
 - DeleteEnvironment
@@ -82,6 +84,7 @@ Operations:
 - GetDataProduct
 - GetDataSource
 - GetDataSourceRun
+- GetDesignation
 - GetDomain
 - GetDomainUnit
 - GetEnvironment
@@ -121,6 +124,7 @@ Operations:
 - ListDataSourceRunActivities
 - ListDataSourceRuns
 - ListDataSources
+- ListDesignations
 - ListDomainUnitsForParent
 - ListDomains
 - ListEntityOwners
@@ -175,6 +179,7 @@ Operations:
 - UpdateAssetFilter
 - UpdateConnection
 - UpdateDataSource
+- UpdateDesignation
 - UpdateDomain
 - UpdateDomainUnit
 - UpdateEnvironment

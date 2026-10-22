@@ -23,6 +23,7 @@ Operations:
 - DeleteTags
 - DeleteWarmPool
 - DescribeAccountLimits
+- DescribeAccountSettings
 - DescribeAdjustmentTypes
 - DescribeAutoScalingGroups
 - DescribeAutoScalingInstances
@@ -54,6 +55,7 @@ Operations:
 - ExitStandby
 - GetPredictiveScalingForecast
 - LaunchInstances
+- PutAccountSetting
 - PutLifecycleHook
 - PutNotificationConfiguration
 - PutScalingPolicy
