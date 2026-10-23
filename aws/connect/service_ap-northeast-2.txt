@@ -241,6 +241,7 @@ Operations:
 - ListQueues
 - ListQuickConnects
 - ListRealtimeContactAnalysisSegmentsV2
+- ListReplicationFindings
 - ListRoutingProfileManualAssignmentQueues
 - ListRoutingProfileQueues
 - ListRoutingProfiles

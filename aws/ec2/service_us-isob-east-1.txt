@@ -618,6 +618,7 @@ Operations:
 - GetSnapshotBlockPublicAccessState
 - GetSpotPlacementScores
 - GetSubnetCidrReservations
+- GetTransitGatewayAttachmentNatConfiguration
 - GetTransitGatewayAttachmentPropagations
 - GetTransitGatewayMeteringPolicyEntries
 - GetTransitGatewayMulticastDomainAssociations
@@ -699,6 +700,7 @@ Operations:
 - ModifyTrafficMirrorFilterRule
 - ModifyTrafficMirrorSession
 - ModifyTransitGateway
+- ModifyTransitGatewayAttachmentNatConfiguration
 - ModifyTransitGatewayMeteringPolicy
 - ModifyTransitGatewayPolicyTableEntry
 - ModifyTransitGatewayPrefixListReference
