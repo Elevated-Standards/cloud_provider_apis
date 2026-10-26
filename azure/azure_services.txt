@@ -147517,6 +147517,17 @@ Operations:
 - DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Security/privateLinks/{privateLinkName}/privateEndpointConnections/{privateEndpointConnectionName}
 --------------------------------------------------------------------------------
 Service Name        : Security Center
+API Version         : 2026-03-01-preview
+Resource Provider   : security
+Operations:
+- GET /{resourceId}/providers/Microsoft.Security/defenderForStorageSettings
+- GET /{resourceId}/providers/Microsoft.Security/defenderForStorageSettings/{settingName}
+- PUT /{resourceId}/providers/Microsoft.Security/defenderForStorageSettings/{settingName}
+- GET /{resourceId}/providers/Microsoft.Security/defenderForStorageSettings/{settingName}/malwareScans/{scanId}
+- POST /{resourceId}/providers/Microsoft.Security/defenderForStorageSettings/{settingName}/malwareScans/{scanId}/cancelMalwareScan
+- POST /{resourceId}/providers/Microsoft.Security/defenderForStorageSettings/{settingName}/startMalwareScan
+--------------------------------------------------------------------------------
+Service Name        : Security Center
 API Version         : 2022-08-01-preview
 Resource Provider   : security
 Operations:
