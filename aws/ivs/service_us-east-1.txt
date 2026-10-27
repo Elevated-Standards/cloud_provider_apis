@@ -8,17 +8,20 @@ Operations:
 - BatchStartViewerSessionRevocation
 - CreateAdConfiguration
 - CreateChannel
+- CreateFailoverSlateConfiguration
 - CreatePlaybackRestrictionPolicy
 - CreateRecordingConfiguration
 - CreateStreamKey
 - DeleteAdConfiguration
 - DeleteChannel
+- DeleteFailoverSlateConfiguration
 - DeletePlaybackKeyPair
 - DeletePlaybackRestrictionPolicy
 - DeleteRecordingConfiguration
 - DeleteStreamKey
 - GetAdConfiguration
 - GetChannel
+- GetFailoverSlateConfiguration
 - GetPlaybackKeyPair
 - GetPlaybackRestrictionPolicy
 - GetRecordingConfiguration
@@ -29,6 +32,7 @@ Operations:
 - InsertAdBreak
 - ListAdConfigurations
 - ListChannels
+- ListFailoverSlateConfigurations
 - ListPlaybackKeyPairs
 - ListPlaybackRestrictionPolicies
 - ListRecordingConfigurations
@@ -43,6 +47,7 @@ Operations:
 - UntagResource
 - UpdateAdConfiguration
 - UpdateChannel
+- UpdateFailoverSlateConfiguration
 - UpdatePlaybackRestrictionPolicy
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

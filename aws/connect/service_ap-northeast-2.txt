@@ -366,6 +366,7 @@ Operations:
 - UpdateMetricContent
 - UpdateMetricMetadata
 - UpdateNotificationContent
+- UpdateOutboundEmailContactMessage
 - UpdateParticipantAuthentication
 - UpdateParticipantRoleConfig
 - UpdatePhoneNumber

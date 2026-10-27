@@ -9,9 +9,12 @@ Operations:
 - AddFlowOutputs
 - AddFlowSources
 - AddFlowVpcInterfaces
+- BatchGetDestinationEndpoint
 - BatchGetRouterInput
 - BatchGetRouterNetworkInterface
 - BatchGetRouterOutput
+- BatchGetSourceEndpoint
+- ConnectEndpoints
 - CreateBridge
 - CreateFlow
 - CreateGateway
@@ -24,7 +27,9 @@ Operations:
 - DeleteRouterInput
 - DeleteRouterNetworkInterface
 - DeleteRouterOutput
+- DeregisterDestinationEndpoint
 - DeregisterGatewayInstance
+- DeregisterSourceEndpoint
 - DescribeBridge
 - DescribeFlow
 - DescribeFlowSourceMetadata
@@ -33,13 +38,17 @@ Operations:
 - DescribeGatewayInstance
 - DescribeOffering
 - DescribeReservation
+- DisconnectEndpoints
+- GetDestinationEndpoint
 - GetRouterInput
 - GetRouterInputSourceMetadata
 - GetRouterInputThumbnail
 - GetRouterNetworkInterface
 - GetRouterOutput
+- GetSourceEndpoint
 - GrantFlowEntitlements
 - ListBridges
+- ListDestinationEndpoints
 - ListEntitlements
 - ListFlows
 - ListGatewayInstances
@@ -49,9 +58,12 @@ Operations:
 - ListRouterInputs
 - ListRouterNetworkInterfaces
 - ListRouterOutputs
+- ListSourceEndpoints
 - ListTagsForGlobalResource
 - ListTagsForResource
 - PurchaseOffering
+- RegisterDestinationEndpoint
+- RegisterSourceEndpoint
 - RemoveBridgeOutput
 - RemoveBridgeSource
 - RemoveFlowMediaStream
@@ -76,6 +88,7 @@ Operations:
 - UpdateBridgeOutput
 - UpdateBridgeSource
 - UpdateBridgeState
+- UpdateDestinationEndpoint
 - UpdateFlow
 - UpdateFlowEntitlement
 - UpdateFlowMediaStream
@@ -85,5 +98,6 @@ Operations:
 - UpdateRouterInput
 - UpdateRouterNetworkInterface
 - UpdateRouterOutput
+- UpdateSourceEndpoint
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
