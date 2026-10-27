@@ -27713,29 +27713,25 @@ Operations:
 - DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTOperations/instances/{instanceName}/dataflowProfiles/{dataflowProfileName}/dataflows/{dataflowName}
 --------------------------------------------------------------------------------
 Service Name        : Cloud for Sovereignty Resource Provider.
-API Version         : 2025-02-27-preview
+API Version         : 2026-10-31-preview
 Resource Provider   : sovereign
 Operations:
 - GET /providers/Microsoft.Sovereign/operations
-- GET /subscriptions/{subscriptionId}/providers/Microsoft.Sovereign/landingZoneAccounts
-- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts
-- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}
-- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}
-- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}
-- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}
-- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations
-- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}
-- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}
-- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}
-- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}
-- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}/createCopy
-- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}/generateLandingZone
-- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneConfigurations/{landingZoneConfigurationName}/updateAuthoringStatus
-- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneRegistrations
-- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneRegistrations/{landingZoneRegistrationName}
-- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneRegistrations/{landingZoneRegistrationName}
-- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneRegistrations/{landingZoneRegistrationName}
-- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/landingZoneAccounts/{landingZoneAccountName}/landingZoneRegistrations/{landingZoneRegistrationName}
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.Sovereign/checkNameAvailability
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.Sovereign/locations/{location}/checkNameAvailability
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.Sovereign/sovereignViews
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}
+- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/complianceDetails
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/complianceResourceDetails
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/complianceSummary
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/filterValues
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/operationalStatus
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/remediate
+- POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sovereign/sovereignViews/{sovereignViewName}/remediationResult
 --------------------------------------------------------------------------------
 Service Name        : Common types
 API Version         : 3.0
@@ -168947,6 +168943,23 @@ Operations:
 --------------------------------------------------------------------------------
 Service Name        : Playwright Service Management API
 API Version         : 2026-01-01-preview
+Resource Provider   : loadtestservice
+Operations:
+- GET /providers/Microsoft.LoadTestService/operations
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.LoadTestService/checkNameAvailability
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.LoadTestService/locations/{location}/playwrightQuotas
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.LoadTestService/locations/{location}/playwrightQuotas/{playwrightQuotaName}
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.LoadTestService/playwrightWorkspaces
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces/{playwrightWorkspaceName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces/{playwrightWorkspaceName}
+- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces/{playwrightWorkspaceName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces/{playwrightWorkspaceName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces/{playwrightWorkspaceName}/quotas
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService/playwrightWorkspaces/{playwrightWorkspaceName}/quotas/{quotaName}
+--------------------------------------------------------------------------------
+Service Name        : Playwright Service Management API
+API Version         : 2026-11-01-preview
 Resource Provider   : loadtestservice
 Operations:
 - GET /providers/Microsoft.LoadTestService/operations
