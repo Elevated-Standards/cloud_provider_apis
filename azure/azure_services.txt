@@ -145024,6 +145024,37 @@ Operations:
 - GET /{resourceUri}/providers/Microsoft.ResourceHealth/availabilityStatuses
 --------------------------------------------------------------------------------
 Service Name        : Microsoft.ResourceHealth
+API Version         : 2026-07-01
+Resource Provider   : resourcehealth
+Operations:
+- GET /{resourceUri}/providers/Microsoft.ResourceHealth/availabilityStatuses
+- GET /{resourceUri}/providers/Microsoft.ResourceHealth/availabilityStatuses/current
+- GET /{resourceUri}/providers/Microsoft.ResourceHealth/childAvailabilityStatuses
+- GET /{resourceUri}/providers/Microsoft.ResourceHealth/childAvailabilityStatuses/current
+- GET /{resourceUri}/providers/Microsoft.ResourceHealth/childResources
+- GET /{resourceUri}/providers/Microsoft.ResourceHealth/events
+- GET /providers/Microsoft.ResourceHealth/emergingIssues
+- GET /providers/Microsoft.ResourceHealth/emergingIssues/{issueName}
+- GET /providers/Microsoft.ResourceHealth/events
+- GET /providers/Microsoft.ResourceHealth/events/{eventTrackingId}
+- POST /providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchEventDetails
+- GET /providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources
+- GET /providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources/{impactedResourceName}
+- POST /providers/Microsoft.ResourceHealth/events/{eventTrackingId}/listSecurityAdvisoryImpactedResources
+- GET /providers/Microsoft.ResourceHealth/metadata
+- GET /providers/Microsoft.ResourceHealth/metadata/{name}
+- GET /providers/Microsoft.ResourceHealth/operations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/availabilityStatuses
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchBillingCommunicationDetails
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchEventDetails
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources/{impactedResourceName}
+- POST /subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/listSecurityAdvisoryImpactedResources
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceHealth/availabilityStatuses
+--------------------------------------------------------------------------------
+Service Name        : Microsoft.ResourceHealth
 API Version         : 2025-05-01
 Resource Provider   : resourcehealth
 Operations:
