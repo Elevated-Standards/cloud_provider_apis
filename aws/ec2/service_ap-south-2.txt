@@ -564,6 +564,7 @@ Operations:
 - GetCapacityManagerMetricData
 - GetCapacityManagerMetricDimensions
 - GetCapacityManagerMonitoredTagKeys
+- GetCapacityManagerSupportabilityScores
 - GetCapacityReservationUsage
 - GetClientVpnEndpointAuthorizationPolicy
 - GetCoipPoolUsage
