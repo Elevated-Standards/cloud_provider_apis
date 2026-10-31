@@ -38,6 +38,7 @@ Operations:
 - DescribeGlobalClusters
 - DescribeOrderableDBInstanceOptions
 - DescribePendingMaintenanceActions
+- DescribeServerlessV2PlatformVersions
 - FailoverDBCluster
 - FailoverGlobalCluster
 - ListTagsForResource
