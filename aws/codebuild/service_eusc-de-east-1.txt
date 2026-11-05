@@ -1,0 +1,66 @@
+Service Name      : codebuild
+Service ID        : CodeBuild
+API Version       : 2016-10-06
+Endpoint Prefix   : codebuild
+Operations:
+- BatchDeleteBuilds
+- BatchGetBuildBatches
+- BatchGetBuilds
+- BatchGetCommandExecutions
+- BatchGetFleets
+- BatchGetProjects
+- BatchGetReportGroups
+- BatchGetReports
+- BatchGetSandboxes
+- CreateFleet
+- CreateProject
+- CreateReportGroup
+- CreateWebhook
+- DeleteBuildBatch
+- DeleteFleet
+- DeleteProject
+- DeleteReport
+- DeleteReportGroup
+- DeleteResourcePolicy
+- DeleteSourceCredentials
+- DeleteWebhook
+- DescribeCodeCoverages
+- DescribeTestCases
+- GetReportGroupTrend
+- GetResourcePolicy
+- ImportSourceCredentials
+- InvalidateProjectCache
+- ListBuildBatches
+- ListBuildBatchesForProject
+- ListBuilds
+- ListBuildsForProject
+- ListCommandExecutionsForSandbox
+- ListCuratedEnvironmentImages
+- ListFleets
+- ListProjects
+- ListReportGroups
+- ListReports
+- ListReportsForReportGroup
+- ListSandboxes
+- ListSandboxesForProject
+- ListSharedProjects
+- ListSharedReportGroups
+- ListSourceCredentials
+- PutResourcePolicy
+- RetryBuild
+- RetryBuildBatch
+- StartBuild
+- StartBuildBatch
+- StartCommandExecution
+- StartSandbox
+- StartSandboxConnection
+- StopBuild
+- StopBuildBatch
+- StopSandbox
+- UpdateFleet
+- UpdateProject
+- UpdateProjectVisibility
+- UpdateReportGroup
+- UpdateWebhook
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

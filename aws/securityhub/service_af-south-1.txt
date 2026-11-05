@@ -88,6 +88,9 @@ Operations:
 - GetResourcesTrendsV2
 - GetResourcesV2
 - GetSecurityControlDefinition
+- GetSoftwareResourcesV2
+- GetSoftwareStatisticsV2
+- GetSoftwareV2
 - InviteMembers
 - ListAggregatorsV2
 - ListAutomationRules

@@ -6,6 +6,7 @@ Operations:
 - BatchExecuteStatement
 - BatchGetItem
 - BatchWriteItem
+- CancelBulkOperation
 - CreateBackup
 - CreateGlobalTable
 - CreateTable
@@ -14,6 +15,7 @@ Operations:
 - DeleteResourcePolicy
 - DeleteTable
 - DescribeBackup
+- DescribeBulkOperation
 - DescribeContinuousBackups
 - DescribeContributorInsights
 - DescribeEndpoints
@@ -35,6 +37,7 @@ Operations:
 - GetResourcePolicy
 - ImportTable
 - ListBackups
+- ListBulkOperations
 - ListContributorInsights
 - ListExports
 - ListGlobalTables
@@ -48,6 +51,7 @@ Operations:
 - RestoreTableToPointInTime
 - Scan
 - SearchVectors
+- StartBulkPutItems
 - TagResource
 - TransactGetItems
 - TransactWriteItems

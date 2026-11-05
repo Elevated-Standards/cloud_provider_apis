@@ -9,9 +9,12 @@ Operations:
 - GetSpeechSynthesisTask
 - ListLexicons
 - ListSpeechSynthesisTasks
+- ListTagsForResource
 - PutLexicon
 - StartSpeechSynthesisStream
 - StartSpeechSynthesisTask
 - SynthesizeSpeech
+- TagResource
+- UntagResource
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
