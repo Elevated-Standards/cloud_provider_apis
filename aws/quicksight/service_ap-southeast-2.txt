@@ -137,6 +137,7 @@ Operations:
 - DescribeQPersonalizationConfiguration
 - DescribeQuickSightQSearchConfiguration
 - DescribeRefreshSchedule
+- DescribeResourcePermissions
 - DescribeRoleCustomPermission
 - DescribeSelfUpgradeConfiguration
 - DescribeSpace
@@ -281,6 +282,7 @@ Operations:
 - UpdateQPersonalizationConfiguration
 - UpdateQuickSightQSearchConfiguration
 - UpdateRefreshSchedule
+- UpdateResourcePermissions
 - UpdateRoleCustomPermission
 - UpdateSPICECapacityConfiguration
 - UpdateSelfUpgrade

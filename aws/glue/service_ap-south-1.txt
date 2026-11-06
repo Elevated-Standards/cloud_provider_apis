@@ -153,6 +153,7 @@ Operations:
 - GetJobBookmark
 - GetJobRun
 - GetJobRuns
+- GetJobUpgradeAnalysis
 - GetJobs
 - GetMLTaskRun
 - GetMLTaskRuns
@@ -262,6 +263,7 @@ Operations:
 - StartExportLabelsTaskRun
 - StartImportLabelsTaskRun
 - StartJobRun
+- StartJobUpgradeAnalysis
 - StartMLEvaluationTaskRun
 - StartMLLabelingSetGenerationTaskRun
 - StartMaterializedViewRefreshTaskRun
@@ -271,6 +273,7 @@ Operations:
 - StopColumnStatisticsTaskRunSchedule
 - StopCrawler
 - StopCrawlerSchedule
+- StopJobUpgradeAnalysis
 - StopMaterializedViewRefreshTaskRun
 - StopSession
 - StopTrigger
