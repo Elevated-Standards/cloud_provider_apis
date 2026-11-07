@@ -30,6 +30,7 @@ Operations:
 - DeletePatchBaseline
 - DeleteResourceDataSync
 - DeleteResourcePolicy
+- DeregisterDefaultHostManagementConfiguration
 - DeregisterManagedInstance
 - DeregisterPatchBaselineForPatchGroup
 - DeregisterTargetFromMaintenanceWindow
@@ -121,6 +122,7 @@ Operations:
 - PutInventory
 - PutParameter
 - PutResourcePolicy
+- RegisterDefaultHostManagementConfiguration
 - RegisterDefaultPatchBaseline
 - RegisterPatchBaselineForPatchGroup
 - RegisterTargetWithMaintenanceWindow

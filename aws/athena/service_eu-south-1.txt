@@ -13,12 +13,14 @@ Operations:
 - CreateNotebook
 - CreatePreparedStatement
 - CreatePresignedNotebookUrl
+- CreateSystemTableConfiguration
 - CreateWorkGroup
 - DeleteCapacityReservation
 - DeleteDataCatalog
 - DeleteNamedQuery
 - DeleteNotebook
 - DeletePreparedStatement
+- DeleteSystemTableConfiguration
 - DeleteWorkGroup
 - ExportNotebook
 - GetCalculationExecution
@@ -38,6 +40,7 @@ Operations:
 - GetSession
 - GetSessionEndpoint
 - GetSessionStatus
+- GetSystemTableConfiguration
 - GetTableMetadata
 - GetWorkGroup
 - ImportNotebook
@@ -54,6 +57,7 @@ Operations:
 - ListPreparedStatements
 - ListQueryExecutions
 - ListSessions
+- ListSystemTableStatuses
 - ListTableMetadata
 - ListTagsForResource
 - ListWorkGroups
@@ -72,6 +76,7 @@ Operations:
 - UpdateNotebook
 - UpdateNotebookMetadata
 - UpdatePreparedStatement
+- UpdateSystemTableConfiguration
 - UpdateWorkGroup
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

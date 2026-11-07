@@ -37,6 +37,7 @@ Operations:
 - SetDefaultPermissionVersion
 - TagResource
 - UntagResource
+- UpdatePermission
 - UpdateResourceShare
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
