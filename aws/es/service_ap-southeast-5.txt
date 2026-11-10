@@ -50,6 +50,7 @@ Operations:
 - RemoveTags
 - RevokeVpcEndpointAccess
 - StartElasticsearchServiceSoftwareUpdate
+- UpdateClone
 - UpdateElasticsearchDomainConfig
 - UpdatePackage
 - UpdateVpcEndpoint

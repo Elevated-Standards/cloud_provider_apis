@@ -37,6 +37,7 @@ Operations:
 - CreateConnection
 - CreateCrawler
 - CreateCustomEntityType
+- CreateDataQualityEvaluationConfig
 - CreateDataQualityRuleset
 - CreateDatabase
 - CreateDevEndpoint
@@ -74,6 +75,7 @@ Operations:
 - DeleteConnectionType
 - DeleteCrawler
 - DeleteCustomEntityType
+- DeleteDataQualityEvaluationConfig
 - DeleteDataQualityRuleset
 - DeleteDatabase
 - DeleteDevEndpoint
@@ -130,6 +132,7 @@ Operations:
 - GetDashboardUrl
 - GetDataCatalogEncryptionSettings
 - GetDataCatalogExportConfiguration
+- GetDataQualityEvaluationConfig
 - GetDataQualityModel
 - GetDataQualityModelResult
 - GetDataQualityResult
@@ -205,6 +208,7 @@ Operations:
 - ListCrawlers
 - ListCrawls
 - ListCustomEntityTypes
+- ListDataQualityEvaluationConfigs
 - ListDataQualityResults
 - ListDataQualityResultsV2
 - ListDataQualityRuleRecommendationRuns
@@ -291,6 +295,7 @@ Operations:
 - UpdateConnection
 - UpdateCrawler
 - UpdateCrawlerSchedule
+- UpdateDataQualityEvaluationConfig
 - UpdateDataQualityRuleset
 - UpdateDatabase
 - UpdateDevEndpoint
