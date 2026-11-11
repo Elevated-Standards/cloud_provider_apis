@@ -33,6 +33,7 @@ Operations:
 - GetDataLakePrincipal
 - GetDataLakeSettings
 - GetEffectivePermissionsForPath
+- GetGlueFunctionSessionContext
 - GetLFTag
 - GetLFTagExpression
 - GetQueryState
@@ -41,6 +42,7 @@ Operations:
 - GetResourceLFTags
 - GetTableObjects
 - GetTemporaryDataLocationCredentials
+- GetTemporaryGlueFunctionCredentials
 - GetTemporaryGluePartitionCredentials
 - GetTemporaryGlueTableCredentials
 - GetWorkUnitResults

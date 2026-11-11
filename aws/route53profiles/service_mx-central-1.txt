@@ -18,6 +18,7 @@ Operations:
 - ListTagsForResource
 - TagResource
 - UntagResource
+- UpdateProfileAssociation
 - UpdateProfileResourceAssociation
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
