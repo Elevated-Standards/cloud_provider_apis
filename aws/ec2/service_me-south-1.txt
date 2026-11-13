@@ -117,6 +117,7 @@ Operations:
 - CreateLocalGatewayVirtualInterfaceGroup
 - CreateMacSystemIntegrityProtectionModificationTask
 - CreateManagedPrefixList
+- CreateMetricCategory
 - CreateNatGateway
 - CreateNetworkAcl
 - CreateNetworkAclEntry
@@ -216,6 +217,7 @@ Operations:
 - DeleteLocalGatewayVirtualInterface
 - DeleteLocalGatewayVirtualInterfaceGroup
 - DeleteManagedPrefixList
+- DeleteMetricCategory
 - DeleteNatGateway
 - DeleteNetworkAcl
 - DeleteNetworkAclEntry
@@ -386,6 +388,7 @@ Operations:
 - DescribeMacHosts
 - DescribeMacModificationTasks
 - DescribeManagedPrefixLists
+- DescribeMetricCategories
 - DescribeMovingAddresses
 - DescribeNatGateways
 - DescribeNetworkAcls
@@ -688,6 +691,7 @@ Operations:
 - ModifyLocalGatewayRoute
 - ModifyManagedPrefixList
 - ModifyManagedResourceVisibility
+- ModifyMetricCategory
 - ModifyNetworkInterfaceAttribute
 - ModifyPrivateDnsNameOptions
 - ModifyPublicIpDnsNameOptions

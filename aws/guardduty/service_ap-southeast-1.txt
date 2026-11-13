@@ -73,6 +73,7 @@ Operations:
 - ListFilters
 - ListFindings
 - ListIPSets
+- ListInvestigationRecords
 - ListInvestigations
 - ListInvitations
 - ListMalwareProtectionPlans

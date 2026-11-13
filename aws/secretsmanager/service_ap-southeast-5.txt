@@ -3,15 +3,18 @@ Service ID        : Secrets Manager
 API Version       : 2017-10-17
 Endpoint Prefix   : secretsmanager
 Operations:
+- AssociateCrossAccountReplica
 - BatchGetSecretValue
 - CancelRotateSecret
 - CreateSecret
 - DeleteResourcePolicy
 - DeleteSecret
 - DescribeSecret
+- DisassociateCrossAccountReplica
 - GetRandomPassword
 - GetResourcePolicy
 - GetSecretValue
+- ListResourcePolicies
 - ListSecretVersionIds
 - ListSecrets
 - PutResourcePolicy

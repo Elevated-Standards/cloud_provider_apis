@@ -9,6 +9,7 @@ Operations:
 - AttachInstancesToLoadBalancer
 - AttachLoadBalancerTlsCertificate
 - AttachStaticIp
+- CheckSubdomainAvailability
 - CloseInstancePublicPorts
 - CopySnapshot
 - CreateBucket
@@ -35,6 +36,7 @@ Operations:
 - CreateRelationalDatabase
 - CreateRelationalDatabaseFromSnapshot
 - CreateRelationalDatabaseSnapshot
+- CreateSubdomain
 - DeleteAlarm
 - DeleteAutoSnapshot
 - DeleteBucket
@@ -56,6 +58,7 @@ Operations:
 - DeleteLoadBalancerTlsCertificate
 - DeleteRelationalDatabase
 - DeleteRelationalDatabaseSnapshot
+- DeleteSubdomain
 - DetachCertificateFromDistribution
 - DetachDisk
 - DetachInstancesFromLoadBalancer
@@ -130,6 +133,7 @@ Operations:
 - GetSetupHistory
 - GetStaticIp
 - GetStaticIps
+- GetSubdomains
 - ImportKeyPair
 - IsVpcPeered
 - OpenInstancePublicPorts
@@ -165,5 +169,6 @@ Operations:
 - UpdateLoadBalancerAttribute
 - UpdateRelationalDatabase
 - UpdateRelationalDatabaseParameters
+- UpdateSubdomainAssociation
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
