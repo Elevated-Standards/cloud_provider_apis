@@ -79,7 +79,9 @@ Operations:
 - RecordHandlerProgress
 - RegisterPublisher
 - RegisterType
+- RemoveAlias
 - RollbackStack
+- SetAlias
 - SetStackPolicy
 - SetTypeConfiguration
 - SetTypeDefaultVersion

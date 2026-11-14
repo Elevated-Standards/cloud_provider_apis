@@ -31,6 +31,7 @@ Operations:
 - AssociateIpamByoasn
 - AssociateIpamResourceDiscovery
 - AssociateNatGatewayAddress
+- AssociateNetworkingFlexCostAllocationPolicy
 - AssociateRouteServer
 - AssociateRouteTable
 - AssociateSecurityGroupVpc
@@ -125,6 +126,7 @@ Operations:
 - CreateNetworkInsightsPath
 - CreateNetworkInterface
 - CreateNetworkInterfacePermission
+- CreateNetworkingFlexCostAllocationPolicy
 - CreatePlacementGroup
 - CreatePublicIpv4Pool
 - CreateReplaceRootVolumeTask
@@ -227,6 +229,7 @@ Operations:
 - DeleteNetworkInsightsPath
 - DeleteNetworkInterface
 - DeleteNetworkInterfacePermission
+- DeleteNetworkingFlexCostAllocationPolicies
 - DeletePlacementGroup
 - DeletePublicIpv4Pool
 - DeleteQueuedReservedInstances
@@ -399,6 +402,8 @@ Operations:
 - DescribeNetworkInterfaceAttribute
 - DescribeNetworkInterfacePermissions
 - DescribeNetworkInterfaces
+- DescribeNetworkingFlexCostAllocationPolicies
+- DescribeNetworkingFlexCostAllocationPolicyAssociations
 - DescribeOutpostLags
 - DescribePlacementGroups
 - DescribePrefixLists
@@ -519,6 +524,7 @@ Operations:
 - DisassociateIpamByoasn
 - DisassociateIpamResourceDiscovery
 - DisassociateNatGatewayAddress
+- DisassociateNetworkingFlexCostAllocationPolicy
 - DisassociateRouteServer
 - DisassociateRouteTable
 - DisassociateSecurityGroupVpc
@@ -613,6 +619,7 @@ Operations:
 - GetManagedResourceVisibility
 - GetNetworkInsightsAccessScopeAnalysisFindings
 - GetNetworkInsightsAccessScopeContent
+- GetNetworkingFlexCostAllocationPolicyVersions
 - GetPasswordData
 - GetReservedInstancesExchangeQuote
 - GetRouteServerAssociations
@@ -693,6 +700,7 @@ Operations:
 - ModifyManagedResourceVisibility
 - ModifyMetricCategory
 - ModifyNetworkInterfaceAttribute
+- ModifyNetworkingFlexCostAllocationPolicy
 - ModifyPrivateDnsNameOptions
 - ModifyPublicIpDnsNameOptions
 - ModifyReservedInstances
