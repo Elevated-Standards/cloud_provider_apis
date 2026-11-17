@@ -5,8 +5,11 @@ Endpoint Prefix   : wellarchitected
 Operations:
 - AssociateLenses
 - AssociateProfiles
+- CreateAgentBasicProfile
 - CreateAgentContext
 - CreateAgentGoal
+- CreateAgentOrganizationalProfile
+- CreateAgentOrganizationalReport
 - CreateAgentProfile
 - CreateLensShare
 - CreateLensVersion
@@ -19,7 +22,10 @@ Operations:
 - CreateWorkloadShare
 - DeleteAgentContext
 - DeleteAgentGoal
+- DeleteAgentOrganizationalReport
 - DeleteAgentProfile
+- DeleteAgentProfilePolicy
+- DeleteAgentRecommendationPolicy
 - DeleteLens
 - DeleteLensShare
 - DeleteProfile
@@ -33,9 +39,14 @@ Operations:
 - ExportLens
 - GetAgentContext
 - GetAgentGoal
+- GetAgentOrganizationalReport
+- GetAgentOrganizationalReportData
+- GetAgentPreferences
 - GetAgentProfile
+- GetAgentProfilePolicy
 - GetAgentRecommendation
 - GetAgentRecommendationGeneration
+- GetAgentRecommendationPolicy
 - GetAnswer
 - GetConsolidatedReport
 - GetGlobalSettings
@@ -53,6 +64,7 @@ Operations:
 - ImportLens
 - ListAgentContexts
 - ListAgentGoals
+- ListAgentOrganizationalReports
 - ListAgentProfiles
 - ListAgentRecommendationGenerations
 - ListAgentRecommendationItems
@@ -76,12 +88,17 @@ Operations:
 - ListTemplateShares
 - ListWorkloadShares
 - ListWorkloads
+- PutAgentPreferences
+- PutAgentProfilePolicy
 - PutAgentRecommendationFeedback
+- PutAgentRecommendationPolicy
+- SendAgentOrganizationalReportDataToS3
 - StartAgentRecommendationGeneration
 - TagResource
 - UntagResource
 - UpdateAgentContext
 - UpdateAgentGoal
+- UpdateAgentOrganizationalProfile
 - UpdateAgentProfile
 - UpdateAgentRecommendationStatus
 - UpdateAnswer

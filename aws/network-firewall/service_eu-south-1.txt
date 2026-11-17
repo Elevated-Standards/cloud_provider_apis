@@ -43,11 +43,13 @@ Operations:
 - GetAnalysisReportResults
 - ListAnalysisReports
 - ListContainerAssociations
+- ListContextStores
 - ListFirewallPolicies
 - ListFirewallPoliciesV2
 - ListFirewalls
 - ListFlowOperationResults
 - ListFlowOperations
+- ListResourcesInContextStore
 - ListRuleGroups
 - ListTLSInspectionConfigurations
 - ListTagsForResource

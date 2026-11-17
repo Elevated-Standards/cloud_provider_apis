@@ -78,6 +78,7 @@ Operations:
 - CreateWorkspace
 - CreateWorkspacePage
 - DeactivateEvaluationForm
+- DeleteAllEntitySessions
 - DeleteAttachedFile
 - DeleteContactData
 - DeleteContactEvaluation

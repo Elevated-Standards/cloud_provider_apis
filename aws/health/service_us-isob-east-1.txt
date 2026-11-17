@@ -3,6 +3,8 @@ Service ID        : Health
 API Version       : 2016-08-04
 Endpoint Prefix   : health
 Operations:
+- ConfigureTags
+- ConfigureTagsForOrganization
 - DescribeAffectedAccountsForOrganization
 - DescribeAffectedEntities
 - DescribeAffectedEntitiesForOrganization
@@ -16,7 +18,17 @@ Operations:
 - DescribeEventsForOrganization
 - DescribeHealthServiceStatusForOrganization
 - DescribeServiceLifecycle
+- DescribeTagKeys
+- DescribeTagKeysForOrganization
+- DescribeTags
+- DescribeTagsForOrganization
+- DescribeTagsOnboardingStatus
+- DescribeTagsOnboardingStatusForOrganization
 - DisableHealthServiceAccessForOrganization
+- DisableTags
+- DisableTagsForOrganization
 - EnableHealthServiceAccessForOrganization
+- EnableTags
+- EnableTagsForOrganization
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

@@ -79,6 +79,7 @@ Operations:
 - ForgotPassword
 - GetCSVHeader
 - GetClientToken
+- GetDerivedToken
 - GetDevice
 - GetGroup
 - GetIdentityProviderByIdentifier
