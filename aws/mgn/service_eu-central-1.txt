@@ -12,6 +12,7 @@ Operations:
 - CreateConnector
 - CreateLaunchConfigurationTemplate
 - CreateNetworkMigrationDefinition
+- CreateRemoteSourceAction
 - CreateReplicationConfigurationTemplate
 - CreateWave
 - DeleteApplication
@@ -19,6 +20,7 @@ Operations:
 - DeleteJob
 - DeleteLaunchConfigurationTemplate
 - DeleteNetworkMigrationDefinition
+- DeleteRemoteSourceAction
 - DeleteReplicationConfigurationTemplate
 - DeleteSourceServer
 - DeleteVcenterClient
@@ -34,6 +36,7 @@ Operations:
 - DisconnectFromService
 - FinalizeCutover
 - GetLaunchConfiguration
+- GetLaunchConfigurationDefaults
 - GetNetworkMigrationDefinition
 - GetNetworkMigrationMapperSegmentConstruct
 - GetReplicationConfiguration
@@ -54,10 +57,15 @@ Operations:
 - ListNetworkMigrationDeployedStacks
 - ListNetworkMigrationDeployments
 - ListNetworkMigrationExecutions
+- ListNetworkMigrationInsights
 - ListNetworkMigrationMapperSegmentConstructs
 - ListNetworkMigrationMapperSegments
 - ListNetworkMigrationMappingUpdates
 - ListNetworkMigrationMappings
+- ListRemoteSourceActionInvocationResults
+- ListRemoteSourceActionInvocations
+- ListRemoteSourceActionJobs
+- ListRemoteSourceActions
 - ListSourceServerActions
 - ListTagsForResource
 - ListTemplateActions
@@ -79,6 +87,7 @@ Operations:
 - StartNetworkMigrationDeployment
 - StartNetworkMigrationMapping
 - StartNetworkMigrationMappingUpdate
+- StartRemoteSourceActionJob
 - StartReplication
 - StartTest
 - StopReplication
@@ -90,9 +99,11 @@ Operations:
 - UpdateApplication
 - UpdateConnector
 - UpdateLaunchConfiguration
+- UpdateLaunchConfigurationDefaults
 - UpdateLaunchConfigurationTemplate
 - UpdateNetworkMigrationDefinition
 - UpdateNetworkMigrationMapperSegment
+- UpdateRemoteSourceAction
 - UpdateReplicationConfiguration
 - UpdateReplicationConfigurationTemplate
 - UpdateSourceServer

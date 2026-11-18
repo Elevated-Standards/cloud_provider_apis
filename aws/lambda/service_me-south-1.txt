@@ -15,6 +15,7 @@ Operations:
 - DeleteAlias
 - DeleteCapacityProvider
 - DeleteCodeSigningConfig
+- DeleteDurableExecution
 - DeleteEventSourceMapping
 - DeleteFunction
 - DeleteFunctionCodeSigningConfig
@@ -65,6 +66,7 @@ Operations:
 - ListProvisionedConcurrencyConfigs
 - ListTags
 - ListVersionsByFunction
+- PauseDurableExecution
 - PublishLayerVersion
 - PublishVersion
 - PutFunctionCodeSigningConfig
@@ -77,6 +79,7 @@ Operations:
 - PutRuntimeManagementConfig
 - RemoveLayerVersionPermission
 - RemovePermission
+- ResumeDurableExecution
 - SendDurableExecutionCallbackFailure
 - SendDurableExecutionCallbackHeartbeat
 - SendDurableExecutionCallbackSuccess

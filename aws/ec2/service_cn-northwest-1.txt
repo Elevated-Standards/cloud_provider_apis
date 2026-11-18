@@ -722,6 +722,7 @@ Operations:
 - ModifyTransitGatewayAttachmentNatConfiguration
 - ModifyTransitGatewayMeteringPolicy
 - ModifyTransitGatewayNetworkFunctionAttachment
+- ModifyTransitGatewayPeeringAttachment
 - ModifyTransitGatewayPolicyTableEntry
 - ModifyTransitGatewayPrefixListReference
 - ModifyTransitGatewayVpcAttachment
