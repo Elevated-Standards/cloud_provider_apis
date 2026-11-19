@@ -36,6 +36,7 @@ Operations:
 - AdminUpdateUserAttributes
 - AdminUserGlobalSignOut
 - AssociateSoftwareToken
+- CancelPointInTimeRecovery
 - ChangePassword
 - CompleteWebAuthnRegistration
 - ConfirmDevice
@@ -67,6 +68,7 @@ Operations:
 - DescribeIdentityProvider
 - DescribeManagedLoginBranding
 - DescribeManagedLoginBrandingByClient
+- DescribePointInTimeRecovery
 - DescribeResourceServer
 - DescribeRiskConfiguration
 - DescribeTerms
@@ -96,9 +98,11 @@ Operations:
 - GetUserPoolSessionConfiguration
 - GlobalSignOut
 - InitiateAuth
+- InitiatePointInTimeRecovery
 - ListDevices
 - ListGroups
 - ListIdentityProviders
+- ListPointInTimeRecoveries
 - ListResourceServers
 - ListTagsForResource
 - ListTerms
@@ -124,6 +128,7 @@ Operations:
 - SetUserPoolSessionConfiguration
 - SetUserSettings
 - SignUp
+- StartPointInTimeRecovery
 - StartUserImportJob
 - StartWebAuthnRegistration
 - StopUserImportJob
