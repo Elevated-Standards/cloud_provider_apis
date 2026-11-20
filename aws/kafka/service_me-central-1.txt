@@ -5,6 +5,7 @@ Endpoint Prefix   : kafka
 Operations:
 - BatchAssociateScramSecret
 - BatchDisassociateScramSecret
+- CreateAssessment
 - CreateChannel
 - CreateCluster
 - CreateClusterV2
@@ -12,6 +13,7 @@ Operations:
 - CreateReplicator
 - CreateTopic
 - CreateVpcConnection
+- DeleteAssessment
 - DeleteChannel
 - DeleteCluster
 - DeleteClusterPolicy
@@ -19,6 +21,7 @@ Operations:
 - DeleteReplicator
 - DeleteTopic
 - DeleteVpcConnection
+- DescribeAssessment
 - DescribeChannel
 - DescribeCluster
 - DescribeClusterOperation
@@ -29,10 +32,13 @@ Operations:
 - DescribeReplicator
 - DescribeTopic
 - DescribeTopicPartitions
+- DescribeTopicReassignment
 - DescribeVpcConnection
 - GetBootstrapBrokers
 - GetClusterPolicy
 - GetCompatibleKafkaVersions
+- ListAssessmentFindings
+- ListAssessments
 - ListChannels
 - ListClientVpcConnections
 - ListClusterOperations
@@ -46,11 +52,14 @@ Operations:
 - ListReplicators
 - ListScramSecrets
 - ListTagsForResource
+- ListTopicReassignments
 - ListTopics
 - ListVpcConnections
 - PutClusterPolicy
 - RebootBroker
 - RejectClientVpcConnection
+- StartTopicReassignment
+- StopTopicReassignment
 - TagResource
 - UntagResource
 - UpdateBrokerCount

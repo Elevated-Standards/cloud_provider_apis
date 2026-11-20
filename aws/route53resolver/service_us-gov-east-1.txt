@@ -47,6 +47,7 @@ Operations:
 - ListFirewallConfigs
 - ListFirewallDomainLists
 - ListFirewallDomains
+- ListFirewallRuleDomains
 - ListFirewallRuleGroupAssociations
 - ListFirewallRuleGroups
 - ListFirewallRuleTypes

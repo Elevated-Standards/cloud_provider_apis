@@ -3,10 +3,13 @@ Service ID        : Polly
 API Version       : 2016-06-10
 Endpoint Prefix   : polly
 Operations:
+- CreateVoice
 - DeleteLexicon
+- DeleteVoice
 - DescribeVoices
 - GetLexicon
 - GetSpeechSynthesisTask
+- GetVoice
 - ListLexicons
 - ListSpeechSynthesisTasks
 - ListTagsForResource

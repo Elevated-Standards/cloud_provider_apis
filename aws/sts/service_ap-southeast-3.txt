@@ -12,6 +12,7 @@ Operations:
 - GetCallerIdentity
 - GetDelegatedAccessToken
 - GetFederationToken
+- GetScopedCredentials
 - GetSessionToken
 - GetWebIdentityToken
 --------------------------------------------------------------------------------

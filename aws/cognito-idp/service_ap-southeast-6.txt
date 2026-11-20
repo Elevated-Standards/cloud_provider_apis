@@ -42,6 +42,7 @@ Operations:
 - ConfirmDevice
 - ConfirmForgotPassword
 - ConfirmSignUp
+- CreateCIMDPolicy
 - CreateGroup
 - CreateIdentityProvider
 - CreateManagedLoginBranding
@@ -52,6 +53,7 @@ Operations:
 - CreateUserPoolClient
 - CreateUserPoolDomain
 - CreateUserPoolReplica
+- DeleteCIMDPolicy
 - DeleteGroup
 - DeleteIdentityProvider
 - DeleteManagedLoginBranding
@@ -65,6 +67,7 @@ Operations:
 - DeleteUserPoolDomain
 - DeleteUserPoolReplica
 - DeleteWebAuthnCredential
+- DescribeCIMDPolicy
 - DescribeIdentityProvider
 - DescribeManagedLoginBranding
 - DescribeManagedLoginBrandingByClient
@@ -99,6 +102,8 @@ Operations:
 - GlobalSignOut
 - InitiateAuth
 - InitiatePointInTimeRecovery
+- ListCIMDPolicies
+- ListClientMetadataURLs
 - ListDevices
 - ListGroups
 - ListIdentityProviders
@@ -135,6 +140,8 @@ Operations:
 - TagResource
 - UntagResource
 - UpdateAuthEventFeedback
+- UpdateCIMDPolicy
+- UpdateClientMetadataURLState
 - UpdateDeviceStatus
 - UpdateGroup
 - UpdateIdentityProvider
