@@ -3,6 +3,7 @@ Service ID        : Bedrock
 API Version       : 2023-04-20
 Endpoint Prefix   : bedrock
 Operations:
+- ArchiveProject
 - BatchDeleteAdvancedPromptOptimizationJob
 - BatchDeleteEvaluationJob
 - CancelAutomatedReasoningPolicyBuildWorkflow
@@ -22,8 +23,10 @@ Operations:
 - CreateModelCustomizationJob
 - CreateModelImportJob
 - CreateModelInvocationJob
+- CreateProject
 - CreatePromptRouter
 - CreateProvisionedModelThroughput
+- DeleteAccountDataRetentionStorage
 - DeleteAutomatedReasoningPolicy
 - DeleteAutomatedReasoningPolicyBuildWorkflow
 - DeleteAutomatedReasoningPolicyTestCase
@@ -36,12 +39,15 @@ Operations:
 - DeleteInferenceProfile
 - DeleteMarketplaceModelEndpoint
 - DeleteModelInvocationLoggingConfiguration
+- DeleteOrganizationDataRetentionStorage
+- DeleteProjectDataRetentionStorage
 - DeletePromptRouter
 - DeleteProvisionedModelThroughput
 - DeleteResourcePolicy
 - DeregisterMarketplaceModelEndpoint
 - ExportAutomatedReasoningPolicyVersion
 - GetAccountDataRetention
+- GetAccountDataRetentionStorage
 - GetAdvancedPromptOptimizationJob
 - GetAutomatedReasoningPolicy
 - GetAutomatedReasoningPolicyAnnotations
@@ -64,9 +70,16 @@ Operations:
 - GetModelImportJob
 - GetModelInvocationJob
 - GetModelInvocationLoggingConfiguration
+- GetOrganizationDataRetentionStorage
+- GetProject
+- GetProjectDataRetentionStorage
 - GetPromptRouter
 - GetProvisionedModelThroughput
 - GetResourcePolicy
+- GetTrustedAccessProgram
+- GetTrustedAccessProgramAccountEnrollment
+- GetTrustedAccessProgramOrganizationEnrollment
+- GetTrustedAccessProgramProjectEnrollment
 - GetUseCaseForModelAccess
 - ListAdvancedPromptOptimizationJobs
 - ListAutomatedReasoningPolicies
@@ -87,17 +100,28 @@ Operations:
 - ListModelCustomizationJobs
 - ListModelImportJobs
 - ListModelInvocationJobs
+- ListProjects
 - ListPromptRouters
 - ListProvisionedModelThroughputs
 - ListTagsForResource
+- ListTrustedAccessPrograms
 - PutAccountDataRetention
+- PutAccountDataRetentionStorage
 - PutEnforcedGuardrailConfiguration
 - PutModelInvocationLoggingConfiguration
+- PutOrganizationDataRetentionStorage
+- PutProjectDataRetentionStorage
 - PutResourcePolicy
+- PutTrustedAccessProgramAccountEnrollment
+- PutTrustedAccessProgramOrganizationEnrollment
+- PutTrustedAccessProgramProjectEnrollment
 - PutUseCaseForModelAccess
 - RegisterMarketplaceModelEndpoint
 - StartAutomatedReasoningPolicyBuildWorkflow
 - StartAutomatedReasoningPolicyTestWorkflow
+- StartTrustedAccessProgramAccountApplication
+- StartTrustedAccessProgramOrganizationApplication
+- StartTrustedAccessProgramProjectApplication
 - StopAdvancedPromptOptimizationJob
 - StopEvaluationJob
 - StopModelCustomizationJob
@@ -110,6 +134,7 @@ Operations:
 - UpdateCustomModelDeployment
 - UpdateGuardrail
 - UpdateMarketplaceModelEndpoint
+- UpdateProject
 - UpdateProvisionedModelThroughput
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

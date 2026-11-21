@@ -177,6 +177,7 @@ Operations:
 - UntagResource
 - UpdateAccountPool
 - UpdateAssetFilter
+- UpdateAssetOwner
 - UpdateConnection
 - UpdateDataSource
 - UpdateDesignation

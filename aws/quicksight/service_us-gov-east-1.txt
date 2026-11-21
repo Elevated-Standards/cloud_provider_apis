@@ -5,9 +5,13 @@ Endpoint Prefix   : quicksight
 Operations:
 - BatchCreateTopicReviewedAnswer
 - BatchDeleteKnowledgeBase
+- BatchDeletePolicyAssignmentByPolicy
 - BatchDeleteTopicReviewedAnswer
 - BatchDescribeUserLimits
+- BatchPutPolicyAssignmentByPolicy
 - CancelIngestion
+- CreateAccessControlApplication
+- CreateAccessControlApplicationSecret
 - CreateAccountCustomization
 - CreateAccountSubscription
 - CreateActionConnector
@@ -26,8 +30,10 @@ Operations:
 - CreateGroup
 - CreateGroupMembership
 - CreateIAMPolicyAssignment
+- CreateInboundConnector
 - CreateIngestion
 - CreateKnowledgeBase
+- CreateKnowledgeBaseRefreshSchedule
 - CreateLimitsProfile
 - CreateNamespace
 - CreateOAuthClientApplication
@@ -42,6 +48,8 @@ Operations:
 - CreateTopicRefreshSchedule
 - CreateTopicV2
 - CreateVPCConnection
+- DeleteAccessControlApplication
+- DeleteAccessControlApplicationSecret
 - DeleteAccountCustomPermission
 - DeleteAccountCustomization
 - DeleteAccountSubscription
@@ -66,10 +74,13 @@ Operations:
 - DeleteGroupMembership
 - DeleteIAMPolicyAssignment
 - DeleteIdentityPropagationConfig
+- DeleteInboundConnector
 - DeleteKnowledgeBase
+- DeleteKnowledgeBaseRefreshSchedule
 - DeleteLimitsProfile
 - DeleteNamespace
 - DeleteOAuthClientApplication
+- DeletePolicyAssignment
 - DeleteRefreshSchedule
 - DeleteRoleCustomPermission
 - DeleteRoleMembership
@@ -85,6 +96,7 @@ Operations:
 - DeleteUserByPrincipalId
 - DeleteUserCustomPermission
 - DeleteVPCConnection
+- DescribeAccessControlApplication
 - DescribeAccountCustomPermission
 - DescribeAccountCustomization
 - DescribeAccountSettings
@@ -126,11 +138,13 @@ Operations:
 - DescribeGroup
 - DescribeGroupMembership
 - DescribeIAMPolicyAssignment
+- DescribeInboundConnector
 - DescribeIngestion
 - DescribeIpRestriction
 - DescribeKeyRegistration
 - DescribeKnowledgeBase
 - DescribeKnowledgeBasePermissions
+- DescribeKnowledgeBaseRefreshSchedule
 - DescribeLimitsProfile
 - DescribeNamespace
 - DescribeOAuthClientApplication
@@ -164,7 +178,9 @@ Operations:
 - GetFlowMetadata
 - GetFlowPermissions
 - GetIdentityContext
+- GetPolicyAssignment
 - GetSessionEmbedUrl
+- ListAccessControlApplications
 - ListActionConnectors
 - ListAgents
 - ListAnalyses
@@ -188,11 +204,15 @@ Operations:
 - ListIAMPolicyAssignments
 - ListIAMPolicyAssignmentsForUser
 - ListIdentityPropagationConfigs
+- ListInboundConnectorApplicationAssociations
+- ListInboundConnectors
 - ListIngestions
+- ListKnowledgeBaseRefreshSchedules
 - ListKnowledgeBases
 - ListLimitsProfiles
 - ListNamespaces
 - ListOAuthClientApplications
+- ListPrincipalsForPolicy
 - ListRefreshSchedules
 - ListRoleMemberships
 - ListSelfUpgrades
@@ -215,6 +235,7 @@ Operations:
 - ListVPCConnections
 - PredictQAResults
 - PutDataSetRefreshProperties
+- PutPolicyAssignment
 - RegisterUser
 - RestoreAnalysis
 - SearchActionConnectors
@@ -238,6 +259,8 @@ Operations:
 - StartDashboardSnapshotJobSchedule
 - TagResource
 - UntagResource
+- UpdateAccessControlApplication
+- UpdateAccessControlApplicationSecret
 - UpdateAccountCustomPermission
 - UpdateAccountCustomization
 - UpdateAccountSettings
@@ -272,10 +295,13 @@ Operations:
 - UpdateGroup
 - UpdateIAMPolicyAssignment
 - UpdateIdentityPropagationConfig
+- UpdateInboundConnector
+- UpdateInboundConnectorApplicationAssociations
 - UpdateIpRestriction
 - UpdateKeyRegistration
 - UpdateKnowledgeBase
 - UpdateKnowledgeBasePermissions
+- UpdateKnowledgeBaseRefreshSchedule
 - UpdateLimitsProfile
 - UpdateOAuthClientApplication
 - UpdatePublicSharingSettings

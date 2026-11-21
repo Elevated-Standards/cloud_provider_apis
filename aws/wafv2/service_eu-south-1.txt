@@ -24,6 +24,8 @@ Operations:
 - DisassociateWebACL
 - GenerateMobileSdkReleaseUrl
 - GetDecryptedAPIKey
+- GetEvent
+- GetEventActor
 - GetIPSet
 - GetLoggingConfiguration
 - GetManagedRuleSet
@@ -42,6 +44,9 @@ Operations:
 - ListAPIKeys
 - ListAvailableManagedRuleGroupVersions
 - ListAvailableManagedRuleGroups
+- ListEventActors
+- ListEvents
+- ListEventsByWebACL
 - ListIPSets
 - ListLoggingConfigurations
 - ListManagedRuleSets

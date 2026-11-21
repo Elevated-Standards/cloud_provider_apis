@@ -1,0 +1,52 @@
+Service Name      : outposts
+Service ID        : Outposts
+API Version       : 2019-12-03
+Endpoint Prefix   : outposts
+Operations:
+- CancelCapacityTask
+- CancelOrder
+- CreateOrder
+- CreateOutpost
+- CreatePrivateConnectivityConfig
+- CreateQuote
+- CreateRenewal
+- CreateSite
+- DeleteOutpost
+- DeleteQuote
+- DeleteSite
+- GetCapacityTask
+- GetCatalogItem
+- GetConnection
+- GetOrder
+- GetOutpost
+- GetOutpostBillingInformation
+- GetOutpostInstanceTypes
+- GetOutpostSupportedInstanceTypes
+- GetPrivateConnectivityConfig
+- GetQuote
+- GetRenewalPricing
+- GetSite
+- GetSiteAddress
+- ListAssetInstances
+- ListAssets
+- ListBlockingInstancesForCapacityTask
+- ListCapacityTasks
+- ListCatalogItems
+- ListOrderableInstanceTypes
+- ListOrders
+- ListOutposts
+- ListQuotes
+- ListSites
+- ListTagsForResource
+- StartCapacityTask
+- StartConnection
+- StartOutpostDecommission
+- TagResource
+- UntagResource
+- UpdateOutpost
+- UpdateQuote
+- UpdateSite
+- UpdateSiteAddress
+- UpdateSiteRackPhysicalProperties
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

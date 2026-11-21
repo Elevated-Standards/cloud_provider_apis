@@ -63,7 +63,6 @@ Operations:
 - CreateUserDefinedFunction
 - CreateWorkflow
 - DeleteAsset
-- DeleteAssetType
 - DeleteAttachment
 - DeleteBlueprint
 - DeleteCatalog
@@ -239,7 +238,6 @@ Operations:
 - ModifyIntegration
 - PublishDataQualityResultV2
 - PutAsset
-- PutAssetType
 - PutAttachment
 - PutDataCatalogEncryptionSettings
 - PutDataCatalogExportConfiguration

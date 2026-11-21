@@ -41,6 +41,7 @@ Operations:
 - StartMedicalTranscriptionJob
 - StartTranscriptionJob
 - TagResource
+- TranscribeAudio
 - UntagResource
 - UpdateCallAnalyticsCategory
 - UpdateLanguageModel

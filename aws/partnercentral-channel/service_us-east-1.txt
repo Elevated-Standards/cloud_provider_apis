@@ -4,13 +4,17 @@ API Version       : 2024-03-18
 Endpoint Prefix   : partnercentral-channel
 Operations:
 - AcceptChannelHandshake
+- CancelChannelContract
 - CancelChannelHandshake
+- CreateChannelContract
 - CreateChannelHandshake
 - CreateProgramManagementAccount
 - CreateRelationship
 - DeleteProgramManagementAccount
 - DeleteRelationship
+- GetChannelContract
 - GetRelationship
+- ListChannelContracts
 - ListChannelHandshakes
 - ListProgramManagementAccounts
 - ListRelationships
