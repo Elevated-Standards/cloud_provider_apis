@@ -88746,6 +88746,23 @@ API Version         : 1.0
 Resource Provider   : eventhub
 Operations:
 --------------------------------------------------------------------------------
+Service Name        : Microsoft.DigitalAssets
+API Version         : 2025-09-01-preview
+Resource Provider   : digitalassets
+Operations:
+- GET /providers/Microsoft.DigitalAssets/operations
+- GET /subscriptions/{subscriptionId}/providers/Microsoft.DigitalAssets/zkpRollups
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}
+- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}/partitions
+- GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}/partitions/{partitionName}
+- PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}/partitions/{partitionName}
+- PATCH /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}/partitions/{partitionName}
+- DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DigitalAssets/zkpRollups/{zkpRollupName}/partitions/{partitionName}
+--------------------------------------------------------------------------------
 Service Name        : AzureArcDataManagementClient
 API Version         : 2021-08-01
 Resource Provider   : azurearcdata
